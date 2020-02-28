@@ -1,7 +1,7 @@
 // 2020/02/06
 
 ///////////////////////////////////////
-//- 1 - Commandes partag√©es
+//- 1 - Commandes partagÈes
 ///////////////////////////////////////
 
 //move
@@ -94,24 +94,28 @@ Hotkey=C
 [Ahar]
 Buttonpos=3,0
 Hotkey=R
+Unbuttonpos=3,0
 Unhotkey=R
 
 //lumber harvest (ghoul)
 [Ahrl]
 Buttonpos=3,0
 Hotkey=R
+Unbuttonpos=3,0
 Unhotkey=R
 
 // peon/peasant repair ability
 [Arep]
 Buttonpos=1,0
 Hotkey=Z
+Unbuttonpos=1,0
 Unhotkey=Z
 
 // human repair
 [Ahrp]
 Buttonpos=1,0
 Hotkey=Z
+Unbuttonpos=1,0
 UnHotkey=Z
 
 // Selectionner un client dans une boutique
@@ -146,12 +150,12 @@ Hotkey=Z
 
 [AInv]
 Name=Inventaire
-EditorSuffix= (H√©ros)
+EditorSuffix= (HÈros)
 
 
 
 /////////////////////////////
-//- 2 - Humains : les Unit√©es
+//- 2 - Humains : les UnitÈes
 /////////////////////////////
 
 //dragonhawk 
@@ -225,9 +229,9 @@ Hotkey=A
 
 // Call to Arms (For one or several peons)
 [Amil]
-Buttonpos=1,0
+Buttonpos=2,0
 Unbuttonpos=2,0
-Hotkey=Z
+Hotkey=E
 Unhotkey=E
 
 // Call to Arms (for all nearby peons, on a town hall)
@@ -294,7 +298,7 @@ Hotkey=Z
 
 
 ///////////////////////////////////////
-//- 3 - Humains : b√¢timents et Upgrades
+//- 3 - Humains : b‚timents et Upgrades
 ///////////////////////////////////////
 
 //control magic
@@ -478,7 +482,7 @@ Hotkey=A
 
 
 /////////////////////////////
-//- 4 - Humains : les H√©ros
+//- 4 - Humains : les HÈros
 /////////////////////////////
 
 //blood mage
@@ -589,7 +593,7 @@ Researchhotkey=Z
 [AHad]
 Researchhotkey=E
 
-// R√©surrection
+// RÈsurrection
 [AHre]
 Hotkey=E
 Buttonpos=2,0
@@ -598,7 +602,7 @@ Researchhotkey=R
 
 
 /////////////////////////
-//- 5 - Orcs : les unit√©s
+//- 5 - Orcs : les unitÈs
 /////////////////////////
 
 //demolisher
@@ -744,10 +748,10 @@ Hotkey=A
 
 
 ////////////////////////////////////////
-//- 6 - Orcs : les b√¢timents et Upgrades
+//- 6 - Orcs : les b‚timents et Upgrades
 ////////////////////////////////////////
 
-//orc m√É¬©l√É¬©e weapon upgrades
+//orc m√©l√©e weapon upgrades
 [Rome]
 Hotkey=A,A,A
 
@@ -810,7 +814,7 @@ Hotkey=S
 Hotkey=C
 Buttonpos=2,2
 
-//backpack Am√É¬©liorer (orc)
+//backpack Am√©liorer (orc)
 [Ropm]
 Hotkey=R
 
@@ -899,10 +903,10 @@ Hotkey=R
 
 
 ////////////////////////
-//- 7 - Orcs : les h√©ros
+//- 7 - Orcs : les hÈros
 ////////////////////////
 
-// Ma√É¬Ætre-lame
+// Ma√Ætre-lame
 [Obla]
 Hotkey=A
 Buttonpos=0,0
@@ -929,7 +933,7 @@ Hotkey=E
 Buttonpos=2,0
 Researchhotkey=R
 
-// Proph√®te
+// ProphËte
 [Ofar]
 Hotkey=Z
 Buttonpos=1,0
@@ -1015,7 +1019,7 @@ Researchhotkey=R
 
 
 //////////////////////////////////////
-//- 8 - Elfes de la nuits : les unit√©s
+//- 8 - Elfes de la nuits : les unitÈs
 //////////////////////////////////////
 
 // Shadow Meld 
@@ -1188,7 +1192,7 @@ Unbuttonpos=1,0
 
 
 ////////////////////////////////////////////////////
-//- 9 - Elfes de la nuit : les b√¢timents et upgrades
+//- 9 - Elfes de la nuit : les b‚timents et upgrades
 ////////////////////////////////////////////////////
 
 //strength of the moon upgrades
@@ -1401,7 +1405,7 @@ Unhotkey=A
 
 
 //////////////////////////////////////
-//- 10 - Elfes de la nuits : les h√©ros
+//- 10 - Elfes de la nuits : les hÈros
 //////////////////////////////////////
 
 //Demon Hunter
@@ -1530,7 +1534,7 @@ Hotkey=A
 
 
 ///////////////////////////////////
-//- 11 - Morts vivants : les unit√©s
+//- 11 - Morts vivants : les unitÈs
 ///////////////////////////////////
 
 //acolyte
@@ -1682,7 +1686,7 @@ Unbuttonpos=0,0
 Unhotkey=A
 
 //destroyer
-[ubsp]
+[Aave]
 Buttonpos=2,0
 Hotkey=E
 
@@ -1706,7 +1710,7 @@ Hotkey=A
 
 
 //////////////////////////////////////////////////
-//- 12 - Morts vivants : les b√É¬¢timents et upgrades
+//- 12 - Morts vivants : les b√¢timents et upgrades
 //////////////////////////////////////////////////
 
 //destroy form upgrade
@@ -1871,7 +1875,7 @@ Buttonpos=1,0
 
 
 //////////////////////////////////
-//- 13 - Morts vivants : les h√©ros
+//- 13 - Morts vivants : les hÈros
 //////////////////////////////////
 
 //crypt lord
@@ -2002,7 +2006,7 @@ Researchhotkey=R
 
 
 //////////////////////////
-//- 14 - Les h√©ros neutres
+//- 14 - Les hÈros neutres
 //////////////////////////
 
 /////////////////////
@@ -2443,17 +2447,17 @@ Hotkey=Z
 Hotkey=E
 
 // ETHERES
-Invoquer un jeune dragon √©th√©r√©
+Invoquer un jeune dragon ÈthÈrÈ
 [nnht]
 Hotkey=A
 
 // BRONZES
 //
-// Invoquer un Drake √©th√©r√©
+// Invoquer un Drake ÈthÈrÈ
 [nndk]
 Hotkey=Z
 
-// Invoquer un Dragon √©th√©r√©
+// Invoquer un Dragon ÈthÈrÈ
 [nndr]
 Hotkey=E
 
@@ -2462,7 +2466,7 @@ Hotkey=E
 
 
 //////////////////////////////////////////////////////////////////
-//- 16 - Les Sorts des Creeps mercenaires, poss√©d√©s ou ressuscit√©s
+//- 16 - Les Sorts des Creeps mercenaires, possÈdÈs ou ressuscitÈs
 //////////////////////////////////////////////////////////////////
 //
 // (non exhaustif)
@@ -2666,7 +2670,7 @@ Buttonpos=2,0
 Hotkey=A
 Buttonpos=0,0
 
-// Pluie d'√©clairs
+// Pluie d'Èclairs
 [ACfl]
 Hotkey=A
 Buttonpos=0,0
@@ -2681,7 +2685,7 @@ Buttonpos=0,0
 Hotkey=A
 Buttonpos=0,0
 
-// Polymorphe du Sorcier des t√®n√©bres
+// Polymorphe du Sorcier des tËnÈbres
 [ACpy]
 Hotkey=R
 Buttonpos=3,0
@@ -2766,7 +2770,7 @@ Buttonpos=1,0
 Hotkey=A
 Buttonpos=0,0
 
-// Fr√©n√©sie impie du tisseur d'ombre
+// FrÈnÈsie impie du tisseur d'ombre
 [ACuf]
 Hotkey=Z
 Buttonpos=1,0
@@ -2776,7 +2780,7 @@ Buttonpos=1,0
 Hotkey=E
 Buttonpos=2,0
 
-// Brul√ªre de mana du Traqueur corrompu
+// Brul˚re de mana du Traqueur corrompu
 [ambb]
 Hotkey=A
 Buttonpos=0,0
@@ -2983,7 +2987,7 @@ Buttonpos=0,0
 ////////////////////////////
 //
 
-// Attribution Bonus de caract√©ristique (Croix Jaune)
+// Attribution Bonus de caractÈristique (Croix Jaune)
 [Aamk]
 Researchhotkey=F
 
