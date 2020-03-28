@@ -695,7 +695,8 @@ Unhotkey=E
 
 //tauren
 [otau]
-Hotkey=A
+Hotkey=Z
+Buttonpos=1,0
 
 //troll batrider
 [otbr]
@@ -714,7 +715,8 @@ Hotkey=E
 
 //spirit walker
 [ospm]
-Hotkey=E
+Hotkey=A
+Buttonpos=0,0
 
 // Ancestral Spirit
 [Aast]
@@ -779,8 +781,8 @@ Buttonpos=0,1
 
 //pulverize upgrade
 [Rows]
-Hotkey=Q
-Buttonpos=0,1
+Hotkey=S
+Buttonpos=1,1
 
 //ensnare upgrade
 [Roen]
@@ -790,6 +792,7 @@ Buttonpos=0,1
 //envenomed spears upgrade
 [Rovs]
 Hotkey=S
+Buttonpos=1,1
 
 //witch doctor training upgrade
 [Rowd]
@@ -820,8 +823,8 @@ Hotkey=R
 
 //spirit walker training upgrade
 [Rowt]
-Hotkey=D,D
-Buttonpos=2,1
+Hotkey=Q,Q
+Buttonpos=0,1
 
 //troll berserker upgrade
 [Robk]
@@ -1685,8 +1688,19 @@ Buttonpos=0,0
 Unbuttonpos=0,0
 Unhotkey=A
 
+// Resplendish
+[Arpb]
+Hotkey=Z
+Buttonpos=1,0
+Unhotkey=Z
+Unbuttonpos=1,0
+
 //destroyer
 [Aave]
+Buttonpos=2,0
+Hotkey=E
+
+[ubsp]
 Buttonpos=2,0
 Hotkey=E
 
@@ -1701,7 +1715,6 @@ Unhotkey=R
 [Advm]
 Buttonpos=1,0
 Hotkey=Z
-
 
 // Absorb Mana
 [Aabs]
