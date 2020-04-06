@@ -647,7 +647,8 @@ Hotkey=A
 
 //kodo beast
 [okod]
-Hotkey=Z
+Hotkey=E
+Buttonpos=2,0
 
 // Devour
 [Adev]
@@ -701,6 +702,7 @@ Buttonpos=1,0
 //troll batrider
 [otbr]
 Hotkey=R
+Buttonpos=3,0
 
 // Unstable Concoction
 [Auco]
@@ -711,7 +713,8 @@ Unhotkey=A
 
 //wind rider
 [owyv]
-Hotkey=E
+Hotkey=Z
+Buttonpos=1,0
 
 //spirit walker
 [ospm]
@@ -811,6 +814,7 @@ Hotkey=E,E,E
 //troll regeneration upgrade
 [Rotr]
 Hotkey=S
+Buttonpos=1,1
 
 //liquid fire upgrade
 [Rolf]
@@ -829,6 +833,7 @@ Buttonpos=0,1
 //troll berserker upgrade
 [Robk]
 Hotkey=X
+Buttonpos=1,2
 
 //reinforced defenses upgrade
 [Rorb]
@@ -2016,220 +2021,27 @@ Buttonpos=3,0
 Hotkey=R
 Researchhotkey=R
 
-
-
-//////////////////////////
-//- 14 - Les héros neutres
-//////////////////////////
-
-/////////////////////
-// Sea Witch Abilities
-/////////////////////
-
-//sea witch
-[Nngs]
-Hotkey=Q
-
-// Mana Shield (Sea Witch)
-[ANms]
-Hotkey=E
-Buttonpos=2,0
-Unbuttonpos=2,0
-Unhotkey=E
-Researchhotkey=E
-
-// Forked Lightning (Sea Witch)
-[ANfl]
-Hotkey=A
-Buttonpos=0,0
-Researchhotkey=A
-
-// Frost Arrows (Sea Witch)
-[ANfa]
-Hotkey=Z
-Buttonpos=1,0
-Unbuttonpos=1,0
-Unhotkey=Z
-Researchhotkey=Z
-
-// Tornado (Sea Witch)
-[ANto]
-Hotkey=R
-Buttonpos=3,0
-Researchhotkey=R
-
-/////////////////////
-// Pit Lord
-/////////////////////
-
-//pit lord
-[Nplh]
-Hotkey=A
-Buttonpos=0,0
-
-// Howl of Terror (Pit Lord)
-[ANht]
-Hotkey=Z
-Buttonpos=1,0
-Researchhotkey=Z
-
-// Rain of Fire (Pit Lord)
-[ANrf]
-Hotkey=A
-Buttonpos=0,0
-Researchhotkey=A
-
-// Cleaving Attack (Pit Lord)
-[ANca]
-Researchhotkey=E
-
-// Doom (Pit Lord)
-[ANdo]
-Hotkey=E
-Buttonpos=2,0
-Researchhotkey=R
-
-// war stomp
-[Awrs]
-Buttonpos=0,0
-Hotkey=A
-
-// Cripple
-[Accr]
-Buttonpos=2,0
-Hotkey=E
-
-// Rain of Fire (greater, creep)
-[ACrf]
-Buttonpos=3,0
-Hotkey=R
-
-
-
-////////////////////////////////
-// Pandaren Brewmaster 
-////////////////////////////////
-
-//pandaren brewmaster
-[Npbm]
-Hotkey=E
-Buttonpos=2,0
-
-// Breath of Fire (Pandaren Brewmaster)
-[ANbf]
-Hotkey=A
-Buttonpos=0,0
-Researchhotkey=A
-
-// Drunken Brawler (Pandaren Brewmaster)
-[ANdb]
-Researchhotkey=E
-
-// Drunken Haze (Pandaren Brewmaster)
-[ANdh]
-Hotkey=Z
-Buttonpos=1,0
-Researchhotkey=Z
-
-// Terre, vent et feu (Pandaren Brewmaster)
-[ANef]
-Hotkey=E
-Buttonpos=2,0
-Researchhotkey=R
-
-
-//////////////////////
-//Mini-Panda Abilities
-//////////////////////
-
-// Wind Walk (wind panda)
-[ANwk]
-Buttonpos=0,0
-Hotkey=A
-
-// cyclone (Wind panda + various creeps -- shared ability)
-[ACcy]
-Buttonpos=2,0
-Hotkey=E
-
-// dispel magic (wind panda + various creeps -- shared ability)
-[Adsm]
-Buttonpos=1,0
-Hotkey=Z
-
-// Taunt (earth panda)
-[ANta]
-Buttonpos=1,0
-Hotkey=Z
-
-
-////////////////////////
-// Beastmaster
-////////////////////////
-
-//beastmaster
-[Nbst]
-Hotkey=Z
-Buttonpos=1,0
-
-// Invoquer Bear (Beastmaster)
-[ANsg]
-Hotkey=A
-Buttonpos=0,0
-Researchhotkey=A
-
-
-// Invoquer Quilbeast (Beastmaster)
-[ANsq]
-Hotkey=Z
-Buttonpos=1,0
-Researchhotkey=Z
-
-// Invoquer Hawk (Beastmaster)
-[ANsw]
-Hotkey=E
-Buttonpos=2,0
-Researchhotkey=E
-
-// Stampede (Beastmaster)
-[ANst]
-Hotkey=R
-Buttonpos=3,0
-Researchhotkey=R
-
-// Blink (beastmaster bear)
-[ANbl]
-Hotkey=A
-Buttonpos=0,0
-
-// Bloodlust (Porc-epic)
-[Afzy]
-Hotkey=A
-Buttonpos=0,0
-Unbuttonpos=0,0
-UnHotkey=A
-
-
-
 ///////////////////////
 //Dark Ranger Abilities
 ///////////////////////
 
 [Nbrn]
-Hotkey=S
-
-// Black Arrow (Dark Ranger)
-[ANba]
 Hotkey=Z
 Buttonpos=1,0
-Unbuttonpos=1,0
-Researchhotkey=Z
 
 // Silence (Dark Ranger)
 [ANsi]
 Hotkey=A
-Buttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+
+// Black Arrow (Dark Ranger)
+[ANba]
+Hotkey=Z
+Unhotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+Unbuttonpos=1,0
 
 // Life Drain  (Dark Ranger)
 [ANdr]
@@ -2242,7 +2054,6 @@ Researchhotkey=E
 Hotkey=R
 Buttonpos=3,0
 Researchhotkey=R
-
 
 
 //////////////////////
@@ -2364,22 +2175,28 @@ Hotkey=C
 ///////////////////////////
 // Laboratoire des Gobelins
 
-[Andt]
-Hotkey=A
-
 [ngsp]
-Hotkey=Z
+Hotkey=A
+Buttonpos=0,0
 
 [nzep]
-Hotkey=E
+Hotkey=Z
+Buttonpos=1,0
 
 [ngir]
+Hotkey=E
+Buttonpos=2,0
+
+[Andt]
 Hotkey=R
+Buttonpos=3,0
 
 // La recolte des resources du decoupeur gobelin
 [Ahr3]
-Hotkey=F
-UnHotkey=F
+Hotkey=R
+UnHotkey=R
+Buttonpos=3,0
+Unbuttonpos=3,0
 
 /////////////////////////
 // Chantier naval gobelin
@@ -2623,11 +2440,6 @@ Buttonpos=0,0
 Hotkey=A
 Buttonpos=0,0
 
-// Quill Beast Frenzy (beastmaster)
-[Afzy]
-Hotkey=A
-UnHotkey=A
-
 // Creep Ensnare
 [ACen]
 Hotkey=A
@@ -2802,11 +2614,6 @@ Buttonpos=0,0
 [ACcl]
 Hotkey=A
 Buttonpos=0,0
-
-// cyclone
-[ACcy]
-Hotkey=Z
-Buttonpos=1,0
 
 // auto-dispel magic
 [ACdm]
@@ -3102,6 +2909,226 @@ Hotkey=Z
 Researchhotkey=Z
 Buttonpos=0,1
 
+////////////////////////
+// Beastmaster
+////////////////////////
+
+//beastmaster
+[Nbst]
+Hotkey=A
+Buttonpos=0,0
+
+// Summon Bear (Beastmaster)
+[ANsg]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Summon Quilbeast (Beastmaster)
+[ANsq]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Summon Hawk (Beastmaster)
+[ANsw]
+Hotkey=E
+Researchhotkey=E
+Buttonpos=2,0
+
+// Stampede (Beastmaster)
+[ANst]
+Hotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+
+// Blink (beastmaster bear)
+[ANbl]
+Hotkey=A
+Buttonpos=0,0
+
+// Bloodlust
+[Afzy]
+Hotkey=A
+Buttonpos=0,0
+Unbuttonpos=0,0
+UnHotkey=A
+
+////////////////////////////////
+// Pandaren Brewmaster
+////////////////////////////////
+
+//pandaren brewmaster
+[Npbm]
+Hotkey=E
+Buttonpos=2,0
+
+// Breath of Fire (Pandaren Brewmaster)
+[ANbf]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Drunken Haze (Pandaren Brewmaster)
+[ANdh]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Drunken Brawler (Pandaren Brewmaster)
+[ANdb]
+Researchhotkey=E
+Buttonpos=2,0
+
+// Storm, Earth, and Fire (Pandaren Brewmaster)
+[ANef]
+Hotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+
+
+//////////////////////
+//Mini-Panda Abilities
+//////////////////////
+
+// cyclone (Wind panda + various creeps -- shared ability)
+[ACcy]
+Hotkey=A
+Buttonpos=0,0
+
+// dispel magic (wind panda + various creeps -- shared ability)
+[Adsm]
+Hotkey=Z
+Buttonpos=1,0
+
+// Wind Walk (wind panda)
+[ANwk]
+Hotkey=E
+Buttonpos=2,0
+
+// Taunt (earth panda)
+[ANta]
+Hotkey=A
+Buttonpos=0,0
+
+/////////////////////
+// Pit Lord
+/////////////////////
+
+//pit lord
+[Nplh]
+Hotkey=R
+Buttonpos=3,0
+
+// Rain of Fire (Pit Lord)
+[ANrf]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Howl of Terror (Pit Lord)
+[ANht]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Cleaving Attack (Pit Lord)
+[ANca]
+Researchhotkey=E
+Buttonpos=2,0
+
+// Doom (Pit Lord)
+[ANdo]
+Hotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+
+/////////////////////
+// Sea Witch Abilities
+/////////////////////
+
+//sea witch
+[Nngs]
+Hotkey=Q
+Buttonpos=0,1
+
+// Forked Lightning (Sea Witch)
+[ANfl]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Frost Arrows (Sea Witch)
+[ANfa]
+Hotkey=Z
+Unhotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+Unbuttonpos=1,0
+
+// Mana Shield (Sea Witch)
+[ANms]
+Hotkey=E
+Unhotkey=E
+Researchhotkey=E
+Buttonpos=2,0
+Unbuttonpos=2,0
+
+
+// Tornado (Sea Witch)
+[ANto]
+Hotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+
+///////////////////////
+// Alchemist
+///////////////////////
+
+//alchemist
+[Nalc]
+Hotkey=S
+Buttonpos=1,1
+
+//alchemist
+[Nalm]
+Hotkey=V
+Buttonpos=3,2
+
+//alchemist (morph, 2)
+[Nal2]
+Hotkey=V
+Buttonpos=3,2
+
+//alchemist (morph, 3)
+[Nal3]
+Hotkey=V
+Buttonpos=3,2
+
+// Healing Spray
+[ANhs]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Chemical Rage
+[ANcr]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Acid Bomb
+[ANab]
+Hotkey=E
+Researchhotkey=E
+Buttonpos=2,0
+
+// Transmute
+[ANtm]
+Hotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+
 // Reincarnation
 [AOr3]
 Researchhotkey=R
@@ -3111,3 +3138,193 @@ Researchhotkey=R
 Hotkey=R
 Researchhotkey=R
 Buttonpos=0,3
+
+///////////////////////
+// Fire Lord
+///////////////////////
+
+[Nfir]
+Hotkey=D
+Buttonpos=2,1
+
+// Soul Burn
+[ANso]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Summmon Lava Spawn
+[ANlm]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Incinerate
+[ANic]
+Hotkey=E
+Researchhotkey=E
+Buttonpos=2,0
+
+// Incinerate (Arrow)
+[ANia]
+Researchhotkey=E
+Hotkey=E
+Unhotkey=E
+Buttonpos=2,0
+Unbuttonpos=2,0
+
+// Volcano
+[ANvc]
+Hotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+
+///////////////////////
+// Tinker
+///////////////////////
+
+// Tinker
+[Ntin]
+Hotkey=F
+Buttonpos=3,1
+
+// Tinker (morph / robo-goblin)
+[Nrob]
+Hotkey=F
+Buttonpos=3,1
+
+// Pocket Factory
+[ANsy]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Pocket Factory
+[ANs1]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Pocket Factory
+[ANs2]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Pocket Factory
+[ANs3]
+Hotkey=A
+Researchhotkey=A
+Buttonpos=0,0
+
+// Cluster Rockets
+[ANcs]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Cluster Rockets
+[ANc1]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Cluster Rockets
+[ANc2]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Cluster Rockets
+[ANc3]
+Hotkey=Z
+Researchhotkey=Z
+Buttonpos=1,0
+
+// Engineering Upgrade
+[ANeg]
+Hotkey=E
+Researchhotkey=E
+Buttonpos=2,0
+
+// Robo-Goblin
+[ANrg]
+Hotkey=R
+Unhotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+Unbuttonpos=0,0
+
+// Robo-Goblin
+[ANg1]
+Hotkey=R
+Unhotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+Unbuttonpos=3,0
+
+// Robo-Goblin
+[ANg2]
+Hotkey=R
+Unhotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+Unbuttonpos=3,0
+
+// Robo-Goblin
+[ANg3]
+Hotkey=R
+Unhotkey=R
+Researchhotkey=R
+Buttonpos=3,0
+Unbuttonpos=3,0
+
+// Demolish
+[ANde]
+Hotkey=
+
+// Demolish
+[ANd1]
+Hotkey=
+
+// Demolish
+[ANd2]
+Hotkey=
+
+// Demolish
+[ANd3]
+Hotkey=
+
+[ANfy]
+Hotkey=
+
+[ANf1]
+Hotkey=
+
+[ANf2]
+Hotkey=
+
+[ANf3]
+Hotkey=
+
+// Kaboom! (Clockwerk goblin level 1)
+[Asdg]
+Hotkey=A
+Unhotkey=A
+Buttonpos=0,0
+Unbuttonpos=0,0
+
+// Kaboom! (Clockwerk goblin level 2)
+[Asd2]
+Hotkey=A
+Unhotkey=A
+Buttonpos=0,0
+Unbuttonpos=0,0
+
+// Kaboom! (Clockwerk goblin level 3)
+[Asd3]
+Hotkey=A
+Unhotkey=A
+Buttonpos=0,0
+Unbuttonpos=0,0
+
