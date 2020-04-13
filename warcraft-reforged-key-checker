@@ -1,0 +1,119 @@
+#!/usr/bin/env python3
+
+import argparse
+import locale
+import configparser
+import json
+from collections import defaultdict
+from glob import glob
+from os import path
+
+
+class Ability:
+    def __init__(self):
+        self.conflict = False
+        self.units = list()
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Check Warcraft Reforged key positions')
+    parser.add_argument('unitsdir', type=str, help='The Warcraft Reforged units/ directory')
+    parser.add_argument('override', type=argparse.FileType('w'), help='The generated override file')
+
+    args = parser.parse_args()
+
+    # Use only one big config parser, as lookup is performed in O(1)
+    config = configparser.ConfigParser(comment_prefixes=('//'),
+                                       delimiters=('='),
+                                       interpolation=None,
+                                       strict=False)
+
+
+    print('Parsing input files..')
+    for suffix in '*skin.txt', '*strings.txt', '*func.txt':
+        for filepath in glob(path.join(args.unitsdir, suffix)):
+            print('\t{}'.format(filepath))
+            with open(filepath, 'r', encoding='utf-8-sig') as f:
+                config.read_file(f)
+
+    abilities = defaultdict(Ability)
+
+    print('Checking coherency..')
+    for unit_name in config.sections():
+        # Save unit attributes as a dict
+        options = dict(config.items(unit_name))
+
+        # Consider only skins (i.e. abilities units)
+        if 'skintype' not in options:
+            continue
+
+        # Consider only units with abilities
+        ability_names = options.get('heroabilskinlist') or options.get('abilskinlist')
+        if ability_names is None:
+            continue
+
+        # Retrieve the abilities with an assigned button position
+        # And associated the current unit with its abilities
+        unit_abilities = list()
+        for name in ability_names.split(','):
+            if config.has_option(name, 'buttonpos'):
+                unit_abilities.append((name, dict(config.items(name.strip()))))
+                abilities[name].units.append(unit_name)
+
+        # Check if some abilities have the same position
+        abilities_pos = [ability_options['buttonpos'] for name, ability_options in unit_abilities]
+        if len(set(abilities_pos)) == len(abilities_pos):
+            continue
+
+        # Mark all the unit abilities as conflicted
+        for ability_name, ability in unit_abilities:
+            abilities[ability_name].conflict = True
+
+        # Dump the unit abilities
+        print('\tAbilities conflicts on "{}" ({})'.format(options['name'], unit_name))
+        for name, ability in unit_abilities:
+            print('\t\tAbility "{}" ({}) at position "{}"'.format(ability['name'],
+                                                                  name,
+                                                                  ability['buttonpos']))
+
+    print('Solving..')
+
+    new_mappings = dict()
+    units_used_slots = defaultdict(list)
+
+    conflicted_abilities = [a for a in abilities.items() if a[1].conflict]
+
+    # Sort the abilities to place mostly used first
+    for ability_name, ability in sorted(conflicted_abilities,
+                                        key=lambda x: len(x[1].units),
+                                        reverse=True):
+        # For each possible position
+        for x in range(6):
+            # Check if it is free for related units
+            for unit in ability.units:
+                if x in units_used_slots[unit]:
+                    # Conflict detected
+                    break
+            else:
+                # Flag the abilty's user slots as used
+                for unit in ability.units:
+                    units_used_slots[unit].append(x)
+
+                # Save the ability mapping
+                if x <= 3:
+                    new_mappings[ability_name] = (x, 2)
+                else:
+                    new_mappings[ability_name] = (x - 3, 1)
+
+                break
+        else:
+            print('\tFailed to map {} on {}'.format(ability_name, ability.units))
+
+
+    print('Generating updated mapping.')
+    args.override.write(json.dumps(new_mappings))
+
+
+if __name__ == '__main__':
+    locale.setlocale(locale.LC_ALL, '')
+    main()

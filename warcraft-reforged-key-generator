@@ -1,0 +1,122 @@
+#!/usr/bin/env python3
+
+import argparse
+import locale
+import configparser
+import re
+import json
+from glob import glob
+from os import path
+
+
+POSITION_RE = re.compile(r'(\d),(\d)')
+
+KEYS = (
+    ( 'A', 'Z', 'E', 'R' ),
+    ( 'Q', 'S', 'D', 'F' ),
+    ( 'W', 'X', 'C', 'V' ),
+)
+
+def _write_entry(f, prefix, position, count):
+    x = position[0]
+    y = position[1]
+
+    entry = (prefix + 'buttonpos').title()
+    f.write('{}={},{}\n'.format(entry, x, y))
+
+    entry = (prefix + 'hotkey').title()
+    f.write('{}={}\n'.format(entry,
+                                ','.join(KEYS[y][x] * count)))
+
+    
+class Section():
+    def __init__(self, name, comment):
+        self._name = name
+        self._comment = comment
+        self.position = None
+        self.unposition = None
+        self.research = None
+        self.require = None
+
+    def dump(self, f):
+        if self.position is None:
+            return
+
+        if self._comment is not None:
+            f.write('// {}\n'.format(self._comment))
+
+        f.write('[{}]\n'.format(self._name))
+
+        count = self.require or 1
+
+        _write_entry(f, '', self.position, count)
+
+        if self.unposition is not None:
+            _write_entry(f, 'un', self.unposition, count)
+
+        if self.research is not None:
+            _write_entry(f, 'research', self.research, count)
+
+        f.write('\n')
+        
+
+def main():
+    parser = argparse.ArgumentParser(description='Generate Warcraft Reforged CustomKeys.txt')
+    parser.add_argument('datadir', type=str, help='The Warcraft Reforged data files directory')
+    parser.add_argument('overridefile', type=argparse.FileType('r'), help='The button pos override')
+    parser.add_argument('out', type=argparse.FileType('w'), help='The output file')
+
+    args = parser.parse_args()
+
+    config = configparser.ConfigParser(comment_prefixes=('//'),
+                                       delimiters=('='),
+                                       interpolation=None,
+                                       strict=False)
+
+    overrides = json.load(args.overridefile)
+
+    for suffix in '*strings.txt', '*func.txt':
+        for filepath in glob(path.join(args.datadir, suffix)):
+            print('Parsing {}'.format(filepath))
+            with open(filepath, 'r', encoding='utf-8-sig') as f:
+                config.read_file(f)
+
+    for section_name in config.sections():
+        entries = dict(config.items(section_name))
+
+        buttonpos = entries.get('buttonpos')
+        if buttonpos is None:
+            continue
+
+        override = overrides.get(section_name)
+        section = Section(section_name, entries.get('name', ''))
+
+        match = POSITION_RE.fullmatch(buttonpos)
+        if override is None:
+            section.position = (int(match.group(1)), int(match.group(2)))
+        else:
+            section.position = override
+
+        unbuttonpos = entries.get('unbuttonpos')
+        if unbuttonpos is not None:
+            match = POSITION_RE.fullmatch(unbuttonpos)
+            if override is None:
+                section.unposition = (int(match.group(1)), int(match.group(2)))
+            else:
+                section.unposition = override
+
+        researchpos = entries.get('researchbuttonpos')
+        if researchpos is not None:
+            match = POSITION_RE.fullmatch(researchpos)
+            section.research = (int(match.group(1)), int(match.group(2)))
+
+        require = entries.get('requirescount')
+        if require is not None:
+            section.require = int(require)
+
+        section.dump(args.out)
+
+
+if __name__ == '__main__':
+    locale.setlocale(locale.LC_ALL, '')
+    main()
