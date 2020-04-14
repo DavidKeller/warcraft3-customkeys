@@ -1,116 +1,190 @@
 #!/usr/bin/env python3
 
+import sys
 import argparse
 import locale
 import configparser
 import json
+import logging
 from collections import defaultdict
 from glob import glob
 from os import path
 
+LOGGER = logging.getLogger(__name__)
+
+NEW_POSITIONS = (
+    (0, 2), (1, 2), (2, 2), (3, 2), # Fill bottom line
+    (1,1), (2, 1)  # Fill middle line starting from second column
+)
 
 class Ability:
     def __init__(self):
         self.conflict = False
-        self.units = list()
+        self.user_ids = list()
 
+def _parse_file(pattern):
+    store = configparser.ConfigParser(comment_prefixes=('//'),
+                                      delimiters=('='),
+                                      interpolation=None,
+                                      strict=False)
+    for filepath in glob(pattern):
+        LOGGER.debug('Parsing %s', filepath)
+        with open(filepath, 'r', encoding='utf-8-sig') as f:
+            store.read_file(f)
+
+    return store
+
+class StringsStore:
+    def __init__(self, unitsdir):
+        self._store = _parse_file(path.join(unitsdir, '*strings.txt'))
+
+    def get_name(self, item_id):
+        return self._store.get(item_id, 'Name', fallback=None)
+
+    def get_hotkey(self, item_id):
+        return self._store.get(item_id, 'Hotkey', fallback=None)
+
+class FuncStore:
+    def __init__(self, unitsdir):
+        self._store = _parse_file(path.join(unitsdir, '*func.txt'))
+
+    def get_position(self, item_id):
+        return self._store.get(item_id, 'Buttonpos', fallback=None)
+
+    def get_items(self, item_id):
+        return self._store.get(item_id, 'Sellunits', fallback=None)
 
 def main():
     parser = argparse.ArgumentParser(description='Check Warcraft Reforged key positions')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose loggng')
     parser.add_argument('unitsdir', type=str, help='The Warcraft Reforged units/ directory')
     parser.add_argument('override', type=argparse.FileType('w'), help='The generated override file')
 
     args = parser.parse_args()
 
-    # Use only one big config parser, as lookup is performed in O(1)
-    config = configparser.ConfigParser(comment_prefixes=('//'),
-                                       delimiters=('='),
-                                       interpolation=None,
-                                       strict=False)
+    if args.verbose:
+        log_level = logging.DEBUG
+    else:
+        log_level = logging.INFO
+    logging.basicConfig(level=log_level)
 
+    LOGGER.info('Parsing strings')
+    strings_store = StringsStore(args.unitsdir)
 
-    print('Parsing input files..')
-    for suffix in '*skin.txt', '*strings.txt', '*func.txt':
-        for filepath in glob(path.join(args.unitsdir, suffix)):
-            print('\t{}'.format(filepath))
-            with open(filepath, 'r', encoding='utf-8-sig') as f:
-                config.read_file(f)
+    LOGGER.info('Parsing func')
+    func_store = FuncStore(args.unitsdir)
+
+    LOGGER.info('Parsing skin')
+    skin_store = _parse_file(path.join(args.unitsdir, '*skin.txt'))
 
     abilities = defaultdict(Ability)
+    skins_abilities = dict()
 
-    print('Checking coherency..')
-    for unit_name in config.sections():
-        # Save unit attributes as a dict
-        options = dict(config.items(unit_name))
+    LOGGER.info('Checking coherency..')
+    for skin_id, skin_attr in skin_store.items():
+        LOGGER.debug('Considering "%s" (%s)',
+                     skin_id, strings_store.get_name(skin_id))
 
-        # Consider only skins (i.e. abilities units)
-        if 'skintype' not in options:
+        # Consider only skins with abilities
+        ability_ids = (skin_attr.get('heroabilskinlist') or
+                       skin_attr.get('abilskinlist') or
+                       func_store.get_items(skin_id))
+        if ability_ids is None:
+            LOGGER.debug('Skipping "%s"', skin_id)
             continue
 
-        # Consider only units with abilities
-        ability_names = options.get('heroabilskinlist') or options.get('abilskinlist')
-        if ability_names is None:
-            continue
-
+        skins_abilities[skin_id] = skin_abilities = list()
+        skin_abilities_pos = list()
         # Retrieve the abilities with an assigned button position
         # And associated the current unit with its abilities
-        unit_abilities = list()
-        for name in ability_names.split(','):
-            if config.has_option(name, 'buttonpos'):
-                unit_abilities.append((name, dict(config.items(name.strip()))))
-                abilities[name].units.append(unit_name)
+        for ability_id in ability_ids.split(','):
+            LOGGER.debug('Found ability "%s" (%s)',
+                         ability_id, strings_store.get_name(ability_id))
+
+            ability_pos = func_store.get_position(ability_id)
+            if ability_pos is None:
+                 # Some abilities may miss position but still intended
+                # to be clicked
+                if strings_store.get_hotkey(ability_id) is not None:
+                    LOGGER.warn('Add default position to ability "%s" (%s)',
+                                ability_id,
+                                strings_store.get_name(ability_id))
+                    ability_pos = '0,0'
+                else:
+                    continue
+
+            LOGGER.debug('At position "%s"', ability_pos)
+            abilities[ability_id].user_ids.append(skin_id)
+            skin_abilities.append(ability_id)
+            skin_abilities_pos.append(ability_pos)
 
         # Check if some abilities have the same position
-        abilities_pos = [ability_options['buttonpos'] for name, ability_options in unit_abilities]
-        if len(set(abilities_pos)) == len(abilities_pos):
+        if len(set(skin_abilities_pos)) == len(skin_abilities_pos):
+            LOGGER.debug('No conflict detected')
             continue
 
         # Mark all the unit abilities as conflicted
-        for ability_name, ability in unit_abilities:
-            abilities[ability_name].conflict = True
+        for ability_id in skin_abilities:
+            abilities[ability_id].conflict = True
 
         # Dump the unit abilities
-        print('\tAbilities conflicts on "{}" ({})'.format(options['name'], unit_name))
-        for name, ability in unit_abilities:
-            print('\t\tAbility "{}" ({}) at position "{}"'.format(ability['name'],
-                                                                  name,
-                                                                  ability['buttonpos']))
+        LOGGER.warn('Abilities conflicts on "%s" (%s)',
+                    skin_id, strings_store.get_name(skin_id))
 
-    print('Solving..')
+    LOGGER.info('Solving..')
 
     new_mappings = dict()
-    units_used_slots = defaultdict(list)
+    skin_used_slots = defaultdict(list)
+
+    # Add all abilities of users of at least one conflicted ability
+    # even if there it is not conflicting on them
+    for ability_id, ability in list(abilities.items()):
+        if not ability.conflict:
+            continue
+
+        for user_id in ability.user_ids:
+            for user_ability_id in skins_abilities[user_id]:
+                LOGGER.debug('Marking "%s" (%s) as conflicted',
+                             user_ability_id,
+                             strings_store.get_name(user_ability_id))
+                abilities[user_ability_id].conflict = True
 
     conflicted_abilities = [a for a in abilities.items() if a[1].conflict]
 
     # Sort the abilities to place mostly used first
-    for ability_name, ability in sorted(conflicted_abilities,
-                                        key=lambda x: len(x[1].units),
-                                        reverse=True):
+    for ability_id, ability in sorted(conflicted_abilities,
+                                      key=lambda x: len(x[1].user_ids),
+                                      reverse=True):
+
+        LOGGER.debug('Placing "%s" (%s)',
+                     ability_id, strings_store.get_name(ability_id))
         # For each possible position
-        for x in range(6):
+        for pos in range(len(NEW_POSITIONS)):
             # Check if it is free for related units
-            for unit in ability.units:
-                if x in units_used_slots[unit]:
+            for skin_id in ability.user_ids:
+                LOGGER.debug('Considering user "%s" (%s) slot %d',
+                             skin_id, strings_store.get_name(skin_id), pos)
+                if pos in skin_used_slots[skin_id]:
                     # Conflict detected
                     break
             else:
                 # Flag the abilty's user slots as used
-                for unit in ability.units:
-                    units_used_slots[unit].append(x)
+                for skin_id in ability.user_ids:
+                    skin_used_slots[skin_id].append(pos)
 
+                new_position = NEW_POSITIONS[pos]
+                LOGGER.info('Assigned "%s" (%s) to position %s',
+                            ability_id, strings_store.get_name(ability_id),
+                            new_position)
                 # Save the ability mapping
-                if x <= 3:
-                    new_mappings[ability_name] = (x, 2)
-                else:
-                    new_mappings[ability_name] = (x - 3, 1)
+                new_mappings[ability_id] = new_position
 
                 break
         else:
-            print('\tFailed to map {} on {}'.format(ability_name, ability.units))
+            LOGGER.error('Failed to map "%s" on "%s"', ability_id, ability.user_id)
+            sys.exit(1)
 
-
-    print('Generating updated mapping.')
+    LOGGER.info('Generating updated mapping.')
     args.override.write(json.dumps(new_mappings))
 
 
