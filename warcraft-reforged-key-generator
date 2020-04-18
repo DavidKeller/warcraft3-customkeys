@@ -29,7 +29,7 @@ def _write_entry(f, prefix, position, count):
                                 ','.join(KEYS[y][x] * count)))
 
     
-class Section():
+class Section:
     def __init__(self, name, comment):
         self._name = name
         self._comment = comment
@@ -42,7 +42,7 @@ class Section():
         if self.position is None:
             return
 
-        if self._comment is not None:
+        if self._comment:
             f.write('// {}\n'.format(self._comment))
 
         f.write('[{}]\n'.format(self._name))
@@ -84,11 +84,12 @@ def main():
     for section_name in config.sections():
         entries = dict(config.items(section_name))
 
+        override = overrides.get(section_name)
         buttonpos = entries.get('buttonpos')
-        if buttonpos is None:
+
+        if buttonpos is None and override is None:
             continue
 
-        override = overrides.get(section_name)
         section = Section(section_name, entries.get('name', ''))
 
         match = POSITION_RE.fullmatch(buttonpos)
