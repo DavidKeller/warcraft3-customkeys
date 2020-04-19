@@ -1,0 +1,63 @@
+
+{
+    "etol": {
+        "owned_cells": {
+            "Repm": "1,0"
+        }
+    },
+    "etoa": {
+        "owned_cells": {
+            "Repm": "1,0"
+        }
+    },   
+    "etoe": {
+        "owned_cells": {
+            "Repm": "1,0"
+        }
+    },
+    "unpl": {
+        "owned_cells": {
+            "Rupm": "1,0"
+        }
+    },
+    "unp1": {
+        "owned_cells": {
+            "Rupm": "1,0"
+        }
+    },   
+    "unp2": {
+        "owned_cells": {
+            "Rupm": "1,0"
+        }
+    },
+    "ogre": {
+        "owned_cells": {
+            "Ropm": "1,0"
+        }
+    },
+    "ostr": {
+        "owned_cells": {
+            "Ropm": "1,0"
+        }
+    },   
+    "ofrt": {
+        "owned_cells": {
+            "Ropm": "1,0"
+        }
+    },
+    "htow": {
+        "owned_cells": {
+            "Rhpm": "1,0"
+        }
+    },
+    "hkee": {
+        "owned_cells": {
+            "Rhpm": "1,0"
+        }
+    },   
+    "hcas": {
+        "owned_cells": {
+            "Rhpm": "1,0"
+        }
+    }
+}
