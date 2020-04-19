@@ -1,21 +1,111 @@
 #!/usr/bin/env python3
 
+import sys
 import argparse
 import locale
 import configparser
-import re
 import json
+import logging
+import re
+from enum import Enum
+from collections import defaultdict
 from glob import glob
 from os import path
 
+LOGGER = logging.getLogger(__name__)
 
-POSITION_RE = re.compile(r'(\d),(\d)')
+BUILDING_POSITIONS = (
+    '0,2', '1,2', '2,2', '3,2', # Fill bottom line
+    '0,1', '1,1', '2,1', '3,1', # Fill middle line starting from second column
+    '0,0', '1,0', '2,0', '3,0', # Fill top line
+)
+
+ABILITY_POSITIONS = (
+    '0,0', '1,0', '2,0', '3,0', # Fill top line
+    '0,1', '1,1', '2,1', '3,1',  # Fill middle line starting from second column
+    '0,2', '1,2', '2,2', '3,2',  # Fill bottom line
+)
 
 KEYS = (
     ( 'A', 'Z', 'E', 'R' ),
     ( 'Q', 'S', 'D', 'F' ),
     ( 'W', 'X', 'C', 'V' ),
 )
+
+class Cell:
+    def __init__(self):
+        self.id = None
+        self.name = None
+        self.position_matrix = None
+        self.default_position = None
+        self.un_position = None
+        self.research_position = None
+        self.requires_count = None
+        self.is_position_forced = False
+        self.is_clickable = None
+        self.is_hero = False
+        self.owner_cells = set()
+        self.owned_cells = list()
+        self.used_slots = set()
+
+def _parse_file(pattern):
+    store = configparser.ConfigParser(comment_prefixes=('//'),
+                                      delimiters=('='),
+                                      interpolation=None,
+                                      strict=False)
+    for filepath in glob(pattern):
+        LOGGER.debug('Parsing %s', filepath)
+        with open(filepath, 'r', encoding='utf-8-sig') as f:
+            store.read_file(f)
+
+    return store
+
+class StringsStore:
+    def __init__(self, unitsdir):
+        self._store = _parse_file(path.join(unitsdir, '*strings.txt'))
+
+    def items(self):
+        return self._store.items()
+    
+    def get_name(self, item_id):
+        name = self._store.get(item_id, 'name', fallback=None)
+        if name is None:
+            return '"{}"'.format(item_id)
+
+        return '"{}" ({})'.format(item_id, name)
+
+    def get_hotkey(self, item_id):
+        return self._store.get(item_id, 'Hotkey', fallback=None)
+
+class FuncStore:
+    def __init__(self, unitsdir):
+        self._store = _parse_file(path.join(unitsdir, '*func.txt'))
+
+    def items(self):
+        return self._store.items()
+
+    def get_position(self, item_id):
+        return self._store.get(item_id, 'buttonpos', fallback=None)
+
+    def get_unposition(self, item_id):
+        return self._store.get(item_id, 'unbuttonpos', fallback=None)
+
+    def get_researchposition(self, item_id):
+        return self._store.get(item_id, 'researchbuttonpos', fallback=None)
+
+    def get_requirescount(self, item_id):
+        return self._store.get(item_id, 'requirescount', fallback=None)
+
+    def get_researchs(self, item_id):
+        return self._store.get(item_id, 'researches', fallback=None)
+
+    def get_units(self, item_id):
+        return (self._store.get(item_id, 'sellunits', fallback=None) or
+                self._store.get(item_id, 'trains', fallback=None)) 
+
+    def get_items(self, item_id):
+        return (self._store.get(item_id, 'sellitems', fallback=None) or
+                self._store.get(item_id, 'makeitems', fallback=None))
 
 def _write_entry(f, prefix, position, count):
     x = position[0]
@@ -27,11 +117,10 @@ def _write_entry(f, prefix, position, count):
     entry = (prefix + 'hotkey').title()
     f.write('{}={}\n'.format(entry,
                                 ','.join(KEYS[y][x] * count)))
-
-    
+   
 class Section:
-    def __init__(self, name, comment):
-        self._name = name
+    def __init__(self, id, comment):
+        self._id = id
         self._comment = comment
         self.position = None
         self.unposition = None
@@ -39,13 +128,10 @@ class Section:
         self.require = None
 
     def dump(self, f):
-        if self.position is None:
-            return
-
         if self._comment:
             f.write('// {}\n'.format(self._comment))
 
-        f.write('[{}]\n'.format(self._name))
+        f.write('[{}]\n'.format(self._id))
 
         count = self.require or 1
 
@@ -60,63 +146,236 @@ class Section:
         f.write('\n')
         
 
+class Generator:
+    def __init__(self, args):
+        LOGGER.info('Parsing strings')
+        self._strings_store = StringsStore(args.localesdir)
+
+        LOGGER.info('Parsing func')
+        self._func_store = FuncStore(args.unitsdir)
+
+        LOGGER.info('Parsing grid')
+        self._skin_store = _parse_file(path.join(args.unitsdir, '*skin.txt'))
+
+        self._cells = defaultdict(Cell)
+        self._conflicted_cells = set()
+
+        self._out = args.out
+
+    def run(self):
+        LOGGER.info('Discovering skins..')
+        for skin_id, skin_attr in self._skin_store.items():
+            self._discover_skin(skin_id, skin_attr)
+            
+        for cell_id, cell_attr in self._func_store.items():
+            self._discover_skin(cell_id, cell_attr)
+
+        for cell_id, cell_attr in self._strings_store.items():
+            self._discover_skin(cell_id, cell_attr)
+
+        self._map_owned_cells()
+
+        for cell in self._cells.values():
+            self._detect_conflicts(cell)
+
+        new_mappings = self._solve()
+        self._generate_custom_key(new_mappings)
+
+    def _discover_skin(self, skin_id, skin_attr):
+        skin_name = self._strings_store.get_name(skin_id)
+        LOGGER.debug('Considering %s', skin_name)
+
+        hotkey = self._strings_store.get_hotkey(skin_id)
+        position = self._func_store.get_position(skin_id)
+        if hotkey is None and position is None:
+            LOGGER.debug('Skipping %s', skin_name)
+            return
+
+        LOGGER.debug('Hotkey %s and position %s', hotkey, position)
+
+        cell = self._cells[skin_id]
+        cell.id = skin_id
+        cell.name = skin_name
+        cell.un_position = self._func_store.get_unposition(skin_id)
+        cell.research_position = self._func_store.get_researchposition(skin_id)
+        cell.requires_count = self._func_store.get_requirescount(skin_id)
+
+        if skin_attr.get('armor') in ['Wood', 'Stone']:
+            LOGGER.debug('%s considered as an item/building', skin_name)
+            cell.position_matrix = BUILDING_POSITIONS
+        else:
+            LOGGER.debug('%s considered as other', skin_name)
+            cell.position_matrix = ABILITY_POSITIONS
+
+        if position is None:
+            cell.default_position = cell.position_matrix[0]
+            LOGGER.warn('Add default position %s to cell %s',
+                        cell.default_position, skin_name)
+            cell.is_clickable = True
+        else:
+            cell.default_position = position
+
+        if hotkey is None:
+            cell.is_clickable = False
+
+        # Retrieve the owned cells (can be any type of skin)
+        heroabils = skin_attr.get('heroabilskinlist')
+        abils = skin_attr.get('abilskinlist')
+        items = self._func_store.get_items(skin_id)
+        units = self._func_store.get_units(skin_id)
+        researchs = self._func_store.get_researchs(skin_id)
+
+        if abils is not None:
+            cell.owned_cells += abils.split(',')
+        if heroabils is not None:
+            cell.is_hero = True
+            cell.owned_cells += heroabils.split(',')
+        if units is not None:
+            cell.owned_cells += units.split(',')
+        if items is not None:
+            cell.owned_cells += items.split(',')
+        if researchs is not None:
+            cell.owned_cells += researchs.split(',')
+
+    def _map_owned_cells(self):
+        for cell in self._cells.values():
+            LOGGER.debug('Mapping owned cell of %s', cell.name)
+
+            new_owned_cells = list()
+            for owned_cell_id in cell.owned_cells:
+                owned_cell = self._cells.get(owned_cell_id)
+                if owned_cell is None:
+                    continue
+                    
+                LOGGER.debug('Found owned %s', owned_cell.name)
+                new_owned_cells.append(owned_cell)
+                owned_cell.owner_cells.add(cell)
+
+            cell.owned_cells = new_owned_cells
+        
+    def _detect_conflicts(self, cell):
+        LOGGER.debug('Checking cell %s for direct conflicts', cell.name)
+        
+        # Retrieve the cells with an assigned button position
+        # And associated the current unit with its cells
+        grid_cells_pos = list()
+        for owned_cell in cell.owned_cells:
+            LOGGER.debug('Looking owned cell %s at position "%s"',
+                         owned_cell.name, owned_cell.default_position)
+
+            if cell.is_hero:
+                owned_cell.is_position_forced = True
+                cell.used_slots.add(owned_cell.default_position)
+
+            grid_cells_pos.append(owned_cell.default_position)
+            
+            owner_cells = list()
+
+        # Check if some cells have the same position
+        if len(set(grid_cells_pos)) == len(grid_cells_pos):
+            LOGGER.debug('No conflict detected')
+            return
+
+        LOGGER.warn('cells conflicts on %s', cell.name)
+
+        for owned_cell in cell.owned_cells:
+            # For each owner of the current conflicted cell
+            for owner_cell in owned_cell.owner_cells:
+                # Flag all its cells as conflicted
+                for sibbling_cell in owner_cell.owned_cells:
+                    LOGGER.debug('Marking %s as conflicted',
+                                 sibbling_cell.name)
+                    self._conflicted_cells.add(sibbling_cell)
+
+    def _solve(self):
+        LOGGER.info('Solving conflicts..')
+
+        new_mappings = dict()
+
+        # Sort the cells to place mostly used first
+        for cell in sorted(self._conflicted_cells,
+                           key=lambda x: len(x.owner_cells),
+                           reverse=True):
+            if cell.is_position_forced is not None:
+                continue
+
+            LOGGER.debug('Placing %s', cell.name)
+
+            # For each possible position
+            possible_positions = [cell.default_position]
+            for i in range(len(cell.position_matrix)):
+                if i != cell.default_position:
+                     possible_positions.append(i)
+           
+            for candidate in possible_positions:
+                # Check if it is free for related units
+                for owner_cell in cell.owner_cells:
+                    LOGGER.debug('Considering user %s slot %d',
+                                 owner_cell.name, candidate)
+                    if candidate in owner_cell.used_slots:
+                        # Conflict detected
+                        break
+                else:
+                    # Flag the abilty's user slots as used
+                    for owner_cell in cell.owner_cells:
+                        owner_cell.used_slots.append(candidate)
+
+                    new_position = cell.position_matrix[pos]
+                    LOGGER.info('Assigned %s to position %s',
+                                cell_name, new_position)
+                    # Save the cell mapping
+                    new_mappings[cell.id] = [int(p) for p in new_position.split(',')]
+
+                    break
+            else:
+                LOGGER.error('Failed to map %s on "%s"',
+                             cell_id.name, cell.owner_cells)
+                sys.exit(1)
+
+        return new_mappings
+
+    def _generate_custom_key(self, new_mappings):
+        for cell_id, cell in self._cells.items():
+            LOGGER.debug('Writing %s section', cell.name)
+            section = Section(cell.id, cell.name)
+
+            override = new_mappings.get(cell.id)
+
+            if override is None:
+                section.position = [int(p) for p in cell.default_position.split(',')]
+            else:
+                section.position = override
+
+            if cell.un_position is not None:
+                if override is None:
+                    section.unposition = [int(p) for p in cell.un_position.split(',')]
+                else:
+                    section.unposition = override
+
+            if cell.research_position is not None:
+                section.research = [int(p) for p in cell.research_position.split(',')]
+
+            if cell.requires_count is not None:
+                section.require = int(cell.requires_count)
+
+            section.dump(self._out)
+
 def main():
-    parser = argparse.ArgumentParser(description='Generate Warcraft Reforged CustomKeys.txt')
-    parser.add_argument('datadir', type=str, help='The Warcraft Reforged data files directory')
-    parser.add_argument('overridefile', type=argparse.FileType('r'), help='The button pos override')
-    parser.add_argument('out', type=argparse.FileType('w'), help='The output file')
+    parser = argparse.ArgumentParser(description='Check Warcraft Reforged key positions')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose loggng')
+    parser.add_argument('unitsdir', type=str, help=r'The Warcraft Reforged war3.w3mod\units directory')
+    parser.add_argument('localesdir', type=str, help=r'The Warcraft Reforged war3.w3mod\_locales\enus.w3mod\units directory')
+    parser.add_argument('out', type=argparse.FileType('w'), help='The CustomKeys.txt file')
 
     args = parser.parse_args()
 
-    config = configparser.ConfigParser(comment_prefixes=('//'),
-                                       delimiters=('='),
-                                       interpolation=None,
-                                       strict=False)
+    if args.verbose:
+        log_level = logging.DEBUG
+    else:
+        log_level = logging.INFO
+    logging.basicConfig(level=log_level)
 
-    overrides = json.load(args.overridefile)
-
-    for suffix in '*strings.txt', '*func.txt':
-        for filepath in glob(path.join(args.datadir, suffix)):
-            print('Parsing {}'.format(filepath))
-            with open(filepath, 'r', encoding='utf-8-sig') as f:
-                config.read_file(f)
-
-    for section_name in config.sections():
-        entries = dict(config.items(section_name))
-
-        override = overrides.get(section_name)
-        buttonpos = entries.get('buttonpos')
-
-        if buttonpos is None and override is None:
-            continue
-
-        section = Section(section_name, entries.get('name', ''))
-
-        match = POSITION_RE.fullmatch(buttonpos)
-        if override is None:
-            section.position = (int(match.group(1)), int(match.group(2)))
-        else:
-            section.position = override
-
-        unbuttonpos = entries.get('unbuttonpos')
-        if unbuttonpos is not None:
-            match = POSITION_RE.fullmatch(unbuttonpos)
-            if override is None:
-                section.unposition = (int(match.group(1)), int(match.group(2)))
-            else:
-                section.unposition = override
-
-        researchpos = entries.get('researchbuttonpos')
-        if researchpos is not None:
-            match = POSITION_RE.fullmatch(researchpos)
-            section.research = (int(match.group(1)), int(match.group(2)))
-
-        require = entries.get('requirescount')
-        if require is not None:
-            section.require = int(require)
-
-        section.dump(args.out)
-
+    Generator(args).run()
 
 if __name__ == '__main__':
     locale.setlocale(locale.LC_ALL, '')
