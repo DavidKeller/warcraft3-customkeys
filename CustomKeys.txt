@@ -1,32 +1,225 @@
-// "ACfl" (Forked Lightning)
-[ACfl]
+// "Acn2" (Cannibalize)
+[Acn2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ndtw" (Dark Troll Warlord)
+[ndtw]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANc1" (Cluster Rockets)
+[ANc1]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Aadm" (Abolish Magic)
+[Aadm]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "CmdCancelTrain"
+[CmdCancelTrain]
+Buttonpos=3,2
+Hotkey=V
+
+// "ACcs" (Curse)
+[ACcs]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "unp2" (Black Citadel)
+[unp2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACrd" (Raise Dead)
+[ACrd]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "njks" (Jailor Kassan)
+[njks]
+Buttonpos=0,0
+Hotkey=A
+
+// "tbak" (Tiny Altar of Kings)
+[tbak]
+Buttonpos=0,0
+Hotkey=A
+
+// "Hjnd" (Ranger)
+[Hjnd]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rupc" (Disease Cloud)
+[Rupc]
 Buttonpos=1,2
 Hotkey=X
 
-// "nmdr" (Dire Mammoth)
-[nmdr]
-Buttonpos=0,0
-Hotkey=A
+// "Aivs" (Invisibility)
+[Aivs]
+Buttonpos=1,2
+Hotkey=X
+
+// "ndtb" (Dark Troll Berserker)
+[ndtb]
+Buttonpos=0,2
+Hotkey=W
+
+// "moon" (Moonstone)
+[moon]
+Buttonpos=2,0
+Hotkey=E
+
+// "AUin" (Inferno)
+[AUin]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Rhde" (Defend)
+[Rhde]
+Buttonpos=0,2
+Hotkey=W
 
 // "ngnb" (Gnoll Brute)
 [ngnb]
 Buttonpos=0,2
 Hotkey=W
 
-// "olig" (Orb of Lightning)
-[olig]
-Buttonpos=2,2
-Hotkey=C
+// "ncim" (Centaur Impaler)
+[ncim]
+Buttonpos=0,0
+Hotkey=A
 
-// "hspt" (Spellbreaker)
-[hspt]
+// "nbot" (Transport Ship)
+[nbot]
+Buttonpos=0,0
+Hotkey=A
+
+// "Eill" (Demon Hunter)
+[Eill]
+Buttonpos=0,2
+Hotkey=W
+
+// "ndrt" (Draenei Stalker)
+[ndrt]
 Buttonpos=2,0
 Hotkey=E
 
-// "Otch" (Tauren Chieftain)
-[Otch]
+// "nrog" (Rogue)
+[nrog]
+Buttonpos=1,2
+Hotkey=X
+
+// "ndrd" (Draenei Darkslayer)
+[ndrd]
+Buttonpos=3,0
+Hotkey=R
+
+// "ACsk" (Resistant Skin)
+[ACsk]
+Buttonpos=3,1
+Hotkey=F
+
+// "nbdo" (Blue Dragonspawn Overseer)
+[nbdo]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ahrp" (Repair)
+[Ahrp]
+Buttonpos=1,1
+Hotkey=S
+Unbuttonpos=1,1
+Unhotkey=S
+
+// "AHta" (Reveal)
+[AHta]
+Buttonpos=0,2
+Hotkey=W
+
+// "Ache" (Ray of Disruption)
+[Ache]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACcr" (Cripple)
+[ACcr]
+Buttonpos=0,2
+Hotkey=W
+
+// "ram4" (Ring of the Archmagi)
+[ram4]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANt2" (Spiked Shell)
+[ANt2]
 Buttonpos=2,2
-Hotkey=C,C,C
+Hotkey=C
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "AChv" (Healing Wave)
+[AChv]
+Buttonpos=1,2
+Hotkey=X
+
+// "ntrv" (Revenant of the Tides)
+[ntrv]
+Buttonpos=0,0
+Hotkey=A
+
+// "obea" (Beastiary)
+[obea]
+Buttonpos=3,1
+Hotkey=F
+
+// "Agra" (War Club)
+[Agra]
+Buttonpos=1,2
+Hotkey=X
+
+// "mort" (Mogrin's Report)
+[mort]
+Buttonpos=0,0
+Hotkey=A
+
+// "nfor" (Faceless One Trickster)
+[nfor]
+Buttonpos=0,0
+Hotkey=A
+
+// "Acpf" (Corporeal Form)
+[Acpf]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "hbsh" (Human Battleship)
+[hbsh]
+Buttonpos=2,0
+Hotkey=E
+
+// "ANs2" (Pocket Factory)
+[ANs2]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
 
 // "AUav" (Vampiric Aura)
 [AUav]
@@ -35,27 +228,144 @@ Hotkey=C
 Researchbuttonpos=2,0
 Researchhotkey=E
 
-// "nhmc" (Hermit Crab)
-[nhmc]
+// "Uear" (Death Knight)
+[Uear]
+Buttonpos=0,2
+Hotkey=W
+
+// "war2" (Warsong Battle Drums)
+[war2]
 Buttonpos=0,0
 Hotkey=A
 
-// "ANst" (Stampede)
-[ANst]
+// "nckb" (Fel Orc Kodo Beast)
+[nckb]
+Buttonpos=1,0
+Hotkey=Z
+
+// "nccr" (Dwarf Cart)
+[nccr]
+Buttonpos=2,0
+Hotkey=E
+
+// "zshv" (Kobold Shoveler)
+[zshv]
+Buttonpos=0,2
+Hotkey=W
+
+// "dphe" (Thunder Phoenix Egg)
+[dphe]
+Buttonpos=0,0
+Hotkey=A
+
+// "AUds" (Dark Summoning)
+[AUds]
 Buttonpos=3,2
 Hotkey=V
 Researchbuttonpos=3,0
 Researchhotkey=R
 
-// "Aro2" (Root)
-[Aro2]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
+// "Adro" (Unload)
+[Adro]
+Buttonpos=1,2
+Hotkey=X
 
-// "Roen" (Ensnare)
-[Roen]
+// "silk" (Spider Silk Broach)
+[silk]
+Buttonpos=0,0
+Hotkey=A
+
+// "nchr" (Fel Orc Raider)
+[nchr]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rune" (Necromancer Adept Training,Necromancer Master Training)
+[Rune]
+Buttonpos=0,2
+Hotkey=W,W
+
+// "edtm" (Druid of the Talon)
+[edtm]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACls" (Lightning Shield)
+[ACls]
+Buttonpos=2,2
+Hotkey=C
+
+// "AOhw" (Healing Wave)
+[AOhw]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "nlkl" (Makrura Tidal Lord)
+[nlkl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Anhe" (Heal)
+[Anhe]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Rhst" (Sorceress Adept Training,Sorceress Master Training)
+[Rhst]
+Buttonpos=0,2
+Hotkey=W,W
+
+// "CmdStop"
+[CmdStop]
+Buttonpos=1,0
+Hotkey=Z
+
+// "nchw" (Fel Orc Warlock)
+[nchw]
+Buttonpos=0,2
+Hotkey=W
+
+// "gmfr" (Gem Fragment)
+[gmfr]
+Buttonpos=0,0
+Hotkey=A
+
+// "rde3" (Ring of Protection +4)
+[rde3]
+Buttonpos=0,0
+Hotkey=A
+
+// "Agyv" (True Sight)
+[Agyv]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aeat" (Eat Tree)
+[Aeat]
+Buttonpos=0,2
+Hotkey=W
+
+// "Eevi" (Demon Hunter)
+[Eevi]
+Buttonpos=0,2
+Hotkey=W
+
+// "nane" (Arachnathid Earth-borer)
+[nane]
+Buttonpos=0,0
+Hotkey=A
+
+// "tret" (Tome of Retraining)
+[tret]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Ruex" (Exhume Corpses)
+[Ruex]
 Buttonpos=0,2
 Hotkey=W
 
@@ -66,255 +376,6 @@ Hotkey=C
 Researchbuttonpos=2,0
 Researchhotkey=E
 
-// "Asps" (Spell Steal)
-[Asps]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ACt2" (Slam)
-[ACt2]
-Buttonpos=0,2
-Hotkey=W
-
-// "Awhe" (Heal)
-[Awhe]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-
-// "thdm" (Thunderlizard Diamond)
-[thdm]
-Buttonpos=0,0
-Hotkey=A
-
-// "nfor" (Faceless One Trickster)
-[nfor]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANdr" (Life Drain)
-[ANdr]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ACde" (Devour Magic)
-[ACde]
-Buttonpos=0,2
-Hotkey=W
-
-// "envl" (Enchanted Vial)
-[envl]
-Buttonpos=0,0
-Hotkey=A
-
-// "hmpr" (Priest)
-[hmpr]
-Buttonpos=1,0
-Hotkey=Z
-
-// "nsc3" (Spider Crab Behemoth)
-[nsc3]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANsb" (Storm Bolt)
-[ANsb]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "pgin" (Potion of Greater Invisibility)
-[pgin]
-Buttonpos=0,0
-Hotkey=A
-
-// "nanm" (Barbed Arachnathid)
-[nanm]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACps" (Possession)
-[ACps]
-Buttonpos=2,2
-Hotkey=C
-
-// "Aabr" (Aura of Blight)
-[Aabr]
-Buttonpos=2,2
-Hotkey=C
-
-// "ubot" (Undead Transport Ship)
-[ubot]
-Buttonpos=0,0
-Hotkey=A
-
-// "AOsf" (Feral Spirit)
-[AOsf]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ANdc" (Dark Conversion)
-[ANdc]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "Adet" (Detector)
-[Adet]
-Buttonpos=0,2
-Hotkey=W
-
-// "npfl" (Fel Beast)
-[npfl]
-Buttonpos=0,2
-Hotkey=W
-
-// "Awh2" (Gather)
-[Awh2]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
-
-// "Efur" (Keeper of the Grove)
-[Efur]
-Buttonpos=0,2
-Hotkey=W
-
-// "Amil" (Call to Arms)
-[Amil]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=2,2
-Unhotkey=C
-
-// "ACrn" (Reincarnation)
-[ACrn]
-Buttonpos=3,2
-Hotkey=V
-
-// "nogl" (Ogre Lord)
-[nogl]
-Buttonpos=0,0
-Hotkey=A
-
-// "zmar" (Marine)
-[zmar]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Asd3" (Kaboom!)
-[Asd3]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ntrt" (Giant Sea Turtle)
-[ntrt]
-Buttonpos=0,0
-Hotkey=A
-
-// "ugol" (Haunted Gold Mine)
-[ugol]
-Buttonpos=2,0
-Hotkey=E
-
-// "rwat" (Rune of the Watcher)
-[rwat]
-Buttonpos=0,0
-Hotkey=A
-
-// "npgf" (Pig Farm)
-[npgf]
-Buttonpos=0,0
-Hotkey=A
-
-// "Adec" (Dismount)
-[Adec]
-Buttonpos=0,2
-Hotkey=W
-
-// "AEsh" (Shadow Strike)
-[AEsh]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ntws" (Watery Minion)
-[ntws]
-Buttonpos=0,0
-Hotkey=A
-
-// "owtw" (Watch Tower)
-[owtw]
-Buttonpos=3,0
-Hotkey=R
-
-// "ogrk" (Gar'thok)
-[ogrk]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aroo" (Root)
-[Aroo]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "ntka" (Tuskarr Spearman)
-[ntka]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rnam" (Coral Scales,Chitinous Scales,Razorspine Scales)
-[Rnam]
-Buttonpos=1,2
-Hotkey=X
-
-// "ubon" (Boneyard)
-[ubon]
-Buttonpos=1,2
-Hotkey=X
-
-// "AChx" (Hex)
-[AChx]
-Buttonpos=0,2
-Hotkey=W
-
-// "Anh1" (Heal)
-[Anh1]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "nmam" (Mammoth)
-[nmam]
-Buttonpos=0,0
-Hotkey=A
-
-// "pinv" (Potion of Invisibility)
-[pinv]
-Buttonpos=3,0
-Hotkey=R
-
-// "Redt" (Druid of the Talon Adept Training,Druid of the Talon Master Training)
-[Redt]
-Buttonpos=1,2
-Hotkey=X,X
-
 // "AOr2" (Endurance Aura)
 [AOr2]
 Buttonpos=2,2
@@ -322,32 +383,74 @@ Hotkey=C
 Researchbuttonpos=2,0
 Researchhotkey=E
 
-// "nits" (Ice Troll Berserker)
-[nits]
-Buttonpos=1,0
-Hotkey=Z
-
-// "tlum" (Tiny Lumber Mill)
-[tlum]
+// "nmcf" (Mur'gul Cliffrunner)
+[nmcf]
 Buttonpos=0,0
 Hotkey=A
 
-// "nnsa" (Shrine of Azshara)
-[nnsa]
+// "nmfs" (Murloc Flesheater)
+[nmfs]
+Buttonpos=0,2
+Hotkey=W
+
+// "Ahr2" (Harvest)
+[Ahr2]
+Buttonpos=3,1
+Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
+
+// "Advm" (Devour Magic)
+[Advm]
+Buttonpos=0,2
+Hotkey=W
+
+// "ram3" (Ring of the Archmagi)
+[ram3]
+Buttonpos=0,0
+Hotkey=A
+
+// "Amim" (Spell Immunity)
+[Amim]
+Buttonpos=2,2
+Hotkey=C
+
+// "Hgam" (Ghostly Archmage)
+[Hgam]
 Buttonpos=0,1
 Hotkey=Q
 
-// "eaoe" (Ancient of Lore)
-[eaoe]
-Buttonpos=2,1
-Hotkey=D
+// "ANf3" (Factory)
+[ANf3]
+Buttonpos=0,2
+Hotkey=W
 
-// "Aneu" (Select Hero)
-[Aneu]
+// "npn6" (Earth)
+[npn6]
+Buttonpos=0,2
+Hotkey=W
+
+// "schl" (Scepter of Healing)
+[schl]
 Buttonpos=0,0
 Hotkey=A
-Unbuttonpos=0,0
-Unhotkey=A
+
+// "Ara2" (Roar)
+[Ara2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANhx" (Hex)
+[ANhx]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "nhar" (Harpy Scout)
+[nhar]
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANab" (Acid Bomb)
 [ANab]
@@ -356,91 +459,409 @@ Hotkey=C
 Researchbuttonpos=2,0
 Researchhotkey=E
 
-// "Ara2" (Roar)
-[Ara2]
-Buttonpos=0,2
-Hotkey=W
-
-// "nfre" (Furbolg Elder Shaman)
-[nfre]
+// "frhg" (Firehand Gauntlets)
+[frhg]
 Buttonpos=0,0
 Hotkey=A
 
-// "Rupc" (Disease Cloud)
-[Rupc]
+// "ANdo" (Doom)
+[ANdo]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "AHwe" (Summon Water Elemental)
+[AHwe]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "CmdCancelBuild"
+[CmdCancelBuild]
+Buttonpos=3,2
+Hotkey=V
+
+// "Apts" (Disease Cloud)
+[Apts]
+Buttonpos=2,2
+Hotkey=C
+
+// "Afod" (Finger of Death)
+[Afod]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ojgn" (Orc Juggernaught)
+[ojgn]
+Buttonpos=0,0
+Hotkey=A
+
+// "ndrn" (Draenei Vindicator)
+[ndrn]
 Buttonpos=1,2
 Hotkey=X
 
-// "tint" (Tome of Intelligence)
-[tint]
+// "Ruwb" (Web)
+[Ruwb]
+Buttonpos=1,2
+Hotkey=X
+
+// "nfpe" (Polar Furbolg Elder Shaman)
+[nfpe]
 Buttonpos=0,0
 Hotkey=A
 
-// "Awrh" (War Stomp)
-[Awrh]
-Buttonpos=2,2
-Hotkey=C
+// "hbla" (Blacksmith)
+[hbla]
+Buttonpos=3,0
+Hotkey=R
 
-// "Rost" (Shaman Adept Training,Shaman Master Training)
-[Rost]
+// "pspd" (Potion of Speed)
+[pspd]
+Buttonpos=0,0
+Hotkey=A
+
+// "Acmg" (Control Magic)
+[Acmg]
+Buttonpos=1,2
+Hotkey=X
+
+// "nhn2" (Harpy Nest)
+[nhn2]
+Buttonpos=0,0
+Hotkey=A
+
+// "Amnb" (Mana Burn)
+[Amnb]
 Buttonpos=0,2
-Hotkey=W,W
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-// "Amim" (Spell Immunity)
-[Amim]
+// "guvi" (Glyph of Ultravision)
+[guvi]
+Buttonpos=0,0
+Hotkey=A
+
+// "spsh" (Amulet of Spell Shield)
+[spsh]
+Buttonpos=0,0
+Hotkey=A
+
+// "espv" (Avatar of Vengeance)
+[espv]
+Buttonpos=0,0
+Hotkey=A
+
+// "Acri" (Cripple)
+[Acri]
 Buttonpos=2,2
 Hotkey=C
 
-// "nhyc" (Dragon Turtle)
-[nhyc]
+// "ANg2" (Robo-Goblin)
+[ANg2]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "uzg1" (Spirit Tower)
+[uzg1]
+Buttonpos=0,2
+Hotkey=W
+
+// "nsns" (Watery Minion)
+[nsns]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACsm" (Siphon Mana)
+[ACsm]
+Buttonpos=2,2
+Hotkey=C
+
+// "AUcb" (Carrion Beetles)
+[AUcb]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "haro" (Arcane Observatory)
+[haro]
+Buttonpos=1,2
+Hotkey=X
+
+// "odkt" (Drak'thul)
+[odkt]
+Buttonpos=0,0
+Hotkey=A
+
+// "Apg2" (Purge)
+[Apg2]
+Buttonpos=0,2
+Hotkey=W
+
+// "owyv" (Wind Rider)
+[owyv]
 Buttonpos=1,0
 Hotkey=Z
 
-// "nlrv" (Deeplord Revenant)
-[nlrv]
+// "eden" (Ancient of Wonders)
+[eden]
+Buttonpos=2,2
+Hotkey=C
+
+// "ntkw" (Tuskarr Warrior)
+[ntkw]
 Buttonpos=0,0
 Hotkey=A
 
-// "Aweb" (Web)
-[Aweb]
+// "gomn" (Glyph of Omniscience)
+[gomn]
+Buttonpos=0,0
+Hotkey=A
+
+// "pclr" (Clarity Potion)
+[pclr]
+Buttonpos=1,2
+Hotkey=X
+
+// "AOae" (Endurance Aura)
+[AOae]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "nmyr" (Naga Myrmidon)
+[nmyr]
+Buttonpos=0,0
+Hotkey=A
+
+// "nftr" (Forest Troll)
+[nftr]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aobs" (Brute Strength)
+[Aobs]
+Buttonpos=0,2
+Hotkey=W
+
+// "sora" (Shadow Orb +10)
+[sora]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACrn" (Reincarnation)
+[ACrn]
+Buttonpos=3,2
+Hotkey=V
+
+// "ntkf" (Tuskarr Fighter)
+[ntkf]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rhcd" (Cloud)
+[Rhcd]
+Buttonpos=0,2
+Hotkey=W
+
+// "mnsf" (Mindstaff)
+[mnsf]
+Buttonpos=0,0
+Hotkey=A
+
+// "nfgl" (Flesh Golem)
+[nfgl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Astd" (Stand Down)
+[Astd]
+Buttonpos=1,2
+Hotkey=X
+
+// "Rusf" (Stone Form)
+[Rusf]
+Buttonpos=2,1
+Hotkey=D
+
+// "tmsc" (Tome of Sacrifices)
+[tmsc]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACcn" (Cannibalize)
+[ACcn]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANth" (Spiked Shell)
+[ANth]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Aneu" (Select Hero)
+[Aneu]
+Buttonpos=0,0
+Hotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
+
+// "nhyd" (Hydra)
+[nhyd]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ahpe" (Phoenix)
+[Ahpe]
+Buttonpos=0,2
+Hotkey=W
+
+// "ogru" (Grunt)
+[ogru]
+Buttonpos=0,0
+Hotkey=A
+
+// "hlum" (Lumber Mill)
+[hlum]
+Buttonpos=2,0
+Hotkey=E
+
+// "ohun" (Headhunter)
+[ohun]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Amil" (Call to Arms)
+[Amil]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=2,2
+Unhotkey=C
+
+// "AUan" (Animate Dead)
+[AUan]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "uswb" (Sylvanas Windrunner)
+[uswb]
+Buttonpos=1,0
+Hotkey=Z
+
+// "edes" (Night Elf Frigate)
+[edes]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACuf" (Unholy Frenzy)
+[ACuf]
+Buttonpos=1,2
+Hotkey=X
+
+// "Andm" (Abolish Magic)
+[Andm]
 Buttonpos=0,2
 Hotkey=W
 Unbuttonpos=0,2
 Unhotkey=W
 
-// "Anh2" (Heal)
-[Anh2]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "Aap2" (Disease Cloud)
-[Aap2]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANdh" (Drunken Haze)
-[ANdh]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "hphx" (Phoenix)
-[hphx]
+// "nfac" (Pocket Factory)
+[nfac]
 Buttonpos=0,0
 Hotkey=A
 
-// "Aexh" (Exhume Corpses)
-[Aexh]
+// "Edmm" (Demon Hunter)
+[Edmm]
+Buttonpos=0,2
+Hotkey=W,W,W
+
+// "ncg1" (Clockwerk Goblin)
+[ncg1]
+Buttonpos=0,2
+Hotkey=W
+
+// "AEme" (Metamorphosis)
+[AEme]
 Buttonpos=3,2
 Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-// "otau" (Tauren)
-[otau]
+// "nws2"
+[nws2]
 Buttonpos=1,0
 Hotkey=Z
+
+// "Aamk" (Attribute Bonus)
+[Aamk]
+Buttonpos=1,1
+Hotkey=S
+Researchbuttonpos=3,1
+Researchhotkey=F
+
+// "Aliq" (Liquid Fire)
+[Aliq]
+Buttonpos=1,2
+Hotkey=X
+
+// "Asta" (Stasis Trap)
+[Asta]
+Buttonpos=1,2
+Hotkey=X
+
+// "Hddt" (Master Swordsman)
+[Hddt]
+Buttonpos=0,2
+Hotkey=W,W,W
+
+// "Ashm" (Shadow Meld)
+[Ashm]
+Buttonpos=2,1
+Hotkey=D
+
+// "ndrw" (Draenei Watcher)
+[ndrw]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACbc" (Breath of Fire)
+[ACbc]
+Buttonpos=0,2
+Hotkey=W
+
+// "ngir" (Shredder)
+[ngir]
+Buttonpos=2,2
+Hotkey=C
+
+// "gfor" (Glyph of Fortification)
+[gfor]
+Buttonpos=0,0
+Hotkey=A
+
+// "ntrs" (Sea Turtle)
+[ntrs]
+Buttonpos=0,0
+Hotkey=A
 
 // "ACsw" (Slow)
 [ACsw]
@@ -449,12 +870,4490 @@ Hotkey=W
 Unbuttonpos=0,2
 Unhotkey=W
 
-// "AOwk" (Wind Walk)
-[AOwk]
+// "ANd3" (Demolish)
+[ANd3]
+Buttonpos=1,1
+Hotkey=S
+
+// "ANdr" (Life Drain)
+[ANdr]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ANbs" (Item Black Arrow)
+[ANbs]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACs7" (Feral Spirit)
+[ACs7]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "stwp" (Scroll of Town Portal)
+[stwp]
+Buttonpos=2,1
+Hotkey=D
+
+// "uzig" (Ziggurat)
+[uzig]
+Buttonpos=0,1
+Hotkey=Q
+
+// "obot" (Orc Transport Ship)
+[obot]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOw2" (War Stomp)
+[AOw2]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "sor2" (Shadow Orb +2)
+[sor2]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEev" (Evasion)
+[AEev]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "nchp" (Chaplain)
+[nchp]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ndtt" (Dark Troll Trapper)
+[ndtt]
+Buttonpos=0,2
+Hotkey=W
+
+// "nrdr" (Red Drake)
+[nrdr]
+Buttonpos=2,2
+Hotkey=C
+
+// "ANmo" (Monsoon)
+[ANmo]
 Buttonpos=0,2
 Hotkey=W
 Researchbuttonpos=0,0
 Researchhotkey=A
+
+// "Afrc" (Frost Attack)
+[Afrc]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACes" (Evasion)
+[ACes]
+Buttonpos=2,2
+Hotkey=C
+
+// "AEar" (Trueshot Aura)
+[AEar]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "orai" (Raider)
+[orai]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEfk" (Fan of Knives)
+[AEfk]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Asd2" (Kaboom!)
+[Asd2]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Sshm" (Shadow Meld)
+[Sshm]
+Buttonpos=2,1
+Hotkey=D
+
+// "ubon" (Boneyard)
+[ubon]
+Buttonpos=1,2
+Hotkey=X
+
+// "nfa1" (Pocket Factory)
+[nfa1]
+Buttonpos=0,0
+Hotkey=A
+
+// "rlif" (Ring of Regeneration)
+[rlif]
+Buttonpos=0,0
+Hotkey=A
+
+// "Amdf" (Magic Defense)
+[Amdf]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "Arpm" (Spirit Touch)
+[Arpm]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "Hmgd" (Paladin)
+[Hmgd]
+Buttonpos=0,2
+Hotkey=W
+
+// "nnsa" (Shrine of Azshara)
+[nnsa]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Aexh" (Exhume Corpses)
+[Aexh]
+Buttonpos=3,2
+Hotkey=V
+
+// "AEbl" (Blink)
+[AEbl]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ntws" (Watery Minion)
+[ntws]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rnat" (Coral Blades,Chitinous Blades,Razorspine Blades)
+[Rnat]
+Buttonpos=0,2
+Hotkey=W
+
+// "Udea" (Death Knight)
+[Udea]
+Buttonpos=0,2
+Hotkey=W,W,W
+
+// "zhyd" (Hydralisk)
+[zhyd]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aloa" (Load)
+[Aloa]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rosp" (Spiked Barricades,Improved Spiked Barricades,Advanced Spiked Barricades)
+[Rosp]
+Buttonpos=2,0
+Hotkey=E,E,E
+
+// "ndt2" (Advanced Cold Tower)
+[ndt2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANsw" (Summon Hawk)
+[ANsw]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "Amgl" (Moon Glaive)
+[Amgl]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANeg" (Engineering Upgrade)
+[ANeg]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ACdv" (Devour)
+[ACdv]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACtb" (Hurl Boulder)
+[ACtb]
+Buttonpos=0,2
+Hotkey=W
+
+// "Ahwd" (Healing Ward)
+[Ahwd]
+Buttonpos=2,2
+Hotkey=C
+
+// "ACbz" (Blizzard)
+[ACbz]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANhw" (Healing Wave)
+[ANhw]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANsl" (Soul Preservation)
+[ANsl]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "CmdAttack"
+[CmdAttack]
+Buttonpos=3,0
+Hotkey=R
+
+// "hdhw" (Dragonhawk Rider)
+[hdhw]
+Buttonpos=0,0
+Hotkey=A
+
+// "nwzw" (Blood Wizard)
+[nwzw]
+Buttonpos=0,0
+Hotkey=A
+
+// "nnmg" (Mur'gul Reaver)
+[nnmg]
+Buttonpos=3,0
+Hotkey=R
+
+// "ACif" (Inner Fire)
+[ACif]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Rhpt" (Priest Adept Training,Priest Master Training)
+[Rhpt]
+Buttonpos=1,2
+Hotkey=X,X
+
+// "ovlj" (Vol'jin)
+[ovlj]
+Buttonpos=1,0
+Hotkey=Z
+
+// "AOre" (Reincarnation)
+[AOre]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ACrf" (Rain of Fire)
+[ACrf]
+Buttonpos=3,2
+Hotkey=V
+
+// "ncaw" (Corrupted Ancient of War)
+[ncaw]
+Buttonpos=0,0
+Hotkey=A
+
+// "ncap" (Corrupted Ancient Protector)
+[ncap]
+Buttonpos=3,0
+Hotkey=R
+
+// "nsko" (Skeletal Orc)
+[nsko]
+Buttonpos=0,0
+Hotkey=A
+
+// "Apo2" (Poison Sting)
+[Apo2]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbt2" (Advanced Boulder Tower)
+[nbt2]
+Buttonpos=0,2
+Hotkey=W
+
+// "AOsf" (Feral Spirit)
+[AOsf]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "nfbr" (Fel Boar)
+[nfbr]
+Buttonpos=0,0
+Hotkey=A
+
+// "ncat" (Draenei Demolisher)
+[ncat]
+Buttonpos=0,0
+Hotkey=A
+
+// "Arep" (Repair)
+[Arep]
+Buttonpos=1,1
+Hotkey=S
+Unbuttonpos=1,1
+Unhotkey=S
+
+// "Ablo" (Bloodlust)
+[Ablo]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+
+// "osld" (Spirit Lodge)
+[osld]
+Buttonpos=2,1
+Hotkey=D
+
+// "AHfs" (Flame Strike)
+[AHfs]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Aabs" (Absorb Mana)
+[Aabs]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Rhss" (Control Magic)
+[Rhss]
+Buttonpos=2,1
+Hotkey=D
+
+// "Augh" (Shade)
+[Augh]
+Buttonpos=1,2
+Hotkey=X
+
+// "Uvng" (Dreadlord)
+[Uvng]
+Buttonpos=0,2
+Hotkey=W
+
+// "Nplh" (Pit Lord)
+[Nplh]
+Buttonpos=0,0
+Hotkey=A,A,A
+
+// "nmgw" (Magnataur Warrior)
+[nmgw]
+Buttonpos=3,0
+Hotkey=R
+
+// "ACsi" (Silence)
+[ACsi]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ram2" (Ring of the Archmagi)
+[ram2]
+Buttonpos=0,0
+Hotkey=A
+
+// "ndrm" (Draenei Disciple)
+[ndrm]
+Buttonpos=1,0
+Hotkey=Z
+
+// "sor9" (Shadow Orb +9)
+[sor9]
+Buttonpos=0,0
+Hotkey=A
+
+// "Adev" (Devour)
+[Adev]
+Buttonpos=0,2
+Hotkey=W
+
+// "uarb" (Sky Barge)
+[uarb]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACwe" (Summon Sea Elemental)
+[ACwe]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "nfro" (Frog)
+[nfro]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEvi" (Metamorphosis)
+[AEvi]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ACr2" (Rejuvenation)
+[ACr2]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aven" (Envenomed Spears)
+[Aven]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aesn" (Sentinel)
+[Aesn]
+Buttonpos=0,2
+Hotkey=W
+
+// "Emoo" (Priestess of the Moon)
+[Emoo]
+Buttonpos=2,2
+Hotkey=C,C,C
+
+// "etol" (Tree of Life)
+[etol]
+Buttonpos=0,0
+Hotkey=A
+
+// "nhea" (Archer)
+[nhea]
+Buttonpos=1,2
+Hotkey=X
+
+// "Ambt" (Replenish Mana and Life)
+[Ambt]
+Buttonpos=0,0
+Hotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
+
+// "Uclc" (Lich)
+[Uclc]
+Buttonpos=0,2
+Hotkey=W
+
+// "Scri" (Cripple)
+[Scri]
+Buttonpos=2,2
+Hotkey=C
+
+// "etoe" (Tree of Eternity)
+[etoe]
+Buttonpos=0,2
+Hotkey=W
+
+// "uubs" (Undead Battleship)
+[uubs]
+Buttonpos=2,0
+Hotkey=E
+
+// "nsoc" (Skeletal Orc Champion)
+[nsoc]
+Buttonpos=0,0
+Hotkey=A
+
+// "Adts" (Magic Sentry)
+[Adts]
+Buttonpos=2,1
+Hotkey=D
+
+// "uabo" (Abomination)
+[uabo]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ntn3" (Tent)
+[ntn3]
+Buttonpos=0,0
+Hotkey=A
+
+// "rej6" (Greater Scroll of Replenishment)
+[rej6]
+Buttonpos=0,0
+Hotkey=A
+
+// "hhou" (Farm)
+[hhou]
+Buttonpos=0,1
+Hotkey=Q
+
+// "ACfr" (Force of Nature)
+[ACfr]
+Buttonpos=0,2
+Hotkey=W
+
+// "shwd" (Shimmerweed)
+[shwd]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANsg" (Summon Bear)
+[ANsg]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANdp" (Dark Portal)
+[ANdp]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "tsct" (Ivory Tower)
+[tsct]
+Buttonpos=3,1
+Hotkey=F
+
+// "otbr" (Batrider)
+[otbr]
+Buttonpos=3,0
+Hotkey=R
+
+// "gvsm" (Gloves of Spell Mastery)
+[gvsm]
+Buttonpos=0,0
+Hotkey=A
+
+// "esen" (Huntress)
+[esen]
+Buttonpos=1,0
+Hotkey=Z
+
+// "npn2" (Storm)
+[npn2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANd2" (Demolish)
+[ANd2]
+Buttonpos=1,1
+Hotkey=S
+
+// "nlsn" (Makrura Snapper)
+[nlsn]
+Buttonpos=1,0
+Hotkey=Z
+
+// "earc" (Archer)
+[earc]
+Buttonpos=0,0
+Hotkey=A
+
+// "sor4" (Shadow Orb +4)
+[sor4]
+Buttonpos=0,0
+Hotkey=A
+
+// "nhyh" (Hydra Hatchling)
+[nhyh]
+Buttonpos=0,0
+Hotkey=A
+
+// "Arav" (Storm Crow Form)
+[Arav]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "Umal" (Dreadlord)
+[Umal]
+Buttonpos=0,2
+Hotkey=W
+
+// "ndwm" (Dune Worm)
+[ndwm]
+Buttonpos=0,0
+Hotkey=A
+
+// "odes" (Orc Frigate)
+[odes]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Hvsh" (Sea Witch)
+[Hvsh]
+Buttonpos=0,0
+Hotkey=A
+
+// "ssan" (Staff of Sanctuary)
+[ssan]
+Buttonpos=1,2
+Hotkey=X
+
+// "bgst" (Belt of Giant Strength +6)
+[bgst]
+Buttonpos=0,0
+Hotkey=A
+
+// "nhyc" (Dragon Turtle)
+[nhyc]
+Buttonpos=1,0
+Hotkey=Z
+
+// "spro" (Scroll of Protection)
+[spro]
+Buttonpos=0,1
+Hotkey=Q
+
+// "ngsp" (Sapper)
+[ngsp]
+Buttonpos=3,2
+Hotkey=V
+
+// "Rome" (Steel Melee Weapons,Thorium Melee Weapons,Arcanite Melee Weapons)
+[Rome]
+Buttonpos=0,0
+Hotkey=A,A,A
+
+// "Oshd" (Shadow Hunter)
+[Oshd]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "Avng" (Spirit of Vengeance)
+[Avng]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ACcl" (Chain Lightning)
+[ACcl]
+Buttonpos=1,2
+Hotkey=X
+
+// "Orkn" (Shadow Hunter)
+[Orkn]
+Buttonpos=0,1
+Hotkey=Q
+
+// "eaoe" (Ancient of Lore)
+[eaoe]
+Buttonpos=2,1
+Hotkey=D
+
+// "Rnam" (Coral Scales,Chitinous Scales,Razorspine Scales)
+[Rnam]
+Buttonpos=1,2
+Hotkey=X
+
+// "nftb" (Forest Troll Berserker)
+[nftb]
+Buttonpos=1,0
+Hotkey=Z
+
+// "scul" (Scroll of the Unholy Legion)
+[scul]
+Buttonpos=0,0
+Hotkey=A
+
+// "blba" (Bladebane Armor)
+[blba]
+Buttonpos=0,0
+Hotkey=A
+
+// "Emfr" (Keeper of the Grove)
+[Emfr]
+Buttonpos=0,2
+Hotkey=W
+
+// "Afbb" (Feedback)
+[Afbb]
+Buttonpos=1,2
+Hotkey=X
+
+// "Asds" (Kaboom!)
+[Asds]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Rusm" (Skeletal Mastery)
+[Rusm]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Orex" (Beastmaster)
+[Orex]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aco3" (Pick up Archer)
+[Aco3]
+Buttonpos=0,2
+Hotkey=W
+
+// "Arsp" (Stampede)
+[Arsp]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ANms" (Mana Shield)
+[ANms]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "AOsw" (Serpent Ward)
+[AOsw]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "Adch" (Disenchant)
+[Adch]
+Buttonpos=1,2
+Hotkey=X
+
+// "Afbk" (Feedback)
+[Afbk]
+Buttonpos=3,2
+Hotkey=V
+
+// "ANlg" (Exchange Lumber for Gold)
+[ANlg]
+Buttonpos=0,0
+Hotkey=A
+
+// "hwtw" (Scout Tower)
+[hwtw]
+Buttonpos=0,2
+Hotkey=W
+
+// "ndrf" (Draenei Guardian)
+[ndrf]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbdm" (Blue Dragonspawn Meddler)
+[nbdm]
+Buttonpos=1,0
+Hotkey=Z
+
+// "udes" (Undead Frigate)
+[udes]
+Buttonpos=1,0
+Hotkey=Z
+
+// "emtg" (Mountain Giant)
+[emtg]
+Buttonpos=2,0
+Hotkey=E
+
+// "negt" (High Elven Guard Tower)
+[negt]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ahea" (Heal)
+[Ahea]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ACcy" (Cyclone)
+[ACcy]
+Buttonpos=1,2
+Hotkey=X
+
+// "Alam" (Sacrifice)
+[Alam]
+Buttonpos=3,2
+Hotkey=V
+
+// "nsts" (Satyr Shadowdancer)
+[nsts]
+Buttonpos=2,2
+Hotkey=C
+
+// "Atru" (True Sight)
+[Atru]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aspo" (Slow Poison)
+[Aspo]
+Buttonpos=1,2
+Hotkey=X
+
+// "nggd" (Defender Golem)
+[nggd]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rucr" (Creature Carapace,Improved Creature Carapace,Advanced Creature Carapace)
+[Rucr]
+Buttonpos=1,1
+Hotkey=S,S,S
+
+// "nsno" (Snowy Owl)
+[nsno]
+Buttonpos=0,0
+Hotkey=A
+
+// "etrs" (Night Elf Transport Ship)
+[etrs]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANmr" (Mind Rot)
+[ANmr]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aaha" (Gather)
+[Aaha]
+Buttonpos=3,1
+Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
+
+// "zcso" (Terran Marine)
+[zcso]
+Buttonpos=0,2
+Hotkey=W
+
+// "Suhf" (Unholy Frenzy)
+[Suhf]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACsf" (Feral Spirit)
+[ACsf]
+Buttonpos=2,2
+Hotkey=C
+
+// "Rorb" (Reinforced Defenses)
+[Rorb]
+Buttonpos=2,1
+Hotkey=D
+
+// "rspd" (Rune of Speed)
+[rspd]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANbu" (Build (Neutral))
+[ANbu]
+Buttonpos=0,2
+Hotkey=W
+
+// "ntrd" (Dragon Turtle)
+[ntrd]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACpa" (Parasite)
+[ACpa]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "etoa" (Tree of Ages)
+[etoa]
+Buttonpos=0,2
+Hotkey=W
+
+// "hvlt" (Arcane Vault)
+[hvlt]
+Buttonpos=2,2
+Hotkey=C
+
+// "ANdh" (Drunken Haze)
+[ANdh]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Hpal" (Paladin)
+[Hpal]
+Buttonpos=2,2
+Hotkey=C,C,C
+
+// "Afa2" (Faerie Fire)
+[Afa2]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ugar" (Gargoyle)
+[ugar]
+Buttonpos=2,0
+Hotkey=E
+
+// "ntx2" (Advanced Death Tower)
+[ntx2]
+Buttonpos=0,2
+Hotkey=W
+
+// "Ecen" (Demigod)
+[Ecen]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rwdm" (War Drums Damage Increase)
+[Rwdm]
+Buttonpos=2,2
+Hotkey=C
+
+// "ACfn" (Frost Nova)
+[ACfn]
+Buttonpos=0,2
+Hotkey=W
+
+// "AOeq" (Earthquake)
+[AOeq]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Acor" (Corrosive Breath)
+[Acor]
+Buttonpos=0,2
+Hotkey=W
+
+// "rreb" (Rune of Rebirth)
+[rreb]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACde" (Devour Magic)
+[ACde]
+Buttonpos=0,2
+Hotkey=W
+
+// "skul" (Sacrificial Skull)
+[skul]
+Buttonpos=2,0
+Hotkey=E
+
+// "Ocb2" (Tauren Chieftain)
+[Ocb2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANfl" (Forked Lightning)
+[ANfl]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "sor1" (Shadow Orb +1)
+[sor1]
+Buttonpos=0,0
+Hotkey=A
+
+// "vamp" (Vampiric Potion)
+[vamp]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEsf" (Starfall)
+[AEsf]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "AUdc" (Death Coil)
+[AUdc]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "necr" (Rabbit)
+[necr]
+Buttonpos=0,0
+Hotkey=A
+
+// "nfrg" (Furbolg Champion)
+[nfrg]
+Buttonpos=0,0
+Hotkey=A
+
+// "nnsw" (Naga Siren)
+[nnsw]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ruac" (Cannibalize)
+[Ruac]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACca" (Carrion Swarm)
+[ACca]
+Buttonpos=1,2
+Hotkey=X
+
+// "AObu" (Build (Orc))
+[AObu]
+Buttonpos=0,2
+Hotkey=W
+
+// "nenf" (Enforcer)
+[nenf]
+Buttonpos=0,2
+Hotkey=W
+
+// "Afr2" (Frost Attack)
+[Afr2]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANso" (Soul Burn)
+[ANso]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "AOcr" (Critical Strike)
+[AOcr]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ANrf" (Rain of Fire)
+[ANrf]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Robf" (Burning Oil)
+[Robf]
+Buttonpos=2,1
+Hotkey=D
+
+// "Eevm" (Demon Hunter)
+[Eevm]
+Buttonpos=0,2
+Hotkey=W
+
+// "uaod" (Altar of Darkness)
+[uaod]
+Buttonpos=1,1
+Hotkey=S
+
+// "AIhm" (Shadow Meld (Item))
+[AIhm]
+Buttonpos=2,1
+Hotkey=D
+
+// "Rume" (Unholy Strength,Improved Unholy Strength,Advanced Unholy Strength)
+[Rume]
+Buttonpos=0,0
+Hotkey=A,A,A
+
+// "tlum" (Tiny Lumber Mill)
+[tlum]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aroc" (Barrage)
+[Aroc]
+Buttonpos=0,2
+Hotkey=W
+
+// "Npbm" (Brewmaster)
+[Npbm]
+Buttonpos=2,1
+Hotkey=D,D,D
+
+// "Aobk" (Berserker Upgrade)
+[Aobk]
+Buttonpos=1,2
+Hotkey=X
+
+// "nccd" (Diablo Cart)
+[nccd]
+Buttonpos=2,0
+Hotkey=E
+
+// "ACbb" (Bloodlust)
+[ACbb]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Aap3" (Disease Cloud)
+[Aap3]
+Buttonpos=1,2
+Hotkey=X
+
+// "nscb" (Spider Crab Shorecrawler)
+[nscb]
+Buttonpos=0,0
+Hotkey=A
+
+// "nfgo" (Forgotten One)
+[nfgo]
+Buttonpos=0,0
+Hotkey=A
+
+// "nvdg" (Greater Voidwalker)
+[nvdg]
+Buttonpos=3,0
+Hotkey=R
+
+// "ANav" (Avatar)
+[ANav]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "stwa" (Sturdy War Axe)
+[stwa]
+Buttonpos=0,0
+Hotkey=A
+
+// "ospm" (Spirit Walker)
+[ospm]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANtr" (True Sight)
+[ANtr]
+Buttonpos=0,2
+Hotkey=W
+
+// "ntkc" (Tuskarr Chieftain)
+[ntkc]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANc2" (Cluster Rockets)
+[ANc2]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ward" (Warsong Battle Drums)
+[ward]
+Buttonpos=0,0
+Hotkey=A
+
+// "AHbn" (Banish)
+[AHbn]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ngow" (Gnoll Warlord)
+[ngow]
+Buttonpos=3,0
+Hotkey=R
+
+// "nban" (Bandit)
+[nban]
+Buttonpos=0,2
+Hotkey=W
+
+// "nlds" (Makrura Deepseer)
+[nlds]
+Buttonpos=3,0
+Hotkey=R
+
+// "ACce" (Cleaving Attack)
+[ACce]
+Buttonpos=1,2
+Hotkey=X
+
+// "ssil" (Staff of Silence)
+[ssil]
+Buttonpos=0,0
+Hotkey=A
+
+// "Alsh" (Lightning Shield)
+[Alsh]
+Buttonpos=1,2
+Hotkey=X
+
+// "nanw" (Warrior Arachnathid)
+[nanw]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACds" (Divine Shield)
+[ACds]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "rej5" (Lesser Scroll of Replenishment)
+[rej5]
+Buttonpos=0,0
+Hotkey=A
+
+// "Afae" (Faerie Fire)
+[Afae]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ACch" (Charm)
+[ACch]
+Buttonpos=3,2
+Hotkey=V
+
+// "ndt1" (Cold Tower)
+[ndt1]
+Buttonpos=1,1
+Hotkey=S
+
+// "usep" (Crypt)
+[usep]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ndrs" (Draenei Seer)
+[ndrs]
+Buttonpos=0,2
+Hotkey=W
+
+// "ccmd" (Scepter of Mastery)
+[ccmd]
+Buttonpos=0,0
+Hotkey=A
+
+// "axas" (Ancestral Staff)
+[axas]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANlm" (Summon Lava Spawn)
+[ANlm]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ACcb" (Frost Bolt)
+[ACcb]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rupm" (Backpack)
+[Rupm]
+Buttonpos=3,0
+Hotkey=R
+
+// "nanm" (Barbed Arachnathid)
+[nanm]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACsa" (Searing Arrows)
+[ACsa]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "AEer" (Entangling Roots)
+[AEer]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Aimp" (Vorpal Blades)
+[Aimp]
+Buttonpos=0,2
+Hotkey=W
+
+// "hfoo" (Footman)
+[hfoo]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACdc" (Death Coil)
+[ACdc]
+Buttonpos=1,2
+Hotkey=X
+
+// "Resi" (Abolish Magic)
+[Resi]
+Buttonpos=0,1
+Hotkey=Q
+
+// "hbar" (Barracks)
+[hbar]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Haah" (High Elf Archmage)
+[Haah]
+Buttonpos=0,2
+Hotkey=W,W,W
+
+// "nlrv" (Deeplord Revenant)
+[nlrv]
+Buttonpos=0,0
+Hotkey=A
+
+// "CmdCancelRevive"
+[CmdCancelRevive]
+Buttonpos=3,2
+Hotkey=V
+
+// "ciri" (Robe of the Magi +6)
+[ciri]
+Buttonpos=0,0
+Hotkey=A
+
+// "Harf" (Paladin)
+[Harf]
+Buttonpos=0,2
+Hotkey=W
+
+// "Nngs" (Sea Witch)
+[Nngs]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "uban" (Banshee)
+[uban]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Udre" (Dreadlord)
+[Udre]
+Buttonpos=1,2
+Hotkey=X,X,X
+
+// "Rnsi" (Abolish Magic)
+[Rnsi]
+Buttonpos=1,2
+Hotkey=X
+
+// "unpl" (Necropolis)
+[unpl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Sdro" (Unload)
+[Sdro]
+Buttonpos=1,2
+Hotkey=X
+
+// "Ogrh" (Blademaster)
+[Ogrh]
+Buttonpos=0,2
+Hotkey=W
+
+// "ram1" (Ring of the Archmagi)
+[ram1]
+Buttonpos=0,0
+Hotkey=A
+
+// "Asth" (Storm Hammers)
+[Asth]
+Buttonpos=0,2
+Hotkey=W
+
+// "Repb" (Vorpal Blades)
+[Repb]
+Buttonpos=2,1
+Hotkey=D
+
+// "ogrk" (Gar'thok)
+[ogrk]
+Buttonpos=0,0
+Hotkey=A
+
+// "fgrd" (Red Drake Egg)
+[fgrd]
+Buttonpos=0,0
+Hotkey=A
+
+// "nmam" (Mammoth)
+[nmam]
+Buttonpos=0,0
+Hotkey=A
+
+// "Utic" (Dreadlord)
+[Utic]
+Buttonpos=0,2
+Hotkey=W
+
+// "ubot" (Undead Transport Ship)
+[ubot]
+Buttonpos=0,0
+Hotkey=A
+
+// "CmdBuildNightElf"
+[CmdBuildNightElf]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACtn" (Spawn Tentacle)
+[ACtn]
+Buttonpos=0,2
+Hotkey=W
+
+// "AUdd" (Death And Decay)
+[AUdd]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "crdt" (Crown of the Deathlord)
+[crdt]
+Buttonpos=0,0
+Hotkey=A
+
+// "Hssa" (High King)
+[Hssa]
+Buttonpos=2,2
+Hotkey=C,C,C
+
+// "Obla" (Blademaster)
+[Obla]
+Buttonpos=0,2
+Hotkey=W,W,W
+
+// "ostr" (Stronghold)
+[ostr]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rhar" (Iron Plating,Steel Plating,Mithril Plating)
+[Rhar]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "AHtc" (Thunder Clap)
+[AHtc]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANf1" (Factory)
+[ANf1]
+Buttonpos=0,2
+Hotkey=W
+
+// "Slo2" (Load Wisp)
+[Slo2]
+Buttonpos=0,2
+Hotkey=W
+
+// "nsrw" (Stormreaver Warlock)
+[nsrw]
+Buttonpos=0,0
+Hotkey=A
+
+// "nggg" (Guardian Golem)
+[nggg]
+Buttonpos=0,0
+Hotkey=A
+
+// "Robs" (Brute Strength)
+[Robs]
+Buttonpos=0,2
+Hotkey=W
+
+// "obai" (Baine)
+[obai]
+Buttonpos=2,0
+Hotkey=E
+
+// "srtl" (Serathil)
+[srtl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aenr" (Entangling Roots)
+[Aenr]
+Buttonpos=0,2
+Hotkey=W
+
+// "sneg" (Staff of Negation)
+[sneg]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANd1" (Demolish)
+[ANd1]
+Buttonpos=1,1
+Hotkey=S
+
+// "Efur" (Keeper of the Grove)
+[Efur]
+Buttonpos=0,2
+Hotkey=W
+
+// "nzep" (Zeppelin)
+[nzep]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Emns" (Keeper of the Grove)
+[Emns]
+Buttonpos=0,2
+Hotkey=W
+
+// "Hvwd" (Ranger)
+[Hvwd]
+Buttonpos=0,2
+Hotkey=W
+
+// "wtlg" (Wirt's Leg)
+[wtlg]
+Buttonpos=0,0
+Hotkey=A
+
+// "rat9" (Claws of Attack +9)
+[rat9]
+Buttonpos=0,0
+Hotkey=A
+
+// "ntrh" (Sea Turtle Hatchling)
+[ntrh]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANfs" (Flame Strike)
+[ANfs]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Adtg" (True Sight)
+[Adtg]
+Buttonpos=0,2
+Hotkey=W
+
+// "ngdk" (Green Drake)
+[ngdk]
+Buttonpos=1,2
+Hotkey=X
+
+// "nanb" (Barbed Arachnathid)
+[nanb]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANha" (Harvest)
+[ANha]
+Buttonpos=3,1
+Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
+
+// "oven" (Orb of Venom)
+[oven]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANin" (Inferno)
+[ANin]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "rej3" (Replenishment Potion)
+[rej3]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACf2" (Frost Armor)
+[ACf2]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+
+// "Rows" (Pulverize Damage Increase)
+[Rows]
+Buttonpos=1,2
+Hotkey=X
+
+// "mgtk" (Magic Key Chain)
+[mgtk]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACm2" (Spell Immunity, Spell Immunity)
+[ACm2]
+Buttonpos=1,1
+Hotkey=S
+
+// "ugol" (Haunted Gold Mine)
+[ugol]
+Buttonpos=2,0
+Hotkey=E
+
+// "Aave" (Destroyer Form)
+[Aave]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "rnec" (Rod of Necromancy)
+[rnec]
+Buttonpos=3,1
+Hotkey=F
+
+// "ntka" (Tuskarr Spearman)
+[ntka]
+Buttonpos=0,0
+Hotkey=A
+
+// "ndrp" (Draenei Protector)
+[ndrp]
+Buttonpos=0,0
+Hotkey=A
+
+// "ngno" (Gnoll)
+[ngno]
+Buttonpos=0,0
+Hotkey=A
+
+// "Arsg" (Summon Misha)
+[Arsg]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Aapl" (Disease Cloud)
+[Aapl]
+Buttonpos=1,2
+Hotkey=X
+
+// "Aply" (Polymorph)
+[Aply]
+Buttonpos=2,2
+Hotkey=C
+
+// "Arsq" (Summon Quilbeast)
+[Arsq]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "pams" (Anti-magic Potion)
+[pams]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACc2" (Crushing Wave)
+[ACc2]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "echm" (Chimaera)
+[echm]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACcv" (Crushing Wave)
+[ACcv]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "hgra" (Gryphon Aviary)
+[hgra]
+Buttonpos=1,2
+Hotkey=X
+
+// "CmdMove"
+[CmdMove]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ahnl" (Summoning Ritual)
+[Ahnl]
+Buttonpos=3,2
+Hotkey=V
+
+// "ACvp" (Vampiric Aura)
+[ACvp]
+Buttonpos=2,2
+Hotkey=C
+
+// "Rowd" (Witch Doctor Adept Training,Witch Doctor Master Training)
+[Rowd]
+Buttonpos=1,2
+Hotkey=X,X
+
+// "nbee" (Blood Elf Engineer)
+[nbee]
+Buttonpos=0,0
+Hotkey=A
+
+// "ucrm" (Burrowed Crypt Fiend)
+[ucrm]
+Buttonpos=1,0
+Hotkey=Z
+
+// "dsum" (Diamond of Summoning)
+[dsum]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aesr" (Sentinel)
+[Aesr]
+Buttonpos=0,2
+Hotkey=W
+
+// "ntt1" (Death Tower)
+[ntt1]
+Buttonpos=0,2
+Hotkey=W
+
+// "AHtb" (Storm Bolt)
+[AHtb]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Auuf" (Incite Unholy Frenzy)
+[Auuf]
+Buttonpos=1,2
+Hotkey=X
+
+// "Afsh" (Fragmentation Shards)
+[Afsh]
+Buttonpos=1,2
+Hotkey=X
+
+// "nfrl" (Furbolg)
+[nfrl]
+Buttonpos=0,0
+Hotkey=A
+
+// "hgtw" (Guard Tower)
+[hgtw]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACbh" (Bash)
+[ACbh]
+Buttonpos=2,2
+Hotkey=C
+
+// "Ansk" (Hardened Skin)
+[Ansk]
+Buttonpos=2,2
+Hotkey=C
+
+// "ACah" (Thorns Aura)
+[ACah]
+Buttonpos=2,2
+Hotkey=C
+
+// "rman" (Rune of Mana)
+[rman]
+Buttonpos=0,0
+Hotkey=A
+
+// "ehpr" (Hippogryph Rider)
+[ehpr]
+Buttonpos=0,0
+Hotkey=A
+
+// "AGbu" (Build (Naga))
+[AGbu]
+Buttonpos=0,2
+Hotkey=W
+
+// "ngnv" (Gnoll Overseer)
+[ngnv]
+Buttonpos=3,0
+Hotkey=R
+
+// "AIfg" (Cloud of Fog)
+[AIfg]
+Buttonpos=0,2
+Hotkey=W
+
+// "AUcs" (Carrion Swarm)
+[AUcs]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "nsrn" (Stormreaver Necrolyte)
+[nsrn]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbzd" (Bronze Dragon)
+[nbzd]
+Buttonpos=2,2
+Hotkey=C
+
+// "nbzk" (Bronze Drake)
+[nbzk]
+Buttonpos=1,2
+Hotkey=X
+
+// "esaz" (Essence of Aszune)
+[esaz]
+Buttonpos=0,0
+Hotkey=A
+
+// "Slo3" (Load)
+[Slo3]
+Buttonpos=0,2
+Hotkey=W
+
+// "Odrt" (Far Seer)
+[Odrt]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANfd" (Finger of Death)
+[ANfd]
+Buttonpos=0,1
+Hotkey=Q
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Ainf" (Inner Fire)
+[Ainf]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+
+// "AHbz" (Blizzard)
+[AHbz]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Nklj" (Warlock)
+[Nklj]
+Buttonpos=0,2
+Hotkey=W
+
+// "nkog" (Kobold Geomancer)
+[nkog]
+Buttonpos=2,0
+Hotkey=E
+
+// "nfrs" (Furbolg Shaman)
+[nfrs]
+Buttonpos=0,2
+Hotkey=W
+
+// "nfa2" (Pocket Factory)
+[nfa2]
+Buttonpos=0,0
+Hotkey=A
+
+// "arsh" (Arcanite Shield)
+[arsh]
+Buttonpos=0,0
+Hotkey=A
+
+// "Acny" (Cyclone)
+[Acny]
+Buttonpos=2,2
+Hotkey=C
+
+// "ANdc" (Dark Conversion)
+[ANdc]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "rdis" (Rune of Dispel Magic)
+[rdis]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rehs" (Hardened Skin)
+[Rehs]
+Buttonpos=2,1
+Hotkey=D
+
+// "pnvl" (Potion of Lesser Invulnerability)
+[pnvl]
+Buttonpos=2,2
+Hotkey=C
+
+// "ANfa" (Frost Arrows)
+[ANfa]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANsb" (Storm Bolt)
+[ANsb]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "Hpb2" (Paladin)
+[Hpb2]
+Buttonpos=0,2
+Hotkey=W
+
+// "pomn" (Potion of Omniscience)
+[pomn]
+Buttonpos=0,0
+Hotkey=A
+
+// "ncte" (Corrupted Tree of Eternity)
+[ncte]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANto" (Tornado)
+[ANto]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "rde4" (Ring of Protection +5)
+[rde4]
+Buttonpos=0,0
+Hotkey=A
+
+// "hars" (Arcane Sanctum)
+[hars]
+Buttonpos=2,1
+Hotkey=D
+
+// "Ekgg" (Keeper of the Grove)
+[Ekgg]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANch" (Charm)
+[ANch]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "emow" (Moon Well)
+[emow]
+Buttonpos=0,1
+Hotkey=Q
+
+// "AUsl" (Sleep)
+[AUsl]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "arsc" (Arcane Scroll)
+[arsc]
+Buttonpos=0,0
+Hotkey=A
+
+// "net2" (Advanced Energy Tower)
+[net2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ntrt" (Giant Sea Turtle)
+[ntrt]
+Buttonpos=0,0
+Hotkey=A
+
+// "utom" (Tomb of Relics)
+[utom]
+Buttonpos=2,2
+Hotkey=C
+
+// "Ewrd" (Warden)
+[Ewrd]
+Buttonpos=0,1
+Hotkey=Q
+
+// "ndth" (Dark Troll High Priest)
+[ndth]
+Buttonpos=0,2
+Hotkey=W
+
+// "Nbst" (Beastmaster)
+[Nbst]
+Buttonpos=1,2
+Hotkey=X,X,X
+
+// "nfsp" (Forest Troll Shadow Priest)
+[nfsp]
+Buttonpos=0,2
+Hotkey=W
+
+// "Apig" (Permanent Immolation)
+[Apig]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rura" (Creature Attack,Improved Creature Attack,Advanced Creature Attack)
+[Rura]
+Buttonpos=1,0
+Hotkey=Z,Z,Z
+
+// "ANtm" (Transmute)
+[ANtm]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "rhth" (Khadgar's Gem of Health)
+[rhth]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ahlh" (Improved Lumber Harvesting,Improved Lumber Harvesting,Advanced Lumber Harvesting)
+[Ahlh]
+Buttonpos=2,1
+Hotkey=D
+
+// "Adis" (Dispel Magic)
+[Adis]
+Buttonpos=1,2
+Hotkey=X
+
+// "Resm" (Strength of the Moon,Improved Strength of the Moon,Advanced Strength of the Moon)
+[Resm]
+Buttonpos=0,0
+Hotkey=A,A,A
+
+// "Rubu" (Burrow)
+[Rubu]
+Buttonpos=1,1
+Hotkey=S
+
+// "Atau" (Taunt)
+[Atau]
+Buttonpos=0,2
+Hotkey=W
+
+// "Udth" (Dreadlord)
+[Udth]
+Buttonpos=0,2
+Hotkey=W
+
+// "nstf" (Satyr Shadowdancer)
+[nstf]
+Buttonpos=0,2
+Hotkey=W
+
+// "nfpc" (Polar Furbolg Champion)
+[nfpc]
+Buttonpos=0,0
+Hotkey=A
+
+// "Abur" (Burrow)
+[Abur]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "Abu2" (Burrow)
+[Abu2]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "Nmsr" (Murloc Sorcerer)
+[Nmsr]
+Buttonpos=0,2
+Hotkey=W
+
+// "nhrr" (Harpy Rogue)
+[nhrr]
+Buttonpos=1,0
+Hotkey=Z
+
+// "pinv" (Potion of Invisibility)
+[pinv]
+Buttonpos=3,0
+Hotkey=R
+
+// "Hjai" (Archmage)
+[Hjai]
+Buttonpos=0,2
+Hotkey=W
+
+// "nnad" (Altar of the Depths)
+[nnad]
+Buttonpos=0,0
+Hotkey=A
+
+// "Hart" (Paladin)
+[Hart]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACps" (Possession)
+[ACps]
+Buttonpos=2,2
+Hotkey=C
+
+// "Oths" (Far Seer)
+[Oths]
+Buttonpos=0,2
+Hotkey=W
+
+// "CmdSelectSkill"
+[CmdSelectSkill]
+Buttonpos=3,1
+Hotkey=F
+
+// "ckng" (Crown of Kings +5)
+[ckng]
+Buttonpos=0,0
+Hotkey=A
+
+// "Eilm" (Demon Hunter)
+[Eilm]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACua" (Unholy Aura)
+[ACua]
+Buttonpos=2,2
+Hotkey=C
+
+// "nhew" (Worker)
+[nhew]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aro1" (Root)
+[Aro1]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "hsor" (Sorceress)
+[hsor]
+Buttonpos=0,0
+Hotkey=A
+
+// "ewsp" (Wisp)
+[ewsp]
+Buttonpos=0,0
+Hotkey=A
+
+// "phea" (Potion of Healing)
+[phea]
+Buttonpos=0,1
+Hotkey=Q
+
+// "eate" (Altar of Elders)
+[eate]
+Buttonpos=1,1
+Hotkey=S
+
+// "CmdAttackGround"
+[CmdAttackGround]
+Buttonpos=3,1
+Hotkey=F
+
+// "shhn" (Shield of Honor)
+[shhn]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANst" (Stampede)
+[ANst]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "sor7" (Shadow Orb +7)
+[sor7]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ropm" (Backpack)
+[Ropm]
+Buttonpos=3,0
+Hotkey=R
+
+// "Rhrt" (Barrage)
+[Rhrt]
+Buttonpos=2,1
+Hotkey=D
+
+// "hslv" (Healing Salve)
+[hslv]
+Buttonpos=3,0
+Hotkey=R
+
+// "Aegr" (Elune's Grace)
+[Aegr]
+Buttonpos=1,2
+Hotkey=X
+
+// "rugt" (Runed Gauntlets)
+[rugt]
+Buttonpos=0,0
+Hotkey=A
+
+// "halt" (Altar of Kings)
+[halt]
+Buttonpos=1,1
+Hotkey=S
+
+// "nubw" (Unbroken Darkweaver)
+[nubw]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACm3" (Spell Immunity, Spell Immunity)
+[ACm3]
+Buttonpos=1,2
+Hotkey=X
+
+// "grsl" (Grimoire of Souls)
+[grsl]
+Buttonpos=0,0
+Hotkey=A
+
+// "nhrw" (Harpy Windwitch)
+[nhrw]
+Buttonpos=2,0
+Hotkey=E
+
+// "Rhse" (Magic Sentry)
+[Rhse]
+Buttonpos=2,2
+Hotkey=C
+
+// "nstl" (Satyr Soulstealer)
+[nstl]
+Buttonpos=2,0
+Hotkey=E
+
+// "stre" (Staff of Reanimation)
+[stre]
+Buttonpos=0,0
+Hotkey=A
+
+// "ngrw" (Green Dragon Whelp)
+[ngrw]
+Buttonpos=0,2
+Hotkey=W
+
+// "nehy" (Elder Hydra)
+[nehy]
+Buttonpos=0,0
+Hotkey=A
+
+// "nsra" (Stormreaver Apprentice)
+[nsra]
+Buttonpos=0,0
+Hotkey=A
+
+// "nnsu" (Summoner)
+[nnsu]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACfa" (Frost Armor)
+[ACfa]
+Buttonpos=1,2
+Hotkey=X
+
+// "opeo" (Peon)
+[opeo]
+Buttonpos=0,0
+Hotkey=A
+
+// "zmar" (Marine)
+[zmar]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Redc" (Druid of the Claw Adept Training,Druid of the Claw Master Training)
+[Redc]
+Buttonpos=1,2
+Hotkey=X,X
+
+// "npn4" (Fire)
+[npn4]
+Buttonpos=0,2
+Hotkey=W
+
+// "gemt" (Gem of True Seeing)
+[gemt]
+Buttonpos=0,0
+Hotkey=A
+
+// "Renb" (Nature's Blessing)
+[Renb]
+Buttonpos=2,0
+Hotkey=E
+
+// "ANcr" (Chemical Rage)
+[ANcr]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "sman" (Scroll of Mana)
+[sman]
+Buttonpos=0,0
+Hotkey=A
+
+// "nggm" (Moss Covered Granite Golem)
+[nggm]
+Buttonpos=0,0
+Hotkey=A
+
+// "nrdk" (Red Dragon Whelp)
+[nrdk]
+Buttonpos=1,2
+Hotkey=X
+
+// "AEmb" (Mana Burn)
+[AEmb]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "hkee" (Keep)
+[hkee]
+Buttonpos=0,2
+Hotkey=W
+
+// "APwt" (Rune of the Watcher)
+[APwt]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aroo" (Root)
+[Aroo]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "Aap4" (Disease Cloud)
+[Aap4]
+Buttonpos=1,2
+Hotkey=X
+
+// "AUts" (Spiked Carapace)
+[AUts]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Uktl" (Lich)
+[Uktl]
+Buttonpos=0,2
+Hotkey=W
+
+// "nech" (Chicken)
+[nech]
+Buttonpos=0,0
+Hotkey=A
+
+// "ndrj" (Dalaran Reject)
+[ndrj]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACpy" (Polymorph)
+[ACpy]
+Buttonpos=1,2
+Hotkey=X
+
+// "Acoa" (Mount Hippogryph)
+[Acoa]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANdb" (Drunken Brawler)
+[ANdb]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "nfre" (Furbolg Elder Shaman)
+[nfre]
+Buttonpos=0,0
+Hotkey=A
+
+// "shcw" (Shaman Claws)
+[shcw]
+Buttonpos=0,0
+Hotkey=A
+
+// "Nalc" (Alchemist)
+[Nalc]
+Buttonpos=3,2
+Hotkey=V,V,V
+
+// "ANhs" (Healing Spray)
+[ANhs]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "AEbu" (Build (Night Elf))
+[AEbu]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aclf" (Cloud)
+[Aclf]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANgl" (Exchange Gold for Lumber)
+[ANgl]
+Buttonpos=0,2
+Hotkey=W
+
+// "Reeb" (Mark of the Claw)
+[Reeb]
+Buttonpos=3,1
+Hotkey=F
+
+// "uslh" (Slaughterhouse)
+[uslh]
+Buttonpos=3,1
+Hotkey=F
+
+// "nvdw" (Voidwalker)
+[nvdw]
+Buttonpos=2,0
+Hotkey=E
+
+// "Ruba" (Banshee Adept Training,Banshee Master Training)
+[Ruba]
+Buttonpos=1,2
+Hotkey=X,X
+
+// "hphx" (Phoenix)
+[hphx]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbel" (Blood Elf Lieutenant)
+[nbel]
+Buttonpos=0,0
+Hotkey=A
+
+// "Afzy" (Frenzy)
+[Afzy]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ntrg" (Gargantuan Sea Turtle)
+[ntrg]
+Buttonpos=0,0
+Hotkey=A
+
+// "nomg" (Ogre Magi)
+[nomg]
+Buttonpos=1,2
+Hotkey=X
+
+// "ofr2" (Orb of Fire)
+[ofr2]
+Buttonpos=0,0
+Hotkey=A
+
+// "Amls" (Aerial Shackles)
+[Amls]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aoth"
+[Aoth]
+Buttonpos=0,2
+Hotkey=W
+
+// "Reuv" (Ultravision)
+[Reuv]
+Buttonpos=2,0
+Hotkey=E
+
+// "Asal" (Pillage)
+[Asal]
+Buttonpos=1,2
+Hotkey=X
+
+// "Rufb" (Freezing Breath)
+[Rufb]
+Buttonpos=0,2
+Hotkey=W
+
+// "nccu" (Undead Cart)
+[nccu]
+Buttonpos=2,0
+Hotkey=E
+
+// "Anh1" (Heal)
+[Anh1]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "nnfm" (Coral Bed)
+[nnfm]
+Buttonpos=2,0
+Hotkey=E
+
+// "Rhan" (Animal War Training)
+[Rhan]
+Buttonpos=2,2
+Hotkey=C
+
+// "ACbn" (Banish)
+[ACbn]
+Buttonpos=1,2
+Hotkey=X
+
+// "nwar" (War Wagon)
+[nwar]
+Buttonpos=2,0
+Hotkey=E
+
+// "ACct" (Critical Strike)
+[ACct]
+Buttonpos=2,2
+Hotkey=C
+
+// "shen" (Enchanted Shield)
+[shen]
+Buttonpos=0,0
+Hotkey=A
+
+// "Awhe" (Heal)
+[Awhe]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+
+// "Ahan" (Animal War Training)
+[Ahan]
+Buttonpos=3,2
+Hotkey=V
+
+// "tdex" (Tome of Agility)
+[tdex]
+Buttonpos=0,0
+Hotkey=A
+
+// "hcas" (Castle)
+[hcas]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aflk" (Flak Cannons)
+[Aflk]
+Buttonpos=2,2
+Hotkey=C
+
+// "ACf3" (Finger of Pain)
+[ACf3]
+Buttonpos=2,1
+Hotkey=D
+Researchbuttonpos=0,1
+Researchhotkey=Q
+
+// "ACsh" (Shockwave)
+[ACsh]
+Buttonpos=1,2
+Hotkey=X
+
+// "Acht" (Howl of Terror)
+[Acht]
+Buttonpos=0,2
+Hotkey=W
+
+// "SNin" (Inferno)
+[SNin]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "gobm" (Goblin Land Mines)
+[gobm]
+Buttonpos=0,0
+Hotkey=A
+
+// "odef" (Orb of Darkness)
+[odef]
+Buttonpos=0,0
+Hotkey=A
+
+// "pghe" (Potion of Greater Healing)
+[pghe]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOhx" (Hex)
+[AOhx]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ndrv" (Revenant of the Depths)
+[ndrv]
+Buttonpos=0,0
+Hotkey=A
+
+// "npn1" (Fire)
+[npn1]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aenw" (Entangling Roots)
+[Aenw]
+Buttonpos=0,2
+Hotkey=W
+
+// "CmdBuildOrc"
+[CmdBuildOrc]
+Buttonpos=0,2
+Hotkey=W
+
+// "AEtq" (Tranquility)
+[AEtq]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Aslo" (Slow)
+[Aslo]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ANba" (Black Arrow)
+[ANba]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANta" (Taunt)
+[ANta]
+Buttonpos=0,2
+Hotkey=W
+
+// "ndtp" (Dark Troll Shadow Priest)
+[ndtp]
+Buttonpos=0,2
+Hotkey=W
+
+// "Adri" (Unload Instant)
+[Adri]
+Buttonpos=1,2
+Hotkey=X
+
+// "nmg2" (Murloc Hut)
+[nmg2]
+Buttonpos=0,0
+Hotkey=A
+
+// "hmtt" (Siege Engine)
+[hmtt]
+Buttonpos=2,0
+Hotkey=E
+
+// "rwat" (Rune of the Watcher)
+[rwat]
+Buttonpos=0,0
+Hotkey=A
+
+// "Asps" (Spell Steal)
+[Asps]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "wneg" (Wand of Negation)
+[wneg]
+Buttonpos=3,1
+Hotkey=F
+
+// "ACst" (Shockwave)
+[ACst]
+Buttonpos=0,2
+Hotkey=W
+
+// "sor3" (Shadow Orb +3)
+[sor3]
+Buttonpos=0,0
+Hotkey=A
+
+// "rots" (Scepter of the Sea)
+[rots]
+Buttonpos=0,0
+Hotkey=A
+
+// "edob" (Hunter's Hall)
+[edob]
+Buttonpos=2,0
+Hotkey=E
+
+// "SNdc" (Dark Conversion)
+[SNdc]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "nw2w" (Orc Warlock)
+[nw2w]
+Buttonpos=0,2
+Hotkey=W
+
+// "nfps" (Polar Furbolg Shaman)
+[nfps]
+Buttonpos=2,0
+Hotkey=E
+
+// "Roar" (Steel Armor,Thorium Armor,Arcanite Armor)
+[Roar]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "Abrf" (Bear Form)
+[Abrf]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "dust" (Dust of Appearance)
+[dust]
+Buttonpos=0,0
+Hotkey=A
+
+// "AHav" (Avatar)
+[AHav]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Aenc" (Load)
+[Aenc]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+
+// "AOac" (Command Aura)
+[AOac]
+Buttonpos=0,2
+Hotkey=W
+
+// "dtsb" (Drek'thar's Spellbook)
+[dtsb]
+Buttonpos=0,0
+Hotkey=A
+
+// "nsbs" (Submerged Snap Dragon)
+[nsbs]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACff" (Faerie Fire)
+[ACff]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "nthl" (Thunder Lizard)
+[nthl]
+Buttonpos=1,2
+Hotkey=X
+
+// "Rhac" (Improved Masonry,Advanced Masonry,Imbued Masonry)
+[Rhac]
+Buttonpos=1,0
+Hotkey=Z,Z,Z
+
+// "nlpd" (Makrura Pooldweller)
+[nlpd]
+Buttonpos=0,0
+Hotkey=A
+
+// "uzg2" (Nerubian Tower)
+[uzg2]
+Buttonpos=1,2
+Hotkey=X
+
+// "Abu3" (Burrow)
+[Abu3]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "nnrg" (Naga Royal Guard)
+[nnrg]
+Buttonpos=0,0
+Hotkey=A
+
+// "Apxf" (Phoenix Fire)
+[Apxf]
+Buttonpos=1,2
+Hotkey=X
+
+// "Nmag" (Pit Lord)
+[Nmag]
+Buttonpos=0,0
+Hotkey=A
+
+// "hatw" (Arcane Tower)
+[hatw]
+Buttonpos=2,2
+Hotkey=C
+
+// "nfra" (Furbolg Ursa Warrior)
+[nfra]
+Buttonpos=0,0
+Hotkey=A
+
+// "nmpe" (Mur'gul Slave)
+[nmpe]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aent" (Entangle Gold Mine)
+[Aent]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANs1" (Pocket Factory)
+[ANs1]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "nanc" (Crystal Arachnathid)
+[nanc]
+Buttonpos=0,0
+Hotkey=A
+
+// "nfsh" (Forest Troll High Priest)
+[nfsh]
+Buttonpos=2,2
+Hotkey=C
+
+// "nfpu" (Polar Furbolg Ursa Warrior)
+[nfpu]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEsv" (Vengeance)
+[AEsv]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Adef" (Defend)
+[Adef]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Agyb" (Flying Machine Bombs)
+[Agyb]
+Buttonpos=1,2
+Hotkey=X
+
+// "Arsk" (Resistant Skin)
+[Arsk]
+Buttonpos=3,2
+Hotkey=V
+
+// "Othr" (Far Seer)
+[Othr]
+Buttonpos=0,2
+Hotkey=W
+
+// "Arsw" (Serpent Ward)
+[Arsw]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ncta" (Corrupted Tree of Ages)
+[ncta]
+Buttonpos=0,2
+Hotkey=W
+
+// "Roen" (Ensnare)
+[Roen]
+Buttonpos=0,2
+Hotkey=W
+
+// "ncg3" (Clockwerk Goblin)
+[ncg3]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rost" (Shaman Adept Training,Shaman Master Training)
+[Rost]
+Buttonpos=0,2
+Hotkey=W,W
+
+// "Rhfs" (Fragmentation Shards)
+[Rhfs]
+Buttonpos=1,1
+Hotkey=S
+
+// "tgrh" (Tiny Great Hall)
+[tgrh]
+Buttonpos=1,2
+Hotkey=X
+
+// "sor5" (Shadow Orb +5)
+[sor5]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aeye" (Sentry Ward)
+[Aeye]
+Buttonpos=0,2
+Hotkey=W
+
+// "Nswt" (Sea Witch)
+[Nswt]
+Buttonpos=0,2
+Hotkey=W
+
+// "Asb2" (Submerge)
+[Asb2]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "Afrz" (Freezing Breath)
+[Afrz]
+Buttonpos=1,2
+Hotkey=X
+
+// "nhym" (Hydromancer)
+[nhym]
+Buttonpos=0,2
+Hotkey=W
+
+// "desc" (Kelen's Dagger of Escape)
+[desc]
+Buttonpos=0,0
+Hotkey=A
+
+// "edcm" (Druid of the Claw)
+[edcm]
+Buttonpos=1,0
+Hotkey=Z
+
+// "usap" (Sacrificial Pit)
+[usap]
+Buttonpos=0,2
+Hotkey=W
+
+// "ndrl" (Draenei Laborer)
+[ndrl]
+Buttonpos=0,0
+Hotkey=A
+
+// "ucry" (Crypt Fiend)
+[ucry]
+Buttonpos=1,0
+Hotkey=Z
+
+// "nplb" (Polar Bear)
+[nplb]
+Buttonpos=0,0
+Hotkey=A
+
+// "edot" (Druid of the Talon)
+[edot]
+Buttonpos=1,0
+Hotkey=Z
+
+// "AUbu" (Build (Undead))
+[AUbu]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aps2" (Possession)
+[Aps2]
+Buttonpos=2,2
+Hotkey=C
+
+// "ACtc" (Slam)
+[ACtc]
+Buttonpos=1,2
+Hotkey=X
+
+// "Osam" (Blademaster)
+[Osam]
+Buttonpos=0,2
+Hotkey=W
+
+// "tcas" (Tiny Castle)
+[tcas]
+Buttonpos=0,0
+Hotkey=A
+
+// "rej4" (Greater Replenishment Potion)
+[rej4]
+Buttonpos=0,0
+Hotkey=A
+
+// "SNdd" (Death And Decay)
+[SNdd]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Ambb" (Mana Burn)
+[Ambb]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "stel" (Staff of Teleportation)
+[stel]
+Buttonpos=3,1
+Hotkey=F
+
+// "nlps" (Summoned Prawn)
+[nlps]
+Buttonpos=0,0
+Hotkey=A
+
+// "ocbw" (Fel Burrow)
+[ocbw]
+Buttonpos=0,1
+Hotkey=Q
+
+// "AUfn" (Frost Nova)
+[AUfn]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "nbds" (Blue Dragonspawn Sorcerer)
+[nbds]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANak" (Quill Spray)
+[ANak]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "ANde" (Demolish)
+[ANde]
+Buttonpos=1,1
+Hotkey=S
+
+// "ANcs" (Cluster Rockets)
+[ANcs]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANsh" (Shockwave)
+[ANsh]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ncmw" (Corrupted Moon Well)
+[ncmw]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Ambd" (Mana Burn)
+[Ambd]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Ahsb" (Sundering Blades)
+[Ahsb]
+Buttonpos=0,2
+Hotkey=W
+
+// "Opgh" (Blademaster)
+[Opgh]
+Buttonpos=0,2
+Hotkey=W
+
+// "AChw" (Healing Ward)
+[AChw]
+Buttonpos=0,2
+Hotkey=W
+
+// "otrb" (Burrow)
+[otrb]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Rews" (Well Spring)
+[Rews]
+Buttonpos=3,0
+Hotkey=R
+
+// "zzrg" (Zergling)
+[zzrg]
+Buttonpos=0,2
+Hotkey=W
+
+// "nits" (Ice Troll Berserker)
+[nits]
+Buttonpos=1,0
+Hotkey=Z
+
+// "nftk" (Forest Troll Warlord)
+[nftk]
+Buttonpos=0,2
+Hotkey=W
+
+// "nogl" (Ogre Lord)
+[nogl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ausm" (Skeletal Mastery)
+[Ausm]
+Buttonpos=3,2
+Hotkey=V
+
+// "nwgs" (Couatl)
+[nwgs]
+Buttonpos=2,2
+Hotkey=C
+
+// "nndr" (Nether Dragon)
+[nndr]
+Buttonpos=2,2
+Hotkey=C
+
+// "Hlgr" (Dark Knight)
+[Hlgr]
+Buttonpos=0,2
+Hotkey=W
+
+// "hspt" (Spellbreaker)
+[hspt]
+Buttonpos=2,0
+Hotkey=E
+
+// "ngos" (Snarlmane the Bloodgorger)
+[ngos]
+Buttonpos=3,0
+Hotkey=R
+
+// "nskk" (Skink)
+[nskk]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACfu" (Frost Armor)
+[ACfu]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "Auco" (Unstable Concoction)
+[Auco]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Uvar" (Dreadlord)
+[Uvar]
+Buttonpos=0,2
+Hotkey=W
+
+// "nahy" (Ancient Hydra)
+[nahy]
+Buttonpos=0,0
+Hotkey=A
+
+// "thdm" (Thunderlizard Diamond)
+[thdm]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACrk" (Resistant Skin)
+[ACrk]
+Buttonpos=3,2
+Hotkey=V
+
+// "nctl" (Corrupted Tree of Life)
+[nctl]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbt1" (Boulder Tower)
+[nbt1]
+Buttonpos=1,0
+Hotkey=Z
+
+// "AHbu" (Build (Human))
+[AHbu]
+Buttonpos=0,2
+Hotkey=W
+
+// "umtw" (Meat Wagon)
+[umtw]
+Buttonpos=0,0
+Hotkey=A
+
+// "stpg" (Clockwork Penguin)
+[stpg]
+Buttonpos=0,0
+Hotkey=A
+
+// "Arpb" (Replenish)
+[Arpb]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "rej2" (Lesser Replenishment Potion)
+[rej2]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANwm" (Watery Minion)
+[ANwm]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "nft2" (Advanced Flame Tower)
+[nft2]
+Buttonpos=0,2
+Hotkey=W
+
+// "CmdHoldPos"
+[CmdHoldPos]
+Buttonpos=2,0
+Hotkey=E
+
+// "AEfn" (Force of Nature)
+[AEfn]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "AHdr" (Siphon Mana)
+[AHdr]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "Abtl" (Battle Stations)
+[Abtl]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANg3" (Robo-Goblin)
+[ANg3]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "nadk" (Blue Drake)
+[nadk]
+Buttonpos=1,2
+Hotkey=X
+
+// "Nbbc" (Blademaster)
+[Nbbc]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aco2" (Mount Hippogryph)
+[Aco2]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aabr" (Aura of Blight)
+[Aabr]
+Buttonpos=2,2
+Hotkey=C
+
+// "Adsm" (Dispel Magic)
+[Adsm]
+Buttonpos=2,2
+Hotkey=C
+
+// "Awrg" (War Stomp)
+[Awrg]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANc3" (Cluster Rockets)
+[ANc3]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ACfb" (Firebolt)
+[ACfb]
+Buttonpos=2,2
+Hotkey=C
+
+// "will" (Wand of Illusion)
+[will]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANs3" (Pocket Factory)
+[ANs3]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "nnsg" (Spawning Grounds)
+[nnsg]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Auns" (Unsummon Building)
+[Auns]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACfl" (Forked Lightning)
+[ACfl]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACat" (Trueshot Aura)
+[ACat]
+Buttonpos=2,2
+Hotkey=C
+
+// "Resc" (Sentinel)
+[Resc]
+Buttonpos=2,2
+Hotkey=C
+
+// "AHab" (Brilliance Aura)
+[AHab]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "Rhfc" (Flak Cannons)
+[Rhfc]
+Buttonpos=2,2
+Hotkey=C
+
+// "ofir" (Orb of Fire)
+[ofir]
+Buttonpos=0,2
+Hotkey=W
+
+// "ugrv" (Graveyard)
+[ugrv]
+Buttonpos=3,0
+Hotkey=R
+
+// "Rolf" (Liquid Fire)
+[Rolf]
+Buttonpos=2,1
+Hotkey=D
+
+// "unp1" (Halls of the Dead)
+[unp1]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANr3" (Rain of Chaos)
+[ANr3]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "AIbk" (Blink (Item Version))
+[AIbk]
+Buttonpos=1,2
+Hotkey=X
+
+// "Awha" (Gather)
+[Awha]
+Buttonpos=3,1
+Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
+
+// "Aeib" (Improved Bows)
+[Aeib]
+Buttonpos=2,2
+Hotkey=C
+
+// "ACbk" (Black Arrow)
+[ACbk]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "ANbf" (Breath of Fire)
+[ANbf]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "nkob" (Kobold)
+[nkob]
+Buttonpos=1,2
+Hotkey=X
+
+// "AEah" (Thorns Aura)
+[AEah]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ugrm" (Stone Form Gargoyle)
+[ugrm]
+Buttonpos=2,0
+Hotkey=E
+
+// "ncrb" (Crab)
+[ncrb]
+Buttonpos=0,0
+Hotkey=A
+
+// "Hblm" (Blood Mage)
+[Hblm]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "otbk" (Berserker)
+[otbk]
+Buttonpos=3,2
+Hotkey=V
+
+// "rat3" (Claws of Attack +3)
+[rat3]
+Buttonpos=0,0
+Hotkey=A
+
+// "nntt" (Temple of Tides)
+[nntt]
+Buttonpos=0,0
+Hotkey=A
+
+// "edos" (Chimaera Roost)
+[edos]
+Buttonpos=1,2
+Hotkey=X
+
+// "ndmu" (Dalaran Mutant)
+[ndmu]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACba" (Brilliance Aura)
+[ACba]
+Buttonpos=2,2
+Hotkey=C
+
+// "Aweb" (Web)
+[Aweb]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Rusl" (Skeletal Longevity)
+[Rusl]
+Buttonpos=2,1
+Hotkey=D
+
+// "Adet" (Detector)
+[Adet]
+Buttonpos=0,2
+Hotkey=W
+
+// "asbl" (Assassin's Blade)
+[asbl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ewar" (Warden)
+[Ewar]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "Rerh" (Reinforced Hides,Improved Reinforced Hides,Advanced Reinforced Hides)
+[Rerh]
+Buttonpos=1,1
+Hotkey=S,S,S
+
+// "ovln" (Voodoo Lounge)
+[ovln]
+Buttonpos=1,2
+Hotkey=X
+
+// "AUls" (Locust Swarm)
+[AUls]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ACev" (Evasion)
+[ACev]
+Buttonpos=2,2
+Hotkey=C
+
+// "obar" (Barracks)
+[obar]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ngog" (Guard Dog)
+[ngog]
+Buttonpos=0,0
+Hotkey=A
+
+// "rde1" (Ring of Protection +2)
+[rde1]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACsl" (Sleep)
+[ACsl]
+Buttonpos=0,2
+Hotkey=W
+
+// "nfpt" (Polar Furbolg Tracker)
+[nfpt]
+Buttonpos=0,0
+Hotkey=A
+
+// "ntkh" (Tuskarr Healer)
+[ntkh]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACav" (Devotion Aura)
+[ACav]
+Buttonpos=0,2
+Hotkey=W
+
+// "Reib" (Improved Bows)
+[Reib]
+Buttonpos=1,2
+Hotkey=X
+
+// "npn5" (Storm)
+[npn5]
+Buttonpos=0,2
+Hotkey=W
+
+// "nnht" (Nether Dragon Hatchling)
+[nnht]
+Buttonpos=0,2
+Hotkey=W
+
+// "Resw" (Strength of the Wild,Improved Strength of the Wild,Advanced Strength of the Wild)
+[Resw]
+Buttonpos=1,0
+Hotkey=Z,Z,Z
+
+// "Asb1" (Submerge)
+[Asb1]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "rres" (Rune of Restoration)
+[rres]
+Buttonpos=0,0
+Hotkey=A
+
+// "ensh" (Naisha)
+[ensh]
+Buttonpos=1,0
+Hotkey=Z
+
+// "texp" (Tome of Experience)
+[texp]
+Buttonpos=0,0
+Hotkey=A
+
+// "CmdBuildUndead"
+[CmdBuildUndead]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACam" (Anti-magic Shell)
+[ACam]
+Buttonpos=1,2
+Hotkey=X
+
+// "Apoi" (Poison Sting)
+[Apoi]
+Buttonpos=0,0
+Hotkey=A
+
+// "ofor" (War Mill)
+[ofor]
+Buttonpos=2,0
+Hotkey=E
+
+// "ANg1" (Robo-Goblin)
+[ANg1]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ndrh" (Draenei Harbinger)
+[ndrh]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rhme" (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords)
+[Rhme]
+Buttonpos=0,0
+Hotkey=A,A,A
+
+// "nmtw" (Mur'gul Tidewarrior)
+[nmtw]
+Buttonpos=0,0
+Hotkey=A
+
+// "zjug" (Orc Juggernaught)
+[zjug]
+Buttonpos=0,0
+Hotkey=A
+
+// "tkno" (Tome of Power)
+[tkno]
+Buttonpos=0,0
+Hotkey=A
+
+// "Afra" (Frost Attack)
+[Afra]
+Buttonpos=0,2
+Hotkey=W
+
+// "Hpb1" (Paladin)
+[Hpb1]
+Buttonpos=0,2
+Hotkey=W
+
+// "Amb2" (Replenish Mana)
+[Amb2]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "Aews" (Well Spring)
+[Aews]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ANbr" (Battle Roar)
+[ANbr]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "Ogld" (Warlock)
+[Ogld]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Apmf" (Phoenix Fire)
+[Apmf]
+Buttonpos=0,2
+Hotkey=W
+
+// "Awrs" (War Stomp)
+[Awrs]
+Buttonpos=1,2
+Hotkey=X
+
+// "Ane2" (Select Unit)
+[Ane2]
+Buttonpos=0,0
+Hotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
+
+// "AHre" (Resurrection)
+[AHre]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Apsh" (Phase Shift)
+[Apsh]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "owad" (Slave Master)
+[owad]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANcl" (Channel)
+[ANcl]
+Buttonpos=2,0
+Hotkey=E
+
+// "nrwm" (Red Dragon)
+[nrwm]
+Buttonpos=0,2
+Hotkey=W
+
+// "AHbh" (Bash)
+[AHbh]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "AUdp" (Death Pact)
+[AUdp]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "eaom" (Ancient of War)
+[eaom]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Acdh" (Drunken Haze)
+[Acdh]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "nadw" (Blue Dragon Whelp)
+[nadw]
+Buttonpos=0,2
+Hotkey=W
+
+// "nmbg" (Mur'gul Blood-Gill)
+[nmbg]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ubal" (Dreadlord)
+[Ubal]
+Buttonpos=0,2
+Hotkey=W
+
+// "AUim" (Impale)
+[AUim]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Amrf" (Crow Form)
+[Amrf]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "horl" (Sacred Relic)
+[horl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Adec" (Dismount)
+[Adec]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACs9" (Feral Spirit)
+[ACs9]
+Buttonpos=1,2
+Hotkey=X
+
+// "tels" (Goblin Night Scope)
+[tels]
+Buttonpos=0,0
+Hotkey=A
+
+// "Acoh" (Pick up Archer)
+[Acoh]
+Buttonpos=0,2
+Hotkey=W
+
+// "pgma" (Potion of Greater Mana)
+[pgma]
+Buttonpos=0,0
+Hotkey=A
+
+// "Adcn" (Disenchant)
+[Adcn]
+Buttonpos=1,2
+Hotkey=X
+
+// "eaow" (Ancient of Wind)
+[eaow]
+Buttonpos=0,2
+Hotkey=W
+
+// "nass" (Assassin)
+[nass]
+Buttonpos=0,2
+Hotkey=W
+
+// "dkfw" (Keg of Thunderwater)
+[dkfw]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANpa" (Parasite)
+[ANpa]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Adt1" (Detector)
+[Adt1]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rotr" (Troll Regeneration,Improved Troll Regeneration,Advanced Troll Regeneration)
+[Rotr]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANia" (Incinerate)
+[ANia]
+Buttonpos=2,2
+Hotkey=C
+Unbuttonpos=2,2
+Unhotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "nsrv" (Revenant of the Seas)
+[nsrv]
+Buttonpos=0,0
+Hotkey=A
+
+// "ogre" (Great Hall)
+[ogre]
+Buttonpos=0,0
+Hotkey=A
+
+// "Amfl" (Mana Flare)
+[Amfl]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "Sbtl" (Battle Stations)
+[Sbtl]
+Buttonpos=0,2
+Hotkey=W
+
+// "nmsc" (Mur'gul Shadowcaster)
+[nmsc]
+Buttonpos=0,0
+Hotkey=A
+
+// "Huth" (Paladin)
+[Huth]
+Buttonpos=0,2
+Hotkey=W
+
+// "rin1" (Mantle of Intelligence +3)
+[rin1]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANf2" (Factory)
+[ANf2]
+Buttonpos=0,2
+Hotkey=W
+
+// "hmpr" (Priest)
+[hmpr]
+Buttonpos=1,0
+Hotkey=Z
+
+// "AHca" (Cold Arrows)
+[AHca]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "odoc" (Witch Doctor)
+[odoc]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Redt" (Druid of the Talon Adept Training,Druid of the Talon Master Training)
+[Redt]
+Buttonpos=1,2
+Hotkey=X,X
+
+// "edry" (Dryad)
+[edry]
+Buttonpos=0,0
+Hotkey=A
+
+// "ubsp" (Destroyer)
+[ubsp]
+Buttonpos=0,0
+Hotkey=A
+
+// "Arej" (Rejuvenation)
+[Arej]
+Buttonpos=1,2
+Hotkey=X
+
+// "ncgb" (Clockwerk Goblin)
+[ncgb]
+Buttonpos=0,2
+Hotkey=W
+
+// "ntks" (Tuskarr Sorcerer)
+[ntks]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACdm" (Abolish Magic)
+[ACdm]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "nfrb" (Furbolg Tracker)
+[nfrb]
+Buttonpos=0,0
+Hotkey=A
+
+// "Awrh" (War Stomp)
+[Awrh]
+Buttonpos=2,2
+Hotkey=C
+
+// "Edmf" (Demon Huntress)
+[Edmf]
+Buttonpos=0,2
+Hotkey=W
+
+// "orbr" (Reinforced Burrow)
+[orbr]
+Buttonpos=0,1
+Hotkey=Q
+
+// "uaco" (Acolyte)
+[uaco]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbda" (Blue Dragonspawn Apprentice)
+[nbda]
+Buttonpos=0,0
+Hotkey=A
+
+// "AUau" (Unholy Aura)
+[AUau]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "Reht" (Hippogryph Taming)
+[Reht]
+Buttonpos=0,2
+Hotkey=W
+
+// "CmdBuildNaga"
+[CmdBuildNaga]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANfy" (Factory)
+[ANfy]
+Buttonpos=0,2
+Hotkey=W
+
+// "Asac" (Sacrifice)
+[Asac]
+Buttonpos=0,0
+Hotkey=A
+
+// "AUfa" (Frost Armor)
+[AUfa]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Ulic" (Lich)
+[Ulic]
+Buttonpos=2,2
+Hotkey=C,C,C
+
+// "tstr" (Tome of Strength)
+[tstr]
+Buttonpos=0,0
+Hotkey=A
+
+// "ncfs" (Watery Minion)
+[ncfs]
+Buttonpos=0,0
+Hotkey=A
+
+// "ngns" (Gnoll Assassin)
+[ngns]
+Buttonpos=0,0
+Hotkey=A
+
+// "CmdBuild"
+[CmdBuild]
+Buttonpos=0,2
+Hotkey=W
+
+// "Apos" (Possession)
+[Apos]
+Buttonpos=2,2
+Hotkey=C
+
+// "Awh2" (Gather)
+[Awh2]
+Buttonpos=3,1
+Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
+
+// "ANr2" (Reincarnation)
+[ANr2]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Hmbr" (Mountain King)
+[Hmbr]
+Buttonpos=0,2
+Hotkey=W
+
+// "Ocbh" (Tauren Chieftain)
+[Ocbh]
+Buttonpos=0,2
+Hotkey=W
+
+// "Ahrl" (Harvest)
+[Ahrl]
+Buttonpos=3,1
+Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
+
+// "AUdr" (Dark Ritual)
+[AUdr]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "AOww" (Bladestorm)
+[AOww]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ngrd" (Green Dragon)
+[ngrd]
+Buttonpos=2,2
+Hotkey=C
+
+// "bfhr" (Bloodfeather's Heart)
+[bfhr]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ahid" (Shadow Meld)
+[Ahid]
+Buttonpos=2,1
+Hotkey=D
+
+// "ACvs" (Envenomed Weapons)
+[ACvs]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACr1" (Roar)
+[ACr1]
+Buttonpos=0,2
+Hotkey=W
+
+// "Edem" (Demon Hunter)
+[Edem]
+Buttonpos=0,2
+Hotkey=W,W,W
+
+// "Rhla" (Studded Leather Armor,Reinforced Leather Armor,Dragonhide Armor)
+[Rhla]
+Buttonpos=1,1
+Hotkey=S,S,S
+
+// "uabc" (Abomination)
+[uabc]
+Buttonpos=1,0
+Hotkey=Z
+
+// "owtw" (Watch Tower)
+[owtw]
+Buttonpos=3,0
+Hotkey=R
+
+// "Nfir" (Firelord)
+[Nfir]
+Buttonpos=3,1
+Hotkey=F,F,F
+
+// "npgf" (Pig Farm)
+[npgf]
+Buttonpos=0,0
+Hotkey=A
+
+// "ubdd" (Sapphiron)
+[ubdd]
+Buttonpos=0,0
+Hotkey=A
+
+// "ufro" (Frost Wyrm)
+[ufro]
+Buttonpos=0,0
+Hotkey=A
+
+// "rej1" (Minor Replenishment Potion)
+[rej1]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEsh" (Shadow Strike)
+[AEsh]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ANrn" (Reincarnation)
+[ANrn]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ACpv" (Pulverize)
+[ACpv]
+Buttonpos=0,1
+Hotkey=Q
+
+// "mcri" (Mechanical Critter)
+[mcri]
+Buttonpos=2,0
+Hotkey=E
+
+// "nmgr" (Magnataur Reaver)
+[nmgr]
+Buttonpos=0,0
+Hotkey=A
+
+// "AHds" (Divine Shield)
+[AHds]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ncea" (Centaur Archer)
+[ncea]
+Buttonpos=0,0
+Hotkey=A
+
+// "Arai" (Raise Dead)
+[Arai]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ritd" (Ritual Dagger)
+[ritd]
+Buttonpos=1,0
+Hotkey=Z
+
+// "CmdPatrol"
+[CmdPatrol]
+Buttonpos=0,1
+Hotkey=Q
+
+// "nnrs" (Submerged Naga Royal Guard)
+[nnrs]
+Buttonpos=0,0
+Hotkey=A
+
+// "nmgv" (Magic Vault)
+[nmgv]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rugf" (Ghoul Frenzy)
+[Rugf]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Augf" (Ghoul Frenzy)
+[Augf]
+Buttonpos=1,2
+Hotkey=X
+
+// "Nbrn" (Dark Ranger)
+[Nbrn]
+Buttonpos=1,1
+Hotkey=S,S,S
+
+// "Ruar" (Unholy Armor,Improved Unholy Armor,Advanced Unholy Armor)
+[Ruar]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "nnwa" (Nerubian Warrior)
+[nnwa]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rhri" (Long Rifles)
+[Rhri]
+Buttonpos=1,2
+Hotkey=X
+
+// "pdi2" (Potion of Divinity)
+[pdi2]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rhfl" (Flare)
+[Rhfl]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANht" (Howl of Terror)
+[ANht]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "hrif" (Rifleman)
+[hrif]
+Buttonpos=1,0
+Hotkey=Z
+
+// "shea" (Scroll of Healing)
+[shea]
+Buttonpos=1,2
+Hotkey=X
+
+// "nskf" (Burning Archer)
+[nskf]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOws" (War Stomp)
+[AOws]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANsi" (Silence)
+[ANsi]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Aroa" (Roar)
+[Aroa]
+Buttonpos=0,2
+Hotkey=W
 
 // "Aall" ("Shop Sharing, Allied Bldg.")
 [Aall]
@@ -463,102 +5362,266 @@ Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-// "Rerh" (Reinforced Hides,Improved Reinforced Hides,Advanced Reinforced Hides)
-[Rerh]
-Buttonpos=1,1
-Hotkey=S,S,S
-
-// "Afbk" (Feedback)
-[Afbk]
-Buttonpos=3,2
-Hotkey=V
-
-// "ward" (Warsong Battle Drums)
-[ward]
+// "envl" (Enchanted Vial)
+[envl]
 Buttonpos=0,0
 Hotkey=A
 
-// "ncer" (Centaur Drudge)
-[ncer]
+// "ACbl" (Bloodlust)
+[ACbl]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "crys" (Crystal Ball)
+[crys]
+Buttonpos=0,0
+Hotkey=A
+
+// "hhes" (Swordsman)
+[hhes]
+Buttonpos=2,2
+Hotkey=C
+
+// "pres" (Potion of Restoration)
+[pres]
+Buttonpos=0,0
+Hotkey=A
+
+// "nws1" (Dragon Hawk)
+[nws1]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACd2" (Abolish Magic)
+[ACd2]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "ncco" (Orc Cart)
+[ncco]
+Buttonpos=2,0
+Hotkey=E
+
+// "hgyr" (Flying Machine)
+[hgyr]
+Buttonpos=0,0
+Hotkey=A
+
+// "oli2" (Orb of Lightning)
+[oli2]
+Buttonpos=0,0
+Hotkey=A
+
+// "Remg" (Upgrade Moon Glaive)
+[Remg]
+Buttonpos=1,1
+Hotkey=S
+
+// "Remk" (Marksmanship)
+[Remk]
+Buttonpos=0,1
+Hotkey=Q
+
+// "pgin" (Potion of Greater Invisibility)
+[pgin]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANsy" (Pocket Factory)
+[ANsy]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ACmp" (Impale)
+[ACmp]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "CmdRally"
+[CmdRally]
+Buttonpos=3,1
+Hotkey=F
+
+// "ANrc" (Rain of Chaos)
+[ANrc]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "zsmc" (Sammy!)
+[zsmc]
 Buttonpos=0,2
 Hotkey=W
 
-// "wshs" (Wand of Shadowsight)
-[wshs]
+// "rsps" (Rune of Shielding)
+[rsps]
 Buttonpos=0,0
 Hotkey=A
 
-// "ogru" (Grunt)
-[ogru]
+// "nfod" (Faceless One Deathbringer)
+[nfod]
 Buttonpos=0,0
 Hotkey=A
+
+// "nrzm" (Razormane Medicine Man)
+[nrzm]
+Buttonpos=3,0
+Hotkey=R
+
+// "nitt" (Ice Troll Trapper)
+[nitt]
+Buttonpos=0,2
+Hotkey=W
+
+// "nmys" (Submerged Naga Myrmidon)
+[nmys]
+Buttonpos=0,0
+Hotkey=A
+
+// "npn3" (Earth)
+[npn3]
+Buttonpos=0,2
+Hotkey=W
+
+// "Hdgo" (Paladin)
+[Hdgo]
+Buttonpos=0,2
+Hotkey=W
+
+// "Auhf" (Unholy Frenzy)
+[Auhf]
+Buttonpos=1,2
+Hotkey=X
 
 // "ncpn" (Fel Peon)
 [ncpn]
 Buttonpos=0,0
 Hotkey=A
 
-// "ANwk" (Wind Walk)
-[ANwk]
+// "ugho" (Ghoul)
+[ugho]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ekee" (Keeper of the Grove)
+[Ekee]
+Buttonpos=1,2
+Hotkey=X,X,X
+
+// "wshs" (Wand of Shadowsight)
+[wshs]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbdr" (Black Dragon Whelp)
+[nbdr]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANbh" (Bash)
+[ANbh]
+Buttonpos=2,2
+Hotkey=C
+
+// "Rhgb" (Flying Machine Bombs)
+[Rhgb]
+Buttonpos=0,1
+Hotkey=Q
+
+// "nadr" (Blue Dragon)
+[nadr]
+Buttonpos=2,2
+Hotkey=C
+
+// "ANcf" (Breath of Fire)
+[ANcf]
 Buttonpos=0,2
 Hotkey=W
 Researchbuttonpos=0,0
 Researchhotkey=A
 
-// "ntkf" (Tuskarr Fighter)
-[ntkf]
+// "Nalm" (Alchemist)
+[Nalm]
+Buttonpos=3,2
+Hotkey=V,V,V
+
+// "srbd" (Searing Blade)
+[srbd]
 Buttonpos=0,0
 Hotkey=A
 
-// "ncg3" (Clockwerk Goblin)
-[ncg3]
+// "nheb" (High Elven Barracks)
+[nheb]
+Buttonpos=0,0
+Hotkey=A
+
+// "ngrk" (Mud Golem)
+[ngrk]
+Buttonpos=2,0
+Hotkey=E
+
+// "Rnsw" (Naga Siren Adept Training,Naga Siren Master Training)
+[Rnsw]
 Buttonpos=0,2
 Hotkey=W
 
-// "eaom" (Ancient of War)
-[eaom]
+// "Acan" (Cannibalize)
+[Acan]
+Buttonpos=0,2
+Hotkey=W
+
+// "Uanb" (Crypt Lord)
+[Uanb]
+Buttonpos=0,1
+Hotkey=Q
+
+// "AOls" (Voodoo Spirits)
+[AOls]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "hdes" (Human Frigate)
+[hdes]
 Buttonpos=1,0
 Hotkey=Z
 
-// "nsno" (Snowy Owl)
-[nsno]
+// "AHmt" (Mass Teleport)
+[AHmt]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "tbsm" (Tiny Blacksmith)
+[tbsm]
 Buttonpos=0,0
 Hotkey=A
 
-// "tret" (Tome of Retraining)
-[tret]
+// "amrc" (Amulet of Recall)
+[amrc]
 Buttonpos=0,0
 Hotkey=A
 
-// "AHta" (Reveal)
-[AHta]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rhfl" (Flare)
-[Rhfl]
-Buttonpos=1,2
-Hotkey=X
-
-// "Asth" (Storm Hammers)
-[Asth]
-Buttonpos=0,2
-Hotkey=W
-
-// "rej5" (Lesser Scroll of Replenishment)
-[rej5]
+// "woms" (Wand of Mana Stealing)
+[woms]
 Buttonpos=0,0
 Hotkey=A
 
-// "Rosp" (Spiked Barricades,Improved Spiked Barricades,Advanced Spiked Barricades)
-[Rosp]
-Buttonpos=2,0
-Hotkey=E,E,E
-
-// "stel" (Staff of Teleportation)
-[stel]
-Buttonpos=3,1
-Hotkey=F
+// "hbth" (Helm of Battlethirst)
+[hbth]
+Buttonpos=0,0
+Hotkey=A
 
 // "Acef" ("Storm, Earth, And Fire")
 [Acef]
@@ -567,35 +5630,979 @@ Hotkey=V
 Researchbuttonpos=3,0
 Researchhotkey=R
 
-// "Acan" (Cannibalize)
-[Acan]
+// "utod" (Temple of the Damned)
+[utod]
+Buttonpos=2,1
+Hotkey=D
+
+// "Sloa" (Load)
+[Sloa]
 Buttonpos=0,2
 Hotkey=W
 
-// "ACfs" (Flame Strike)
-[ACfs]
+// "ANrg" (Robo-Goblin)
+[ANrg]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "plcl" (Lesser Clarity Potion)
+[plcl]
+Buttonpos=1,0
+Hotkey=Z
+
+// "AHhb" (Holy Light)
+[AHhb]
 Buttonpos=0,2
 Hotkey=W
 Researchbuttonpos=0,0
 Researchhotkey=A
 
-// "emow" (Moon Well)
-[emow]
-Buttonpos=0,1
-Hotkey=Q
+// "Rhra" (Black Gunpowder,Refined Gunpowder,Imbued Gunpowder)
+[Rhra]
+Buttonpos=1,0
+Hotkey=Z,Z,Z
 
-// "ANta" (Taunt)
-[ANta]
+// "Robk" (Berserker Upgrade)
+[Robk]
+Buttonpos=1,1
+Hotkey=S
+
+// "Acdb" (Drunken Brawler)
+[Acdb]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "sreg" (Scroll of Regeneration)
+[sreg]
+Buttonpos=3,0
+Hotkey=R
+
+// "AUfu" (Frost Armor)
+[AUfu]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "shas" (Scroll of Speed)
+[shas]
+Buttonpos=2,0
+Hotkey=E
+
+// "Aast" (Ancestral Spirit)
+[Aast]
+Buttonpos=2,2
+Hotkey=C
+
+// "Awfb" (Firebolt)
+[Awfb]
 Buttonpos=0,2
 Hotkey=W
+
+// "nowb" (Wildkin)
+[nowb]
+Buttonpos=1,0
+Hotkey=Z
+
+// "even" (Spirit of Vengeance)
+[even]
+Buttonpos=0,0
+Hotkey=A
+
+// "rst1" (Gauntlets of Ogre Strength +3)
+[rst1]
+Buttonpos=0,0
+Hotkey=A
+
+// "hmtm" (Mortar Team)
+[hmtm]
+Buttonpos=1,0
+Hotkey=Z
+
+// "nhmc" (Hermit Crab)
+[nhmc]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACrg" (Rain of Fire)
+[ACrg]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "frgd" (Frostguard)
+[frgd]
+Buttonpos=0,0
+Hotkey=A
+
+// "nfot" (Faceless One Terror)
+[nfot]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ahri" (Long Rifles)
+[Ahri]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aro2" (Root)
+[Aro2]
+Buttonpos=3,2
+Hotkey=V
+Unbuttonpos=3,2
+Unhotkey=V
+
+// "ushp" (Undead Shipyard)
+[ushp]
+Buttonpos=0,0
+Hotkey=A
+
+// "prvt" (Periapt of Vitality)
+[prvt]
+Buttonpos=3,2
+Hotkey=V
+
+// "ACpu" (Purge)
+[ACpu]
+Buttonpos=0,2
+Hotkey=W
+
+// "AAns" (Charge Gold and Lumber)
+[AAns]
+Buttonpos=0,0
+Hotkey=A
+
+// "Ropg" (Pillage)
+[Ropg]
+Buttonpos=2,0
+Hotkey=E
+
+// "Afak" (Orb of Annihilation)
+[Afak]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "nogm" (Ogre Mauler)
+[nogm]
+Buttonpos=3,0
+Hotkey=R
+
+// "hpea" (Peasant)
+[hpea]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aams" (Anti-magic Shell)
+[Aams]
+Buttonpos=1,2
+Hotkey=X
+
+// "ACad" (Animate Dead)
+[ACad]
+Buttonpos=3,2
+Hotkey=V
+
+// "shdt" (Shield of the Deathlord)
+[shdt]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rnsb" (Submerge)
+[Rnsb]
+Buttonpos=2,2
+Hotkey=C
+
+// "nsog" (Skeletal Orc Grunt)
+[nsog]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOvd" (Big Bad Voodoo)
+[AOvd]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "oshm" (Shaman)
+[oshm]
+Buttonpos=0,0
+Hotkey=A
+
+// "uobs" (Obsidian Statue)
+[uobs]
+Buttonpos=2,0
+Hotkey=E
+
+// "shtm" (Shamanic Totem)
+[shtm]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aspp" (Spirit Link)
+[Aspp]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Aemk" (Marksmanship)
+[Aemk]
+Buttonpos=3,2
+Hotkey=V
+
+// "Amic" (Call To Arms)
+[Amic]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=2,2
+Unhotkey=C
+
+// "Amel" (Get Corpse)
+[Amel]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ACen" (Ensnare)
+[ACen]
+Buttonpos=0,2
+Hotkey=W
+
+// "hbot" (Human Transport Ship)
+[hbot]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANsq" (Summon Quilbeast)
+[ANsq]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "nltc" (Makrura Tidecaller)
+[nltc]
+Buttonpos=2,0
+Hotkey=E
+
+// "AOfs" (Far Sight)
+[AOfs]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "okod" (Kodo Beast)
+[okod]
+Buttonpos=2,0
+Hotkey=E
+
+// "bspd" (Boots of Speed)
+[bspd]
+Buttonpos=2,0
+Hotkey=E
+
+// "AIcy" (Cyclone)
+[AIcy]
+Buttonpos=0,2
+Hotkey=W
+
+// "Otch" (Tauren Chieftain)
+[Otch]
+Buttonpos=2,2
+Hotkey=C,C,C
+
+// "ndtr" (Dark Troll)
+[ndtr]
+Buttonpos=0,2
+Hotkey=W
+
+// "ntkt" (Tuskarr Trapper)
+[ntkt]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Arpl" (Essence of Blight)
+[Arpl]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Nal2" (Alchemist)
+[Nal2]
+Buttonpos=3,2
+Hotkey=V,V,V
+
+// "nmrr" (Murloc Huntsman)
+[nmrr]
+Buttonpos=2,2
+Hotkey=C
+
+// "ebsh" (Night Elf Battleship)
+[ebsh]
+Buttonpos=2,0
+Hotkey=E
+
+// "wneu" (Wand of Neutralization)
+[wneu]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOmi" (Mirror Image)
+[AOmi]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ngnw" (Gnoll Warden)
+[ngnw]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ncg2" (Clockwerk Goblin)
+[ncg2]
+Buttonpos=0,2
+Hotkey=W
+
+// "nsc3" (Spider Crab Behemoth)
+[nsc3]
+Buttonpos=0,0
+Hotkey=A
+
+// "wolg" (Wirt's Other Leg)
+[wolg]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACt2" (Slam)
+[ACt2]
+Buttonpos=0,2
+Hotkey=W
+
+// "sfog" (Horn of the Clouds)
+[sfog]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aorb" (Reinforced Defenses)
+[Aorb]
+Buttonpos=3,2
+Hotkey=V
+
+// "Asd3" (Kaboom!)
+[Asd3]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Assk" (Hardened Skin)
+[Assk]
+Buttonpos=2,2
+Hotkey=C
+
+// "nsnp" (Snap Dragon)
+[nsnp]
+Buttonpos=2,2
+Hotkey=C
+
+// "rwiz" (Sobi Mask)
+[rwiz]
+Buttonpos=2,0
+Hotkey=E
+
+// "ACss"
+[ACss]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "hgry" (Gryphon Rider)
+[hgry]
+Buttonpos=1,0
+Hotkey=Z
+
+// "Amed" (Drop Corpse)
+[Amed]
+Buttonpos=1,2
+Hotkey=X
+
+// "Ucrl" (Crypt Lord)
+[Ucrl]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "AEim" (Immolation)
+[AEim]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Naka" (Elder Sage)
+[Naka]
+Buttonpos=0,0
+Hotkey=A
+
+// "nlpr" (Makrura Prawn)
+[nlpr]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbzw" (Bronze Dragon Whelp)
+[nbzw]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACs8" (Spirit Beast)
+[ACs8]
+Buttonpos=1,2
+Hotkey=X
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "efon" (Treant)
+[efon]
+Buttonpos=0,0
+Hotkey=A
+
+// "Astn" (Stone Form)
+[Astn]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "Repm" (Backpack)
+[Repm]
+Buttonpos=3,0
+Hotkey=R
+
+// "rde2" (Ring of Protection +3)
+[rde2]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOcl" (Chain Lightning)
+[AOcl]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "AChV"
+[AChV]
+Buttonpos=0,2
+Hotkey=W
+
+// "nalb" (Albatross)
+[nalb]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANfb" (Firebolt)
+[ANfb]
+Buttonpos=0,2
+Hotkey=W
+
+// "gsou" (Soul Gem)
+[gsou]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbnb" (Burrowed Barbed Arachnathid)
+[nbnb]
+Buttonpos=0,0
+Hotkey=A
+
+// "nmit" (Icetusk Mammoth)
+[nmit]
+Buttonpos=0,0
+Hotkey=A
+
+// "Hhkl" (Paladin)
+[Hhkl]
+Buttonpos=0,2
+Hotkey=W
+
+// "nano" (Overlord Arachnathid)
+[nano]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aap2" (Disease Cloud)
+[Aap2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ofro" (Orb of Frost)
+[ofro]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOsh" (Shockwave)
+[AOsh]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Amgr" (Moon Glaive)
+[Amgr]
+Buttonpos=1,2
+Hotkey=X
+
+// "rump" (Rusty Mining Pick)
+[rump]
+Buttonpos=0,0
+Hotkey=A
+
+// "Afla" (Flare)
+[Afla]
+Buttonpos=0,2
+Hotkey=W
+
+// "Aosp" (Spiked Barricades,Spiked Barricades,Improved Spiked Barricades)
+[Aosp]
+Buttonpos=3,2
+Hotkey=V
+
+// "nbwm" (Black Dragon)
+[nbwm]
+Buttonpos=2,2
+Hotkey=C
+
+// "nsgh" (Sea Giant Hunter)
+[nsgh]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANpi" (Permanent Immolation)
+[ANpi]
+Buttonpos=0,2
+Hotkey=W
+
+// "ACfd" (Finger of Pain)
+[ACfd]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "Eidm" (Demon Hunter)
+[Eidm]
+Buttonpos=0,2
+Hotkey=W
+
+// "ANca" (Cleaving Attack)
+[ANca]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "olig" (Orb of Lightning)
+[olig]
+Buttonpos=2,2
+Hotkey=C
+
+// "pdiv" (Potion of Divinity)
+[pdiv]
+Buttonpos=0,0
+Hotkey=A
+
+// "nrac" (Raccoon)
+[nrac]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rovs" (Envenomed Spears)
+[Rovs]
+Buttonpos=1,2
+Hotkey=X
+
+// "nsgb" (Sea Giant Behemoth)
+[nsgb]
+Buttonpos=0,0
+Hotkey=A
+
+// "nftt" (Forest Troll Trapper)
+[nftt]
+Buttonpos=0,2
+Hotkey=W
+
+// "Uwar" (Warlock)
+[Uwar]
+Buttonpos=0,2
+Hotkey=W
+
+// "clsd" (Cloak of Shadows)
+[clsd]
+Buttonpos=0,0
+Hotkey=A
+
+// "Aakb" (War Drums)
+[Aakb]
+Buttonpos=1,2
+Hotkey=X
+
+// "tbar" (Tiny Barracks)
+[tbar]
+Buttonpos=0,0
+Hotkey=A
+
+// "nnwl" (Nerubian Webspinner)
+[nnwl]
+Buttonpos=2,0
+Hotkey=E
+
+// "npfl" (Fel Beast)
+[npfl]
+Buttonpos=0,2
+Hotkey=W
+
+// "gldo" (Orb of Kil'jaeden)
+[gldo]
+Buttonpos=0,0
+Hotkey=A
+
+// "nitb" (Icy Treasure Box)
+[nitb]
+Buttonpos=0,0
+Hotkey=A
+
+// "unec" (Necromancer)
+[unec]
+Buttonpos=0,0
+Hotkey=A
+
+// "otto" (Tauren Totem)
+[otto]
+Buttonpos=0,2
+Hotkey=W
+
+// "AChx" (Hex)
+[AChx]
+Buttonpos=0,2
+Hotkey=W
+
+// "Rnen" (Ensnare)
+[Rnen]
+Buttonpos=0,2
+Hotkey=W
+
+// "AOwk" (Wind Walk)
+[AOwk]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "hkni" (Knight)
+[hkni]
+Buttonpos=2,0
+Hotkey=E
 
 // "Nkjx" (Warlock)
 [Nkjx]
 Buttonpos=0,2
 Hotkey=W
 
-// "ANef" ("Storm, Earth, And Fire")
-[ANef]
+// "Aprg" (Purge)
+[Aprg]
+Buttonpos=0,2
+Hotkey=W
+
+// "sres" (Scroll of Restoration)
+[sres]
+Buttonpos=0,0
+Hotkey=A
+
+// "belv" (Boots of Quel'Thalas +6)
+[belv]
+Buttonpos=0,0
+Hotkey=A
+
+// "oslo" (Orb of Slow)
+[oslo]
+Buttonpos=0,0
+Hotkey=A
+
+// "nbdw" (Blue Dragonspawn Warrior)
+[nbdw]
+Buttonpos=0,0
+Hotkey=A
+
+// "Hapm" (Paladin)
+[Hapm]
+Buttonpos=0,2
+Hotkey=W
+
+// "Nman" (Pit Lord)
+[Nman]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACim" (Immolation)
+[ACim]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "Ntin" (Tinker)
+[Ntin]
+Buttonpos=2,2
+Hotkey=C,C,C
+
+// "Rema" (Moon Armor,Improved Moon Armor,Advanced Moon Armor)
+[Rema]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
+
+// "ACc3" (Crushing Wave)
+[ACc3]
+Buttonpos=2,2
+Hotkey=C
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANvc" (Volcano)
+[ANvc]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "hrrh" (Runner)
+[hrrh]
+Buttonpos=0,0
+Hotkey=A
+
+// "shrs" (Shimmerglaze Roast)
+[shrs]
+Buttonpos=0,0
+Hotkey=A
+
+// "jpnt" (Note to Jaina Proudmoore)
+[jpnt]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rora" (Steel Ranged Weapons,Thorium Ranged Weapons,Arcanite Ranged Weapons)
+[Rora]
+Buttonpos=1,0
+Hotkey=Z,Z,Z
+
+// "hrtt" (Siege Engine)
+[hrtt]
+Buttonpos=0,2
+Hotkey=W
+
+// "nchg" (Fel Orc Grunt)
+[nchg]
+Buttonpos=0,2
+Hotkey=W
+
+// "rag1" (Slippers of Agility +3)
+[rag1]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANbl" (Blink)
+[ANbl]
+Buttonpos=0,2
+Hotkey=W
+
+// "nplg" (Giant Polar Bear)
+[nplg]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEst" (Scout)
+[AEst]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "sbok" (Spell Book)
+[sbok]
+Buttonpos=0,0
+Hotkey=A
+
+// "nskm" (Skeletal Marksman)
+[nskm]
+Buttonpos=0,0
+Hotkey=A
+
+// "Anh2" (Heal)
+[Anh2]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "sor8" (Shadow Orb +8)
+[sor8]
+Buttonpos=0,0
+Hotkey=A
+
+// "Acrs" (Curse)
+[Acrs]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "sor6" (Shadow Orb +6)
+[sor6]
+Buttonpos=0,0
+Hotkey=A
+
+// "SCae" (Endurance Aura)
+[SCae]
+Buttonpos=0,1
+Hotkey=Q
+
+// "ACwb" (Web)
+[ACwb]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "ospw" (Spirit Walker)
+[ospw]
+Buttonpos=0,0
+Hotkey=A
+
+// "ncen" (Centaur Outrunner)
+[ncen]
+Buttonpos=0,2
+Hotkey=W
+
+// "Hmkg" (Mountain King)
+[Hmkg]
+Buttonpos=1,2
+Hotkey=X,X,X
+
+// "Ahar" (Harvest)
+[Ahar]
+Buttonpos=3,1
+Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
+
+// "nogr" (Ogre Warrior)
+[nogr]
+Buttonpos=0,0
+Hotkey=A
+
+// "Nal3" (Alchemist)
+[Nal3]
+Buttonpos=3,2
+Hotkey=V,V,V
+
+// "ACbr" (Berserker Rage)
+[ACbr]
+Buttonpos=0,2
+Hotkey=W
+
+// "ofrt" (Fortress)
+[ofrt]
+Buttonpos=0,2
+Hotkey=W
+
+// "Adta" (Reveal)
+[Adta]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACmf" (Mana Shield)
+[ACmf]
+Buttonpos=1,2
+Hotkey=X
+Unbuttonpos=1,2
+Unhotkey=X
+
+// "nmsn" (Mur'gul Snarecaster)
+[nmsn]
+Buttonpos=2,0
+Hotkey=E
+
+// "nmrv" (Mur'gul Marauder)
+[nmrv]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rhhb" (Storm Hammers)
+[Rhhb]
+Buttonpos=1,2
+Hotkey=X
+
+// "ANb2" (Maul)
+[ANb2]
+Buttonpos=1,2
+Hotkey=X
+
+// "spre" (Staff of Preservation)
+[spre]
+Buttonpos=3,1
+Hotkey=F
+
+// "ocat" (Demolisher)
+[ocat]
+Buttonpos=2,0
+Hotkey=E
+
+// "Abof" (Burning Oil)
+[Abof]
+Buttonpos=0,2
+Hotkey=W
+
+// "cnob" (Circlet of Nobility)
+[cnob]
+Buttonpos=1,1
+Hotkey=S
+
+// "AOs2" (Shockwave)
+[AOs2]
+Buttonpos=0,2
+Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "tint" (Tome of Intelligence)
+[tint]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANsp" (Spy)
+[ANsp]
+Buttonpos=0,0
+Hotkey=A
+
+// "AEsb" (Starfall)
+[AEsb]
 Buttonpos=3,2
 Hotkey=V
 Researchbuttonpos=3,0
@@ -608,2304 +6615,90 @@ Hotkey=V
 Unbuttonpos=3,2
 Unhotkey=V
 
-// "AChv" (Healing Wave)
-[AChv]
-Buttonpos=1,2
-Hotkey=X
-
-// "nmyr" (Naga Myrmidon)
-[nmyr]
-Buttonpos=0,0
-Hotkey=A
-
-// "Advm" (Devour Magic)
-[Advm]
-Buttonpos=0,2
-Hotkey=W
-
-// "Adsm" (Dispel Magic)
-[Adsm]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACcy" (Cyclone)
-[ACcy]
-Buttonpos=1,2
-Hotkey=X
-
-// "ANav" (Avatar)
-[ANav]
+// "CmdCancel"
+[CmdCancel]
 Buttonpos=3,2
 Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
 
-// "Hpb2" (Paladin)
-[Hpb2]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ogrh" (Blademaster)
-[Ogrh]
-Buttonpos=0,2
-Hotkey=W
-
-// "Auhf" (Unholy Frenzy)
-[Auhf]
-Buttonpos=1,2
-Hotkey=X
-
-// "Aabs" (Absorb Mana)
-[Aabs]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Acor" (Corrosive Breath)
-[Acor]
-Buttonpos=0,2
-Hotkey=W
-
-// "klmm" (Killmaim)
-[klmm]
+// "Npld" (Pit Lord)
+[Npld]
 Buttonpos=0,0
 Hotkey=A
 
-// "AEbu" (Build (Night Elf))
-[AEbu]
-Buttonpos=0,2
-Hotkey=W
-
-// "Hvwd" (Ranger)
-[Hvwd]
-Buttonpos=0,2
-Hotkey=W
-
-// "nws1" (Dragon Hawk)
-[nws1]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Aakb" (War Drums)
-[Aakb]
-Buttonpos=1,2
-Hotkey=X
-
-// "nplg" (Giant Polar Bear)
-[nplg]
-Buttonpos=0,0
-Hotkey=A
-
-// "spre" (Staff of Preservation)
-[spre]
-Buttonpos=1,2
-Hotkey=X
-
-// "Ruar" (Unholy Armor,Improved Unholy Armor,Advanced Unholy Armor)
-[Ruar]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "ACf2" (Frost Armor)
-[ACf2]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-
-// "Nbst" (Beastmaster)
-[Nbst]
-Buttonpos=1,2
-Hotkey=X,X,X
-
-// "nskk" (Skink)
-[nskk]
-Buttonpos=0,0
-Hotkey=A
-
-// "CmdBuildNaga"
-[CmdBuildNaga]
-Buttonpos=0,2
-Hotkey=W
-
-// "Hkal" (Blood Mage)
-[Hkal]
-Buttonpos=0,1
-Hotkey=Q
-
-// "nfpe" (Polar Furbolg Elder Shaman)
-[nfpe]
-Buttonpos=0,0
-Hotkey=A
-
-// "nsrw" (Stormreaver Warlock)
-[nsrw]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACro" (Roar)
-[ACro]
-Buttonpos=1,2
-Hotkey=X
-
-// "ebal" (Glaive Thrower)
-[ebal]
-Buttonpos=3,1
-Hotkey=F
-
-// "Sbtl" (Battle Stations)
-[Sbtl]
-Buttonpos=0,2
-Hotkey=W
-
-// "ocbw" (Fel Burrow)
-[ocbw]
-Buttonpos=0,1
-Hotkey=Q
-
-// "clsd" (Cloak of Shadows)
-[clsd]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aply" (Polymorph)
-[Aply]
-Buttonpos=2,2
-Hotkey=C
-
-// "nnsw" (Naga Siren)
-[nnsw]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ahlh" (Improved Lumber Harvesting,Improved Lumber Harvesting,Advanced Lumber Harvesting)
-[Ahlh]
-Buttonpos=2,1
-Hotkey=D
-
-// "ebsh" (Night Elf Battleship)
-[ebsh]
-Buttonpos=2,0
-Hotkey=E
-
-// "nfbr" (Fel Boar)
-[nfbr]
-Buttonpos=0,0
-Hotkey=A
-
-// "nenf" (Enforcer)
-[nenf]
-Buttonpos=0,2
-Hotkey=W
-
-// "obar" (Barracks)
-[obar]
-Buttonpos=1,0
-Hotkey=Z
-
-// "AUds" (Dark Summoning)
-[AUds]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nftr" (Forest Troll)
-[nftr]
-Buttonpos=0,2
-Hotkey=W
-
-// "Amb2" (Replenish Mana)
-[Amb2]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "mort" (Mogrin's Report)
-[mort]
-Buttonpos=0,0
-Hotkey=A
-
-// "nitb" (Icy Treasure Box)
-[nitb]
-Buttonpos=0,0
-Hotkey=A
-
-// "sreg" (Scroll of Regeneration)
-[sreg]
-Buttonpos=3,0
-Hotkey=R
-
-// "tcas" (Tiny Castle)
-[tcas]
-Buttonpos=0,0
-Hotkey=A
-
-// "ngdk" (Green Drake)
-[ngdk]
-Buttonpos=2,2
-Hotkey=C
-
-// "nnrg" (Naga Royal Guard)
-[nnrg]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACim" (Immolation)
-[ACim]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "Aam2" (Anti-magic Shell)
-[Aam2]
-Buttonpos=1,2
-Hotkey=X
-
-// "ndrf" (Draenei Guardian)
-[ndrf]
-Buttonpos=0,0
-Hotkey=A
-
-// "gldo" (Orb of Kil'jaeden)
-[gldo]
-Buttonpos=0,0
-Hotkey=A
-
-// "Edmm" (Demon Hunter)
-[Edmm]
-Buttonpos=0,2
-Hotkey=W,W,W
-
-// "nsts" (Satyr Shadowdancer)
-[nsts]
-Buttonpos=2,2
-Hotkey=C
-
-// "Sshm" (Shadow Meld)
-[Sshm]
-Buttonpos=2,1
-Hotkey=D
-
-// "ACct" (Critical Strike)
-[ACct]
-Buttonpos=2,2
-Hotkey=C
-
-// "nfgo" (Forgotten One)
-[nfgo]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ubal" (Dreadlord)
-[Ubal]
-Buttonpos=0,2
-Hotkey=W
-
-// "AHwe" (Summon Water Elemental)
-[AHwe]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "otrb" (Burrow)
-[otrb]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Othr" (Far Seer)
-[Othr]
-Buttonpos=0,2
-Hotkey=W
-
-// "AUcb" (Carrion Beetles)
-[AUcb]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ACfd" (Finger of Pain)
-[ACfd]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Aent" (Entangle Gold Mine)
-[Aent]
-Buttonpos=1,2
-Hotkey=X
-
-// "halt" (Altar of Kings)
-[halt]
+// "oalt" (Altar of Storms)
+[oalt]
 Buttonpos=1,1
 Hotkey=S
-
-// "ACrk" (Resistant Skin)
-[ACrk]
-Buttonpos=3,2
-Hotkey=V
-
-// "ACbr" (Berserker Rage)
-[ACbr]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ahsb" (Sundering Blades)
-[Ahsb]
-Buttonpos=0,2
-Hotkey=W
-
-// "Harf" (Paladin)
-[Harf]
-Buttonpos=0,2
-Hotkey=W
-
-// "ntn3" (Tent)
-[ntn3]
-Buttonpos=0,0
-Hotkey=A
-
-// "Augh" (Shade)
-[Augh]
-Buttonpos=1,2
-Hotkey=X
-
-// "Acpf" (Corporeal Form)
-[Acpf]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "arsh" (Arcanite Shield)
-[arsh]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACam" (Anti-magic Shell)
-[ACam]
-Buttonpos=1,2
-Hotkey=X
-
-// "AEst" (Scout)
-[AEst]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ANs3" (Pocket Factory)
-[ANs3]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Ucrl" (Crypt Lord)
-[Ucrl]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "Npbm" (Brewmaster)
-[Npbm]
-Buttonpos=2,1
-Hotkey=D,D,D
-
-// "Reuv" (Ultravision)
-[Reuv]
-Buttonpos=2,0
-Hotkey=E
-
-// "Ecen" (Demigod)
-[Ecen]
-Buttonpos=0,2
-Hotkey=W
-
-// "Amfl" (Mana Flare)
-[Amfl]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "ANsi" (Silence)
-[ANsi]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "pnvu" (Potion of Invulnerability)
-[pnvu]
-Buttonpos=0,0
-Hotkey=A
-
-// "Adis" (Dispel Magic)
-[Adis]
-Buttonpos=1,2
-Hotkey=X
-
-// "ANcl" (Channel)
-[ANcl]
-Buttonpos=2,0
-Hotkey=E
-
-// "Abu2" (Burrow)
-[Abu2]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "ANfy" (Factory)
-[ANfy]
-Buttonpos=0,2
-Hotkey=W
-
-// "nfrg" (Furbolg Champion)
-[nfrg]
-Buttonpos=0,0
-Hotkey=A
-
-// "nanc" (Crystal Arachnathid)
-[nanc]
-Buttonpos=0,0
-Hotkey=A
-
-// "ugar" (Gargoyle)
-[ugar]
-Buttonpos=2,0
-Hotkey=E
-
-// "Slo2" (Load Wisp)
-[Slo2]
-Buttonpos=0,2
-Hotkey=W
-
-// "Acrs" (Curse)
-[Acrs]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "Astn" (Stone Form)
-[Astn]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "kgal" (Keg of Ale)
-[kgal]
-Buttonpos=0,0
-Hotkey=A
-
-// "stre" (Staff of Reanimation)
-[stre]
-Buttonpos=0,0
-Hotkey=A
-
-// "bgst" (Belt of Giant Strength +6)
-[bgst]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACvp" (Vampiric Aura)
-[ACvp]
-Buttonpos=2,2
-Hotkey=C
-
-// "stpg" (Clockwork Penguin)
-[stpg]
-Buttonpos=0,0
-Hotkey=A
-
-// "nsgn" (Sea Giant)
-[nsgn]
-Buttonpos=0,0
-Hotkey=A
-
-// "ndmu" (Dalaran Mutant)
-[ndmu]
-Buttonpos=0,0
-Hotkey=A
-
-// "nwzw" (Blood Wizard)
-[nwzw]
-Buttonpos=0,0
-Hotkey=A
-
-// "uswb" (Sylvanas Windrunner)
-[uswb]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Aven" (Envenomed Spears)
-[Aven]
-Buttonpos=0,2
-Hotkey=W
-
-// "uaod" (Altar of Darkness)
-[uaod]
-Buttonpos=1,1
-Hotkey=S
-
-// "nrwm" (Red Dragon)
-[nrwm]
-Buttonpos=0,2
-Hotkey=W
-
-// "wneu" (Wand of Neutralization)
-[wneu]
-Buttonpos=0,0
-Hotkey=A
-
-// "horl" (Sacred Relic)
-[horl]
-Buttonpos=0,0
-Hotkey=A
-
-// "etrs" (Night Elf Transport Ship)
-[etrs]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANbl" (Blink)
-[ANbl]
-Buttonpos=0,2
-Hotkey=W
-
-// "hbar" (Barracks)
-[hbar]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ACsm" (Siphon Mana)
-[ACsm]
-Buttonpos=2,2
-Hotkey=C
-
-// "Ahid" (Shadow Meld)
-[Ahid]
-Buttonpos=2,1
-Hotkey=D
-
-// "ACch" (Charm)
-[ACch]
-Buttonpos=3,2
-Hotkey=V
-
-// "uabo" (Abomination)
-[uabo]
-Buttonpos=1,0
-Hotkey=Z
-
-// "AUau" (Unholy Aura)
-[AUau]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "nltc" (Makrura Tidecaller)
-[nltc]
-Buttonpos=2,0
-Hotkey=E
-
-// "ocat" (Demolisher)
-[ocat]
-Buttonpos=2,0
-Hotkey=E
-
-// "ACac" (Command Aura)
-[ACac]
-Buttonpos=3,2
-Hotkey=V
-
-// "Arpm" (Spirit Touch)
-[Arpm]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "Adri" (Unload Instant)
-[Adri]
-Buttonpos=1,2
-Hotkey=X
-
-// "hcas" (Castle)
-[hcas]
-Buttonpos=0,2
-Hotkey=W
-
-// "AHad" (Devotion Aura)
-[AHad]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "Apo2" (Poison Sting)
-[Apo2]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACst" (Shockwave)
-[ACst]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ahwd" (Healing Ward)
-[Ahwd]
-Buttonpos=2,2
-Hotkey=C
-
-// "rej1" (Minor Replenishment Potion)
-[rej1]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aamk" (Attribute Bonus)
-[Aamk]
-Buttonpos=1,1
-Hotkey=S
-Researchbuttonpos=3,1
-Researchhotkey=F
-
-// "Apos" (Possession)
-[Apos]
-Buttonpos=2,2
-Hotkey=C
-
-// "Ropg" (Pillage)
-[Ropg]
-Buttonpos=2,0
-Hotkey=E
-
-// "srtl" (Serathil)
-[srtl]
-Buttonpos=0,0
-Hotkey=A
-
-// "cnob" (Circlet of Nobility)
-[cnob]
-Buttonpos=1,1
-Hotkey=S
-
-// "edos" (Chimaera Roost)
-[edos]
-Buttonpos=1,2
-Hotkey=X
-
-// "Uvng" (Dreadlord)
-[Uvng]
-Buttonpos=0,2
-Hotkey=W
-
-// "nfpu" (Polar Furbolg Ursa Warrior)
-[nfpu]
-Buttonpos=0,0
-Hotkey=A
-
-// "desc" (Kelen's Dagger of Escape)
-[desc]
-Buttonpos=0,0
-Hotkey=A
-
-// "Afbb" (Feedback)
-[Afbb]
-Buttonpos=1,2
-Hotkey=X
-
-// "Amls" (Aerial Shackles)
-[Amls]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANeg" (Engineering Upgrade)
-[ANeg]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ssan" (Staff of Sanctuary)
-[ssan]
-Buttonpos=1,2
-Hotkey=X
-
-// "Rowd" (Witch Doctor Adept Training,Witch Doctor Master Training)
-[Rowd]
-Buttonpos=1,2
-Hotkey=X,X
-
-// "Agyv" (True Sight)
-[Agyv]
-Buttonpos=0,2
-Hotkey=W
-
-// "Arsw" (Serpent Ward)
-[Arsw]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "Auco" (Unstable Concoction)
-[Auco]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "AOac" (Command Aura)
-[AOac]
-Buttonpos=0,2
-Hotkey=W
-
-// "ciri" (Robe of the Magi +6)
-[ciri]
-Buttonpos=0,0
-Hotkey=A
-
-// "Orkn" (Shadow Hunter)
-[Orkn]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Aloa" (Load)
-[Aloa]
-Buttonpos=0,2
-Hotkey=W
-
-// "Resc" (Sentinel)
-[Resc]
-Buttonpos=2,2
-Hotkey=C
-
-// "Haah" (High Elf Archmage)
-[Haah]
-Buttonpos=0,2
-Hotkey=W,W,W
-
-// "nfa1" (Pocket Factory)
-[nfa1]
-Buttonpos=0,0
-Hotkey=A
-
-// "nhea" (Archer)
-[nhea]
-Buttonpos=1,2
-Hotkey=X
-
-// "hslv" (Healing Salve)
-[hslv]
-Buttonpos=3,0
-Hotkey=R
-
-// "Nalm" (Alchemist)
-[Nalm]
-Buttonpos=3,2
-Hotkey=V,V,V
-
-// "Ruac" (Cannibalize)
-[Ruac]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rusf" (Stone Form)
-[Rusf]
-Buttonpos=2,1
-Hotkey=D
-
-// "nkob" (Kobold)
-[nkob]
-Buttonpos=1,2
-Hotkey=X
-
-// "AHtc" (Thunder Clap)
-[AHtc]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Ruex" (Exhume Corpses)
-[Ruex]
-Buttonpos=0,2
-Hotkey=W
-
-// "nitt" (Ice Troll Trapper)
-[nitt]
-Buttonpos=0,2
-Hotkey=W
-
-// "Acht" (Howl of Terror)
-[Acht]
-Buttonpos=0,2
-Hotkey=W
-
-// "Nklj" (Warlock)
-[Nklj]
-Buttonpos=0,2
-Hotkey=W
-
-// "edot" (Druid of the Talon)
-[edot]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Aenw" (Entangling Roots)
-[Aenw]
-Buttonpos=0,2
-Hotkey=W
-
-// "Arej" (Rejuvenation)
-[Arej]
-Buttonpos=1,2
-Hotkey=X
-
-// "etol" (Tree of Life)
-[etol]
-Buttonpos=0,0
-Hotkey=A
-
-// "hlum" (Lumber Mill)
-[hlum]
-Buttonpos=2,0
-Hotkey=E
-
-// "AOmi" (Mirror Image)
-[AOmi]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "SCc1" (Cyclone)
-[SCc1]
-Buttonpos=1,1
-Hotkey=S
-
-// "hbla" (Blacksmith)
-[hbla]
-Buttonpos=3,0
-Hotkey=R
-
-// "tgrh" (Tiny Great Hall)
-[tgrh]
-Buttonpos=1,2
-Hotkey=X
-
-// "nftk" (Forest Troll Warlord)
-[nftk]
-Buttonpos=0,2
-Hotkey=W
-
-// "Nbbc" (Blademaster)
-[Nbbc]
-Buttonpos=0,2
-Hotkey=W
-
-// "usep" (Crypt)
-[usep]
-Buttonpos=1,0
-Hotkey=Z
-
-// "nsnp" (Snap Dragon)
-[nsnp]
-Buttonpos=2,2
-Hotkey=C
-
-// "nrdk" (Red Dragon Whelp)
-[nrdk]
-Buttonpos=1,2
-Hotkey=X
-
-// "moon" (Moonstone)
-[moon]
-Buttonpos=3,1
-Hotkey=F
-
-// "ACf3" (Finger of Pain)
-[ACf3]
-Buttonpos=2,1
-Hotkey=D
-Researchbuttonpos=0,1
-Researchhotkey=Q
-
-// "Remk" (Marksmanship)
-[Remk]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Reec" (Mark of the Talon)
-[Reec]
-Buttonpos=1,1
-Hotkey=S
-
-// "nbdm" (Blue Dragonspawn Meddler)
-[nbdm]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Asb2" (Submerge)
-[Asb2]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "ANba" (Black Arrow)
-[ANba]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "zhyd" (Hydralisk)
-[zhyd]
-Buttonpos=0,2
-Hotkey=W
-
-// "ACvs" (Envenomed Weapons)
-[ACvs]
-Buttonpos=1,2
-Hotkey=X
-
-// "ACtn" (Spawn Tentacle)
-[ACtn]
-Buttonpos=0,2
-Hotkey=W
-
-// "plcl" (Lesser Clarity Potion)
-[plcl]
-Buttonpos=2,0
-Hotkey=E
-
-// "nhn2" (Harpy Nest)
-[nhn2]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANha" (Harvest)
-[ANha]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
-
-// "rump" (Rusty Mining Pick)
-[rump]
-Buttonpos=0,0
-Hotkey=A
-
-// "AOw2" (War Stomp)
-[AOw2]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "nlps" (Summoned Prawn)
-[nlps]
-Buttonpos=0,0
-Hotkey=A
-
-// "nbda" (Blue Dragonspawn Apprentice)
-[nbda]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACmi" (Spell Immunity)
-[ACmi]
-Buttonpos=2,2
-Hotkey=C
-
-// "npn5" (Storm)
-[npn5]
-Buttonpos=0,2
-Hotkey=W
-
-// "CmdCancelBuild"
-[CmdCancelBuild]
-Buttonpos=3,2
-Hotkey=V
-
-// "ACbk" (Black Arrow)
-[ACbk]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "CmdBuildHuman"
-[CmdBuildHuman]
-Buttonpos=0,2
-Hotkey=W
-
-// "nmit" (Icetusk Mammoth)
-[nmit]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANgl" (Exchange Gold for Lumber)
-[ANgl]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ahea" (Heal)
-[Ahea]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "sor6" (Shadow Orb +6)
-[sor6]
-Buttonpos=0,0
-Hotkey=A
-
-// "Awrs" (War Stomp)
-[Awrs]
-Buttonpos=1,2
-Hotkey=X
-
-// "Asb1" (Submerge)
-[Asb1]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "nane" (Arachnathid Earth-borer)
-[nane]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACcb" (Frost Bolt)
-[ACcb]
-Buttonpos=0,2
-Hotkey=W
-
-// "tfar" (Tiny Farm)
-[tfar]
-Buttonpos=0,0
-Hotkey=A
-
-// "nano" (Overlord Arachnathid)
-[nano]
-Buttonpos=0,0
-Hotkey=A
-
-// "ARal" (Rally)
-[ARal]
-Buttonpos=3,1
-Hotkey=F
-
-// "Abu3" (Burrow)
-[Abu3]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "dphe" (Thunder Phoenix Egg)
-[dphe]
-Buttonpos=0,0
-Hotkey=A
-
-// "nfro" (Frog)
-[nfro]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rhac" (Improved Masonry,Advanced Masonry,Imbued Masonry)
-[Rhac]
-Buttonpos=1,0
-Hotkey=Z,Z,Z
-
-// "ngrw" (Green Dragon Whelp)
-[ngrw]
-Buttonpos=0,2
-Hotkey=W
-
-// "nhym" (Hydromancer)
-[nhym]
-Buttonpos=0,2
-Hotkey=W
-
-// "Amed" (Drop Corpse)
-[Amed]
-Buttonpos=1,2
-Hotkey=X
-
-// "AOsw" (Serpent Ward)
-[AOsw]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ACbl" (Bloodlust)
-[ACbl]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ACsk" (Resistant Skin)
-[ACsk]
-Buttonpos=3,1
-Hotkey=F
-
-// "ntkc" (Tuskarr Chieftain)
-[ntkc]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANdp" (Dark Portal)
-[ANdp]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "nhrr" (Harpy Rogue)
-[nhrr]
-Buttonpos=1,0
-Hotkey=Z
-
-// "AHbu" (Build (Human))
-[AHbu]
-Buttonpos=0,2
-Hotkey=W
-
-// "nfsp" (Forest Troll Shadow Priest)
-[nfsp]
-Buttonpos=0,2
-Hotkey=W
-
-// "Aews" (Well Spring)
-[Aews]
-Buttonpos=1,0
-Hotkey=Z
-
-// "AOsh" (Shockwave)
-[AOsh]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "AOcl" (Chain Lightning)
-[AOcl]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "sorf" (Shadow Orb Fragment)
-[sorf]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACmf" (Mana Shield)
-[ACmf]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "pman" (Potion of Mana)
-[pman]
-Buttonpos=1,1
-Hotkey=S
-
-// "ANd1" (Demolish)
-[ANd1]
-Buttonpos=1,1
-Hotkey=S
-
-// "AIfg" (Cloud of Fog)
-[AIfg]
-Buttonpos=0,2
-Hotkey=W
-
-// "brac" (Runed Bracers)
-[brac]
-Buttonpos=0,0
-Hotkey=A
-
-// "ostr" (Stronghold)
-[ostr]
-Buttonpos=0,2
-Hotkey=W
-
-// "nhyd" (Hydra)
-[nhyd]
-Buttonpos=0,0
-Hotkey=A
-
-// "CmdPurchase"
-[CmdPurchase]
-Buttonpos=0,0
-Hotkey=A
-
-// "ndt1" (Cold Tower)
-[ndt1]
-Buttonpos=1,1
-Hotkey=S
-
-// "AEah" (Thorns Aura)
-[AEah]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "Aap4" (Disease Cloud)
-[Aap4]
-Buttonpos=1,2
-Hotkey=X
-
-// "Ntin" (Tinker)
-[Ntin]
-Buttonpos=2,2
-Hotkey=C,C,C
-
-// "nsbs" (Submerged Snap Dragon)
-[nsbs]
-Buttonpos=0,0
-Hotkey=A
-
-// "AUin" (Inferno)
-[AUin]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "rman" (Rune of Mana)
-[rman]
-Buttonpos=0,0
-Hotkey=A
-
-// "AHmt" (Mass Teleport)
-[AHmt]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nscb" (Spider Crab Shorecrawler)
-[nscb]
-Buttonpos=0,0
-Hotkey=A
-
-// "nrac" (Raccoon)
-[nrac]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANfl" (Forked Lightning)
-[ANfl]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ACba" (Brilliance Aura)
-[ACba]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACce" (Cleaving Attack)
-[ACce]
-Buttonpos=1,2
-Hotkey=X
-
-// "nlsn" (Makrura Snapper)
-[nlsn]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ANsy" (Pocket Factory)
-[ANsy]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "nwgs" (Couatl)
-[nwgs]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACua" (Unholy Aura)
-[ACua]
-Buttonpos=2,2
-Hotkey=C
-
-// "CmdBuildOrc"
-[CmdBuildOrc]
-Buttonpos=0,2
-Hotkey=W
-
-// "Aemk" (Marksmanship)
-[Aemk]
-Buttonpos=3,2
-Hotkey=V
-
-// "Amgr" (Moon Glaive)
-[Amgr]
-Buttonpos=1,2
-Hotkey=X
-
-// "oslo" (Orb of Slow)
-[oslo]
-Buttonpos=0,0
-Hotkey=A
-
-// "ngog" (Guard Dog)
-[ngog]
-Buttonpos=0,0
-Hotkey=A
-
-// "Amic" (Call To Arms)
-[Amic]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=2,2
-Unhotkey=C
-
-// "Adta" (Reveal)
-[Adta]
-Buttonpos=0,0
-Hotkey=A
-
-// "ngrd" (Green Dragon)
-[ngrd]
-Buttonpos=1,2
-Hotkey=X
-
-// "nsns" (Watery Minion)
-[nsns]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANfb" (Firebolt)
-[ANfb]
-Buttonpos=0,2
-Hotkey=W
-
-// "sor4" (Shadow Orb +4)
-[sor4]
-Buttonpos=0,0
-Hotkey=A
-
-// "fgun" (Flare Gun)
-[fgun]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rucr" (Creature Carapace,Improved Creature Carapace,Advanced Creature Carapace)
-[Rucr]
-Buttonpos=1,1
-Hotkey=S,S,S
-
-// "rspd" (Rune of Speed)
-[rspd]
-Buttonpos=0,0
-Hotkey=A
-
-// "nndr" (Nether Dragon)
-[nndr]
-Buttonpos=0,2
-Hotkey=W
-
-// "ndtb" (Dark Troll Berserker)
-[ndtb]
-Buttonpos=0,2
-Hotkey=W
-
-// "nnfm" (Coral Bed)
-[nnfm]
-Buttonpos=2,0
-Hotkey=E
-
-// "rej6" (Greater Scroll of Replenishment)
-[rej6]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANtr" (True Sight)
-[ANtr]
-Buttonpos=0,2
-Hotkey=W
-
-// "pres" (Potion of Restoration)
-[pres]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aro1" (Root)
-[Aro1]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "ngrk" (Mud Golem)
-[ngrk]
-Buttonpos=2,0
-Hotkey=E
-
-// "nfgl" (Flesh Golem)
-[nfgl]
-Buttonpos=0,0
-Hotkey=A
-
-// "Hssa" (High King)
-[Hssa]
-Buttonpos=2,2
-Hotkey=C,C,C
-
-// "ANbu" (Build (Neutral))
-[ANbu]
-Buttonpos=0,2
-Hotkey=W
-
-// "hfoo" (Footman)
-[hfoo]
-Buttonpos=0,0
-Hotkey=A
-
-// "Acn2" (Cannibalize)
-[Acn2]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANr3" (Rain of Chaos)
-[ANr3]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ANlm" (Summon Lava Spawn)
-[ANlm]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "gobm" (Goblin Land Mines)
-[gobm]
-Buttonpos=0,0
-Hotkey=A
-
-// "umtw" (Meat Wagon)
-[umtw]
-Buttonpos=0,0
-Hotkey=A
-
-// "rsps" (Rune of Shielding)
-[rsps]
-Buttonpos=0,0
-Hotkey=A
-
-// "njks" (Jailor Kassan)
-[njks]
-Buttonpos=0,0
-Hotkey=A
-
-// "AOr3" (Reincarnation)
-[AOr3]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "AOhx" (Hex)
-[AOhx]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "rde3" (Ring of Protection +4)
-[rde3]
-Buttonpos=0,0
-Hotkey=A
-
-// "nubw" (Unbroken Darkweaver)
-[nubw]
-Buttonpos=0,0
-Hotkey=A
-
-// "AEsv" (Vengeance)
-[AEsv]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Uwar" (Warlock)
-[Uwar]
-Buttonpos=0,2
-Hotkey=W
-
-// "crys" (Crystal Ball)
-[crys]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANhs" (Healing Spray)
-[ANhs]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "AHav" (Avatar)
-[AHav]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Aadm" (Abolish Magic)
-[Aadm]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "onzg" (Nazgrel)
-[onzg]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACs7" (Feral Spirit)
-[ACs7]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "nmgr" (Magnataur Reaver)
-[nmgr]
-Buttonpos=0,0
-Hotkey=A
-
-// "hpea" (Peasant)
-[hpea]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANs2" (Pocket Factory)
-[ANs2]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ACfn" (Frost Nova)
-[ACfn]
-Buttonpos=0,2
-Hotkey=W
-
-// "ncen" (Centaur Outrunner)
-[ncen]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANc1" (Cluster Rockets)
-[ANc1]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "zshv" (Kobold Shoveler)
-[zshv]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rusm" (Skeletal Mastery)
-[Rusm]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Arpl" (Essence of Blight)
-[Arpl]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ANca" (Cleaving Attack)
-[ANca]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "Asdg" (Kaboom!)
-[Asdg]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "Agyb" (Flying Machine Bombs)
-[Agyb]
-Buttonpos=1,2
-Hotkey=X
-
-// "Ablo" (Bloodlust)
-[Ablo]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-
-// "Aspp" (Spirit Link)
-[Aspp]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ACpa" (Parasite)
-[ACpa]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "nbzd" (Bronze Dragon)
-[nbzd]
-Buttonpos=1,2
-Hotkey=X
-
-// "Aap1" (Disease Cloud)
-[Aap1]
-Buttonpos=1,2
-Hotkey=X
-
-// "ANc3" (Cluster Rockets)
-[ANc3]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ncim" (Centaur Impaler)
-[ncim]
-Buttonpos=0,0
-Hotkey=A
-
-// "skul" (Sacrificial Skull)
-[skul]
-Buttonpos=2,0
-Hotkey=E
-
-// "hmtt" (Siege Engine)
-[hmtt]
-Buttonpos=2,0
-Hotkey=E
-
-// "rat9" (Claws of Attack +9)
-[rat9]
-Buttonpos=0,0
-Hotkey=A
-
-// "Uclc" (Lich)
-[Uclc]
-Buttonpos=0,2
-Hotkey=W
-
-// "Remg" (Upgrade Moon Glaive)
-[Remg]
-Buttonpos=1,1
-Hotkey=S
-
-// "Rhme" (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords)
-[Rhme]
-Buttonpos=0,0
-Hotkey=A,A,A
-
-// "Ambt" (Replenish Mana and Life)
-[Ambt]
-Buttonpos=0,0
-Hotkey=A
-Unbuttonpos=0,0
-Unhotkey=A
-
-// "Abof" (Burning Oil)
-[Abof]
-Buttonpos=0,2
-Hotkey=W
-
-// "nws2"
-[nws2]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Adef" (Defend)
-[Adef]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "hgyr" (Flying Machine)
-[hgyr]
-Buttonpos=0,0
-Hotkey=A
-
-// "uobs" (Obsidian Statue)
-[uobs]
-Buttonpos=2,0
-Hotkey=E
-
-// "Robs" (Brute Strength)
-[Robs]
-Buttonpos=0,2
-Hotkey=W
-
-// "ACs9" (Feral Spirit)
-[ACs9]
-Buttonpos=1,2
-Hotkey=X
-
-// "ACdv" (Devour)
-[ACdv]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rhse" (Magic Sentry)
-[Rhse]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACah" (Thorns Aura)
-[ACah]
-Buttonpos=2,2
-Hotkey=C
 
 // "Acyc" (Cyclone)
 [Acyc]
 Buttonpos=1,2
 Hotkey=X
 
-// "ANf2" (Factory)
-[ANf2]
-Buttonpos=0,2
-Hotkey=W
-
-// "ubdd" (Sapphiron)
-[ubdd]
-Buttonpos=0,0
-Hotkey=A
-
-// "wtlg" (Wirt's Leg)
-[wtlg]
-Buttonpos=0,0
-Hotkey=A
-
-// "nhyh" (Hydra Hatchling)
-[nhyh]
-Buttonpos=0,0
-Hotkey=A
-
-// "rde2" (Ring of Protection +3)
-[rde2]
-Buttonpos=0,0
-Hotkey=A
-
-// "Arpb" (Replenish)
-[Arpb]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "Andm" (Abolish Magic)
-[Andm]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "Nbrn" (Dark Ranger)
-[Nbrn]
-Buttonpos=1,1
-Hotkey=S,S,S
-
-// "ofro" (Orb of Frost)
-[ofro]
-Buttonpos=0,0
-Hotkey=A
-
-// "nggg" (Guardian Golem)
-[nggg]
-Buttonpos=0,0
-Hotkey=A
-
-// "pdi2" (Potion of Divinity)
-[pdi2]
-Buttonpos=0,0
-Hotkey=A
-
-// "ankh" (Ankh of Reincarnation)
-[ankh]
-Buttonpos=0,0
-Hotkey=A
-
-// "CmdBuild"
-[CmdBuild]
-Buttonpos=0,2
-Hotkey=W
-
-// "AChV"
-[AChV]
-Buttonpos=0,2
-Hotkey=W
-
-// "spsh" (Amulet of Spell Shield)
-[spsh]
-Buttonpos=0,0
-Hotkey=A
-
-// "Reht" (Hippogryph Taming)
-[Reht]
-Buttonpos=0,2
-Hotkey=W
-
-// "ncta" (Corrupted Tree of Ages)
-[ncta]
-Buttonpos=0,2
-Hotkey=W
-
-// "Aens" (Ensnare)
-[Aens]
-Buttonpos=0,2
-Hotkey=W
-
-// "edry" (Dryad)
-[edry]
-Buttonpos=0,0
-Hotkey=A
-
-// "nowb" (Wildkin)
-[nowb]
-Buttonpos=1,0
-Hotkey=Z
-
-// "nctl" (Corrupted Tree of Life)
-[nctl]
-Buttonpos=0,0
-Hotkey=A
-
-// "rej3" (Replenishment Potion)
-[rej3]
-Buttonpos=0,0
-Hotkey=A
-
-// "shtm" (Shamanic Totem)
-[shtm]
-Buttonpos=0,0
-Hotkey=A
-
-// "rde0" (Ring of Protection +1)
-[rde0]
-Buttonpos=0,0
-Hotkey=A
-
 // "Awar" (Pulverize,Pulverize)
 [Awar]
 Buttonpos=0,2
 Hotkey=W
 
-// "rwiz" (Sobi Mask)
-[rwiz]
-Buttonpos=2,0
-Hotkey=E
-
-// "woms" (Wand of Mana Stealing)
-[woms]
-Buttonpos=0,0
-Hotkey=A
-
-// "CmdAttackGround"
-[CmdAttackGround]
+// "ARal" (Rally)
+[ARal]
 Buttonpos=3,1
 Hotkey=F
-
-// "ANmo" (Monsoon)
-[ANmo]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "AOww" (Bladestorm)
-[AOww]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Aeye" (Sentry Ward)
-[Aeye]
-Buttonpos=0,2
-Hotkey=W
-
-// "Apsh" (Phase Shift)
-[Apsh]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ovln" (Voodoo Lounge)
-[ovln]
-Buttonpos=1,2
-Hotkey=X
-
-// "frhg" (Firehand Gauntlets)
-[frhg]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ahrl" (Harvest)
-[Ahrl]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
-
-// "Rhrt" (Barrage)
-[Rhrt]
-Buttonpos=2,1
-Hotkey=D
-
-// "Aave" (Destroyer Form)
-[Aave]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "amrc" (Amulet of Recall)
-[amrc]
-Buttonpos=0,0
-Hotkey=A
-
-// "nsgb" (Sea Giant Behemoth)
-[nsgb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ndrv" (Revenant of the Depths)
-[ndrv]
-Buttonpos=0,0
-Hotkey=A
-
-// "gmfr" (Gem Fragment)
-[gmfr]
-Buttonpos=0,0
-Hotkey=A
 
 // "Usyl" (Dark Ranger)
 [Usyl]
 Buttonpos=0,0
 Hotkey=A
 
-// "AOae" (Endurance Aura)
-[AOae]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
+// "ncef" (Centaur Archer)
+[ncef]
+Buttonpos=0,2
+Hotkey=W
 
-// "Rhfs" (Fragmentation Shards)
-[Rhfs]
+// "Rers" (Resistant Skin)
+[Rers]
 Buttonpos=1,1
 Hotkey=S
 
-// "net1" (Energy Tower)
-[net1]
-Buttonpos=0,0
-Hotkey=A
-
-// "nggm" (Moss Covered Granite Golem)
-[nggm]
-Buttonpos=0,0
-Hotkey=A
-
-// "AHbn" (Banish)
-[AHbn]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ACs8" (Spirit Beast)
-[ACs8]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Ausm" (Skeletal Mastery)
-[Ausm]
-Buttonpos=3,2
-Hotkey=V
+// "Arst" (Restore)
+[Arst]
+Buttonpos=1,1
+Hotkey=S
+Unbuttonpos=1,1
+Unhotkey=S
 
 // "Aetl" (Ethereal)
 [Aetl]
 Buttonpos=2,2
 Hotkey=C
 
-// "ACwe" (Summon Sea Elemental)
-[ACwe]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Aimp" (Vorpal Blades)
-[Aimp]
+// "Etyr" (Priestess of the Moon)
+[Etyr]
 Buttonpos=0,2
 Hotkey=W
 
-// "ACpv" (Pulverize)
-[ACpv]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Ulic" (Lich)
-[Ulic]
-Buttonpos=2,2
-Hotkey=C,C,C
-
-// "nadr" (Blue Dragon)
-[nadr]
-Buttonpos=1,2
-Hotkey=X
-
-// "sor8" (Shadow Orb +8)
-[sor8]
-Buttonpos=0,0
-Hotkey=A
-
-// "nnsu" (Summoner)
-[nnsu]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANpi" (Permanent Immolation)
-[ANpi]
+// "Andt" (Reveal)
+[Andt]
 Buttonpos=0,2
 Hotkey=W
 
-// "nanw" (Warrior Arachnathid)
-[nanw]
-Buttonpos=0,0
-Hotkey=A
-
-// "CmdSelectSkill"
-[CmdSelectSkill]
-Buttonpos=3,1
-Hotkey=F
-
-// "nvdw" (Voidwalker)
-[nvdw]
-Buttonpos=2,0
-Hotkey=E
-
-// "Apxf" (Phoenix Fire)
-[Apxf]
-Buttonpos=1,2
-Hotkey=X
-
-// "rma2" (Rune of Greater Mana)
-[rma2]
-Buttonpos=0,0
-Hotkey=A
-
-// "eaow" (Ancient of Wind)
-[eaow]
-Buttonpos=0,2
-Hotkey=W
-
-// "nccd" (Diablo Cart)
-[nccd]
-Buttonpos=2,0
-Hotkey=E
-
-// "Ambd" (Mana Burn)
-[Ambd]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "odoc" (Witch Doctor)
-[odoc]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Resm" (Strength of the Moon,Improved Strength of the Moon,Advanced Strength of the Moon)
-[Resm]
-Buttonpos=0,0
-Hotkey=A,A,A
-
-// "ngsp" (Sapper)
-[ngsp]
+// "ACmi" (Spell Immunity)
+[ACmi]
 Buttonpos=2,2
 Hotkey=C
 
-// "Rhar" (Iron Plating,Steel Plating,Mithril Plating)
-[Rhar]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "Renb" (Nature's Blessing)
-[Renb]
-Buttonpos=2,0
-Hotkey=E
-
-// "pclr" (Clarity Potion)
-[pclr]
-Buttonpos=1,2
-Hotkey=X
-
-// "nslf" (Sludge Flinger)
-[nslf]
-Buttonpos=1,0
-Hotkey=Z
-
-// "SNdc" (Dark Conversion)
-[SNdc]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "uban" (Banshee)
-[uban]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ndtp" (Dark Troll Shadow Priest)
-[ndtp]
+// "ANen" (Ensnare)
+[ANen]
 Buttonpos=0,2
 Hotkey=W
 
-// "ndrl" (Draenei Laborer)
-[ndrl]
+// "htow" (Town Hall)
+[htow]
 Buttonpos=0,0
 Hotkey=A
-
-// "Nmsr" (Murloc Sorcerer)
-[Nmsr]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ekgg" (Keeper of the Grove)
-[Ekgg]
-Buttonpos=0,2
-Hotkey=W
-
-// "ngos" (Snarlmane the Bloodgorger)
-[ngos]
-Buttonpos=3,0
-Hotkey=R
-
-// "nsrh" (Stormreaver Hermit)
-[nsrh]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ahr2" (Harvest)
-[Ahr2]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
 
 // "nfpl" (Polar Furbolg)
 [nfpl]
-Buttonpos=0,0
-Hotkey=A
-
-// "nmgd" (Magnataur Destroyer)
-[nmgd]
-Buttonpos=0,0
-Hotkey=A
-
-// "will" (Wand of Illusion)
-[will]
-Buttonpos=0,0
-Hotkey=A
-
-// "ngow" (Gnoll Warlord)
-[ngow]
-Buttonpos=3,0
-Hotkey=R
-
-// "gsou" (Soul Gem)
-[gsou]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANsq" (Summon Quilbeast)
-[ANsq]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ACds" (Divine Shield)
-[ACds]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "orbr" (Reinforced Burrow)
-[orbr]
-Buttonpos=0,1
-Hotkey=Q
-
-// "AEar" (Trueshot Aura)
-[AEar]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "nfrl" (Furbolg)
-[nfrl]
 Buttonpos=0,0
 Hotkey=A
 
@@ -2916,855 +6709,141 @@ Hotkey=V
 Researchbuttonpos=3,0
 Researchhotkey=R
 
-// "Arai" (Raise Dead)
-[Arai]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ACbb" (Bloodlust)
-[ACbb]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "npn2" (Storm)
-[npn2]
-Buttonpos=0,2
-Hotkey=W
-
-// "hgtw" (Guard Tower)
-[hgtw]
-Buttonpos=0,2
-Hotkey=W
-
-// "grsl" (Grimoire of Souls)
-[grsl]
-Buttonpos=0,0
-Hotkey=A
-
-// "AIbk" (Blink (Item Version))
-[AIbk]
-Buttonpos=1,2
-Hotkey=X
-
-// "hbot" (Human Transport Ship)
-[hbot]
-Buttonpos=0,0
-Hotkey=A
-
-// "nbdo" (Blue Dragonspawn Overseer)
-[nbdo]
-Buttonpos=0,0
-Hotkey=A
-
-// "Afod" (Finger of Death)
-[Afod]
+// "Asb3" (Submerge)
+[Asb3]
 Buttonpos=3,2
 Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
+Unbuttonpos=3,2
+Unhotkey=V
 
-// "hrif" (Rifleman)
-[hrif]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ncfs" (Watery Minion)
-[ncfs]
+// "fgun" (Flare Gun)
+[fgun]
 Buttonpos=0,0
 Hotkey=A
 
-// "ndt2" (Advanced Cold Tower)
-[ndt2]
+// "rma2" (Rune of Greater Mana)
+[rma2]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANwk" (Wind Walk)
+[ANwk]
 Buttonpos=0,2
 Hotkey=W
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-// "ACcn" (Cannibalize)
-[ACcn]
-Buttonpos=0,2
-Hotkey=W
+// "nft1" (Flame Tower)
+[nft1]
+Buttonpos=0,1
+Hotkey=Q
 
-// "nstl" (Satyr Soulstealer)
-[nstl]
-Buttonpos=2,0
-Hotkey=E
-
-// "nmrr" (Murloc Huntsman)
-[nmrr]
+// "Rusp" (Destroyer Form)
+[Rusp]
 Buttonpos=2,2
 Hotkey=C
 
-// "ANtm" (Transmute)
-[ANtm]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Repb" (Vorpal Blades)
-[Repb]
-Buttonpos=2,1
-Hotkey=D
-
-// "ram2" (Ring of the Archmagi)
-[ram2]
+// "dthb" (Thunderbloom Bulb)
+[dthb]
 Buttonpos=0,0
 Hotkey=A
 
-// "rst1" (Gauntlets of Ogre Strength +3)
-[rst1]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANwm" (Watery Minion)
-[ANwm]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "nmsc" (Mur'gul Shadowcaster)
-[nmsc]
-Buttonpos=0,0
-Hotkey=A
-
-// "Hjnd" (Ranger)
-[Hjnd]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ahrp" (Repair)
-[Ahrp]
-Buttonpos=1,1
-Hotkey=S
-Unbuttonpos=1,1
-Unhotkey=S
-
-// "uarb" (Sky Barge)
-[uarb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ngna" (Gnoll Poacher)
-[ngna]
-Buttonpos=0,0
-Hotkey=A
-
-// "AUls" (Locust Swarm)
-[AUls]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nheb" (High Elven Barracks)
-[nheb]
-Buttonpos=0,0
-Hotkey=A
-
-// "nchp" (Chaplain)
-[nchp]
-Buttonpos=1,0
-Hotkey=Z
-
-// "etoe" (Tree of Eternity)
-[etoe]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANf1" (Factory)
-[ANf1]
-Buttonpos=0,2
-Hotkey=W
-
-// "Hapm" (Paladin)
-[Hapm]
-Buttonpos=0,2
-Hotkey=W
-
-// "nanb" (Barbed Arachnathid)
-[nanb]
-Buttonpos=0,0
-Hotkey=A
-
-// "rreb" (Rune of Rebirth)
-[rreb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANcr" (Chemical Rage)
-[ANcr]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "usap" (Sacrificial Pit)
-[usap]
-Buttonpos=0,2
-Hotkey=W
-
-// "nnwa" (Nerubian Warrior)
-[nnwa]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ocb2" (Tauren Chieftain)
-[Ocb2]
-Buttonpos=0,2
-Hotkey=W
-
-// "AUdd" (Death And Decay)
-[AUdd]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "silk" (Spider Silk Broach)
-[silk]
-Buttonpos=0,0
-Hotkey=A
-
-// "Nman" (Pit Lord)
-[Nman]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aosp" (Spiked Barricades,Spiked Barricades,Improved Spiked Barricades)
-[Aosp]
-Buttonpos=3,2
-Hotkey=V
-
-// "blba" (Bladebane Armor)
-[blba]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rehs" (Hardened Skin)
-[Rehs]
-Buttonpos=2,1
-Hotkey=D
-
-// "dtsb" (Drek'thar's Spellbook)
-[dtsb]
-Buttonpos=0,0
-Hotkey=A
-
-// "Hddt" (Master Swordsman)
-[Hddt]
-Buttonpos=0,2
-Hotkey=W,W,W
-
-// "ndtt" (Dark Troll Trapper)
-[ndtt]
-Buttonpos=0,2
-Hotkey=W
-
-// "hars" (Arcane Sanctum)
-[hars]
-Buttonpos=2,1
-Hotkey=D
-
-// "Utic" (Dreadlord)
-[Utic]
-Buttonpos=0,2
-Hotkey=W
-
-// "tmsc" (Tome of Sacrifices)
-[tmsc]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACcl" (Chain Lightning)
-[ACcl]
-Buttonpos=1,2
-Hotkey=X
-
-// "AEim" (Immolation)
-[AEim]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Apig" (Permanent Immolation)
-[Apig]
-Buttonpos=0,2
-Hotkey=W
-
-// "wneg" (Wand of Negation)
-[wneg]
+// "Ahr3" (Harvest)
+[Ahr3]
 Buttonpos=3,1
 Hotkey=F
+Unbuttonpos=3,1
+Unhotkey=F
 
-// "Aprg" (Purge)
-[Aprg]
-Buttonpos=0,2
-Hotkey=W
-
-// "Nngs" (Sea Witch)
-[Nngs]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "AEsb" (Starfall)
-[AEsb]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Afra" (Frost Attack)
-[Afra]
-Buttonpos=0,2
-Hotkey=W
-
-// "Acny" (Cyclone)
-[Acny]
-Buttonpos=2,2
-Hotkey=C
-
-// "ncat" (Draenei Demolisher)
-[ncat]
-Buttonpos=0,0
-Hotkey=A
-
-// "Amrf" (Crow Form)
-[Amrf]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "Ache" (Ray of Disruption)
-[Ache]
+// "Aam2" (Anti-magic Shell)
+[Aam2]
 Buttonpos=1,2
 Hotkey=X
 
-// "otto" (Tauren Totem)
-[otto]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rhan" (Animal War Training)
-[Rhan]
-Buttonpos=2,2
-Hotkey=C
-
-// "hdhw" (Dragonhawk Rider)
-[hdhw]
+// "nmgd" (Magnataur Destroyer)
+[nmgd]
 Buttonpos=0,0
 Hotkey=A
 
-// "Apmf" (Phoenix Fire)
-[Apmf]
-Buttonpos=0,2
-Hotkey=W
-
-// "ACsf" (Feral Spirit)
-[ACsf]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACev" (Evasion)
-[ACev]
-Buttonpos=2,2
-Hotkey=C
-
-// "emtg" (Mountain Giant)
-[emtg]
-Buttonpos=2,0
-Hotkey=E
-
-// "Rubu" (Burrow)
-[Rubu]
-Buttonpos=1,1
-Hotkey=S
-
-// "nlkl" (Makrura Tidal Lord)
-[nlkl]
+// "sorf" (Shadow Orb Fragment)
+[sorf]
 Buttonpos=0,0
 Hotkey=A
 
-// "Asal" (Pillage)
-[Asal]
-Buttonpos=1,2
-Hotkey=X
-
-// "nbdw" (Blue Dragonspawn Warrior)
-[nbdw]
+// "pnvu" (Potion of Invulnerability)
+[pnvu]
 Buttonpos=0,0
 Hotkey=A
 
-// "mgtk" (Magic Key Chain)
-[mgtk]
-Buttonpos=0,0
-Hotkey=A
-
-// "obot" (Orc Transport Ship)
-[obot]
-Buttonpos=0,0
-Hotkey=A
-
-// "pomn" (Potion of Omniscience)
-[pomn]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ansk" (Hardened Skin)
-[Ansk]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACuf" (Unholy Frenzy)
-[ACuf]
-Buttonpos=1,2
-Hotkey=X
-
-// "Nal3" (Alchemist)
-[Nal3]
-Buttonpos=3,2
-Hotkey=V,V,V
-
-// "AUdr" (Dark Ritual)
-[AUdr]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "nskm" (Skeletal Marksman)
-[nskm]
-Buttonpos=0,0
-Hotkey=A
-
-// "AHpx" (Phoenix)
-[AHpx]
+// "Anei" (Select User)
+[Anei]
 Buttonpos=3,2
 Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
 
-// "ndrt" (Draenei Stalker)
-[ndrt]
-Buttonpos=2,0
-Hotkey=E
-
-// "nchw" (Fel Orc Warlock)
-[nchw]
-Buttonpos=0,2
-Hotkey=W
-
-// "ncgb" (Clockwerk Goblin)
-[ncgb]
-Buttonpos=0,2
-Hotkey=W
-
-// "nggd" (Defender Golem)
-[nggd]
-Buttonpos=0,0
-Hotkey=A
-
-// "nrvs" (Frost Revenant)
-[nrvs]
+// "etrp" (Ancient Protector)
+[etrp]
 Buttonpos=3,0
 Hotkey=R
 
-// "Eidm" (Demon Hunter)
-[Eidm]
+// "hctw" (Cannon Tower)
+[hctw]
+Buttonpos=1,2
+Hotkey=X
+
+// "nbdk" (Black Drake)
+[nbdk]
 Buttonpos=0,2
 Hotkey=W
 
-// "CmdCancelRevive"
-[CmdCancelRevive]
-Buttonpos=3,2
-Hotkey=V
-
-// "ACm2" (Spell Immunity, Spell Immunity)
-[ACm2]
-Buttonpos=1,1
-Hotkey=S
-
-// "Hamg" (Archmage)
-[Hamg]
-Buttonpos=0,2
-Hotkey=W,W,W
-
-// "gvsm" (Gloves of Spell Mastery)
-[gvsm]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANrn" (Reincarnation)
-[ANrn]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "Uktl" (Lich)
-[Uktl]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rupm" (Backpack)
-[Rupm]
-Buttonpos=3,0
-Hotkey=R
-
-// "ofr2" (Orb of Fire)
-[ofr2]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ANcf" (Breath of Fire)
-[ANcf]
+// "ACfs" (Flame Strike)
+[ACfs]
 Buttonpos=0,2
 Hotkey=W
 Researchbuttonpos=0,0
 Researchhotkey=A
 
-// "mcri" (Mechanical Critter)
-[mcri]
+// "Hkal" (Blood Mage)
+[Hkal]
+Buttonpos=0,1
+Hotkey=Q
+
+// "Rowt" (Spirit Walker Adept Training,Spirit Walker Master Training)
+[Rowt]
+Buttonpos=0,2
+Hotkey=W,W
+
+// "ankh" (Ankh of Reincarnation)
+[ankh]
 Buttonpos=0,0
 Hotkey=A
 
-// "Abrf" (Bear Form)
-[Abrf]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "Rhpm" (Backpack)
-[Rhpm]
+// "ocor" (Orb of Corruption)
+[ocor]
 Buttonpos=3,0
 Hotkey=R
 
-// "Rhra" (Black Gunpowder,Refined Gunpowder,Imbued Gunpowder)
-[Rhra]
-Buttonpos=1,0
-Hotkey=Z,Z,Z
-
-// "stwp" (Scroll of Town Portal)
-[stwp]
-Buttonpos=2,1
-Hotkey=D
-
-// "AUcs" (Carrion Swarm)
-[AUcs]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ANg2" (Robo-Goblin)
-[ANg2]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "utom" (Tomb of Relics)
-[utom]
-Buttonpos=2,2
-Hotkey=C
-
-// "ofrt" (Fortress)
-[ofrt]
-Buttonpos=0,2
-Hotkey=W
-
-// "SNin" (Inferno)
-[SNin]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "AHfs" (Flame Strike)
-[AHfs]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Augf" (Ghoul Frenzy)
-[Augf]
-Buttonpos=1,2
-Hotkey=X
-
-// "ANsw" (Summon Hawk)
-[ANsw]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ndrd" (Draenei Darkslayer)
-[ndrd]
-Buttonpos=3,0
-Hotkey=R
-
-// "Asds" (Kaboom!)
-[Asds]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "nubk" (Unbroken Darkhunter)
-[nubk]
+// "onzg" (Nazgrel)
+[onzg]
 Buttonpos=0,0
 Hotkey=A
 
-// "Emoo" (Priestess of the Moon)
-[Emoo]
-Buttonpos=2,2
-Hotkey=C,C,C
-
-// "Rhpt" (Priest Adept Training,Priest Master Training)
-[Rhpt]
-Buttonpos=1,2
-Hotkey=X,X
-
-// "Aenc" (Load)
-[Aenc]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-
-// "Amdf" (Magic Defense)
-[Amdf]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "Hblm" (Blood Mage)
-[Hblm]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "ACpy" (Polymorph)
-[ACpy]
-Buttonpos=1,2
-Hotkey=X
-
-// "Hant" (Archmage)
-[Hant]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "Arav" (Storm Crow Form)
-[Arav]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "ANia" (Incinerate)
-[ANia]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "Ruba" (Banshee Adept Training,Banshee Master Training)
-[Ruba]
-Buttonpos=1,2
-Hotkey=X,X
-
-// "CmdStop"
-[CmdStop]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Rema" (Moon Armor,Improved Moon Armor,Advanced Moon Armor)
-[Rema]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "tbar" (Tiny Barracks)
-[tbar]
-Buttonpos=0,0
-Hotkey=A
-
-// "sor2" (Shadow Orb +2)
-[sor2]
-Buttonpos=0,0
-Hotkey=A
-
-// "Amgl" (Moon Glaive)
-[Amgl]
-Buttonpos=1,2
-Hotkey=X
-
-// "Rnat" (Coral Blades,Chitinous Blades,Razorspine Blades)
-[Rnat]
-Buttonpos=0,2
-Hotkey=W
-
-// "Hmkg" (Mountain King)
-[Hmkg]
+// "Ofar" (Far Seer)
+[Ofar]
 Buttonpos=1,2
 Hotkey=X,X,X
 
-// "sman" (Scroll of Mana)
-[sman]
+// "ncer" (Centaur Drudge)
+[ncer]
+Buttonpos=0,2
+Hotkey=W
+
+// "nsc2" (Spider Crab Limbripper)
+[nsc2]
 Buttonpos=0,0
 Hotkey=A
 
-// "AEmb" (Mana Burn)
-[AEmb]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Ambb" (Mana Burn)
-[Ambb]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Assk" (Hardened Skin)
-[Assk]
-Buttonpos=2,2
-Hotkey=C
-
-// "Rnen" (Ensnare)
-[Rnen]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANr2" (Reincarnation)
-[ANr2]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nfac" (Pocket Factory)
-[nfac]
-Buttonpos=0,0
-Hotkey=A
-
-// "fgrd" (Red Drake Egg)
-[fgrd]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACc2" (Crushing Wave)
-[ACc2]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ncap" (Corrupted Ancient Protector)
-[ncap]
-Buttonpos=3,0
-Hotkey=R
-
-// "ACss"
-[ACss]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ncte" (Corrupted Tree of Eternity)
-[ncte]
-Buttonpos=0,2
-Hotkey=W
-
-// "owyv" (Wind Rider)
-[owyv]
-Buttonpos=1,0
-Hotkey=Z
-
-// "tsct" (Ivory Tower)
-[tsct]
-Buttonpos=3,1
-Hotkey=F
-
-// "rugt" (Runed Gauntlets)
-[rugt]
-Buttonpos=0,0
-Hotkey=A
-
-// "Eevm" (Demon Hunter)
-[Eevm]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANrc" (Rain of Chaos)
-[ANrc]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ACfb" (Firebolt)
-[ACfb]
-Buttonpos=2,2
-Hotkey=C
-
-// "ugrm" (Stone Form Gargoyle)
-[ugrm]
-Buttonpos=2,0
-Hotkey=E
-
-// "Rovs" (Envenomed Spears)
-[Rovs]
-Buttonpos=1,2
-Hotkey=X
-
-// "pspd" (Potion of Speed)
-[pspd]
-Buttonpos=0,0
-Hotkey=A
-
-// "udes" (Undead Frigate)
-[udes]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Robk" (Berserker Upgrade)
-[Robk]
-Buttonpos=1,1
-Hotkey=S
-
-// "net2" (Advanced Energy Tower)
-[net2]
-Buttonpos=0,2
-Hotkey=W
-
-// "esaz" (Essence of Aszune)
-[esaz]
-Buttonpos=0,0
-Hotkey=A
-
-// "Hart" (Paladin)
-[Hart]
-Buttonpos=0,2
-Hotkey=W
-
-// "shhn" (Shield of Honor)
-[shhn]
+// "nubr" (Unbroken Rager)
+[nubr]
 Buttonpos=0,0
 Hotkey=A
 
@@ -3777,441 +6856,196 @@ Unhotkey=X
 Researchbuttonpos=1,0
 Researchhotkey=Z
 
-// "ntrs" (Sea Turtle)
-[ntrs]
-Buttonpos=0,0
-Hotkey=A
+// "Hant" (Archmage)
+[Hant]
+Buttonpos=0,1
+Hotkey=Q,Q,Q
 
-// "ncg1" (Clockwerk Goblin)
-[ncg1]
-Buttonpos=0,2
-Hotkey=W
-
-// "nmrv" (Mur'gul Marauder)
-[nmrv]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aco2" (Mount Hippogryph)
-[Aco2]
-Buttonpos=0,2
-Hotkey=W
-
-// "tkno" (Tome of Power)
-[tkno]
-Buttonpos=0,0
-Hotkey=A
-
-// "AUdp" (Death Pact)
-[AUdp]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Aams" (Anti-magic Shell)
-[Aams]
+// "Aap1" (Disease Cloud)
+[Aap1]
 Buttonpos=1,2
 Hotkey=X
 
-// "ngns" (Gnoll Assassin)
-[ngns]
-Buttonpos=0,0
-Hotkey=A
-
-// "unp2" (Black Citadel)
-[unp2]
+// "Hamg" (Archmage)
+[Hamg]
 Buttonpos=0,2
-Hotkey=W
+Hotkey=W,W,W
 
-// "ndrn" (Draenei Vindicator)
-[ndrn]
-Buttonpos=1,2
-Hotkey=X
-
-// "Afr2" (Frost Attack)
-[Afr2]
-Buttonpos=1,2
-Hotkey=X
-
-// "sneg" (Staff of Negation)
-[sneg]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ashm" (Shadow Meld)
-[Ashm]
-Buttonpos=2,1
-Hotkey=D
-
-// "CmdCancel"
-[CmdCancel]
-Buttonpos=3,2
-Hotkey=V
-
-// "ANhw" (Healing Wave)
-[ANhw]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Aivs" (Invisibility)
-[Aivs]
-Buttonpos=1,2
-Hotkey=X
-
-// "Aoth"
-[Aoth]
-Buttonpos=0,2
-Hotkey=W
-
-// "Emns" (Keeper of the Grove)
-[Emns]
-Buttonpos=0,2
-Hotkey=W
-
-// "odkt" (Drak'thul)
-[odkt]
-Buttonpos=0,0
-Hotkey=A
-
-// "AChw" (Healing Ward)
-[AChw]
-Buttonpos=0,2
-Hotkey=W
-
-// "Eevi" (Demon Hunter)
-[Eevi]
-Buttonpos=0,2
-Hotkey=W
-
-// "rej4" (Greater Replenishment Potion)
-[rej4]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aeat" (Eat Tree)
-[Aeat]
-Buttonpos=0,2
-Hotkey=W
-
-// "nnmg" (Mur'gul Reaver)
-[nnmg]
+// "nrvs" (Frost Revenant)
+[nrvs]
 Buttonpos=3,0
 Hotkey=R
 
-// "AGbu" (Build (Naga))
-[AGbu]
+// "Otcc" (Tauren Chieftain)
+[Otcc]
 Buttonpos=0,2
 Hotkey=W
 
-// "Ocbh" (Tauren Chieftain)
-[Ocbh]
+// "edoc" (Druid of the Claw)
+[edoc]
+Buttonpos=1,0
+Hotkey=Z
+
+// "nubk" (Unbroken Darkhunter)
+[nubk]
+Buttonpos=0,0
+Hotkey=A
+
+// "Adtn" (Detonate)
+[Adtn]
+Buttonpos=1,2
+Hotkey=X
+
+// "mdpb" (Medusa Pebble)
+[mdpb]
 Buttonpos=0,2
 Hotkey=W
 
-// "Robf" (Burning Oil)
-[Robf]
-Buttonpos=2,1
-Hotkey=D
-
-// "ndth" (Dark Troll High Priest)
-[ndth]
+// "ACdr" (Life Drain)
+[ACdr]
 Buttonpos=0,2
 Hotkey=W
 
-// "obea" (Beastiary)
-[obea]
+// "pman" (Potion of Mana)
+[pman]
+Buttonpos=1,1
+Hotkey=S
+
+// "efdr" (Faerie Dragon)
+[efdr]
+Buttonpos=2,0
+Hotkey=E
+
+// "Aotr" (Troll Regeneration)
+[Aotr]
+Buttonpos=3,2
+Hotkey=V
+
+// "tfar" (Tiny Farm)
+[tfar]
+Buttonpos=0,0
+Hotkey=A
+
+// "Reec" (Mark of the Talon)
+[Reec]
+Buttonpos=1,1
+Hotkey=S
+
+// "CmdBuildHuman"
+[CmdBuildHuman]
+Buttonpos=0,2
+Hotkey=W
+
+// "otau" (Tauren)
+[otau]
+Buttonpos=1,0
+Hotkey=Z
+
+// "AOr3" (Reincarnation)
+[AOr3]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "harm" (Workshop)
+[harm]
 Buttonpos=3,1
 Hotkey=F
 
-// "srbd" (Searing Blade)
-[srbd]
+// "ebal" (Glaive Thrower)
+[ebal]
+Buttonpos=3,1
+Hotkey=F
+
+// "rde0" (Ring of Protection +1)
+[rde0]
 Buttonpos=0,0
 Hotkey=A
 
-// "nhew" (Worker)
-[nhew]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rhri" (Long Rifles)
-[Rhri]
-Buttonpos=1,2
-Hotkey=X
-
-// "Aspo" (Slow Poison)
-[Aspo]
-Buttonpos=1,2
-Hotkey=X
-
-// "arsc" (Arcane Scroll)
-[arsc]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANsg" (Summon Bear)
-[ANsg]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "zcso" (Terran Marine)
-[zcso]
-Buttonpos=0,2
-Hotkey=W
-
-// "nomg" (Ogre Magi)
-[nomg]
-Buttonpos=1,2
-Hotkey=X
-
-// "ACd2" (Abolish Magic)
-[ACd2]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "CmdBuildNightElf"
-[CmdBuildNightElf]
-Buttonpos=0,2
-Hotkey=W
-
-// "uabc" (Abomination)
-[uabc]
-Buttonpos=1,0
-Hotkey=Z
-
-// "CmdPatrol"
-[CmdPatrol]
-Buttonpos=0,1
-Hotkey=Q
-
-// "frgd" (Frostguard)
-[frgd]
-Buttonpos=0,0
-Hotkey=A
-
-// "AOeq" (Earthquake)
-[AOeq]
+// "AHpx" (Phoenix)
+[AHpx]
 Buttonpos=3,2
 Hotkey=V
 Researchbuttonpos=3,0
 Researchhotkey=R
 
-// "nntg" (Tidal Guardian)
-[nntg]
-Buttonpos=3,0
-Hotkey=R
-
-// "AOre" (Reincarnation)
-[AOre]
+// "ACac" (Command Aura)
+[ACac]
 Buttonpos=3,2
 Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
 
-// "opeo" (Peon)
-[opeo]
+// "nsgn" (Sea Giant)
+[nsgn]
 Buttonpos=0,0
 Hotkey=A
 
-// "esen" (Huntress)
-[esen]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ANsh" (Shockwave)
-[ANsh]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "nbnb" (Burrowed Barbed Arachnathid)
-[nbnb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ucrm" (Burrowed Crypt Fiend)
-[ucrm]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ANg3" (Robo-Goblin)
-[ANg3]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nbt2" (Advanced Boulder Tower)
-[nbt2]
+// "Absk" (Berserk)
+[Absk]
 Buttonpos=0,2
 Hotkey=W
 
-// "ACif" (Inner Fire)
-[ACif]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "tdex" (Tome of Agility)
-[tdex]
-Buttonpos=0,0
-Hotkey=A
-
-// "Hlgr" (Dark Knight)
-[Hlgr]
-Buttonpos=0,2
-Hotkey=W
-
-// "sor7" (Shadow Orb +7)
-[sor7]
-Buttonpos=0,0
-Hotkey=A
-
-// "Asb3" (Submerge)
-[Asb3]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "AHbz" (Blizzard)
-[AHbz]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "AHdr" (Siphon Mana)
-[AHdr]
+// "Aslp" (Summon Prawns)
+[Aslp]
 Buttonpos=2,2
 Hotkey=C
 Researchbuttonpos=2,0
 Researchhotkey=E
 
-// "tstr" (Tome of Strength)
-[tstr]
+// "lure" (Monster Lure)
+[lure]
 Buttonpos=0,0
 Hotkey=A
 
-// "ANfa" (Frost Arrows)
-[ANfa]
+// "nndk" (Nether Drake)
+[nndk]
 Buttonpos=1,2
 Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
+
+// "klmm" (Killmaim)
+[klmm]
+Buttonpos=0,0
+Hotkey=A
+
+// "SNeq" (Earthquake)
+[SNeq]
+Buttonpos=3,2
+Hotkey=V
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "cosl" (Celestial Orb of Souls)
+[cosl]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACbf" (Breath of Frost)
+[ACbf]
+Buttonpos=1,2
+Hotkey=X
+
+// "CmdPurchase"
+[CmdPurchase]
+Buttonpos=0,0
+Hotkey=A
+
+// "SCc1" (Cyclone)
+[SCc1]
+Buttonpos=1,1
+Hotkey=S
+
+// "nmdr" (Dire Mammoth)
+[nmdr]
+Buttonpos=0,0
+Hotkey=A
 
 // "rhe2" (Rune of Healing)
 [rhe2]
 Buttonpos=0,0
 Hotkey=A
 
-// "Agra" (War Club)
-[Agra]
-Buttonpos=1,2
-Hotkey=X
-
-// "unp1" (Halls of the Dead)
-[unp1]
-Buttonpos=0,2
-Hotkey=W
-
-// "ntrd" (Dragon Turtle)
-[ntrd]
-Buttonpos=0,0
-Hotkey=A
-
-// "rhth" (Khadgar's Gem of Health)
-[rhth]
-Buttonpos=0,0
-Hotkey=A
-
-// "asbl" (Assassin's Blade)
-[asbl]
-Buttonpos=0,0
-Hotkey=A
-
-// "utod" (Temple of the Damned)
-[utod]
-Buttonpos=2,1
-Hotkey=D
-
-// "Nmag" (Pit Lord)
-[Nmag]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aaha" (Gather)
-[Aaha]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
-
-// "axas" (Ancestral Staff)
-[axas]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aorb" (Reinforced Defenses)
-[Aorb]
-Buttonpos=3,2
-Hotkey=V
-
-// "Acdh" (Drunken Haze)
-[Acdh]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "tbsm" (Tiny Blacksmith)
-[tbsm]
-Buttonpos=0,0
-Hotkey=A
-
-// "edcm" (Druid of the Claw)
-[edcm]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Arsp" (Stampede)
-[Arsp]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Reeb" (Mark of the Claw)
-[Reeb]
-Buttonpos=3,1
-Hotkey=F
-
-// "Asac" (Sacrifice)
-[Asac]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACwb" (Web)
-[ACwb]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "rin1" (Mantle of Intelligence +3)
-[rin1]
+// "fwss" (Frost Wyrm Skull Shield)
+[fwss]
 Buttonpos=0,0
 Hotkey=A
 
@@ -4222,545 +7056,17 @@ Hotkey=S
 Unbuttonpos=1,1
 Unhotkey=S
 
-// "nntt" (Temple of Tides)
-[nntt]
+// "nsrh" (Stormreaver Hermit)
+[nsrh]
 Buttonpos=0,0
 Hotkey=A
 
-// "Eilm" (Demon Hunter)
-[Eilm]
-Buttonpos=0,2
-Hotkey=W
-
-// "Arst" (Restore)
-[Arst]
-Buttonpos=1,1
-Hotkey=S
-Unbuttonpos=1,1
-Unhotkey=S
-
-// "ANfd" (Finger of Death)
-[ANfd]
-Buttonpos=0,1
-Hotkey=Q
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "guvi" (Glyph of Ultravision)
-[guvi]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACtb" (Hurl Boulder)
-[ACtb]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rows" (Pulverize Damage Increase)
-[Rows]
-Buttonpos=1,2
-Hotkey=X
-
-// "oven" (Orb of Venom)
-[oven]
-Buttonpos=2,2
-Hotkey=C
-
-// "Edem" (Demon Hunter)
-[Edem]
-Buttonpos=0,2
-Hotkey=W,W,W
-
-// "Rorb" (Reinforced Defenses)
-[Rorb]
-Buttonpos=2,1
-Hotkey=D
-
-// "Aliq" (Liquid Fire)
-[Aliq]
-Buttonpos=1,2
-Hotkey=X
-
-// "ckng" (Crown of Kings +5)
-[ckng]
-Buttonpos=0,0
-Hotkey=A
-
-// "Scri" (Cripple)
-[Scri]
-Buttonpos=2,2
-Hotkey=C
-
-// "nbee" (Blood Elf Engineer)
-[nbee]
-Buttonpos=0,0
-Hotkey=A
-
-// "nsoc" (Skeletal Orc Champion)
-[nsoc]
-Buttonpos=0,0
-Hotkey=A
-
-// "nnht" (Nether Dragon Hatchling)
-[nnht]
-Buttonpos=1,2
-Hotkey=X
-
-// "hgry" (Gryphon Rider)
-[hgry]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Udth" (Dreadlord)
-[Udth]
-Buttonpos=0,2
-Hotkey=W
-
-// "Repm" (Backpack)
-[Repm]
-Buttonpos=3,0
-Hotkey=R
-
-// "nogm" (Ogre Mauler)
-[nogm]
-Buttonpos=3,0
-Hotkey=R
-
-// "uaco" (Acolyte)
-[uaco]
-Buttonpos=0,0
-Hotkey=A
-
-// "Arsk" (Resistant Skin)
-[Arsk]
-Buttonpos=3,2
-Hotkey=V
-
-// "ACls" (Lightning Shield)
-[ACls]
-Buttonpos=2,2
-Hotkey=C
-
-// "nfpt" (Polar Furbolg Tracker)
-[nfpt]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rume" (Unholy Strength,Improved Unholy Strength,Advanced Unholy Strength)
-[Rume]
-Buttonpos=0,0
-Hotkey=A,A,A
-
-// "Amel" (Get Corpse)
-[Amel]
+// "Aspl" (Spirit Link)
+[Aspl]
 Buttonpos=0,2
 Hotkey=W
 Unbuttonpos=0,2
 Unhotkey=W
-
-// "rhe3" (Rune of Greater Healing)
-[rhe3]
-Buttonpos=0,0
-Hotkey=A
-
-// "CmdBuildUndead"
-[CmdBuildUndead]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANen" (Ensnare)
-[ANen]
-Buttonpos=0,2
-Hotkey=W
-
-// "jpnt" (Note to Jaina Proudmoore)
-[jpnt]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rotr" (Troll Regeneration,Improved Troll Regeneration,Advanced Troll Regeneration)
-[Rotr]
-Buttonpos=1,2
-Hotkey=X
-
-// "ntkt" (Tuskarr Trapper)
-[ntkt]
-Buttonpos=1,0
-Hotkey=Z
-
-// "shen" (Enchanted Shield)
-[shen]
-Buttonpos=0,0
-Hotkey=A
-
-// "Acri" (Cripple)
-[Acri]
-Buttonpos=2,2
-Hotkey=C
-
-// "pams" (Anti-magic Potion)
-[pams]
-Buttonpos=3,2
-Hotkey=V
-
-// "espv" (Avatar of Vengeance)
-[espv]
-Buttonpos=0,0
-Hotkey=A
-
-// "Avng" (Spirit of Vengeance)
-[Avng]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "otbr" (Batrider)
-[otbr]
-Buttonpos=3,0
-Hotkey=R
-
-// "ocor" (Orb of Corruption)
-[ocor]
-Buttonpos=3,0
-Hotkey=R
-
-// "ccmd" (Scepter of Mastery)
-[ccmd]
-Buttonpos=0,0
-Hotkey=A
-
-// "ntkh" (Tuskarr Healer)
-[ntkh]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aegr" (Elune's Grace)
-[Aegr]
-Buttonpos=1,2
-Hotkey=X
-
-// "AHds" (Divine Shield)
-[AHds]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Andt" (Reveal)
-[Andt]
-Buttonpos=0,2
-Hotkey=W
-
-// "nchr" (Fel Orc Raider)
-[nchr]
-Buttonpos=0,2
-Hotkey=W
-
-// "oalt" (Altar of Storms)
-[oalt]
-Buttonpos=1,1
-Hotkey=S
-
-// "ACca" (Carrion Swarm)
-[ACca]
-Buttonpos=1,2
-Hotkey=X
-
-// "mnsf" (Mindstaff)
-[mnsf]
-Buttonpos=0,0
-Hotkey=A
-
-// "nehy" (Elder Hydra)
-[nehy]
-Buttonpos=0,0
-Hotkey=A
-
-// "echm" (Chimaera)
-[echm]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANbh" (Bash)
-[ANbh]
-Buttonpos=2,2
-Hotkey=C
-
-// "pgma" (Potion of Greater Mana)
-[pgma]
-Buttonpos=0,0
-Hotkey=A
-
-// "nbdr" (Black Dragon Whelp)
-[nbdr]
-Buttonpos=0,2
-Hotkey=W
-
-// "ubsp" (Destroyer)
-[ubsp]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANrf" (Rain of Fire)
-[ANrf]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ANg1" (Robo-Goblin)
-[ANg1]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "AUts" (Spiked Carapace)
-[AUts]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "fwss" (Frost Wyrm Skull Shield)
-[fwss]
-Buttonpos=0,0
-Hotkey=A
-
-// "sor1" (Shadow Orb +1)
-[sor1]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACbc" (Breath of Fire)
-[ACbc]
-Buttonpos=0,2
-Hotkey=W
-
-// "Oshd" (Shadow Hunter)
-[Oshd]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "ACsa" (Searing Arrows)
-[ACsa]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "ntt1" (Death Tower)
-[ntt1]
-Buttonpos=0,2
-Hotkey=W
-
-// "Oths" (Far Seer)
-[Oths]
-Buttonpos=0,2
-Hotkey=W
-
-// "nnad" (Altar of the Depths)
-[nnad]
-Buttonpos=0,0
-Hotkey=A
-
-// "phea" (Potion of Healing)
-[phea]
-Buttonpos=0,1
-Hotkey=Q
-
-// "AEev" (Evasion)
-[AEev]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "ANc2" (Cluster Rockets)
-[ANc2]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Aflk" (Flak Cannons)
-[Aflk]
-Buttonpos=2,2
-Hotkey=C
-
-// "Aap3" (Disease Cloud)
-[Aap3]
-Buttonpos=1,2
-Hotkey=X
-
-// "rres" (Rune of Restoration)
-[rres]
-Buttonpos=0,0
-Hotkey=A
-
-// "nbds" (Blue Dragonspawn Sorcerer)
-[nbds]
-Buttonpos=0,0
-Hotkey=A
-
-// "Atau" (Taunt)
-[Atau]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ogld" (Warlock)
-[Ogld]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Adt1" (Detector)
-[Adt1]
-Buttonpos=0,2
-Hotkey=W
-
-// "Orex" (Beastmaster)
-[Orex]
-Buttonpos=0,0
-Hotkey=A
-
-// "AHtb" (Storm Bolt)
-[AHtb]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Rhsb" (Sundering Blades)
-[Rhsb]
-Buttonpos=2,1
-Hotkey=D
-
-// "ACrf" (Rain of Fire)
-[ACrf]
-Buttonpos=3,2
-Hotkey=V
-
-// "zsmc" (Sammy!)
-[zsmc]
-Buttonpos=0,2
-Hotkey=W
-
-// "Apg2" (Purge)
-[Apg2]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANpa" (Parasite)
-[ANpa]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ncaw" (Corrupted Ancient of War)
-[ncaw]
-Buttonpos=0,0
-Hotkey=A
-
-// "nmgv" (Magic Vault)
-[nmgv]
-Buttonpos=0,0
-Hotkey=A
-
-// "gfor" (Glyph of Fortification)
-[gfor]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ruwb" (Web)
-[Ruwb]
-Buttonpos=1,2
-Hotkey=X
-
-// "crdt" (Crown of the Deathlord)
-[crdt]
-Buttonpos=0,0
-Hotkey=A
-
-// "pdiv" (Potion of Divinity)
-[pdiv]
-Buttonpos=0,0
-Hotkey=A
-
-// "npn6" (Earth)
-[npn6]
-Buttonpos=0,2
-Hotkey=W
-
-// "Amou" (Mount)
-[Amou]
-Buttonpos=1,1
-Hotkey=S
-Unbuttonpos=1,1
-Unhotkey=S
-
-// "gomn" (Glyph of Omniscience)
-[gomn]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACpu" (Purge)
-[ACpu]
-Buttonpos=0,2
-Hotkey=W
-
-// "nfra" (Furbolg Ursa Warrior)
-[nfra]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACcw" (Cold Arrows)
-[ACcw]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ngnw" (Gnoll Warden)
-[ngnw]
-Buttonpos=1,0
-Hotkey=Z
-
-// "AIhm" (Shadow Meld (Item))
-[AIhm]
-Buttonpos=2,1
-Hotkey=D
-
-// "Huth" (Paladin)
-[Huth]
-Buttonpos=0,2
-Hotkey=W
-
-// "nvdg" (Greater Voidwalker)
-[nvdg]
-Buttonpos=3,0
-Hotkey=R
-
-// "AUdc" (Death Coil)
-[AUdc]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Hpal" (Paladin)
-[Hpal]
-Buttonpos=2,2
-Hotkey=C,C,C
 
 // "AHfa" (Searing Arrows)
 [AHfa]
@@ -4771,1312 +7077,110 @@ Unhotkey=X
 Researchbuttonpos=1,0
 Researchhotkey=Z
 
-// "Npld" (Pit Lord)
-[Npld]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANch" (Charm)
-[ANch]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nchg" (Fel Orc Grunt)
-[nchg]
-Buttonpos=0,2
-Hotkey=W
-
-// "texp" (Tome of Experience)
-[texp]
-Buttonpos=0,0
-Hotkey=A
-
-// "shas" (Scroll of Speed)
-[shas]
-Buttonpos=0,0
-Hotkey=A
-
-// "AEfk" (Fan of Knives)
-[AEfk]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "AOvd" (Big Bad Voodoo)
-[AOvd]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "AOs2" (Shockwave)
-[AOs2]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "nthl" (Thunder Lizard)
-[nthl]
-Buttonpos=1,2
-Hotkey=X
-
-// "ntrh" (Sea Turtle Hatchling)
-[ntrh]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANbs" (Item Black Arrow)
-[ANbs]
-Buttonpos=1,2
-Hotkey=X
-
-// "Astd" (Stand Down)
-[Astd]
-Buttonpos=1,2
-Hotkey=X
-
-// "ACr1" (Roar)
-[ACr1]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANms" (Mana Shield)
-[ANms]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "AUsl" (Sleep)
-[AUsl]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Acmg" (Control Magic)
-[Acmg]
-Buttonpos=1,2
-Hotkey=X
-
-// "Aotr" (Troll Regeneration)
-[Aotr]
-Buttonpos=3,2
-Hotkey=V
-
-// "nfpc" (Polar Furbolg Champion)
-[nfpc]
-Buttonpos=0,0
-Hotkey=A
-
-// "ohun" (Headhunter)
-[ohun]
-Buttonpos=1,0
-Hotkey=Z
-
-// "nftt" (Forest Troll Trapper)
-[nftt]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANf3" (Factory)
-[ANf3]
-Buttonpos=0,2
-Hotkey=W
-
-// "nhrw" (Harpy Windwitch)
-[nhrw]
-Buttonpos=2,0
-Hotkey=E
-
-// "AEer" (Entangling Roots)
-[AEer]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "nmys" (Submerged Naga Myrmidon)
-[nmys]
-Buttonpos=0,0
-Hotkey=A
-
-// "even" (Spirit of Vengeance)
-[even]
-Buttonpos=0,0
-Hotkey=A
-
-// "sbok" (Spell Book)
-[sbok]
-Buttonpos=0,0
-Hotkey=A
-
-// "Umal" (Dreadlord)
-[Umal]
-Buttonpos=0,2
-Hotkey=W
-
-// "nfod" (Faceless One Deathbringer)
-[nfod]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rhla" (Studded Leather Armor,Reinforced Leather Armor,Dragonhide Armor)
-[Rhla]
-Buttonpos=1,1
-Hotkey=S,S,S
-
-// "Rhss" (Control Magic)
-[Rhss]
-Buttonpos=2,1
-Hotkey=D
-
-// "ACfu" (Frost Armor)
-[ACfu]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "ANso" (Soul Burn)
-[ANso]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "nalb" (Albatross)
-[nalb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACc3" (Crushing Wave)
-[ACc3]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Rugf" (Ghoul Frenzy)
-[Rugf]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Rufb" (Freezing Breath)
-[Rufb]
-Buttonpos=0,2
-Hotkey=W
-
-// "ACbn" (Banish)
-[ACbn]
-Buttonpos=1,2
-Hotkey=X
-
-// "nbel" (Blood Elf Lieutenant)
-[nbel]
-Buttonpos=0,0
-Hotkey=A
-
-// "ushp" (Undead Shipyard)
-[ushp]
-Buttonpos=0,0
-Hotkey=A
-
-// "schl" (Scepter of Healing)
-[schl]
-Buttonpos=0,0
-Hotkey=A
-
-// "nfrs" (Furbolg Shaman)
-[nfrs]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rowt" (Spirit Walker Adept Training,Spirit Walker Master Training)
-[Rowt]
-Buttonpos=0,2
-Hotkey=W,W
-
-// "shea" (Scroll of Healing)
-[shea]
-Buttonpos=1,2
-Hotkey=X
-
-// "nadw" (Blue Dragon Whelp)
-[nadw]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rhde" (Defend)
-[Rhde]
-Buttonpos=0,2
-Hotkey=W
-
-// "Aclf" (Cloud)
-[Aclf]
-Buttonpos=1,2
-Hotkey=X
-
-// "Aroa" (Roar)
-[Aroa]
-Buttonpos=0,2
-Hotkey=W
-
-// "ndrs" (Draenei Seer)
-[ndrs]
-Buttonpos=0,2
-Hotkey=W
-
-// "AHab" (Brilliance Aura)
-[AHab]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "scul" (Scroll of the Unholy Legion)
-[scul]
-Buttonpos=0,0
-Hotkey=A
-
-// "AAns" (Charge Gold and Lumber)
-[AAns]
-Buttonpos=0,0
-Hotkey=A
-
-// "hvlt" (Arcane Vault)
-[hvlt]
-Buttonpos=2,2
-Hotkey=C
-
-// "efon" (Treant)
-[efon]
-Buttonpos=0,0
-Hotkey=A
-
-// "nft1" (Flame Tower)
-[nft1]
-Buttonpos=0,1
-Hotkey=Q
-
-// "ospm" (Spirit Walker)
-[ospm]
-Buttonpos=0,0
-Hotkey=A
-
-// "etoa" (Tree of Ages)
-[etoa]
-Buttonpos=0,2
-Hotkey=W
-
-// "AOls" (Voodoo Spirits)
-[AOls]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "AEme" (Metamorphosis)
-[AEme]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Abur" (Burrow)
-[Abur]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-
-// "ndrj" (Dalaran Reject)
-[ndrj]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANhx" (Hex)
-[ANhx]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "unpl" (Necropolis)
-[unpl]
-Buttonpos=0,0
-Hotkey=A
-
-// "Hdgo" (Paladin)
-[Hdgo]
-Buttonpos=0,2
-Hotkey=W
-
-// "AOfs" (Far Sight)
-[AOfs]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Auns" (Unsummon Building)
-[Auns]
-Buttonpos=1,2
-Hotkey=X
-
-// "ANfs" (Flame Strike)
-[ANfs]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ewsp" (Wisp)
-[ewsp]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ahnl" (Summoning Ritual)
-[Ahnl]
-Buttonpos=3,2
-Hotkey=V
-
-// "nrdr" (Red Drake)
-[nrdr]
-Buttonpos=2,2
-Hotkey=C
-
-// "Anei" (Select User)
-[Anei]
-Buttonpos=3,2
-Hotkey=V
-
-// "Anhe" (Heal)
-[Anhe]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "ANcs" (Cluster Rockets)
-[ANcs]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ACdr" (Life Drain)
-[ACdr]
-Buttonpos=0,2
-Hotkey=W
-
-// "sora" (Shadow Orb +10)
-[sora]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACbf" (Breath of Frost)
-[ACbf]
-Buttonpos=1,2
-Hotkey=X
-
-// "hbth" (Helm of Battlethirst)
-[hbth]
-Buttonpos=0,0
-Hotkey=A
-
-// "AHhb" (Holy Light)
-[AHhb]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ufro" (Frost Wyrm)
-[ufro]
-Buttonpos=0,0
-Hotkey=A
-
-// "ncef" (Centaur Archer)
-[ncef]
-Buttonpos=0,2
-Hotkey=W
-
-// "ram4" (Ring of the Archmagi)
-[ram4]
-Buttonpos=0,0
-Hotkey=A
-
-// "Nal2" (Alchemist)
-[Nal2]
-Buttonpos=3,2
-Hotkey=V,V,V
-
-// "ANlg" (Exchange Lumber for Gold)
-[ANlg]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANdo" (Doom)
-[ANdo]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Rusl" (Skeletal Longevity)
-[Rusl]
-Buttonpos=2,1
-Hotkey=D
-
-// "Aobk" (Berserker Upgrade)
-[Aobk]
-Buttonpos=1,2
-Hotkey=X
-
-// "eden" (Ancient of Wonders)
-[eden]
-Buttonpos=2,2
-Hotkey=C
-
-// "dthb" (Thunderbloom Bulb)
-[dthb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ndrw" (Draenei Watcher)
-[ndrw]
-Buttonpos=0,0
-Hotkey=A
-
-// "AUfa" (Frost Armor)
-[AUfa]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "rag1" (Slippers of Agility +3)
-[rag1]
-Buttonpos=0,0
-Hotkey=A
-
-// "ovlj" (Vol'jin)
-[ovlj]
-Buttonpos=1,0
-Hotkey=Z
-
-// "necr" (Rabbit)
-[necr]
-Buttonpos=0,0
-Hotkey=A
-
-// "ndrp" (Draenei Protector)
-[ndrp]
-Buttonpos=0,0
-Hotkey=A
-
-// "rde1" (Ring of Protection +2)
-[rde1]
-Buttonpos=0,0
-Hotkey=A
-
-// "Awha" (Gather)
-[Awha]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
-
-// "CmdCancelTrain"
-[CmdCancelTrain]
-Buttonpos=3,2
-Hotkey=V
-
-// "Suhf" (Unholy Frenzy)
-[Suhf]
-Buttonpos=1,2
-Hotkey=X
-
-// "unec" (Necromancer)
-[unec]
-Buttonpos=0,0
-Hotkey=A
-
-// "Opgh" (Blademaster)
-[Opgh]
-Buttonpos=0,2
-Hotkey=W
-
-// "sor9" (Shadow Orb +9)
-[sor9]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rnsb" (Submerge)
-[Rnsb]
-Buttonpos=2,2
-Hotkey=C
-
-// "spro" (Scroll of Protection)
-[spro]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Awrg" (War Stomp)
-[Awrg]
-Buttonpos=1,2
-Hotkey=X
-
-// "Acoh" (Pick up Archer)
-[Acoh]
-Buttonpos=0,2
-Hotkey=W
-
-// "nfsh" (Forest Troll High Priest)
-[nfsh]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACdm" (Abolish Magic)
-[ACdm]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "sor5" (Shadow Orb +5)
-[sor5]
-Buttonpos=0,0
-Hotkey=A
-
-// "nskf" (Burning Archer)
-[nskf]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACrg" (Rain of Fire)
-[ACrg]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ANmr" (Mind Rot)
-[ANmr]
-Buttonpos=0,2
-Hotkey=W
-
-// "nwar" (War Wagon)
-[nwar]
-Buttonpos=2,0
-Hotkey=E
-
-// "Hmbr" (Mountain King)
-[Hmbr]
-Buttonpos=0,2
-Hotkey=W
-
-// "pghe" (Potion of Greater Healing)
-[pghe]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANsl" (Soul Preservation)
-[ANsl]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "ndwm" (Dune Worm)
-[ndwm]
-Buttonpos=0,0
-Hotkey=A
-
-// "nckb" (Fel Orc Kodo Beast)
-[nckb]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Abtl" (Battle Stations)
-[Abtl]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ahri" (Long Rifles)
-[Ahri]
-Buttonpos=0,2
-Hotkey=W
-
-// "ncco" (Orc Cart)
-[ncco]
-Buttonpos=2,0
-Hotkey=E
-
-// "Nalc" (Alchemist)
-[Nalc]
-Buttonpos=3,2
-Hotkey=V,V,V
-
-// "ojgn" (Orc Juggernaught)
-[ojgn]
-Buttonpos=0,0
-Hotkey=A
-
-// "Nfir" (Firelord)
-[Nfir]
-Buttonpos=3,1
-Hotkey=F,F,F
-
-// "nft2" (Advanced Flame Tower)
-[nft2]
-Buttonpos=0,2
-Hotkey=W
-
-// "hrtt" (Siege Engine)
-[hrtt]
-Buttonpos=0,2
-Hotkey=W
-
-// "AOhw" (Healing Wave)
-[AOhw]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "gemt" (Gem of True Seeing)
-[gemt]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACsl" (Sleep)
-[ACsl]
-Buttonpos=0,2
-Hotkey=W
-
-// "nbdk" (Black Drake)
-[nbdk]
-Buttonpos=2,2
-Hotkey=C
-
-// "Rusp" (Destroyer Form)
-[Rusp]
-Buttonpos=2,2
-Hotkey=C
-
-// "Rews" (Well Spring)
-[Rews]
+// "nntg" (Tidal Guardian)
+[nntg]
 Buttonpos=3,0
 Hotkey=R
 
-// "ucry" (Crypt Fiend)
-[ucry]
-Buttonpos=1,0
-Hotkey=Z
+// "Amou" (Mount)
+[Amou]
+Buttonpos=1,1
+Hotkey=S
+Unbuttonpos=1,1
+Unhotkey=S
 
-// "Ane2" (Select Unit)
-[Ane2]
-Buttonpos=0,0
-Hotkey=A
-Unbuttonpos=0,0
-Unhotkey=A
+// "Rhpm" (Backpack)
+[Rhpm]
+Buttonpos=3,0
+Hotkey=R
 
-// "Arsg" (Summon Misha)
-[Arsg]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ACbz" (Blizzard)
-[ACbz]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ahr3" (Harvest)
-[Ahr3]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
-
-// "nmfs" (Murloc Flesheater)
-[nmfs]
-Buttonpos=0,2
-Hotkey=W
-
-// "nsko" (Skeletal Orc)
-[nsko]
+// "rhe1" (Rune of Lesser Healing)
+[rhe1]
 Buttonpos=0,0
 Hotkey=A
 
-// "ndrm" (Draenei Disciple)
-[ndrm]
-Buttonpos=1,0
-Hotkey=Z
-
-// "odef" (Orb of Darkness)
-[odef]
-Buttonpos=0,0
-Hotkey=A
-
-// "hgra" (Gryphon Aviary)
-[hgra]
-Buttonpos=1,2
-Hotkey=X
-
-// "nbwm" (Black Dragon)
-[nbwm]
-Buttonpos=1,2
-Hotkey=X
-
-// "Etyr" (Priestess of the Moon)
-[Etyr]
-Buttonpos=0,2
-Hotkey=W
-
-// "ACad" (Animate Dead)
-[ACad]
-Buttonpos=3,2
-Hotkey=V
-
-// "shwd" (Shimmerweed)
-[shwd]
-Buttonpos=0,0
-Hotkey=A
-
-// "Afa2" (Faerie Fire)
-[Afa2]
+// "Asdg" (Kaboom!)
+[Asdg]
 Buttonpos=0,2
 Hotkey=W
 Unbuttonpos=0,2
 Unhotkey=W
-
-// "shcw" (Shaman Claws)
-[shcw]
-Buttonpos=0,0
-Hotkey=A
-
-// "Afbt" (Feedback)
-[Afbt]
-Buttonpos=3,2
-Hotkey=V
-
-// "nplb" (Polar Bear)
-[nplb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANrg" (Robo-Goblin)
-[ANrg]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Aps2" (Possession)
-[Aps2]
-Buttonpos=2,2
-Hotkey=C
-
-// "ndtw" (Dark Troll Warlord)
-[ndtw]
-Buttonpos=0,2
-Hotkey=W
-
-// "Aesr" (Sentinel)
-[Aesr]
-Buttonpos=0,2
-Hotkey=W
-
-// "hctw" (Cannon Tower)
-[hctw]
-Buttonpos=1,2
-Hotkey=X
-
-// "ACsi" (Silence)
-[ACsi]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "owad" (Slave Master)
-[owad]
-Buttonpos=0,0
-Hotkey=A
-
-// "edes" (Night Elf Frigate)
-[edes]
-Buttonpos=1,0
-Hotkey=Z
-
-// "odes" (Orc Frigate)
-[odes]
-Buttonpos=1,0
-Hotkey=Z
-
-// "nbzw" (Bronze Dragon Whelp)
-[nbzw]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ahar" (Harvest)
-[Ahar]
-Buttonpos=3,1
-Hotkey=F
-Unbuttonpos=3,1
-Unhotkey=F
-
-// "Hhkl" (Paladin)
-[Hhkl]
-Buttonpos=0,2
-Hotkey=W
-
-// "okod" (Kodo Beast)
-[okod]
-Buttonpos=2,0
-Hotkey=E
-
-// "nsog" (Skeletal Orc Grunt)
-[nsog]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ahpe" (Phoenix)
-[Ahpe]
-Buttonpos=0,2
-Hotkey=W
-
-// "Nplh" (Pit Lord)
-[Nplh]
-Buttonpos=0,0
-Hotkey=A,A,A
 
 // "Recb" (Corrosive Breath)
 [Recb]
 Buttonpos=0,2
 Hotkey=W
 
-// "npn3" (Earth)
-[npn3]
-Buttonpos=0,2
-Hotkey=W
-
-// "mdpb" (Medusa Pebble)
-[mdpb]
-Buttonpos=0,2
-Hotkey=W
-
-// "nnwl" (Nerubian Webspinner)
-[nnwl]
-Buttonpos=2,0
-Hotkey=E
-
-// "Resi" (Abolish Magic)
-[Resi]
-Buttonpos=0,1
-Hotkey=Q
-
-// "SNeq" (Earthquake)
-[SNeq]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nlpr" (Makrura Prawn)
-[nlpr]
+// "ehip" (Hippogryph)
+[ehip]
 Buttonpos=0,0
 Hotkey=A
 
-// "ANt2" (Spiked Shell)
-[ANt2]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "nmgw" (Magnataur Warrior)
-[nmgw]
-Buttonpos=3,0
-Hotkey=R
-
-// "belv" (Boots of Quel'Thalas +6)
-[belv]
+// "net1" (Energy Tower)
+[net1]
 Buttonpos=0,0
 Hotkey=A
 
-// "nrog" (Rogue)
-[nrog]
-Buttonpos=1,2
-Hotkey=X
-
-// "uzg1" (Spirit Tower)
-[uzg1]
-Buttonpos=0,2
-Hotkey=W
-
-// "Afzy" (Frenzy)
-[Afzy]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "uslh" (Slaughterhouse)
-[uslh]
-Buttonpos=3,1
-Hotkey=F
-
-// "Alsh" (Lightning Shield)
-[Alsh]
-Buttonpos=1,2
-Hotkey=X
-
-// "Ewar" (Warden)
-[Ewar]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "nlds" (Makrura Deepseer)
-[nlds]
-Buttonpos=3,0
-Hotkey=R
-
-// "sor3" (Shadow Orb +3)
-[sor3]
+// "Rhlh" (Improved Lumber Harvesting,Advanced Lumber Harvesting)
+[Rhlh]
 Buttonpos=0,0
-Hotkey=A
+Hotkey=A,A
 
-// "ACcv" (Crushing Wave)
-[ACcv]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ACav" (Devotion Aura)
-[ACav]
-Buttonpos=0,2
-Hotkey=W
-
-// "AEtq" (Tranquility)
-[AEtq]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "hdes" (Human Frigate)
-[hdes]
+// "nslf" (Sludge Flinger)
+[nslf]
 Buttonpos=1,0
 Hotkey=Z
 
-// "nkog" (Kobold Geomancer)
-[nkog]
-Buttonpos=2,0
-Hotkey=E
-
-// "oshm" (Shaman)
-[oshm]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACfr" (Force of Nature)
-[ACfr]
-Buttonpos=0,2
-Hotkey=W
-
-// "Emfr" (Keeper of the Grove)
-[Emfr]
-Buttonpos=0,2
-Hotkey=W
-
-// "ACes" (Evasion)
-[ACes]
-Buttonpos=2,2
-Hotkey=C
-
-// "nmcf" (Mur'gul Cliffrunner)
-[nmcf]
-Buttonpos=0,0
-Hotkey=A
-
-// "ram3" (Ring of the Archmagi)
-[ram3]
-Buttonpos=0,0
-Hotkey=A
-
-// "htow" (Town Hall)
-[htow]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACmp" (Impale)
-[ACmp]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "npn4" (Fire)
-[npn4]
-Buttonpos=0,2
-Hotkey=W
-
-// "hrrh" (Runner)
-[hrrh]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANth" (Spiked Shell)
-[ANth]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "eate" (Altar of Elders)
-[eate]
-Buttonpos=1,1
-Hotkey=S
-
-// "Alam" (Sacrifice)
-[Alam]
-Buttonpos=3,2
-Hotkey=V
-
-// "Rnsi" (Abolish Magic)
-[Rnsi]
-Buttonpos=1,2
-Hotkey=X
-
-// "lure" (Monster Lure)
-[lure]
-Buttonpos=0,0
-Hotkey=A
-
-// "nzep" (Zeppelin)
-[nzep]
-Buttonpos=3,0
-Hotkey=R
-
-// "hhes" (Swordsman)
-[hhes]
-Buttonpos=2,2
-Hotkey=C
-
-// "wolg" (Wirt's Other Leg)
-[wolg]
-Buttonpos=0,0
-Hotkey=A
-
-// "ntkw" (Tuskarr Warrior)
-[ntkw]
-Buttonpos=0,0
-Hotkey=A
-
-// "nogr" (Ogre Warrior)
-[nogr]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ainf" (Inner Fire)
-[Ainf]
-Buttonpos=2,2
-Hotkey=C
-Unbuttonpos=2,2
-Unhotkey=C
-
-// "AHre" (Resurrection)
-[AHre]
+// "ANef" ("Storm, Earth, And Fire")
+[ANef]
 Buttonpos=3,2
 Hotkey=V
 Researchbuttonpos=3,0
 Researchhotkey=R
 
-// "bfhr" (Bloodfeather's Heart)
-[bfhr]
+// "brac" (Runed Bracers)
+[brac]
 Buttonpos=0,0
 Hotkey=A
 
-// "AOcr" (Critical Strike)
-[AOcr]
+// "Nsjs" (Brewmaster)
+[Nsjs]
+Buttonpos=1,1
+Hotkey=S
+
+// "AHad" (Devotion Aura)
+[AHad]
 Buttonpos=2,2
 Hotkey=C
 Researchbuttonpos=2,0
 Researchhotkey=E
 
-// "AIcy" (Cyclone)
-[AIcy]
-Buttonpos=0,2
-Hotkey=W
-
-// "Aco3" (Pick up Archer)
-[Aco3]
-Buttonpos=0,2
-Hotkey=W
-
-// "Nswt" (Sea Witch)
-[Nswt]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANb2" (Maul)
-[ANb2]
-Buttonpos=1,2
-Hotkey=X
-
-// "hwtw" (Scout Tower)
-[hwtw]
-Buttonpos=0,2
-Hotkey=W
-
-// "nrzm" (Razormane Medicine Man)
-[nrzm]
-Buttonpos=3,0
-Hotkey=R
-
-// "ANsp" (Spy)
-[ANsp]
+// "kgal" (Keg of Ale)
+[kgal]
 Buttonpos=0,0
 Hotkey=A
 
-// "Rolf" (Liquid Fire)
-[Rolf]
+// "ACcw" (Cold Arrows)
+[ACcw]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=0,2
+Unhotkey=W
+
+// "ngna" (Gnoll Poacher)
+[ngna]
+Buttonpos=0,0
+Hotkey=A
+
+// "Rhsb" (Sundering Blades)
+[Rhsb]
 Buttonpos=2,1
 Hotkey=D
 
-// "nmsn" (Mur'gul Snarecaster)
-[nmsn]
-Buttonpos=2,0
-Hotkey=E
-
-// "ACat" (Trueshot Aura)
-[ACat]
-Buttonpos=2,2
-Hotkey=C
-
-// "Adts" (Magic Sentry)
-[Adts]
-Buttonpos=2,1
-Hotkey=D
-
-// "Apts" (Disease Cloud)
-[Apts]
-Buttonpos=2,2
-Hotkey=C
-
-// "sfog" (Horn of the Clouds)
-[sfog]
+// "rhe3" (Rune of Greater Healing)
+[rhe3]
 Buttonpos=0,0
 Hotkey=A
-
-// "AHca" (Cold Arrows)
-[AHca]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Rers" (Resistant Skin)
-[Rers]
-Buttonpos=1,1
-Hotkey=S
-
-// "ANak" (Quill Spray)
-[ANak]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "Eill" (Demon Hunter)
-[Eill]
-Buttonpos=0,2
-Hotkey=W
-
-// "Afsh" (Fragmentation Shards)
-[Afsh]
-Buttonpos=1,2
-Hotkey=X
-
-// "Rome" (Steel Melee Weapons,Thorium Melee Weapons,Arcanite Melee Weapons)
-[Rome]
-Buttonpos=0,0
-Hotkey=A,A,A
-
-// "ANd3" (Demolish)
-[ANd3]
-Buttonpos=1,1
-Hotkey=S
-
-// "nftb" (Forest Troll Berserker)
-[nftb]
-Buttonpos=1,0
-Hotkey=Z
-
-// "nstf" (Satyr Shadowdancer)
-[nstf]
-Buttonpos=0,2
-Hotkey=W
-
-// "ntks" (Tuskarr Sorcerer)
-[ntks]
-Buttonpos=0,0
-Hotkey=A
-
-// "edoc" (Druid of the Claw)
-[edoc]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ANd2" (Demolish)
-[ANd2]
-Buttonpos=1,1
-Hotkey=S
-
-// "SCae" (Endurance Aura)
-[SCae]
-Buttonpos=0,1
-Hotkey=Q
-
-// "AEvi" (Metamorphosis)
-[AEvi]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "ACfa" (Frost Armor)
-[ACfa]
-Buttonpos=1,2
-Hotkey=X
-
-// "ensh" (Naisha)
-[ensh]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Hpb1" (Paladin)
-[Hpb1]
-Buttonpos=0,2
-Hotkey=W
 
 // "ACmo" (Monsoon)
 [ACmo]
@@ -6085,30 +7189,6 @@ Hotkey=W
 Researchbuttonpos=0,0
 Researchhotkey=A
 
-// "ndtr" (Dark Troll)
-[ndtr]
-Buttonpos=0,2
-Hotkey=W
-
-// "ACff" (Faerie Fire)
-[ACff]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "npn1" (Fire)
-[npn1]
-Buttonpos=0,2
-Hotkey=W
-
-// "ANto" (Tornado)
-[ANto]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
 // "Abu5" (Burrow)
 [Abu5]
 Buttonpos=3,2
@@ -6116,1108 +7196,28 @@ Hotkey=V
 Unbuttonpos=3,2
 Unhotkey=V
 
-// "nfot" (Faceless One Terror)
-[nfot]
-Buttonpos=0,0
-Hotkey=A
-
-// "Amnb" (Mana Burn)
-[Amnb]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "rhe1" (Rune of Lesser Healing)
-[rhe1]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aesn" (Sentinel)
-[Aesn]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rwdm" (War Drums Damage Increase)
-[Rwdm]
-Buttonpos=2,2
-Hotkey=C
-
-// "Hgam" (Ghostly Archmage)
-[Hgam]
-Buttonpos=0,1
-Hotkey=Q
-
-// "nccr" (Dwarf Cart)
-[nccr]
-Buttonpos=2,0
-Hotkey=E
-
-// "Aslo" (Slow)
-[Aslo]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "Arsq" (Summon Quilbeast)
-[Arsq]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "rlif" (Ring of Regeneration)
-[rlif]
-Buttonpos=0,0
-Hotkey=A
-
-// "nnrs" (Submerged Naga Royal Guard)
-[nnrs]
-Buttonpos=0,0
-Hotkey=A
-
-// "AOws" (War Stomp)
-[AOws]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "nsrv" (Revenant of the Seas)
-[nsrv]
-Buttonpos=0,0
-Hotkey=A
-
-// "rat3" (Claws of Attack +3)
-[rat3]
-Buttonpos=0,0
-Hotkey=A
-
-// "APwt" (Rune of the Watcher)
-[APwt]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rune" (Necromancer Adept Training,Necromancer Master Training)
-[Rune]
-Buttonpos=0,2
-Hotkey=W,W
-
-// "CmdRally"
-[CmdRally]
-Buttonpos=3,1
-Hotkey=F
-
-// "dsum" (Diamond of Summoning)
-[dsum]
-Buttonpos=0,0
-Hotkey=A
-
-// "ncmw" (Corrupted Moon Well)
-[ncmw]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Resw" (Strength of the Wild,Improved Strength of the Wild,Advanced Strength of the Wild)
-[Resw]
-Buttonpos=1,0
-Hotkey=Z,Z,Z
-
-// "ANht" (Howl of Terror)
-[ANht]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "ANde" (Demolish)
-[ANde]
-Buttonpos=1,1
-Hotkey=S
-
-// "Ahan" (Animal War Training)
-[Ahan]
+// "Afbt" (Feedback)
+[Afbt]
 Buttonpos=3,2
 Hotkey=V
-
-// "Aast" (Ancestral Spirit)
-[Aast]
-Buttonpos=2,2
-Hotkey=C
-
-// "ACtc" (Slam)
-[ACtc]
-Buttonpos=1,2
-Hotkey=X
-
-// "Hjai" (Archmage)
-[Hjai]
-Buttonpos=0,2
-Hotkey=W
-
-// "Osam" (Blademaster)
-[Osam]
-Buttonpos=0,2
-Hotkey=W
-
-// "obai" (Baine)
-[obai]
-Buttonpos=2,0
-Hotkey=E
-
-// "Adch" (Disenchant)
-[Adch]
-Buttonpos=1,2
-Hotkey=X
-
-// "Atru" (True Sight)
-[Atru]
-Buttonpos=0,2
-Hotkey=W
-
-// "Acdb" (Drunken Brawler)
-[Acdb]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "nech" (Chicken)
-[nech]
-Buttonpos=0,0
-Hotkey=A
-
-// "ntrv" (Revenant of the Tides)
-[ntrv]
-Buttonpos=0,0
-Hotkey=A
-
-// "hbsh" (Human Battleship)
-[hbsh]
-Buttonpos=2,0
-Hotkey=E
-
-// "ncea" (Centaur Archer)
-[ncea]
-Buttonpos=0,0
-Hotkey=A
-
-// "nsgh" (Sea Giant Hunter)
-[nsgh]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aslp" (Summon Prawns)
-[Aslp]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "hsor" (Sorceress)
-[hsor]
-Buttonpos=0,0
-Hotkey=A
-
-// "nnsg" (Spawning Grounds)
-[nnsg]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Redc" (Druid of the Claw Adept Training,Druid of the Claw Master Training)
-[Redc]
-Buttonpos=1,2
-Hotkey=X,X
-
-// "ANbf" (Breath of Fire)
-[ANbf]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "zzrg" (Zergling)
-[zzrg]
-Buttonpos=0,2
-Hotkey=W
-
-// "Naka" (Elder Sage)
-[Naka]
-Buttonpos=0,0
-Hotkey=A
-
-// "nbzk" (Bronze Drake)
-[nbzk]
-Buttonpos=2,2
-Hotkey=C
-
-// "nmpe" (Mur'gul Slave)
-[nmpe]
-Buttonpos=0,0
-Hotkey=A
-
-// "ngir" (Shredder)
-[ngir]
-Buttonpos=1,2
-Hotkey=X
-
-// "etrp" (Ancient Protector)
-[etrp]
-Buttonpos=3,0
-Hotkey=R
-
-// "nadk" (Blue Drake)
-[nadk]
-Buttonpos=2,2
-Hotkey=C
-
-// "ANvc" (Volcano)
-[ANvc]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "nbt1" (Boulder Tower)
-[nbt1]
-Buttonpos=1,0
-Hotkey=Z
-
-// "AObu" (Build (Orc))
-[AObu]
-Buttonpos=0,2
-Hotkey=W
-
-// "AEfn" (Force of Nature)
-[AEfn]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "nfa2" (Pocket Factory)
-[nfa2]
-Buttonpos=0,0
-Hotkey=A
-
-// "Reib" (Improved Bows)
-[Reib]
-Buttonpos=1,2
-Hotkey=X
-
-// "ehip" (Hippogryph)
-[ehip]
-Buttonpos=0,0
-Hotkey=A
-
-// "ugrv" (Graveyard)
-[ugrv]
-Buttonpos=3,0
-Hotkey=R
-
-// "AUim" (Impale)
-[AUim]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "Rura" (Creature Attack,Improved Creature Attack,Advanced Creature Attack)
-[Rura]
-Buttonpos=1,0
-Hotkey=Z,Z,Z
-
-// "Rhcd" (Cloud)
-[Rhcd]
-Buttonpos=0,2
-Hotkey=W
-
-// "ogre" (Great Hall)
-[ogre]
-Buttonpos=0,0
-Hotkey=A
-
-// "rots" (Scepter of the Sea)
-[rots]
-Buttonpos=0,0
-Hotkey=A
-
-// "nfrb" (Furbolg Tracker)
-[nfrb]
-Buttonpos=0,0
-Hotkey=A
-
-// "ritd" (Ritual Dagger)
-[ritd]
-Buttonpos=0,0
-Hotkey=A
-
-// "AHbh" (Bash)
-[AHbh]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "uubs" (Undead Battleship)
-[uubs]
-Buttonpos=2,0
-Hotkey=E
-
-// "Udre" (Dreadlord)
-[Udre]
-Buttonpos=1,2
-Hotkey=X,X,X
-
-// "nmg2" (Murloc Hut)
-[nmg2]
-Buttonpos=0,0
-Hotkey=A
-
-// "Sloa" (Load)
-[Sloa]
-Buttonpos=0,2
-Hotkey=W
-
-// "uzg2" (Nerubian Tower)
-[uzg2]
-Buttonpos=1,2
-Hotkey=X
-
-// "Rnsw" (Naga Siren Adept Training,Naga Siren Master Training)
-[Rnsw]
-Buttonpos=0,2
-Hotkey=W
-
-// "Odrt" (Far Seer)
-[Odrt]
-Buttonpos=1,2
-Hotkey=X
-
-// "Adcn" (Disenchant)
-[Adcn]
-Buttonpos=1,2
-Hotkey=X
-
-// "rdis" (Rune of Dispel Magic)
-[rdis]
-Buttonpos=0,0
-Hotkey=A
-
-// "bspd" (Boots of Speed)
-[bspd]
-Buttonpos=2,0
-Hotkey=E
-
-// "Uanb" (Crypt Lord)
-[Uanb]
-Buttonpos=0,1
-Hotkey=Q
-
-// "CmdAttack"
-[CmdAttack]
-Buttonpos=3,0
-Hotkey=R
-
-// "CmdHoldPos"
-[CmdHoldPos]
-Buttonpos=2,0
-Hotkey=E
-
-// "nban" (Bandit)
-[nban]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rora" (Steel Ranged Weapons,Thorium Ranged Weapons,Arcanite Ranged Weapons)
-[Rora]
-Buttonpos=1,0
-Hotkey=Z,Z,Z
-
-// "ofor" (War Mill)
-[ofor]
-Buttonpos=2,0
-Hotkey=E
-
-// "Aapl" (Disease Cloud)
-[Aapl]
-Buttonpos=1,2
-Hotkey=X
-
-// "Absk" (Berserk)
-[Absk]
-Buttonpos=0,2
-Hotkey=W
-
-// "Aspl" (Spirit Link)
-[Aspl]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
 
 // "ACrj" (Rejuvenation)
 [ACrj]
 Buttonpos=0,2
 Hotkey=W
 
-// "hhou" (Farm)
-[hhou]
-Buttonpos=0,1
-Hotkey=Q
-
-// "ACen" (Ensnare)
-[ACen]
-Buttonpos=0,2
-Hotkey=W
-
-// "ntrg" (Gargantuan Sea Turtle)
-[ntrg]
-Buttonpos=0,0
-Hotkey=A
-
-// "prvt" (Periapt of Vitality)
-[prvt]
-Buttonpos=3,2
-Hotkey=V
-
-// "hkee" (Keep)
-[hkee]
-Buttonpos=0,2
-Hotkey=W
-
-// "ehpr" (Hippogryph Rider)
-[ehpr]
-Buttonpos=0,0
-Hotkey=A
-
-// "Hvsh" (Sea Witch)
-[Hvsh]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rhgb" (Flying Machine Bombs)
-[Rhgb]
-Buttonpos=0,1
-Hotkey=Q
-
-// "Aeib" (Improved Bows)
-[Aeib]
-Buttonpos=2,2
-Hotkey=C
-
-// "nmbg" (Mur'gul Blood-Gill)
-[nmbg]
-Buttonpos=0,0
-Hotkey=A
-
-// "SNdd" (Death And Decay)
-[SNdd]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "tels" (Goblin Night Scope)
-[tels]
-Buttonpos=0,0
-Hotkey=A
-
-// "Slo3" (Load)
-[Slo3]
-Buttonpos=0,2
-Hotkey=W
-
-// "Acoa" (Mount Hippogryph)
-[Acoa]
-Buttonpos=0,2
-Hotkey=W
-
-// "nndk" (Nether Drake)
-[nndk]
-Buttonpos=2,2
-Hotkey=C
-
-// "hmtm" (Mortar Team)
-[hmtm]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ntx2" (Advanced Death Tower)
-[ntx2]
-Buttonpos=0,2
-Hotkey=W
-
-// "Adev" (Devour)
-[Adev]
-Buttonpos=0,2
-Hotkey=W
-
-// "efdr" (Faerie Dragon)
-[efdr]
-Buttonpos=2,0
-Hotkey=E
-
-// "Awfb" (Firebolt)
-[Awfb]
-Buttonpos=0,2
-Hotkey=W
-
-// "nsc2" (Spider Crab Limbripper)
-[nsc2]
-Buttonpos=0,0
-Hotkey=A
-
-// "orai" (Raider)
-[orai]
-Buttonpos=0,0
-Hotkey=A
-
-// "Adtg" (True Sight)
-[Adtg]
-Buttonpos=0,2
-Hotkey=W
-
-// "Nsjs" (Brewmaster)
-[Nsjs]
-Buttonpos=1,1
-Hotkey=S
-
-// "ngno" (Gnoll)
-[ngno]
-Buttonpos=0,0
-Hotkey=A
-
-// "Ewrd" (Warden)
-[Ewrd]
-Buttonpos=0,1
-Hotkey=Q
-
-// "uzig" (Ziggurat)
-[uzig]
-Buttonpos=0,1
-Hotkey=Q
-
-// "nmtw" (Mur'gul Tidewarrior)
-[nmtw]
-Buttonpos=0,0
-Hotkey=A
-
-// "CmdMove"
-[CmdMove]
-Buttonpos=0,0
-Hotkey=A
-
-// "ospw" (Spirit Walker)
-[ospw]
-Buttonpos=0,0
-Hotkey=A
-
-// "nhar" (Harpy Scout)
-[nhar]
-Buttonpos=1,0
-Hotkey=Z
-
-// "Aobs" (Brute Strength)
-[Aobs]
-Buttonpos=0,2
-Hotkey=W
-
-// "Roar" (Steel Armor,Thorium Armor,Arcanite Armor)
-[Roar]
-Buttonpos=0,1
-Hotkey=Q,Q,Q
-
-// "pnvl" (Potion of Lesser Invulnerability)
-[pnvl]
-Buttonpos=2,2
-Hotkey=C
-
-// "Afak" (Orb of Annihilation)
-[Afak]
+// "ACro" (Roar)
+[ACro]
 Buttonpos=1,2
 Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "tbak" (Tiny Altar of Kings)
-[tbak]
-Buttonpos=0,0
-Hotkey=A
-
-// "Afrc" (Frost Attack)
-[Afrc]
-Buttonpos=0,2
-Hotkey=W
-
-// "ncrb" (Crab)
-[ncrb]
-Buttonpos=0,0
-Hotkey=A
-
-// "shrs" (Shimmerglaze Roast)
-[shrs]
-Buttonpos=0,0
-Hotkey=A
-
-// "Afae" (Faerie Fire)
-[Afae]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "earc" (Archer)
-[earc]
-Buttonpos=0,0
-Hotkey=A
-
-// "ncg2" (Clockwerk Goblin)
-[ncg2]
-Buttonpos=0,2
-Hotkey=W
-
-// "haro" (Arcane Observatory)
-[haro]
-Buttonpos=1,2
-Hotkey=X
-
-// "ofir" (Orb of Fire)
-[ofir]
-Buttonpos=0,2
-Hotkey=W
-
-// "Afrz" (Freezing Breath)
-[Afrz]
-Buttonpos=1,2
-Hotkey=X
-
-// "edtm" (Druid of the Talon)
-[edtm]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ACsh" (Shockwave)
-[ACsh]
-Buttonpos=1,2
-Hotkey=X
-
-// "negt" (High Elven Guard Tower)
-[negt]
-Buttonpos=0,0
-Hotkey=A
-
-// "edob" (Hunter's Hall)
-[edob]
-Buttonpos=2,0
-Hotkey=E
-
-// "dkfw" (Keg of Thunderwater)
-[dkfw]
-Buttonpos=0,0
-Hotkey=A
-
-// "Afla" (Flare)
-[Afla]
-Buttonpos=0,2
-Hotkey=W
-
-// "vamp" (Vampiric Potion)
-[vamp]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACdc" (Death Coil)
-[ACdc]
-Buttonpos=1,2
-Hotkey=X
-
-// "rnec" (Rod of Necromancy)
-[rnec]
-Buttonpos=3,1
-Hotkey=F
-
-// "nlpd" (Makrura Pooldweller)
-[nlpd]
-Buttonpos=0,0
-Hotkey=A
-
-// "stwa" (Sturdy War Axe)
-[stwa]
-Buttonpos=0,0
-Hotkey=A
-
-// "Sdro" (Unload)
-[Sdro]
-Buttonpos=1,2
-Hotkey=X
-
-// "AUan" (Animate Dead)
-[AUan]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "hkni" (Knight)
-[hkni]
-Buttonpos=2,0
-Hotkey=E
-
-// "Udea" (Death Knight)
-[Udea]
-Buttonpos=0,2
-Hotkey=W,W,W
-
-// "AEsf" (Starfall)
-[AEsf]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "Uear" (Death Knight)
-[Uear]
-Buttonpos=0,2
-Hotkey=W
-
-// "Adro" (Unload)
-[Adro]
-Buttonpos=1,2
-Hotkey=X
-
-// "ANin" (Inferno)
-[ANin]
-Buttonpos=3,2
-Hotkey=V
-Researchbuttonpos=3,0
-Researchhotkey=R
-
-// "sres" (Scroll of Restoration)
-[sres]
-Buttonpos=0,0
-Hotkey=A
-
-// "Obla" (Blademaster)
-[Obla]
-Buttonpos=0,2
-Hotkey=W,W,W
-
-// "dust" (Dust of Appearance)
-[dust]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ngnv" (Gnoll Overseer)
-[ngnv]
-Buttonpos=3,0
-Hotkey=R
-
-// "cosl" (Celestial Orb of Souls)
-[cosl]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACbh" (Bash)
-[ACbh]
-Buttonpos=2,2
-Hotkey=C
-
-// "Ekee" (Keeper of the Grove)
-[Ekee]
-Buttonpos=1,2
-Hotkey=X,X,X
-
-// "Uvar" (Dreadlord)
-[Uvar]
-Buttonpos=0,2
-Hotkey=W
-
-// "zjug" (Orc Juggernaught)
-[zjug]
-Buttonpos=0,0
-Hotkey=A
-
-// "nass" (Assassin)
-[nass]
-Buttonpos=0,2
-Hotkey=W
-
-// "rej2" (Lesser Replenishment Potion)
-[rej2]
-Buttonpos=0,0
-Hotkey=A
-
-// "ndrh" (Draenei Harbinger)
-[ndrh]
-Buttonpos=0,0
-Hotkey=A
-
-// "Rhst" (Sorceress Adept Training,Sorceress Master Training)
-[Rhst]
-Buttonpos=0,2
-Hotkey=W,W
-
-// "war2" (Warsong Battle Drums)
-[war2]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aenr" (Entangling Roots)
-[Aenr]
-Buttonpos=0,2
-Hotkey=W
-
-// "Ofar" (Far Seer)
-[Ofar]
-Buttonpos=1,2
-Hotkey=X,X,X
-
-// "AUfu" (Frost Armor)
-[AUfu]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "Auuf" (Incite Unholy Frenzy)
-[Auuf]
-Buttonpos=1,2
-Hotkey=X
-
-// "ram1" (Ring of the Archmagi)
-[ram1]
-Buttonpos=0,0
-Hotkey=A
-
-// "ugho" (Ghoul)
-[ugho]
-Buttonpos=0,0
-Hotkey=A
-
-// "ANdb" (Drunken Brawler)
-[ANdb]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "nsrn" (Stormreaver Necrolyte)
-[nsrn]
-Buttonpos=0,0
-Hotkey=A
-
-// "AUbu" (Build (Undead))
-[AUbu]
-Buttonpos=0,2
-Hotkey=W
-
-// "Rhfc" (Flak Cannons)
-[Rhfc]
-Buttonpos=2,2
-Hotkey=C
-
-// "nahy" (Ancient Hydra)
-[nahy]
-Buttonpos=0,0
-Hotkey=A
-
-// "Adtn" (Detonate)
-[Adtn]
-Buttonpos=1,2
-Hotkey=X
-
-// "ACr2" (Rejuvenation)
-[ACr2]
-Buttonpos=0,2
-Hotkey=W
-
-// "Asd2" (Kaboom!)
-[Asd2]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "osld" (Spirit Lodge)
-[osld]
-Buttonpos=2,1
-Hotkey=D
-
-// "nbot" (Transport Ship)
-[nbot]
-Buttonpos=0,0
-Hotkey=A
-
-// "nccu" (Undead Cart)
-[nccu]
-Buttonpos=2,0
-Hotkey=E
-
-// "Rhhb" (Storm Hammers)
-[Rhhb]
-Buttonpos=1,2
-Hotkey=X
-
-// "AUfn" (Frost Nova)
-[AUfn]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "AEbl" (Blink)
-[AEbl]
-Buttonpos=1,2
-Hotkey=X
-Researchbuttonpos=1,0
-Researchhotkey=Z
-
-// "nsra" (Stormreaver Apprentice)
-[nsra]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACcs" (Curse)
-[ACcs]
-Buttonpos=1,2
-Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "Ropm" (Backpack)
-[Ropm]
-Buttonpos=3,0
-Hotkey=R
-
-// "ACm3" (Spell Immunity, Spell Immunity)
-[ACm3]
-Buttonpos=1,2
-Hotkey=X
-
-// "hatw" (Arcane Tower)
-[hatw]
-Buttonpos=2,2
-Hotkey=C
-
-// "Arep" (Repair)
-[Arep]
-Buttonpos=1,1
-Hotkey=S
-Unbuttonpos=1,1
-Unhotkey=S
-
-// "ANs1" (Pocket Factory)
-[ANs1]
-Buttonpos=0,2
-Hotkey=W
-Researchbuttonpos=0,0
-Researchhotkey=A
-
-// "ANbr" (Battle Roar)
-[ANbr]
-Buttonpos=2,2
-Hotkey=C
-Researchbuttonpos=2,0
-Researchhotkey=E
-
-// "nfps" (Polar Furbolg Shaman)
-[nfps]
-Buttonpos=2,0
-Hotkey=E
-
-// "Asta" (Stasis Trap)
-[Asta]
-Buttonpos=1,2
-Hotkey=X
-
-// "Rhlh" (Improved Lumber Harvesting,Advanced Lumber Harvesting)
-[Rhlh]
-Buttonpos=0,0
-Hotkey=A,A
-
-// "Hmgd" (Paladin)
-[Hmgd]
-Buttonpos=0,2
-Hotkey=W
-
-// "nw2w" (Orc Warlock)
-[nw2w]
-Buttonpos=0,2
-Hotkey=W
 
 // "Nrob" (Tinker)
 [Nrob]
 Buttonpos=2,2
 Hotkey=C,C,C
 
-// "harm" (Workshop)
-[harm]
-Buttonpos=3,1
-Hotkey=F
-
-// "shdt" (Shield of the Deathlord)
-[shdt]
-Buttonpos=0,0
-Hotkey=A
-
-// "ACcr" (Cripple)
-[ACcr]
+// "Aens" (Ensnare)
+[Aens]
 Buttonpos=0,2
 Hotkey=W
-
-// "Edmf" (Demon Huntress)
-[Edmf]
-Buttonpos=0,2
-Hotkey=W
-
-// "nubr" (Unbroken Rager)
-[nubr]
-Buttonpos=0,0
-Hotkey=A
-
-// "oli2" (Orb of Lightning)
-[oli2]
-Buttonpos=1,0
-Hotkey=Z
-
-// "ACrd" (Raise Dead)
-[ACrd]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
-
-// "rde4" (Ring of Protection +5)
-[rde4]
-Buttonpos=0,0
-Hotkey=A
-
-// "Aroc" (Barrage)
-[Aroc]
-Buttonpos=0,2
-Hotkey=W
-
-// "Otcc" (Tauren Chieftain)
-[Otcc]
-Buttonpos=0,2
-Hotkey=W
-
-// "ssil" (Staff of Silence)
-[ssil]
-Buttonpos=0,0
-Hotkey=A
-
-// "Apoi" (Poison Sting)
-[Apoi]
-Buttonpos=0,0
-Hotkey=A
-
-// "otbk" (Berserker)
-[otbk]
-Buttonpos=3,2
-Hotkey=V
 

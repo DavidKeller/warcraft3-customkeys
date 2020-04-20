@@ -183,16 +183,21 @@ class Generator:
     def _add_overrides(self):
         if self._overridesfile is None:
             return
-            
+
         overrides = json.load(self._overridesfile)
 
-        dependencies = overrides['dependencies']
-        positions = overrides['positions']
+        dependencies = overrides.get('dependencies', dict())
+        anti_dependencies = overrides.get('anti_dependencies', dict())
+        positions = overrides.get('positions', dict())
 
         for cell in self._cells.values():
             manual_dependencies = dependencies.get(cell.id)
             if manual_dependencies is not None:
                 cell.owned_cells |= set(manual_dependencies)
+
+            manual_anti_dependencies = anti_dependencies.get(cell.id)
+            if manual_anti_dependencies is not None:
+                cell.owned_cells -= set(manual_anti_dependencies)
 
             manual_position = positions.get(cell.id)
             if manual_position is not None:
