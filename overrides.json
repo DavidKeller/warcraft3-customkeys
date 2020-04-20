@@ -1,0 +1,25 @@
+
+{
+    "dependencies": 
+    {
+        "etol": [ "Repm" ],
+        "etoa": [ "Repm" ],   
+        "etoe": [ "Repm" ],
+        "unpl": [ "Rupm" ],
+        "unp1": [ "Rupm" ],   
+        "unp2": [ "Rupm" ],
+        "ogre": [ "Ropm" ],
+        "ostr": [ "Ropm" ],   
+        "ofrt": [ "Ropm" ],
+        "htow": [ "Rhpm" ],
+        "hkee": [ "Rhpm" ],
+        "hcas": [ "Rhpm" ]
+    },
+    "positions" : 
+    {
+        "Ropm": "1,0",
+        "Rhpm": "1,0",
+        "Repm": "1,0",
+        "Rupm": "1,0"
+    }
+}
