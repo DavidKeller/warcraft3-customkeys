@@ -46,15 +46,16 @@ class Cell:
         self.owned_cells = set()
         self.used_slots = set()
 
-def _parse_file(pattern):
+def _parse_file(datadirs):
     store = configparser.ConfigParser(comment_prefixes=('//'),
                                       delimiters=('='),
                                       interpolation=None,
                                       strict=False)
-    for filepath in glob(pattern):
-        LOGGER.debug('Parsing %s', filepath)
-        with open(filepath, 'r', encoding='utf-8-sig') as f:
-            store.read_file(f)
+    for datadir in datadirs:
+        for filepath in glob(path.join(datadir, '*.txt')):
+            LOGGER.debug('Parsing %s', filepath)
+            with open(filepath, 'r', encoding='utf-8-sig') as f:
+                store.read_file(f)
 
     return store
 
@@ -99,13 +100,13 @@ class Section:
 class Generator:
     def __init__(self, args):
         LOGGER.info('Parsing')
-        self._store = _parse_file(path.join(args.unitsdir, '*.txt'))
+        self._store = _parse_file(args.datadirs)
 
         self._cells = defaultdict(Cell)
         self._conflicted_cells = set()
 
-        self._dependenciesfile = args.dependenciesfile
-        self._out = args.out
+        self._overridesfile = args.overridesfile
+        self._customkey_file = args.customkeyfile
 
     def run(self):
         LOGGER.info('Discovering..')
@@ -113,7 +114,7 @@ class Generator:
             self._discover_skin(skin_id, skin_attr)
 
         LOGGER.info('Patching dependencies..')
-        self._add_manual_dependencies()
+        self._add_overrides()
 
         LOGGER.info('Mapping parents with children..')
         self._map_owned_cells()
@@ -179,14 +180,23 @@ class Generator:
         if researchs is not None:
             cell.owned_cells |= set(researchs.split(','))
 
-    def _add_manual_dependencies(self):
-        manual_cells = json.load(self._dependenciesfile)
+    def _add_overrides(self):
+        if self._overridesfile is None:
+            return
+            
+        overrides = json.load(self._overridesfile)
 
-        for manual_cell_id, manual_cell_attr in manual_cells.items():
-            cell = self._cells[manual_cell_id]
-            for owned_cells_id, owned_cells_pos in manual_cell_attr['owned_cells'].items():
-                cell.owned_cells.add(owned_cells_id)
-                self._cells[owned_cells_id].default_position = owned_cells_pos
+        dependencies = overrides['dependencies']
+        positions = overrides['positions']
+
+        for cell in self._cells.values():
+            manual_dependencies = dependencies.get(cell.id)
+            if manual_dependencies is not None:
+                cell.owned_cells |= set(manual_dependencies)
+
+            manual_position = positions.get(cell.id)
+            if manual_position is not None:
+                cell.default_position = manual_position
 
     def _map_owned_cells(self):
         for cell in self._cells.values():
@@ -303,14 +313,14 @@ class Generator:
             if cell.requires_count is not None:
                 section.require = int(cell.requires_count)
 
-            section.dump(self._out)
+            section.dump(self._customkey_file)
 
 def main():
     parser = argparse.ArgumentParser(description='Check Warcraft Reforged key positions')
     parser.add_argument('--verbose', action='store_true', help='Enable verbose loggng')
-    parser.add_argument('unitsdir', type=str, help=r'The Warcraft Reforged war3.w3mod\units directory')
-    parser.add_argument('dependenciesfile', type=argparse.FileType('r'), help=r'Manual dependencies json file')
-    parser.add_argument('out', type=argparse.FileType('w'), help=r'The CustomKeys.txt file')
+    parser.add_argument('--overridesfile', type=argparse.FileType('r'), help=r'Manual overrides json file')
+    parser.add_argument('--customkeyfile', type=argparse.FileType('w'), required=True, help=r'The CustomKeys.txt file to write')
+    parser.add_argument('datadirs', type=str, nargs='+', help=r'The Warcraft Reforged war3.w3mod\units directory')
 
     args = parser.parse_args()
 
