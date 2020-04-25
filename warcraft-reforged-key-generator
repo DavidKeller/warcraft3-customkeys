@@ -32,6 +32,15 @@ KEYS = (
     ( 'W', 'X', 'C', 'V' ),
 )
 
+def _write_entry(f, prefix, position, count):
+    x, y = [int(p) for p in position.split(',')]
+
+    entry = (prefix + 'buttonpos').title()
+    f.write('{}={},{}\n'.format(entry, x, y))
+
+    entry = (prefix + 'hotkey').title()
+    f.write('{}={}\n'.format(entry, ','.join(KEYS[y][x] * count)))  
+
 class Cell:
     def __init__(self):
         self.id = None
@@ -46,6 +55,30 @@ class Cell:
         self.owned_cells = set()
         self.used_slots = set()
 
+    def dump(self, f):
+        if self.name:
+            f.write('// {}\n'.format(self.name))
+
+        for owner_cell in self.owner_cells:
+            f.write('// Used by {}\n'.format(owner_cell.name))
+
+        for owned_cell in self.owned_cells:
+            f.write('// Uses {}\n'.format(owned_cell.name))
+
+        f.write('[{}]\n'.format(self.id))
+
+        count = int(self.requires_count or '1')
+
+        _write_entry(f, '', self.default_position, count)
+
+        if self.un_position is not None:
+            _write_entry(f, 'un', self.un_position, count)
+
+        if self.research_position is not None:
+            _write_entry(f, 'research', self.research_position, count)
+
+        f.write('\n')
+
 def _parse_file(datadirs):
     store = configparser.ConfigParser(comment_prefixes=('//'),
                                       delimiters=('='),
@@ -57,45 +90,7 @@ def _parse_file(datadirs):
             with open(filepath, 'r', encoding='utf-8-sig') as f:
                 store.read_file(f)
 
-    return store
-
-def _write_entry(f, prefix, position, count):
-    x = position[0]
-    y = position[1]
-
-    entry = (prefix + 'buttonpos').title()
-    f.write('{}={},{}\n'.format(entry, x, y))
-
-    entry = (prefix + 'hotkey').title()
-    f.write('{}={}\n'.format(entry, ','.join(KEYS[y][x] * count)))
-   
-class Section:
-    def __init__(self, id, comment):
-        self._id = id
-        self._comment = comment
-        self.position = None
-        self.unposition = None
-        self.research = None
-        self.require = None
-
-    def dump(self, f):
-        if self._comment:
-            f.write('// {}\n'.format(self._comment))
-
-        f.write('[{}]\n'.format(self._id))
-
-        count = self.require or 1
-
-        _write_entry(f, '', self.position, count)
-
-        if self.unposition is not None:
-            _write_entry(f, 'un', self.unposition, count)
-
-        if self.research is not None:
-            _write_entry(f, 'research', self.research, count)
-
-        f.write('\n')
-        
+    return store      
 
 class Generator:
     def __init__(self, args):
@@ -281,7 +276,7 @@ class Generator:
                     LOGGER.info('Assigned %s to position %s',
                                 cell.name, new_position)
                     # Save the cell mapping
-                    new_mappings[cell.id] = [int(p) for p in new_position.split(',')]
+                    new_mappings[cell.id] = new_position
 
                     break
             else:
@@ -292,33 +287,21 @@ class Generator:
         return new_mappings
 
     def _generate_custom_key(self, new_mappings):
-        for cell_id, cell in self._cells.items():
+        for cell_id, cell in sorted(self._cells.items(), key=lambda x:x[0]):
             if cell.is_visible is False:
                 continue
 
             LOGGER.debug('Writing %s section', cell.name)
-            section = Section(cell.id, cell.name)
 
             override = new_mappings.get(cell.id)
 
-            if override is None:
-                section.position = [int(p) for p in cell.default_position.split(',')]
-            else:
-                section.position = override
+            if override is not None:
+                cell.position = override
 
-            if cell.un_position is not None:
-                if override is None:
-                    section.unposition = [int(p) for p in cell.un_position.split(',')]
-                else:
-                    section.unposition = override
+                if cell.un_position is not None:
+                    cell.un_position = override
 
-            if cell.research_position is not None:
-                section.research = [int(p) for p in cell.research_position.split(',')]
-
-            if cell.requires_count is not None:
-                section.require = int(cell.requires_count)
-
-            section.dump(self._customkey_file)
+            cell.dump(self._customkey_file)
 
 def main():
     parser = argparse.ArgumentParser(description='Check Warcraft Reforged key positions')
