@@ -59,10 +59,10 @@ class Cell:
         if self.name:
             f.write('// {}\n'.format(self.name))
 
-        for owner_cell in self.owner_cells:
+        for owner_cell in sorted(self.owner_cells, key=lambda c: c.id):
             f.write('// Used by {}\n'.format(owner_cell.name))
 
-        for owned_cell in self.owned_cells:
+        for owned_cell in sorted(self.owned_cells, key=lambda c: c.id):
             f.write('// Uses {}\n'.format(owned_cell.name))
 
         f.write('[{}]\n'.format(self.id))

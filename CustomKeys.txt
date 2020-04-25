@@ -5,23 +5,23 @@ Hotkey=A
 
 // "ACac" (Command Aura)
 // Used by "nano" (Overlord Arachnathid)
-// Used by "nkol" (Kobold Taskmaster)
+// Used by "nfpu" (Polar Furbolg Ursa Warrior)
 // Used by "nfra" (Furbolg Ursa Warrior)
-// Used by "nmrv" (Mur'gul Marauder)
 // Used by "ngnv" (Gnoll Overseer)
 // Used by "ngos" (Snarlmane the Bloodgorger)
-// Used by "nfpu" (Polar Furbolg Ursa Warrior)
+// Used by "nkol" (Kobold Taskmaster)
+// Used by "nmrv" (Mur'gul Marauder)
 // Used by "ntkc" (Tuskarr Chieftain)
 [ACac]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACad" (Animate Dead)
-// Used by "odkt" (Drak'thul)
-// Used by "nsrw" (Stormreaver Warlock)
-// Used by "nrvd" (Death Revenant)
-// Used by "nsth" (Satyr Hellcaller)
 // Used by "nfod" (Faceless One Deathbringer)
+// Used by "nrvd" (Death Revenant)
+// Used by "nsrw" (Stormreaver Warlock)
+// Used by "nsth" (Satyr Hellcaller)
+// Used by "odkt" (Drak'thul)
 [ACad]
 Buttonpos=3,2
 Hotkey=V
@@ -47,10 +47,10 @@ Buttonpos=2,2
 Hotkey=C
 
 // "ACav" (Devotion Aura)
-// Used by "nogl" (Ogre Lord)
 // Used by "nbdo" (Blue Dragonspawn Overseer)
 // Used by "nbld" (Bandit Lord)
 // Used by "nlkl" (Makrura Tidal Lord)
+// Used by "nogl" (Ogre Lord)
 [ACav]
 Buttonpos=2,2
 Hotkey=C
@@ -63,8 +63,8 @@ Buttonpos=2,2
 Hotkey=C
 
 // "ACbb" (Bloodlust)
-// Used by "nomg" (Ogre Magi)
 // Used by "ndrh" (Draenei Harbinger)
+// Used by "nomg" (Ogre Magi)
 [ACbb]
 Buttonpos=0,2
 Hotkey=W
@@ -84,15 +84,15 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACbh" (Bash)
-// Used by "nowk" (Berserk Wildkin)
-// Used by "nkol" (Kobold Taskmaster)
 // Used by "nerw" (Eredar Warlock)
+// Used by "nkol" (Kobold Taskmaster)
 // Used by "nkot" (Kobold Tunneler)
-// Used by "nsel" (Sea Elemental)
 // Used by "noga" (Stonemaul Warchief)
+// Used by "nowk" (Berserk Wildkin)
+// Used by "nsel" (Sea Elemental)
 // Used by "nsqe" (Elder Sasquatch)
-// Used by "nwnr" (Elder Wendigo)
 // Used by "nwna" (Ancient Wendigo)
+// Used by "nwnr" (Elder Wendigo)
 [ACbh]
 Buttonpos=2,2
 Hotkey=C
@@ -106,19 +106,19 @@ Unbuttonpos=1,2
 Unhotkey=X
 
 // "ACbl" (Bloodlust)
-// Used by "ngow" (Gnoll Warlord)
 // Used by "ncks" (Centaur Sorcerer)
-// Used by "nwzw" (Blood Wizard)
 // Used by "ngos" (Snarlmane the Bloodgorger)
+// Used by "ngow" (Gnoll Warlord)
+// Used by "nslv" (Salamander Vizier)
 // Used by "nsrn" (Stormreaver Necrolyte)
 // Used by "nsth" (Satyr Hellcaller)
 // Used by "nwat" (Sentry)
-// Used by "nslv" (Salamander Vizier)
+// Used by "nwzw" (Blood Wizard)
 [ACbl]
 Buttonpos=0,2
 Hotkey=W
-Unbuttonpos=2,2
-Unhotkey=C
+Unbuttonpos=0,2
+Unhotkey=W
 
 // "ACbn" (Banish)
 [ACbn]
@@ -153,8 +153,8 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "ACca" (Carrion Swarm)
-// Used by "nnwq" (Nerubian Queen)
 // Used by "nhhr" (Heretic)
+// Used by "nnwq" (Nerubian Queen)
 [ACca]
 Buttonpos=0,2
 Hotkey=W
@@ -168,26 +168,26 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACce" (Cleaving Attack)
-// Used by "nlkl" (Makrura Tidal Lord)
 // Used by "nfgb" (Bloodfiend)
 // Used by "nfov" (Overlord)
+// Used by "nlkl" (Makrura Tidal Lord)
 [ACce]
 Buttonpos=1,2
 Hotkey=X
 
 // "ACch" (Charm)
-// Used by "nfgo" (Forgotten One)
 // Used by "ndqs" (Queen of Suffering)
+// Used by "nfgo" (Forgotten One)
 [ACch]
 Buttonpos=3,2
 Hotkey=V
 
 // "ACcl" (Chain Lightning)
 // Used by "nrvl" (Lightning Revenant)
-// Used by "nvdg" (Greater Voidwalker)
 // Used by "nsrn" (Stormreaver Necrolyte)
-// Used by "zshv" (Kobold Shoveler)
 // Used by "nstw" (Storm Wyrm)
+// Used by "nvdg" (Greater Voidwalker)
+// Used by "zshv" (Kobold Shoveler)
 [ACcl]
 Buttonpos=0,2
 Hotkey=W
@@ -199,23 +199,23 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACcr" (Cripple)
+// Used by "nba2" (Doom Guard)
+// Used by "nbal" (Doom Guard)
 // Used by "nfgl" (Flesh Golem)
 // Used by "nmmu" (Murloc Mutant)
-// Used by "nw2w" (Orc Warlock)
-// Used by "nbal" (Doom Guard)
 // Used by "nndr" (Nether Dragon)
-// Used by "nba2" (Doom Guard)
+// Used by "nw2w" (Orc Warlock)
 [ACcr]
 Buttonpos=2,2
 Hotkey=C
 
 // "ACcs" (Curse)
-// Used by "nmsc" (Mur'gul Shadowcaster)
 // Used by "nfor" (Faceless One Trickster)
-// Used by "nhrh" (Harpy Storm-hag)
-// Used by "nhdc" (Deceiver)
-// Used by "nsts" (Satyr Shadowdancer)
 // Used by "ngh2" (Wraith)
+// Used by "nhdc" (Deceiver)
+// Used by "nhrh" (Harpy Storm-hag)
+// Used by "nmsc" (Mur'gul Shadowcaster)
+// Used by "nsts" (Satyr Shadowdancer)
 [ACcs]
 Buttonpos=0,2
 Hotkey=W
@@ -223,10 +223,10 @@ Unbuttonpos=1,2
 Unhotkey=X
 
 // "ACct" (Critical Strike)
-// Used by "nwlg" (Giant Wolf)
 // Used by "nwld" (Dire Wolf)
-// Used by "nwwg" (Giant Frost Wolf)
+// Used by "nwlg" (Giant Wolf)
 // Used by "nwwd" (Dire Frost Wolf)
+// Used by "nwwg" (Giant Frost Wolf)
 // Used by "osw2" (Dire Wolf)
 // Used by "osw3" (Shadow Wolf)
 [ACct]
@@ -243,8 +243,8 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ACcw" (Cold Arrows)
-// Used by "nvdw" (Voidwalker)
 // Used by "nskm" (Skeletal Marksman)
+// Used by "nvdw" (Voidwalker)
 [ACcw]
 Buttonpos=0,2
 Hotkey=W
@@ -253,15 +253,15 @@ Unhotkey=W
 
 // "ACcy" (Cyclone)
 // Used by "nhrq" (Harpy Queen)
-// Used by "npn5" (Storm)
 // Used by "npn2" (Storm)
+// Used by "npn5" (Storm)
 [ACcy]
 Buttonpos=1,2
 Hotkey=X
 
 // "ACd2" (Abolish Magic)
-// Used by "nith" (Ice Troll High Priest)
 // Used by "nfsh" (Forest Troll High Priest)
+// Used by "nith" (Ice Troll High Priest)
 [ACd2]
 Buttonpos=1,2
 Hotkey=X
@@ -269,36 +269,36 @@ Unbuttonpos=3,2
 Unhotkey=V
 
 // "ACdc" (Death Coil)
+// Used by "ndqs" (Queen of Suffering)
 // Used by "nrvd" (Death Revenant)
 // Used by "nsoc" (Skeletal Orc Champion)
-// Used by "ndqs" (Queen of Suffering)
 [ACdc]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACde" (Devour Magic)
-// Used by "nvde" (Elder Voidwalker)
 // Used by "npfm" (Fel Ravager)
+// Used by "nvde" (Elder Voidwalker)
 [ACde]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACdm" (Abolish Magic)
-// Used by "ntkh" (Tuskarr Healer)
-// Used by "nsns" (Watery Minion)
-// Used by "ners" (Eredar Sorcerer)
 // Used by "ncks" (Centaur Sorcerer)
+// Used by "ners" (Eredar Sorcerer)
+// Used by "nfps" (Polar Furbolg Shaman)
+// Used by "nfsp" (Forest Troll Shadow Priest)
 // Used by "nkog" (Kobold Geomancer)
 // Used by "nmsn" (Mur'gul Snarecaster)
 // Used by "nnwr" (Nerubian Seer)
-// Used by "nfps" (Polar Furbolg Shaman)
 // Used by "nslv" (Salamander Vizier)
-// Used by "nfsp" (Forest Troll Shadow Priest)
+// Used by "nsns" (Watery Minion)
+// Used by "ntkh" (Tuskarr Healer)
 [ACdm]
 Buttonpos=0,2
 Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
+Unbuttonpos=1,2
+Unhotkey=X
 
 // "ACdr" (Life Drain)
 // Used by "ndqp" (Maiden of Pain)
@@ -315,33 +315,33 @@ Unbuttonpos=1,2
 Unhotkey=X
 
 // "ACdv" (Devour)
+// Used by "nadr" (Blue Dragon)
+// Used by "nahy" (Ancient Hydra)
+// Used by "nbwm" (Black Dragon)
 // Used by "nbzd" (Bronze Dragon)
+// Used by "ngrd" (Green Dragon)
+// Used by "nhyc" (Dragon Turtle)
+// Used by "nrwm" (Red Dragon)
 // Used by "nsll" (Salamander Lord)
 // Used by "nstw" (Storm Wyrm)
-// Used by "nbwm" (Black Dragon)
-// Used by "nahy" (Ancient Hydra)
-// Used by "ngrd" (Green Dragon)
-// Used by "nadr" (Blue Dragon)
-// Used by "nhyc" (Dragon Turtle)
 // Used by "ntrd" (Dragon Turtle)
-// Used by "nrwm" (Red Dragon)
 [ACdv]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACen" (Ensnare)
-// Used by "nsgt" (Giant Spider)
 // Used by "ndrp" (Draenei Protector)
-// Used by "ndtt" (Dark Troll Trapper)
 // Used by "ndrt" (Draenei Stalker)
-// Used by "nsbm" (Brood Mother)
+// Used by "ndtt" (Dark Troll Trapper)
 // Used by "nftt" (Forest Troll Trapper)
 // Used by "nitt" (Ice Troll Trapper)
-// Used by "nogo" (Stonemaul Ogre)
-// Used by "nubr" (Unbroken Rager)
 // Used by "nmrr" (Murloc Huntsman)
+// Used by "nogo" (Stonemaul Ogre)
+// Used by "nsbm" (Brood Mother)
 // Used by "nsgh" (Sea Giant Hunter)
+// Used by "nsgt" (Giant Spider)
 // Used by "ntkt" (Tuskarr Trapper)
+// Used by "nubr" (Unbroken Rager)
 // Used by "nws1" (Dragon Hawk)
 [ACen]
 Buttonpos=0,2
@@ -353,25 +353,25 @@ Buttonpos=2,2
 Hotkey=C
 
 // "ACev" (Evasion)
+// Used by "nbda" (Blue Dragonspawn Apprentice)
 // Used by "nbdm" (Blue Dragonspawn Meddler)
+// Used by "nbdo" (Blue Dragonspawn Overseer)
+// Used by "nbds" (Blue Dragonspawn Sorcerer)
 // Used by "nbdw" (Blue Dragonspawn Warrior)
 // Used by "ndrt" (Draenei Stalker)
-// Used by "nbdo" (Blue Dragonspawn Overseer)
 // Used by "nenf" (Enforcer)
-// Used by "nbda" (Blue Dragonspawn Apprentice)
 // Used by "nqbh" (Quillboar Hunter)
-// Used by "nbds" (Blue Dragonspawn Sorcerer)
 [ACev]
 Buttonpos=2,2
 Hotkey=C
 
 // "ACf2" (Frost Armor)
-// Used by "nvdg" (Greater Voidwalker)
-// Used by "nwzr" (Rogue Wizard)
-// Used by "nlrv" (Deeplord Revenant)
 // Used by "nfps" (Polar Furbolg Shaman)
 // Used by "nith" (Ice Troll High Priest)
+// Used by "nlrv" (Deeplord Revenant)
 // Used by "nltc" (Makrura Tidecaller)
+// Used by "nvdg" (Greater Voidwalker)
+// Used by "nwzr" (Rogue Wizard)
 [ACf2]
 Buttonpos=1,2
 Hotkey=X
@@ -392,9 +392,9 @@ Buttonpos=1,2
 Hotkey=X
 
 // "ACfb" (Firebolt)
-// Used by "nw2w" (Orc Warlock)
-// Used by "nslr" (Salamander)
 // Used by "nfgo" (Forgotten One)
+// Used by "nslr" (Salamander)
+// Used by "nw2w" (Orc Warlock)
 [ACfb]
 Buttonpos=0,2
 Hotkey=W
@@ -408,9 +408,9 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ACff" (Faerie Fire)
+// Used by "nehy" (Elder Hydra)
 // Used by "nfrb" (Furbolg Tracker)
 // Used by "nhrw" (Harpy Windwitch)
-// Used by "nehy" (Elder Hydra)
 [ACff]
 Buttonpos=0,2
 Hotkey=W
@@ -424,17 +424,17 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACfn" (Frost Nova)
-// Used by "nrvi" (Ice Revenant)
 // Used by "nbds" (Blue Dragonspawn Sorcerer)
 // Used by "nelb" (Berserk Elemental)
 // Used by "nfpe" (Polar Furbolg Elder Shaman)
+// Used by "nrvi" (Ice Revenant)
 [ACfn]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACfr" (Force of Nature)
-// Used by "nsqe" (Elder Sasquatch)
 // Used by "nsqa" (Ancient Sasquatch)
+// Used by "nsqe" (Elder Sasquatch)
 [ACfr]
 Buttonpos=1,2
 Hotkey=X
@@ -461,8 +461,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "AChv" (Healing Wave)
-// Used by "nfpe" (Polar Furbolg Elder Shaman)
 // Used by "ndrs" (Draenei Seer)
+// Used by "nfpe" (Polar Furbolg Elder Shaman)
 [AChv]
 Buttonpos=0,2
 Hotkey=W
@@ -480,20 +480,20 @@ Buttonpos=1,2
 Hotkey=X
 
 // "ACif" (Inner Fire)
-// Used by "nfsh" (Forest Troll High Priest)
 // Used by "nchp" (Chaplain)
+// Used by "nfsh" (Forest Troll High Priest)
 // Used by "ntks" (Tuskarr Sorcerer)
 [ACif]
 Buttonpos=2,2
 Hotkey=C
-Unbuttonpos=1,2
-Unhotkey=X
+Unbuttonpos=0,2
+Unhotkey=W
 
 // "ACim" (Immolation)
+// Used by "ndrd" (Draenei Darkslayer)
 // Used by "nrvf" (Fire Revenant)
 // Used by "nsll" (Salamander Lord)
 // Used by "nslr" (Salamander)
-// Used by "ndrd" (Draenei Darkslayer)
 [ACim]
 Buttonpos=1,2
 Hotkey=X
@@ -520,8 +520,8 @@ Buttonpos=1,2
 Hotkey=X
 
 // "ACmf" (Mana Shield)
-// Used by "nfot" (Faceless One Terror)
 // Used by "nerw" (Eredar Warlock)
+// Used by "nfot" (Faceless One Terror)
 [ACmf]
 Buttonpos=1,2
 Hotkey=X
@@ -529,41 +529,41 @@ Unbuttonpos=1,2
 Unhotkey=X
 
 // "ACmi" (Spell Immunity)
-// Used by "nowl" (Owl Scout)
-// Used by "now2" (Owl Scout)
-// Used by "ninf" (Infernal)
-// Used by "nggm" (Moss Covered Granite Golem)
-// Used by "now3" (Owl Scout)
-// Used by "nggg" (Guardian Golem)
-// Used by "nggd" (Defender Golem)
-// Used by "osp1" (Serpent Ward)
-// Used by "ubsp" (Destroyer)
-// Used by "nbwm" (Black Dragon)
-// Used by "osp2" (Serpent Ward)
-// Used by "ngrk" (Mud Golem)
-// Used by "osp3" (Serpent Ward)
-// Used by "ngst" (Rock Golem)
-// Used by "nadr" (Blue Dragon)
-// Used by "nggr" (Granite Golem)
-// Used by "npn3" (Earth)
 // Used by "espv" (Avatar of Vengeance)
+// Used by "hphx" (Phoenix)
+// Used by "hpxe" (Phoenix Egg)
+// Used by "nadr" (Blue Dragon)
 // Used by "narg" (Battle Golem)
-// Used by "nwrg" (War Golem)
-// Used by "nsgg" (Siege Golem)
+// Used by "nbwm" (Black Dragon)
 // Used by "nbzd" (Bronze Dragon)
 // Used by "nelb" (Berserk Elemental)
-// Used by "ugrm" (Stone Form Gargoyle)
 // Used by "nele" (Enraged Elemental)
+// Used by "nggd" (Defender Golem)
+// Used by "nggg" (Guardian Golem)
+// Used by "nggm" (Moss Covered Granite Golem)
+// Used by "nggr" (Granite Golem)
 // Used by "ngrd" (Green Dragon)
-// Used by "hphx" (Phoenix)
-// Used by "nrwm" (Red Dragon)
-// Used by "nndr" (Nether Dragon)
-// Used by "hpxe" (Phoenix Egg)
-// Used by "nmgw" (Magnataur Warrior)
-// Used by "nmgr" (Magnataur Reaver)
+// Used by "ngrk" (Mud Golem)
+// Used by "ngst" (Rock Golem)
+// Used by "ninf" (Infernal)
 // Used by "nmgd" (Magnataur Destroyer)
-// Used by "osp4" (Serpent Ward)
+// Used by "nmgr" (Magnataur Reaver)
+// Used by "nmgw" (Magnataur Warrior)
+// Used by "nndr" (Nether Dragon)
+// Used by "now2" (Owl Scout)
+// Used by "now3" (Owl Scout)
+// Used by "nowl" (Owl Scout)
+// Used by "npn3" (Earth)
 // Used by "npn6" (Earth)
+// Used by "nrwm" (Red Dragon)
+// Used by "nsgg" (Siege Golem)
+// Used by "nwrg" (War Golem)
+// Used by "osp1" (Serpent Ward)
+// Used by "osp2" (Serpent Ward)
+// Used by "osp3" (Serpent Ward)
+// Used by "osp4" (Serpent Ward)
+// Used by "ubsp" (Destroyer)
+// Used by "ugrm" (Stone Form Gargoyle)
 [ACmi]
 Buttonpos=2,2
 Hotkey=C
@@ -589,8 +589,8 @@ Researchhotkey=A
 [ACpa]
 Buttonpos=0,2
 Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
+Unbuttonpos=1,2
+Unhotkey=X
 
 // "ACps" (Possession)
 // Used by "ngh1" (Ghost)
@@ -602,21 +602,21 @@ Hotkey=C
 // "ACpu" (Purge)
 // Used by "nfor" (Faceless One Trickster)
 // Used by "ngnw" (Gnoll Warden)
-// Used by "nsat" (Satyr Trickster)
-// Used by "nwzg" (Renegade Wizard)
-// Used by "nsrh" (Stormreaver Hermit)
 // Used by "nltl" (Lightning Lizard)
 // Used by "nrvl" (Lightning Revenant)
+// Used by "nsat" (Satyr Trickster)
+// Used by "nsrh" (Stormreaver Hermit)
+// Used by "nwzg" (Renegade Wizard)
 [ACpu]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACpv" (Pulverize)
-// Used by "nsgn" (Sea Giant)
-// Used by "npn6" (Earth)
-// Used by "nsgh" (Sea Giant Hunter)
-// Used by "nsgb" (Sea Giant Behemoth)
 // Used by "npn3" (Earth)
+// Used by "npn6" (Earth)
+// Used by "nsgb" (Sea Giant Behemoth)
+// Used by "nsgh" (Sea Giant Hunter)
+// Used by "nsgn" (Sea Giant)
 [ACpv]
 Buttonpos=0,2
 Hotkey=W
@@ -634,31 +634,31 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACr2" (Rejuvenation)
+// Used by "nfre" (Furbolg Elder Shaman)
 // Used by "nfrs" (Furbolg Shaman)
 // Used by "nhrq" (Harpy Queen)
-// Used by "nfre" (Furbolg Elder Shaman)
 [ACr2]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACrd" (Raise Dead)
-// Used by "nrvd" (Death Revenant)
-// Used by "nnwr" (Nerubian Seer)
 // Used by "nhhr" (Heretic)
-// Used by "nnwq" (Nerubian Queen)
-// Used by "nwzd" (Dark Wizard)
-// Used by "nstl" (Satyr Soulstealer)
 // Used by "nnwl" (Nerubian Webspinner)
+// Used by "nnwq" (Nerubian Queen)
+// Used by "nnwr" (Nerubian Seer)
+// Used by "nrvd" (Death Revenant)
+// Used by "nstl" (Satyr Soulstealer)
+// Used by "nwzd" (Dark Wizard)
 [ACrd]
 Buttonpos=0,2
 Hotkey=W
-Unbuttonpos=1,2
-Unhotkey=X
+Unbuttonpos=0,2
+Unhotkey=W
 
 // "ACrf" (Rain of Fire)
-// Used by "nsll" (Salamander Lord)
-// Used by "nbal" (Doom Guard)
 // Used by "nba2" (Doom Guard)
+// Used by "nbal" (Doom Guard)
+// Used by "nsll" (Salamander Lord)
 [ACrf]
 Buttonpos=3,2
 Hotkey=V
@@ -671,47 +671,47 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ACrj" (Rejuvenation)
-// Used by "nsqo" (Sasquatch Oracle)
 // Used by "nbda" (Blue Dragonspawn Apprentice)
+// Used by "nsqo" (Sasquatch Oracle)
 // Used by "nwns" (Wendigo Shaman)
 [ACrj]
 Buttonpos=1,2
 Hotkey=X
 
 // "ACrk" (Resistant Skin)
-// Used by "ngz4" (Misha)
+// Used by "espv" (Avatar of Vengeance)
+// Used by "hphx" (Phoenix)
 // Used by "hpxe" (Phoenix Egg)
-// Used by "npn1" (Fire)
-// Used by "npn4" (Fire)
-// Used by "ninf" (Infernal)
-// Used by "npn2" (Storm)
-// Used by "npn5" (Storm)
+// Used by "ngz4" (Misha)
+// Used by "ngza" (Misha)
 // Used by "ngzc" (Misha)
 // Used by "ngzd" (Misha)
-// Used by "hphx" (Phoenix)
+// Used by "ninf" (Infernal)
+// Used by "npn1" (Fire)
+// Used by "npn2" (Storm)
 // Used by "npn3" (Earth)
-// Used by "ngza" (Misha)
+// Used by "npn4" (Fire)
+// Used by "npn5" (Storm)
 // Used by "npn6" (Earth)
-// Used by "espv" (Avatar of Vengeance)
 [ACrk]
 Buttonpos=3,2
 Hotkey=V
 
 // "ACrn" (Reincarnation)
 // Used by "ncnk" (Centaur Khan)
-// Used by "nwna" (Ancient Wendigo)
 // Used by "nsqa" (Ancient Sasquatch)
+// Used by "nwna" (Ancient Wendigo)
 [ACrn]
 Buttonpos=3,2
 Hotkey=V
 
 // "ACro" (Roar)
-// Used by "nsqo" (Sasquatch Oracle)
 // Used by "ngow" (Gnoll Warlord)
-// Used by "nwns" (Wendigo Shaman)
-// Used by "nwld" (Dire Wolf)
-// Used by "nwwd" (Dire Frost Wolf)
 // Used by "nogn" (Stonemaul Magi)
+// Used by "nsqo" (Sasquatch Oracle)
+// Used by "nwld" (Dire Wolf)
+// Used by "nwns" (Wendigo Shaman)
+// Used by "nwwd" (Dire Frost Wolf)
 [ACro]
 Buttonpos=0,2
 Hotkey=W
@@ -738,8 +738,8 @@ Buttonpos=1,2
 Hotkey=X
 
 // "ACsa" (Searing Arrows)
-// Used by "nskf" (Burning Archer)
 // Used by "ncim" (Centaur Impaler)
+// Used by "nskf" (Burning Archer)
 [ACsa]
 Buttonpos=1,2
 Hotkey=X
@@ -752,8 +752,8 @@ Buttonpos=2,2
 Hotkey=C
 
 // "ACsh" (Shockwave)
-// Used by "nogl" (Ogre Lord)
 // Used by "nfgl" (Flesh Golem)
+// Used by "nogl" (Ogre Lord)
 [ACsh]
 Buttonpos=0,2
 Hotkey=W
@@ -768,20 +768,20 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ACsk" (Resistant Skin)
-// Used by "ospm" (Spirit Walker)
+// Used by "nba2" (Doom Guard)
+// Used by "nbal" (Doom Guard)
 // Used by "nnrg" (Naga Royal Guard)
 // Used by "obai" (Baine)
-// Used by "nbal" (Doom Guard)
+// Used by "ospm" (Spirit Walker)
 // Used by "ospw" (Spirit Walker)
-// Used by "nba2" (Doom Guard)
 [ACsk]
 Buttonpos=3,1
 Hotkey=F
 
 // "ACsl" (Sleep)
-// Used by "nfot" (Faceless One Terror)
 // Used by "ndth" (Dark Troll High Priest)
 // Used by "ners" (Eredar Sorcerer)
+// Used by "nfot" (Faceless One Terror)
 // Used by "nhrh" (Harpy Storm-hag)
 [ACsl]
 Buttonpos=1,2
@@ -807,21 +807,21 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACsw" (Slow)
-// Used by "nfpt" (Polar Furbolg Tracker)
-// Used by "nsns" (Watery Minion)
-// Used by "nkog" (Kobold Geomancer)
-// Used by "ngrk" (Mud Golem)
-// Used by "nslm" (Sludge Minion)
-// Used by "nslf" (Sludge Flinger)
-// Used by "nsln" (Sludge Monstrosity)
-// Used by "nhym" (Hydromancer)
-// Used by "nmsn" (Mur'gul Snarecaster)
 // Used by "ndrs" (Draenei Seer)
+// Used by "nfpt" (Polar Furbolg Tracker)
+// Used by "ngrk" (Mud Golem)
+// Used by "nhym" (Hydromancer)
+// Used by "nkog" (Kobold Geomancer)
+// Used by "nmsn" (Mur'gul Snarecaster)
+// Used by "nslf" (Sludge Flinger)
+// Used by "nslm" (Sludge Minion)
+// Used by "nsln" (Sludge Monstrosity)
+// Used by "nsns" (Watery Minion)
 [ACsw]
 Buttonpos=0,2
 Hotkey=W
-Unbuttonpos=1,2
-Unhotkey=X
+Unbuttonpos=0,2
+Unhotkey=W
 
 // "ACt2" (Slam)
 // Used by "nthl" (Thunder Lizard)
@@ -830,24 +830,24 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACtb" (Hurl Boulder)
-// Used by "nsgb" (Sea Giant Behemoth)
+// Used by "nggd" (Defender Golem)
+// Used by "nggg" (Guardian Golem)
 // Used by "nggm" (Moss Covered Granite Golem)
+// Used by "nggr" (Granite Golem)
 // Used by "ngst" (Rock Golem)
 // Used by "nrzg" (Razormane Chieftain)
-// Used by "nggr" (Granite Golem)
-// Used by "nggg" (Guardian Golem)
-// Used by "nggd" (Defender Golem)
+// Used by "nsgb" (Sea Giant Behemoth)
 [ACtb]
 Buttonpos=0,2
 Hotkey=W
 
 // "ACtc" (Slam)
-// Used by "njgb" (Enraged Jungle Stalker)
-// Used by "nsqa" (Ancient Sasquatch)
-// Used by "nmgd" (Magnataur Destroyer)
+// Used by "nggg" (Guardian Golem)
 // Used by "nggm" (Moss Covered Granite Golem)
 // Used by "nggr" (Granite Golem)
-// Used by "nggg" (Guardian Golem)
+// Used by "njgb" (Enraged Jungle Stalker)
+// Used by "nmgd" (Magnataur Destroyer)
+// Used by "nsqa" (Ancient Sasquatch)
 [ACtc]
 Buttonpos=1,2
 Hotkey=X
@@ -859,9 +859,9 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ACua" (Unholy Aura)
+// Used by "ndqs" (Queen of Suffering)
 // Used by "nnwq" (Nerubian Queen)
 // Used by "nsth" (Satyr Hellcaller)
-// Used by "ndqs" (Queen of Suffering)
 [ACua]
 Buttonpos=2,2
 Hotkey=C
@@ -874,21 +874,21 @@ Buttonpos=1,2
 Hotkey=X
 
 // "ACvp" (Vampiric Aura)
-// Used by "nrvi" (Ice Revenant)
 // Used by "nfov" (Overlord)
+// Used by "nrvi" (Ice Revenant)
 [ACvp]
 Buttonpos=2,2
 Hotkey=C
 
 // "ACvs" (Envenomed Weapons)
-// Used by "ngns" (Gnoll Assassin)
-// Used by "nsgt" (Giant Spider)
 // Used by "nane" (Arachnathid Earth-borer)
-// Used by "nssp" (Spitting Spider)
-// Used by "nenp" (Poison Treant)
-// Used by "nsbm" (Brood Mother)
-// Used by "nmrm" (Murloc Nightcrawler)
 // Used by "nass" (Assassin)
+// Used by "nenp" (Poison Treant)
+// Used by "ngns" (Gnoll Assassin)
+// Used by "nmrm" (Murloc Nightcrawler)
+// Used by "nsbm" (Brood Mother)
+// Used by "nsgt" (Giant Spider)
+// Used by "nssp" (Spitting Spider)
 [ACvs]
 Buttonpos=0,2
 Hotkey=W
@@ -898,8 +898,8 @@ Hotkey=W
 [ACwb]
 Buttonpos=0,2
 Hotkey=W
-Unbuttonpos=0,2
-Unhotkey=W
+Unbuttonpos=1,2
+Unhotkey=X
 
 // "ACwe" (Summon Sea Elemental)
 // Used by "ndrv" (Revenant of the Depths)
@@ -911,8 +911,8 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "AEIl" (Metamorphosis)
-// Used by "Eilm" (Demon Hunter)
 // Used by "Eill" (Demon Hunter)
+// Used by "Eilm" (Demon Hunter)
 [AEIl]
 Buttonpos=3,2
 Hotkey=V
@@ -920,12 +920,12 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AEah" (Thorns Aura)
-// Used by "Ekgg" (Keeper of the Grove)
-// Used by "Emns" (Keeper of the Grove)
-// Used by "Efur" (Keeper of the Grove)
 // Used by "Ecen" (Demigod)
+// Used by "Efur" (Keeper of the Grove)
 // Used by "Ekee" (Keeper of the Grove)
+// Used by "Ekgg" (Keeper of the Grove)
 // Used by "Emfr" (Keeper of the Grove)
+// Used by "Emns" (Keeper of the Grove)
 [AEah]
 Buttonpos=2,2
 Hotkey=C
@@ -933,10 +933,10 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AEar" (Trueshot Aura)
+// Used by "Emoo" (Priestess of the Moon)
 // Used by "Etyr" (Priestess of the Moon)
 // Used by "Hjnd" (Ranger)
 // Used by "Hvwd" (Ranger)
-// Used by "Emoo" (Priestess of the Moon)
 [AEar]
 Buttonpos=2,2
 Hotkey=C
@@ -944,8 +944,8 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AEbl" (Blink)
-// Used by "Ewrd" (Warden)
 // Used by "Ewar" (Warden)
+// Used by "Ewrd" (Warden)
 [AEbl]
 Buttonpos=1,2
 Hotkey=X
@@ -958,12 +958,12 @@ Buttonpos=0,2
 Hotkey=W
 
 // "AEer" (Entangling Roots)
-// Used by "Ekgg" (Keeper of the Grove)
-// Used by "Emns" (Keeper of the Grove)
-// Used by "Efur" (Keeper of the Grove)
 // Used by "Ecen" (Demigod)
+// Used by "Efur" (Keeper of the Grove)
 // Used by "Ekee" (Keeper of the Grove)
+// Used by "Ekgg" (Keeper of the Grove)
 // Used by "Emfr" (Keeper of the Grove)
+// Used by "Emns" (Keeper of the Grove)
 [AEer]
 Buttonpos=0,2
 Hotkey=W
@@ -972,14 +972,14 @@ Researchhotkey=A
 
 // "AEev" (Evasion)
 // Used by "Edef" (Demon Huntress)
-// Used by "Eidm" (Demon Hunter)
-// Used by "Edmm" (Demon Hunter)
-// Used by "Eevm" (Demon Hunter)
-// Used by "Eevi" (Demon Hunter)
-// Used by "Eill" (Demon Hunter)
-// Used by "Edmf" (Demon Huntress)
-// Used by "Eilm" (Demon Hunter)
 // Used by "Edem" (Demon Hunter)
+// Used by "Edmf" (Demon Huntress)
+// Used by "Edmm" (Demon Hunter)
+// Used by "Eevi" (Demon Hunter)
+// Used by "Eevm" (Demon Hunter)
+// Used by "Eidm" (Demon Hunter)
+// Used by "Eill" (Demon Hunter)
+// Used by "Eilm" (Demon Hunter)
 [AEev]
 Buttonpos=2,2
 Hotkey=C
@@ -987,8 +987,8 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AEfk" (Fan of Knives)
-// Used by "Ewrd" (Warden)
 // Used by "Ewar" (Warden)
+// Used by "Ewrd" (Warden)
 [AEfk]
 Buttonpos=0,2
 Hotkey=W
@@ -996,12 +996,12 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AEfn" (Force of Nature)
-// Used by "Ekgg" (Keeper of the Grove)
-// Used by "Emns" (Keeper of the Grove)
-// Used by "Efur" (Keeper of the Grove)
 // Used by "Ecen" (Demigod)
+// Used by "Efur" (Keeper of the Grove)
 // Used by "Ekee" (Keeper of the Grove)
+// Used by "Ekgg" (Keeper of the Grove)
 // Used by "Emfr" (Keeper of the Grove)
+// Used by "Emns" (Keeper of the Grove)
 [AEfn]
 Buttonpos=1,2
 Hotkey=X
@@ -1010,14 +1010,14 @@ Researchhotkey=Z
 
 // "AEim" (Immolation)
 // Used by "Edef" (Demon Huntress)
-// Used by "Eidm" (Demon Hunter)
-// Used by "Edmm" (Demon Hunter)
-// Used by "Eevm" (Demon Hunter)
-// Used by "Eevi" (Demon Hunter)
-// Used by "Eill" (Demon Hunter)
-// Used by "Edmf" (Demon Huntress)
-// Used by "Eilm" (Demon Hunter)
 // Used by "Edem" (Demon Hunter)
+// Used by "Edmf" (Demon Huntress)
+// Used by "Edmm" (Demon Hunter)
+// Used by "Eevi" (Demon Hunter)
+// Used by "Eevm" (Demon Hunter)
+// Used by "Eidm" (Demon Hunter)
+// Used by "Eill" (Demon Hunter)
+// Used by "Eilm" (Demon Hunter)
 [AEim]
 Buttonpos=1,2
 Hotkey=X
@@ -1028,14 +1028,14 @@ Researchhotkey=Z
 
 // "AEmb" (Mana Burn)
 // Used by "Edef" (Demon Huntress)
-// Used by "Eidm" (Demon Hunter)
-// Used by "Edmm" (Demon Hunter)
-// Used by "Eevm" (Demon Hunter)
-// Used by "Eevi" (Demon Hunter)
-// Used by "Eill" (Demon Hunter)
-// Used by "Edmf" (Demon Huntress)
-// Used by "Eilm" (Demon Hunter)
 // Used by "Edem" (Demon Hunter)
+// Used by "Edmf" (Demon Huntress)
+// Used by "Edmm" (Demon Hunter)
+// Used by "Eevi" (Demon Hunter)
+// Used by "Eevm" (Demon Hunter)
+// Used by "Eidm" (Demon Hunter)
+// Used by "Eill" (Demon Hunter)
+// Used by "Eilm" (Demon Hunter)
 [AEmb]
 Buttonpos=0,2
 Hotkey=W
@@ -1043,8 +1043,8 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AEme" (Metamorphosis)
-// Used by "Edmm" (Demon Hunter)
 // Used by "Edem" (Demon Hunter)
+// Used by "Edmm" (Demon Hunter)
 [AEme]
 Buttonpos=3,2
 Hotkey=V
@@ -1068,10 +1068,10 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AEsf" (Starfall)
+// Used by "Emoo" (Priestess of the Moon)
 // Used by "Etyr" (Priestess of the Moon)
 // Used by "Hjnd" (Ranger)
 // Used by "Hvwd" (Ranger)
-// Used by "Emoo" (Priestess of the Moon)
 [AEsf]
 Buttonpos=3,2
 Hotkey=V
@@ -1079,10 +1079,10 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AEsh" (Shadow Strike)
-// Used by "Udth" (Dreadlord)
-// Used by "Naka" (Elder Sage)
-// Used by "Ewrd" (Warden)
 // Used by "Ewar" (Warden)
+// Used by "Ewrd" (Warden)
+// Used by "Naka" (Elder Sage)
+// Used by "Udth" (Dreadlord)
 [AEsh]
 Buttonpos=2,2
 Hotkey=C
@@ -1090,10 +1090,10 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AEst" (Scout)
+// Used by "Emoo" (Priestess of the Moon)
 // Used by "Etyr" (Priestess of the Moon)
 // Used by "Hjnd" (Ranger)
 // Used by "Hvwd" (Ranger)
-// Used by "Emoo" (Priestess of the Moon)
 [AEst]
 Buttonpos=0,2
 Hotkey=W
@@ -1101,8 +1101,8 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AEsv" (Vengeance)
-// Used by "Ewrd" (Warden)
 // Used by "Ewar" (Warden)
+// Used by "Ewrd" (Warden)
 [AEsv]
 Buttonpos=3,2
 Hotkey=V
@@ -1110,12 +1110,12 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AEtq" (Tranquility)
-// Used by "Ekgg" (Keeper of the Grove)
-// Used by "Emns" (Keeper of the Grove)
-// Used by "Efur" (Keeper of the Grove)
 // Used by "Ecen" (Demigod)
+// Used by "Efur" (Keeper of the Grove)
 // Used by "Ekee" (Keeper of the Grove)
+// Used by "Ekgg" (Keeper of the Grove)
 // Used by "Emfr" (Keeper of the Grove)
+// Used by "Emns" (Keeper of the Grove)
 [AEtq]
 Buttonpos=3,2
 Hotkey=V
@@ -1137,12 +1137,12 @@ Buttonpos=0,2
 Hotkey=W
 
 // "AHab" (Brilliance Aura)
-// Used by "Hamg" (Archmage)
 // Used by "Haah" (High Elf Archmage)
-// Used by "Hgam" (Ghostly Archmage)
-// Used by "Hssa" (High King)
+// Used by "Hamg" (Archmage)
 // Used by "Hant" (Archmage)
+// Used by "Hgam" (Ghostly Archmage)
 // Used by "Hjai" (Archmage)
+// Used by "Hssa" (High King)
 [AHab]
 Buttonpos=2,2
 Hotkey=C
@@ -1150,16 +1150,16 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AHad" (Devotion Aura)
-// Used by "Hmgd" (Paladin)
-// Used by "Hpb1" (Paladin)
-// Used by "Hart" (Paladin)
-// Used by "Huth" (Paladin)
-// Used by "Hpal" (Paladin)
-// Used by "Hhkl" (Paladin)
-// Used by "Hpb2" (Paladin)
-// Used by "Hlgr" (Dark Knight)
-// Used by "Hdgo" (Paladin)
 // Used by "Harf" (Paladin)
+// Used by "Hart" (Paladin)
+// Used by "Hdgo" (Paladin)
+// Used by "Hhkl" (Paladin)
+// Used by "Hlgr" (Dark Knight)
+// Used by "Hmgd" (Paladin)
+// Used by "Hpal" (Paladin)
+// Used by "Hpb1" (Paladin)
+// Used by "Hpb2" (Paladin)
+// Used by "Huth" (Paladin)
 [AHad]
 Buttonpos=2,2
 Hotkey=C
@@ -1202,11 +1202,11 @@ Buttonpos=0,2
 Hotkey=W
 
 // "AHbz" (Blizzard)
-// Used by "Hjai" (Archmage)
-// Used by "Hamg" (Archmage)
 // Used by "Haah" (High Elf Archmage)
+// Used by "Hamg" (Archmage)
 // Used by "Hant" (Archmage)
 // Used by "Hgam" (Ghostly Archmage)
+// Used by "Hjai" (Archmage)
 [AHbz]
 Buttonpos=0,2
 Hotkey=W
@@ -1234,15 +1234,15 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AHds" (Divine Shield)
-// Used by "Hmgd" (Paladin)
-// Used by "Hpb1" (Paladin)
-// Used by "Hart" (Paladin)
-// Used by "Huth" (Paladin)
-// Used by "Hpal" (Paladin)
-// Used by "Hhkl" (Paladin)
-// Used by "Hpb2" (Paladin)
-// Used by "Hdgo" (Paladin)
 // Used by "Harf" (Paladin)
+// Used by "Hart" (Paladin)
+// Used by "Hdgo" (Paladin)
+// Used by "Hhkl" (Paladin)
+// Used by "Hmgd" (Paladin)
+// Used by "Hpal" (Paladin)
+// Used by "Hpb1" (Paladin)
+// Used by "Hpb2" (Paladin)
+// Used by "Huth" (Paladin)
 [AHds]
 Buttonpos=1,2
 Hotkey=X
@@ -1252,8 +1252,8 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "AHfa" (Searing Arrows)
-// Used by "Etyr" (Priestess of the Moon)
 // Used by "Emoo" (Priestess of the Moon)
+// Used by "Etyr" (Priestess of the Moon)
 [AHfa]
 Buttonpos=1,2
 Hotkey=X
@@ -1272,16 +1272,16 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AHhb" (Holy Light)
-// Used by "Hmgd" (Paladin)
-// Used by "Hpb1" (Paladin)
-// Used by "Hart" (Paladin)
-// Used by "Huth" (Paladin)
-// Used by "Hpal" (Paladin)
-// Used by "Hhkl" (Paladin)
-// Used by "Hpb2" (Paladin)
-// Used by "Hlgr" (Dark Knight)
-// Used by "Hdgo" (Paladin)
 // Used by "Harf" (Paladin)
+// Used by "Hart" (Paladin)
+// Used by "Hdgo" (Paladin)
+// Used by "Hhkl" (Paladin)
+// Used by "Hlgr" (Dark Knight)
+// Used by "Hmgd" (Paladin)
+// Used by "Hpal" (Paladin)
+// Used by "Hpb1" (Paladin)
+// Used by "Hpb2" (Paladin)
+// Used by "Huth" (Paladin)
 [AHhb]
 Buttonpos=0,2
 Hotkey=W
@@ -1289,11 +1289,11 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AHmt" (Mass Teleport)
-// Used by "Hjai" (Archmage)
-// Used by "Hamg" (Archmage)
 // Used by "Haah" (High Elf Archmage)
+// Used by "Hamg" (Archmage)
 // Used by "Hant" (Archmage)
 // Used by "Hgam" (Ghostly Archmage)
+// Used by "Hjai" (Archmage)
 [AHmt]
 Buttonpos=3,2
 Hotkey=V
@@ -1310,15 +1310,15 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AHre" (Resurrection)
-// Used by "Hmgd" (Paladin)
-// Used by "Hpb1" (Paladin)
-// Used by "Hart" (Paladin)
-// Used by "Huth" (Paladin)
-// Used by "Hpal" (Paladin)
-// Used by "Hhkl" (Paladin)
-// Used by "Hpb2" (Paladin)
-// Used by "Hdgo" (Paladin)
 // Used by "Harf" (Paladin)
+// Used by "Hart" (Paladin)
+// Used by "Hdgo" (Paladin)
+// Used by "Hhkl" (Paladin)
+// Used by "Hmgd" (Paladin)
+// Used by "Hpal" (Paladin)
+// Used by "Hpb1" (Paladin)
+// Used by "Hpb2" (Paladin)
+// Used by "Huth" (Paladin)
 [AHre]
 Buttonpos=3,2
 Hotkey=V
@@ -1342,9 +1342,9 @@ Researchhotkey=A
 
 // "AHtc" (Thunder Clap)
 // Used by "Hmbr" (Mountain King)
-// Used by "Npld" (Pit Lord)
 // Used by "Hmkg" (Mountain King)
 // Used by "Nman" (Pit Lord)
+// Used by "Npld" (Pit Lord)
 [AHtc]
 Buttonpos=1,2
 Hotkey=X
@@ -1352,11 +1352,11 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "AHwe" (Summon Water Elemental)
-// Used by "Hjai" (Archmage)
-// Used by "Hamg" (Archmage)
 // Used by "Haah" (High Elf Archmage)
+// Used by "Hamg" (Archmage)
 // Used by "Hant" (Archmage)
 // Used by "Hgam" (Ghostly Archmage)
+// Used by "Hjai" (Archmage)
 [AHwe]
 Buttonpos=1,2
 Hotkey=X
@@ -1384,10 +1384,10 @@ Buttonpos=2,1
 Hotkey=D
 
 // "ANab" (Acid Bomb)
-// Used by "Nalc" (Alchemist)
-// Used by "Nalm" (Alchemist)
 // Used by "Nal2" (Alchemist)
 // Used by "Nal3" (Alchemist)
+// Used by "Nalc" (Alchemist)
+// Used by "Nalm" (Alchemist)
 [ANab]
 Buttonpos=2,2
 Hotkey=C
@@ -1430,8 +1430,8 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "ANbf" (Breath of Fire)
-// Used by "Npbm" (Brewmaster)
 // Used by "Hssa" (High King)
+// Used by "Npbm" (Brewmaster)
 [ANbf]
 Buttonpos=0,2
 Hotkey=W
@@ -1439,10 +1439,10 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ANbh" (Bash)
+// Used by "ngow" (Gnoll Warlord)
 // Used by "ngz2" (Raging Bear)
 // Used by "ngz3" (Spirit Bear)
 // Used by "ngzd" (Misha)
-// Used by "ngow" (Gnoll Warlord)
 [ANbh]
 Buttonpos=1,2
 Hotkey=X
@@ -1492,8 +1492,8 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "ANca" (Cleaving Attack)
-// Used by "Nplh" (Pit Lord)
 // Used by "Nmag" (Pit Lord)
+// Used by "Nplh" (Pit Lord)
 [ANca]
 Buttonpos=2,2
 Hotkey=C
@@ -1525,10 +1525,10 @@ Buttonpos=2,0
 Hotkey=E
 
 // "ANcr" (Chemical Rage)
-// Used by "Nalc" (Alchemist)
-// Used by "Nalm" (Alchemist)
 // Used by "Nal2" (Alchemist)
 // Used by "Nal3" (Alchemist)
+// Used by "Nalc" (Alchemist)
+// Used by "Nalm" (Alchemist)
 [ANcr]
 Buttonpos=1,2
 Hotkey=X
@@ -1536,8 +1536,8 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "ANcs" (Cluster Rockets)
-// Used by "Ntin" (Tinker)
 // Used by "Nrob" (Tinker)
+// Used by "Ntin" (Tinker)
 [ANcs]
 Buttonpos=1,2
 Hotkey=X
@@ -1590,8 +1590,8 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "ANdo" (Doom)
-// Used by "Nplh" (Pit Lord)
 // Used by "Nmag" (Pit Lord)
+// Used by "Nplh" (Pit Lord)
 // Used by "Uvar" (Dreadlord)
 [ANdo]
 Buttonpos=3,2
@@ -1625,8 +1625,8 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "ANeg" (Engineering Upgrade)
-// Used by "Ntin" (Tinker)
 // Used by "Nrob" (Tinker)
+// Used by "Ntin" (Tinker)
 [ANeg]
 Buttonpos=2,2
 Hotkey=C
@@ -1744,10 +1744,10 @@ Unbuttonpos=3,1
 Unhotkey=F
 
 // "ANhs" (Healing Spray)
-// Used by "Nalc" (Alchemist)
-// Used by "Nalm" (Alchemist)
 // Used by "Nal2" (Alchemist)
 // Used by "Nal3" (Alchemist)
+// Used by "Nalc" (Alchemist)
+// Used by "Nalm" (Alchemist)
 [ANhs]
 Buttonpos=0,2
 Hotkey=W
@@ -1755,8 +1755,8 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ANht" (Howl of Terror)
-// Used by "Nplh" (Pit Lord)
 // Used by "Nmag" (Pit Lord)
+// Used by "Nplh" (Pit Lord)
 [ANht]
 Buttonpos=1,2
 Hotkey=X
@@ -1882,10 +1882,10 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "ANrf" (Rain of Fire)
-// Used by "Nmsr" (Murloc Sorcerer)
-// Used by "Nplh" (Pit Lord)
 // Used by "Hssa" (High King)
 // Used by "Nmag" (Pit Lord)
+// Used by "Nmsr" (Murloc Sorcerer)
+// Used by "Nplh" (Pit Lord)
 // Used by "Uvar" (Dreadlord)
 [ANrf]
 Buttonpos=0,2
@@ -1894,8 +1894,8 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ANrg" (Robo-Goblin)
-// Used by "Ntin" (Tinker)
 // Used by "Nrob" (Tinker)
+// Used by "Ntin" (Tinker)
 [ANrg]
 Buttonpos=3,2
 Hotkey=V
@@ -1935,8 +1935,8 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "ANsb" (Storm Bolt)
-// Used by "Orex" (Beastmaster)
 // Used by "Hddt" (Master Swordsman)
+// Used by "Orex" (Beastmaster)
 [ANsb]
 Buttonpos=2,2
 Hotkey=C
@@ -2014,8 +2014,8 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "ANsy" (Pocket Factory)
-// Used by "Ntin" (Tinker)
 // Used by "Nrob" (Tinker)
+// Used by "Ntin" (Tinker)
 [ANsy]
 Buttonpos=0,2
 Hotkey=W
@@ -2032,17 +2032,17 @@ Researchhotkey=Z
 
 // "ANta" (Taunt)
 // Used by "noga" (Stonemaul Warchief)
-// Used by "npn6" (Earth)
 // Used by "npn3" (Earth)
+// Used by "npn6" (Earth)
 [ANta]
 Buttonpos=0,2
 Hotkey=W
 
 // "ANth" (Spiked Shell)
 // Used by "nhyc" (Dragon Turtle)
+// Used by "ntrg" (Gargantuan Sea Turtle)
 // Used by "ntrs" (Sea Turtle)
 // Used by "ntrt" (Giant Sea Turtle)
-// Used by "ntrg" (Gargantuan Sea Turtle)
 [ANth]
 Buttonpos=1,2
 Hotkey=X
@@ -2052,10 +2052,10 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "ANtm" (Transmute)
-// Used by "Nalc" (Alchemist)
-// Used by "Nalm" (Alchemist)
 // Used by "Nal2" (Alchemist)
 // Used by "Nal3" (Alchemist)
+// Used by "Nalc" (Alchemist)
+// Used by "Nalm" (Alchemist)
 [ANtm]
 Buttonpos=3,2
 Hotkey=V
@@ -2074,8 +2074,8 @@ Researchhotkey=R
 
 // "ANtr" (True Sight)
 // Used by "nwe1" (Hawk)
-// Used by "nwe3" (Spirit Hawk)
 // Used by "nwe2" (Thunder Hawk)
+// Used by "nwe3" (Spirit Hawk)
 [ANtr]
 Buttonpos=0,2
 Hotkey=W
@@ -2089,8 +2089,8 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "ANwk" (Wind Walk)
-// Used by "npn5" (Storm)
 // Used by "npn2" (Storm)
+// Used by "npn5" (Storm)
 [ANwk]
 Buttonpos=0,2
 Hotkey=W
@@ -2110,9 +2110,9 @@ Buttonpos=0,2
 Hotkey=W
 
 // "AOae" (Endurance Aura)
-// Used by "Otch" (Tauren Chieftain)
-// Used by "Otcc" (Tauren Chieftain)
 // Used by "Ocbh" (Tauren Chieftain)
+// Used by "Otcc" (Tauren Chieftain)
+// Used by "Otch" (Tauren Chieftain)
 [AOae]
 Buttonpos=2,2
 Hotkey=C
@@ -2125,9 +2125,9 @@ Buttonpos=0,2
 Hotkey=W
 
 // "AOcl" (Chain Lightning)
+// Used by "Naka" (Elder Sage)
 // Used by "Odrt" (Far Seer)
 // Used by "Ofar" (Far Seer)
-// Used by "Naka" (Elder Sage)
 // Used by "Othr" (Far Seer)
 // Used by "Oths" (Far Seer)
 [AOcl]
@@ -2137,11 +2137,11 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AOcr" (Critical Strike)
+// Used by "Hddt" (Master Swordsman)
+// Used by "Nbbc" (Blademaster)
 // Used by "Obla" (Blademaster)
 // Used by "Ogrh" (Blademaster)
-// Used by "Nbbc" (Blademaster)
 // Used by "Opgh" (Blademaster)
-// Used by "Hddt" (Master Swordsman)
 // Used by "Osam" (Blademaster)
 [AOcr]
 Buttonpos=2,2
@@ -2151,12 +2151,12 @@ Researchhotkey=E
 
 // "AOeq" (Earthquake)
 // Used by "Nman" (Pit Lord)
-// Used by "Ofar" (Far Seer)
 // Used by "Npld" (Pit Lord)
-// Used by "Ubal" (Dreadlord)
-// Used by "Othr" (Far Seer)
 // Used by "Odrt" (Far Seer)
+// Used by "Ofar" (Far Seer)
+// Used by "Othr" (Far Seer)
 // Used by "Oths" (Far Seer)
+// Used by "Ubal" (Dreadlord)
 [AOeq]
 Buttonpos=3,2
 Hotkey=V
@@ -2199,11 +2199,11 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AOmi" (Mirror Image)
-// Used by "Ogrh" (Blademaster)
 // Used by "Nbbc" (Blademaster)
 // Used by "Obla" (Blademaster)
-// Used by "Osam" (Blademaster)
+// Used by "Ogrh" (Blademaster)
 // Used by "Opgh" (Blademaster)
+// Used by "Osam" (Blademaster)
 [AOmi]
 Buttonpos=1,2
 Hotkey=X
@@ -2227,9 +2227,9 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AOre" (Reincarnation)
-// Used by "Otch" (Tauren Chieftain)
-// Used by "Otcc" (Tauren Chieftain)
 // Used by "Ocbh" (Tauren Chieftain)
+// Used by "Otcc" (Tauren Chieftain)
+// Used by "Otch" (Tauren Chieftain)
 [AOre]
 Buttonpos=3,2
 Hotkey=V
@@ -2257,10 +2257,10 @@ Researchhotkey=E
 
 // "AOsh" (Shockwave)
 // Used by "Nman" (Pit Lord)
-// Used by "Otch" (Tauren Chieftain)
 // Used by "Npld" (Pit Lord)
 // Used by "Ocbh" (Tauren Chieftain)
 // Used by "Otcc" (Tauren Chieftain)
+// Used by "Otch" (Tauren Chieftain)
 [AOsh]
 Buttonpos=0,2
 Hotkey=W
@@ -2292,11 +2292,11 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "AOwk" (Wind Walk)
-// Used by "Ogrh" (Blademaster)
 // Used by "Nbbc" (Blademaster)
 // Used by "Obla" (Blademaster)
-// Used by "Osam" (Blademaster)
+// Used by "Ogrh" (Blademaster)
 // Used by "Opgh" (Blademaster)
+// Used by "Osam" (Blademaster)
 [AOwk]
 Buttonpos=0,2
 Hotkey=W
@@ -2304,9 +2304,9 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AOws" (War Stomp)
-// Used by "Otch" (Tauren Chieftain)
-// Used by "Otcc" (Tauren Chieftain)
 // Used by "Ocbh" (Tauren Chieftain)
+// Used by "Otcc" (Tauren Chieftain)
+// Used by "Otch" (Tauren Chieftain)
 [AOws]
 Buttonpos=1,2
 Hotkey=X
@@ -2314,11 +2314,11 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "AOww" (Bladestorm)
-// Used by "Ogrh" (Blademaster)
 // Used by "Nbbc" (Blademaster)
 // Used by "Obla" (Blademaster)
-// Used by "Osam" (Blademaster)
+// Used by "Ogrh" (Blademaster)
 // Used by "Opgh" (Blademaster)
+// Used by "Osam" (Blademaster)
 [AOww]
 Buttonpos=3,2
 Hotkey=V
@@ -2331,9 +2331,9 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ARal" (Rally)
-// Used by "nfac" (Pocket Factory)
 // Used by "nfa1" (Pocket Factory)
 // Used by "nfa2" (Pocket Factory)
+// Used by "nfac" (Pocket Factory)
 [ARal]
 Buttonpos=3,1
 Hotkey=F
@@ -2357,9 +2357,9 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AUav" (Vampiric Aura)
-// Used by "Uvar" (Dreadlord)
 // Used by "Ubal" (Dreadlord)
 // Used by "Udre" (Dreadlord)
+// Used by "Uvar" (Dreadlord)
 // Used by "Uvng" (Dreadlord)
 [AUav]
 Buttonpos=2,2
@@ -2384,8 +2384,8 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "AUcs" (Carrion Swarm)
-// Used by "Udth" (Dreadlord)
 // Used by "Udre" (Dreadlord)
+// Used by "Udth" (Dreadlord)
 // Used by "Umal" (Dreadlord)
 // Used by "Utic" (Dreadlord)
 // Used by "Uvng" (Dreadlord)
@@ -2405,10 +2405,10 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AUdd" (Death And Decay)
-// Used by "Ulic" (Lich)
+// Used by "Uclc" (Lich)
 // Used by "Udth" (Dreadlord)
 // Used by "Uktl" (Lich)
-// Used by "Uclc" (Lich)
+// Used by "Ulic" (Lich)
 [AUdd]
 Buttonpos=3,2
 Hotkey=V
@@ -2425,9 +2425,9 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "AUdr" (Dark Ritual)
-// Used by "Ulic" (Lich)
-// Used by "Uktl" (Lich)
 // Used by "Uclc" (Lich)
+// Used by "Uktl" (Lich)
+// Used by "Ulic" (Lich)
 [AUdr]
 Buttonpos=2,2
 Hotkey=C
@@ -2449,9 +2449,9 @@ Researchbuttonpos=1,0
 Researchhotkey=Z
 
 // "AUfn" (Frost Nova)
-// Used by "Ulic" (Lich)
-// Used by "Uktl" (Lich)
 // Used by "Uclc" (Lich)
+// Used by "Uktl" (Lich)
+// Used by "Ulic" (Lich)
 [AUfn]
 Buttonpos=0,2
 Hotkey=W
@@ -2459,9 +2459,9 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "AUfu" (Frost Armor)
-// Used by "Ulic" (Lich)
-// Used by "Uktl" (Lich)
 // Used by "Uclc" (Lich)
+// Used by "Uktl" (Lich)
+// Used by "Ulic" (Lich)
 [AUfu]
 Buttonpos=1,2
 Hotkey=X
@@ -2498,13 +2498,13 @@ Researchbuttonpos=3,0
 Researchhotkey=R
 
 // "AUsl" (Sleep)
+// Used by "Ubal" (Dreadlord)
+// Used by "Udre" (Dreadlord)
 // Used by "Udth" (Dreadlord)
 // Used by "Umal" (Dreadlord)
-// Used by "Uvng" (Dreadlord)
-// Used by "Ubal" (Dreadlord)
 // Used by "Utic" (Dreadlord)
-// Used by "Udre" (Dreadlord)
 // Used by "Uvar" (Dreadlord)
+// Used by "Uvng" (Dreadlord)
 [AUsl]
 Buttonpos=1,2
 Hotkey=X
@@ -2550,16 +2550,16 @@ Unbuttonpos=3,1
 Unhotkey=F
 
 // "Aakb" (War Drums)
-// Used by "okod" (Kodo Beast)
 // Used by "nckb" (Fel Orc Kodo Beast)
+// Used by "okod" (Kodo Beast)
 [Aakb]
 Buttonpos=1,2
 Hotkey=X
 
 // "Aall" ("Shop Sharing, Allied Bldg.")
+// Used by "hvlt" (Arcane Vault)
 // Used by "ovln" (Voodoo Lounge)
 // Used by "utom" (Tomb of Relics)
-// Used by "hvlt" (Arcane Vault)
 [Aall]
 Buttonpos=0,0
 Hotkey=A
@@ -2574,9 +2574,9 @@ Hotkey=X
 
 // "Aamk" (Attribute Bonus)
 // Used by "Nsjs" (Brewmaster)
-// Used by "Orkn" (Shadow Hunter)
-// Used by "Orex" (Beastmaster)
 // Used by "Ocb2" (Tauren Chieftain)
+// Used by "Orex" (Beastmaster)
+// Used by "Orkn" (Shadow Hunter)
 [Aamk]
 Buttonpos=1,1
 Hotkey=S
@@ -2602,8 +2602,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Aap3" (Disease Cloud)
-// Used by "nmpg" (Murloc Plaguebearer)
 // Used by "nepl" (Plague Treant)
+// Used by "nmpg" (Murloc Plaguebearer)
 [Aap3]
 Buttonpos=1,2
 Hotkey=X
@@ -2619,16 +2619,16 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Aast" (Ancestral Spirit)
+// Used by "obai" (Baine)
 // Used by "ospm" (Spirit Walker)
 // Used by "ospw" (Spirit Walker)
-// Used by "obai" (Baine)
 [Aast]
 Buttonpos=2,2
 Hotkey=C
 
 // "Aave" (Destroyer Form)
-// Used by "uobs" (Obsidian Statue)
 // Used by "ubsp" (Destroyer)
+// Used by "uobs" (Obsidian Statue)
 [Aave]
 Buttonpos=3,2
 Hotkey=V
@@ -2682,8 +2682,8 @@ Unbuttonpos=3,2
 Unhotkey=V
 
 // "Abu3" (Burrow)
-// Used by "ucsC" (Burrowed Carrion Beetle)
 // Used by "ucs3" (Carrion Beetle)
+// Used by "ucsC" (Burrowed Carrion Beetle)
 [Abu3]
 Buttonpos=3,2
 Hotkey=V
@@ -2804,9 +2804,9 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Acpf" (Corporeal Form)
+// Used by "obai" (Baine)
 // Used by "ospm" (Spirit Walker)
 // Used by "ospw" (Spirit Walker)
-// Used by "obai" (Baine)
 [Acpf]
 Buttonpos=3,2
 Hotkey=V
@@ -2814,8 +2814,8 @@ Unbuttonpos=3,2
 Unhotkey=V
 
 // "Acri" (Cripple)
-// Used by "unec" (Necromancer)
 // Used by "uktn" (Kel'Thuzad)
+// Used by "unec" (Necromancer)
 [Acri]
 Buttonpos=2,2
 Hotkey=C
@@ -2841,9 +2841,9 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Adcn" (Disenchant)
+// Used by "obai" (Baine)
 // Used by "ospm" (Spirit Walker)
 // Used by "ospw" (Spirit Walker)
-// Used by "obai" (Baine)
 [Adcn]
 Buttonpos=1,2
 Hotkey=X
@@ -2855,9 +2855,9 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Adef" (Defend)
-// Used by "hhes" (Swordsman)
-// Used by "hfoo" (Footman)
 // Used by "hcth" (Captain)
+// Used by "hfoo" (Footman)
+// Used by "hhes" (Swordsman)
 [Adef]
 Buttonpos=0,2
 Hotkey=W
@@ -2870,15 +2870,15 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Adev" (Devour)
-// Used by "okod" (Kodo Beast)
 // Used by "nckb" (Fel Orc Kodo Beast)
+// Used by "okod" (Kodo Beast)
 [Adev]
 Buttonpos=0,2
 Hotkey=W
 
 // "Adis" (Dispel Magic)
-// Used by "nemi" (Emissary)
 // Used by "hmpr" (Priest)
+// Used by "nemi" (Emissary)
 [Adis]
 Buttonpos=1,2
 Hotkey=X
@@ -2890,18 +2890,18 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Adro" (Unload)
-// Used by "uarb" (Sky Barge)
 // Used by "nzep" (Zeppelin)
+// Used by "uarb" (Sky Barge)
 [Adro]
 Buttonpos=1,2
 Hotkey=X
 
 // "Adsm" (Dispel Magic)
+// Used by "nba2" (Doom Guard)
 // Used by "nbal" (Doom Guard)
+// Used by "nchp" (Chaplain)
 // Used by "npn2" (Storm)
 // Used by "npn5" (Storm)
-// Used by "nchp" (Chaplain)
-// Used by "nba2" (Doom Guard)
 [Adsm]
 Buttonpos=0,2
 Hotkey=W
@@ -2920,8 +2920,8 @@ Hotkey=A
 
 // "Adtg" (True Sight)
 // Used by "now2" (Owl Scout)
-// Used by "nowl" (Owl Scout)
 // Used by "now3" (Owl Scout)
+// Used by "nowl" (Owl Scout)
 [Adtg]
 Buttonpos=0,2
 Hotkey=W
@@ -2934,9 +2934,9 @@ Hotkey=X
 
 // "Adts" (Magic Sentry)
 // Used by "hatw" (Arcane Tower)
-// Used by "hwtw" (Scout Tower)
-// Used by "hgtw" (Guard Tower)
 // Used by "hctw" (Cannon Tower)
+// Used by "hgtw" (Guard Tower)
+// Used by "hwtw" (Scout Tower)
 [Adts]
 Buttonpos=2,1
 Hotkey=D
@@ -2948,18 +2948,18 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Aeat" (Eat Tree)
-// Used by "eaow" (Ancient of Wind)
-// Used by "etol" (Tree of Life)
-// Used by "etoe" (Tree of Eternity)
-// Used by "eaom" (Ancient of War)
-// Used by "ncte" (Corrupted Tree of Eternity)
-// Used by "ncap" (Corrupted Ancient Protector)
-// Used by "etrp" (Ancient Protector)
 // Used by "eaoe" (Ancient of Lore)
-// Used by "ncaw" (Corrupted Ancient of War)
-// Used by "nctl" (Corrupted Tree of Life)
+// Used by "eaom" (Ancient of War)
+// Used by "eaow" (Ancient of Wind)
 // Used by "etoa" (Tree of Ages)
+// Used by "etoe" (Tree of Eternity)
+// Used by "etol" (Tree of Life)
+// Used by "etrp" (Ancient Protector)
+// Used by "ncap" (Corrupted Ancient Protector)
+// Used by "ncaw" (Corrupted Ancient of War)
 // Used by "ncta" (Corrupted Tree of Ages)
+// Used by "ncte" (Corrupted Tree of Eternity)
+// Used by "nctl" (Corrupted Tree of Life)
 [Aeat]
 Buttonpos=0,2
 Hotkey=W
@@ -2971,15 +2971,15 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Aeib" (Improved Bows)
-// Used by "ehpr" (Hippogryph Rider)
 // Used by "earc" (Archer)
+// Used by "ehpr" (Hippogryph Rider)
 [Aeib]
 Buttonpos=2,2
 Hotkey=C
 
 // "Aemk" (Marksmanship)
-// Used by "ehpr" (Hippogryph Rider)
 // Used by "earc" (Archer)
+// Used by "ehpr" (Hippogryph Rider)
 [Aemk]
 Buttonpos=3,2
 Hotkey=V
@@ -2989,32 +2989,32 @@ Hotkey=V
 [Aenc]
 Buttonpos=1,2
 Hotkey=X
-Unbuttonpos=1,2
-Unhotkey=X
+Unbuttonpos=2,2
+Unhotkey=C
 
 // "Aenr" (Entangling Roots)
-// Used by "nepl" (Plague Treant)
 // Used by "nenp" (Poison Treant)
+// Used by "nepl" (Plague Treant)
 [Aenr]
 Buttonpos=0,2
 Hotkey=W
 
 // "Aens" (Ensnare)
-// Used by "onzg" (Nazgrel)
-// Used by "owad" (Slave Master)
 // Used by "nchr" (Fel Orc Raider)
+// Used by "onzg" (Nazgrel)
 // Used by "orai" (Raider)
+// Used by "owad" (Slave Master)
 [Aens]
 Buttonpos=0,2
 Hotkey=W
 
 // "Aent" (Entangle Gold Mine)
-// Used by "etol" (Tree of Life)
-// Used by "etoe" (Tree of Eternity)
-// Used by "ncte" (Corrupted Tree of Eternity)
 // Used by "etoa" (Tree of Ages)
-// Used by "nctl" (Corrupted Tree of Life)
+// Used by "etoe" (Tree of Eternity)
+// Used by "etol" (Tree of Life)
 // Used by "ncta" (Corrupted Tree of Ages)
+// Used by "ncte" (Corrupted Tree of Eternity)
+// Used by "nctl" (Corrupted Tree of Life)
 [Aent]
 Buttonpos=1,2
 Hotkey=X
@@ -3062,8 +3062,8 @@ Buttonpos=3,2
 Hotkey=V
 
 // "Aeye" (Sentry Ward)
-// Used by "ovlj" (Vol'jin)
 // Used by "odoc" (Witch Doctor)
+// Used by "ovlj" (Vol'jin)
 [Aeye]
 Buttonpos=0,2
 Hotkey=W
@@ -3156,15 +3156,15 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Afsh" (Fragmentation Shards)
-// Used by "hmtm" (Mortar Team)
 // Used by "hctw" (Cannon Tower)
+// Used by "hmtm" (Mortar Team)
 [Afsh]
 Buttonpos=1,2
 Hotkey=X
 
 // "Afzy" (Frenzy)
-// Used by "nqb3" (Raging Quilbeast)
 // Used by "nqb2" (Dire Quilbeast)
+// Used by "nqb3" (Raging Quilbeast)
 // Used by "nqb4" (Berserk Quilbeast)
 [Afzy]
 Buttonpos=0,2
@@ -3191,22 +3191,22 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Ahan" (Animal War Training)
-// Used by "hkni" (Knight)
 // Used by "hdhw" (Dragonhawk Rider)
 // Used by "hgry" (Gryphon Rider)
+// Used by "hkni" (Knight)
 [Ahan]
 Buttonpos=3,2
 Hotkey=V
 
 // "Ahar" (Harvest)
-// Used by "ndrl" (Draenei Laborer)
-// Used by "ncpn" (Fel Peon)
 // Used by "hmil" (Militia)
-// Used by "hrrh" (Runner)
-// Used by "opeo" (Peon)
-// Used by "nhew" (Worker)
-// Used by "nbee" (Blood Elf Engineer)
 // Used by "hpea" (Peasant)
+// Used by "hrrh" (Runner)
+// Used by "nbee" (Blood Elf Engineer)
+// Used by "ncpn" (Fel Peon)
+// Used by "ndrl" (Draenei Laborer)
+// Used by "nhew" (Worker)
+// Used by "opeo" (Peon)
 [Ahar]
 Buttonpos=3,1
 Hotkey=F
@@ -3214,8 +3214,8 @@ Unbuttonpos=3,1
 Unhotkey=F
 
 // "Ahea" (Heal)
-// Used by "nemi" (Emissary)
 // Used by "hmpr" (Priest)
+// Used by "nemi" (Emissary)
 [Ahea]
 Buttonpos=0,2
 Hotkey=W
@@ -3280,8 +3280,8 @@ Unhotkey=F
 // Used by "hmil" (Militia)
 // Used by "hpea" (Peasant)
 // Used by "hrrh" (Runner)
-// Used by "nhew" (Worker)
 // Used by "nbee" (Blood Elf Engineer)
+// Used by "nhew" (Worker)
 [Ahrp]
 Buttonpos=1,1
 Hotkey=S
@@ -3295,8 +3295,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Ahwd" (Healing Ward)
-// Used by "ovlj" (Vol'jin)
 // Used by "odoc" (Witch Doctor)
+// Used by "ovlj" (Vol'jin)
 [Ahwd]
 Buttonpos=2,2
 Hotkey=C
@@ -3308,8 +3308,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Ainf" (Inner Fire)
-// Used by "nemi" (Emissary)
 // Used by "hmpr" (Priest)
+// Used by "nemi" (Emissary)
 [Ainf]
 Buttonpos=2,2
 Hotkey=C
@@ -3335,8 +3335,8 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Aloa" (Load)
-// Used by "uarb" (Sky Barge)
 // Used by "nzep" (Zeppelin)
+// Used by "uarb" (Sky Barge)
 [Aloa]
 Buttonpos=0,2
 Hotkey=W
@@ -3373,8 +3373,8 @@ Researchbuttonpos=0,0
 Researchhotkey=A
 
 // "Ambt" (Replenish Mana and Life)
-// Used by "ncmw" (Corrupted Moon Well)
 // Used by "emow" (Moon Well)
+// Used by "ncmw" (Corrupted Moon Well)
 [Ambt]
 Buttonpos=0,0
 Hotkey=A
@@ -3432,9 +3432,9 @@ Unbuttonpos=2,2
 Unhotkey=C
 
 // "Amil" (Call to Arms)
+// Used by "hmil" (Militia)
 // Used by "hpea" (Peasant)
 // Used by "hrrh" (Runner)
-// Used by "hmil" (Militia)
 [Amil]
 Buttonpos=1,2
 Hotkey=X
@@ -3442,10 +3442,10 @@ Unbuttonpos=2,2
 Unhotkey=C
 
 // "Amim" (Spell Immunity)
-// Used by "efdr" (Faerie Dragon)
-// Used by "nbel" (Blood Elf Lieutenant)
-// Used by "hspt" (Spellbreaker)
 // Used by "edry" (Dryad)
+// Used by "efdr" (Faerie Dragon)
+// Used by "hspt" (Spellbreaker)
+// Used by "nbel" (Blood Elf Lieutenant)
 [Amim]
 Buttonpos=2,2
 Hotkey=C
@@ -3471,8 +3471,8 @@ Unbuttonpos=1,1
 Unhotkey=S
 
 // "Amrf" (Crow Form)
-// Used by "nmed" (Medivh)
 // Used by "nmdm" (Medivh)
+// Used by "nmed" (Medivh)
 [Amrf]
 Buttonpos=3,2
 Hotkey=V
@@ -3494,35 +3494,35 @@ Buttonpos=0,0
 Hotkey=A
 
 // "Ane2" (Select Unit)
-// Used by "ndrg" (Green Dragon Roost)
-// Used by "nmr9" (Mercenary Camp)
-// Used by "ndrr" (Red Dragon Roost)
-// Used by "nmr0" (Mercenary Camp)
-// Used by "nmer" (Mercenary Camp)
-// Used by "ushp" (Undead Shipyard)
-// Used by "nshp" (Goblin Shipyard)
-// Used by "nmra" (Mercenary Camp)
-// Used by "nmr2" (Mercenary Camp)
-// Used by "nmrb" (Mercenary Camp)
-// Used by "oshy" (Orc Shipyard)
-// Used by "nmr3" (Mercenary Camp)
-// Used by "nmrc" (Mercenary Camp)
-// Used by "nmr4" (Mercenary Camp)
-// Used by "nmrd" (Mercenary Camp)
-// Used by "ndro" (Nether Dragon Roost)
-// Used by "nmr5" (Mercenary Camp)
-// Used by "nmre" (Mercenary Camp)
-// Used by "ndrk" (Black Dragon Roost)
-// Used by "nmr6" (Mercenary Camp)
-// Used by "nmrf" (Mercenary Camp)
-// Used by "ndru" (Blue Dragon Roost)
-// Used by "nmr7" (Mercenary Camp)
 // Used by "eshy" (Night Elf Shipyard)
-// Used by "ntav" (Tavern)
 // Used by "hshy" (Human Shipyard)
-// Used by "ngad" (Goblin Laboratory)
+// Used by "ndrg" (Green Dragon Roost)
+// Used by "ndrk" (Black Dragon Roost)
+// Used by "ndro" (Nether Dragon Roost)
+// Used by "ndrr" (Red Dragon Roost)
+// Used by "ndru" (Blue Dragon Roost)
 // Used by "ndrz" (Bronze Dragon Roost)
+// Used by "ngad" (Goblin Laboratory)
+// Used by "nmer" (Mercenary Camp)
+// Used by "nmr0" (Mercenary Camp)
+// Used by "nmr2" (Mercenary Camp)
+// Used by "nmr3" (Mercenary Camp)
+// Used by "nmr4" (Mercenary Camp)
+// Used by "nmr5" (Mercenary Camp)
+// Used by "nmr6" (Mercenary Camp)
+// Used by "nmr7" (Mercenary Camp)
 // Used by "nmr8" (Mercenary Camp)
+// Used by "nmr9" (Mercenary Camp)
+// Used by "nmra" (Mercenary Camp)
+// Used by "nmrb" (Mercenary Camp)
+// Used by "nmrc" (Mercenary Camp)
+// Used by "nmrd" (Mercenary Camp)
+// Used by "nmre" (Mercenary Camp)
+// Used by "nmrf" (Mercenary Camp)
+// Used by "nshp" (Goblin Shipyard)
+// Used by "ntav" (Tavern)
+// Used by "oshy" (Orc Shipyard)
+// Used by "ushp" (Undead Shipyard)
 [Ane2]
 Buttonpos=0,0
 Hotkey=A
@@ -3535,8 +3535,8 @@ Buttonpos=3,2
 Hotkey=V
 
 // "Aneu" (Select Hero)
-// Used by "nmrk" (Marketplace)
 // Used by "ngme" (Goblin Merchant)
+// Used by "nmrk" (Marketplace)
 [Aneu]
 Buttonpos=0,0
 Hotkey=A
@@ -3544,29 +3544,29 @@ Unbuttonpos=0,0
 Unhotkey=A
 
 // "Anh1" (Heal)
-// Used by "ntkh" (Tuskarr Healer)
-// Used by "nitp" (Ice Troll Priest)
-// Used by "nmbg" (Mur'gul Blood-Gill)
 // Used by "ndrm" (Draenei Disciple)
 // Used by "ndtp" (Dark Troll Shadow Priest)
-// Used by "nltc" (Makrura Tidecaller)
 // Used by "nfsp" (Forest Troll Shadow Priest)
+// Used by "nitp" (Ice Troll Priest)
+// Used by "nltc" (Makrura Tidecaller)
+// Used by "nmbg" (Mur'gul Blood-Gill)
+// Used by "ntkh" (Tuskarr Healer)
 [Anh1]
-Buttonpos=0,2
-Hotkey=W
-Unbuttonpos=1,2
-Unhotkey=X
-
-// "Anh2" (Heal)
-// Used by "nith" (Ice Troll High Priest)
-// Used by "nchp" (Chaplain)
-// Used by "nfsh" (Forest Troll High Priest)
-// Used by "ndth" (Dark Troll High Priest)
-[Anh2]
 Buttonpos=0,2
 Hotkey=W
 Unbuttonpos=0,2
 Unhotkey=W
+
+// "Anh2" (Heal)
+// Used by "nchp" (Chaplain)
+// Used by "ndth" (Dark Troll High Priest)
+// Used by "nfsh" (Forest Troll High Priest)
+// Used by "nith" (Ice Troll High Priest)
+[Anh2]
+Buttonpos=0,2
+Hotkey=W
+Unbuttonpos=1,2
+Unhotkey=X
 
 // "Anhe" (Heal)
 [Anhe]
@@ -3576,8 +3576,8 @@ Unbuttonpos=0,2
 Unhotkey=W
 
 // "Ansk" (Hardened Skin)
-// Used by "nhyc" (Dragon Turtle)
 // Used by "ngos" (Snarlmane the Bloodgorger)
+// Used by "nhyc" (Dragon Turtle)
 [Ansk]
 Buttonpos=2,2
 Hotkey=C
@@ -3597,16 +3597,16 @@ Hotkey=W
 
 // "Aorb" (Reinforced Defenses)
 // Used by "ocbw" (Fel Burrow)
-// Used by "owtw" (Watch Tower)
 // Used by "otrb" (Burrow)
+// Used by "owtw" (Watch Tower)
 [Aorb]
 Buttonpos=3,2
 Hotkey=V
 
 // "Aosp" (Spiked Barricades,Spiked Barricades,Improved Spiked Barricades)
-// Used by "ostr" (Stronghold)
-// Used by "ogre" (Great Hall)
 // Used by "ofrt" (Fortress)
+// Used by "ogre" (Great Hall)
+// Used by "ostr" (Stronghold)
 [Aosp]
 Buttonpos=3,2
 Hotkey=V
@@ -3617,10 +3617,10 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Aotr" (Troll Regeneration)
-// Used by "ohun" (Headhunter)
-// Used by "otbr" (Batrider)
-// Used by "otbk" (Berserker)
 // Used by "odoc" (Witch Doctor)
+// Used by "ohun" (Headhunter)
+// Used by "otbk" (Berserker)
+// Used by "otbr" (Batrider)
 [Aotr]
 Buttonpos=3,2
 Hotkey=V
@@ -3632,8 +3632,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Apig" (Permanent Immolation)
-// Used by "npn4" (Fire)
 // Used by "npn1" (Fire)
+// Used by "npn4" (Fire)
 [Apig]
 Buttonpos=0,2
 Hotkey=W
@@ -3702,8 +3702,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Arai" (Raise Dead)
-// Used by "unec" (Necromancer)
 // Used by "uktn" (Kel'Thuzad)
+// Used by "unec" (Necromancer)
 [Arai]
 Buttonpos=0,2
 Hotkey=W
@@ -3734,10 +3734,10 @@ Unbuttonpos=1,1
 Unhotkey=S
 
 // "Arep" (Repair)
-// Used by "opeo" (Peon)
-// Used by "nmpe" (Mur'gul Slave)
-// Used by "ndrl" (Draenei Laborer)
 // Used by "ncpn" (Fel Peon)
+// Used by "ndrl" (Draenei Laborer)
+// Used by "nmpe" (Mur'gul Slave)
+// Used by "opeo" (Peon)
 [Arep]
 Buttonpos=1,1
 Hotkey=S
@@ -3745,17 +3745,17 @@ Unbuttonpos=1,1
 Unhotkey=S
 
 // "Aro1" (Root)
-// Used by "eaow" (Ancient of Wind)
-// Used by "etol" (Tree of Life)
-// Used by "etoe" (Tree of Eternity)
-// Used by "eaom" (Ancient of War)
-// Used by "ncte" (Corrupted Tree of Eternity)
 // Used by "eaoe" (Ancient of Lore)
-// Used by "ncaw" (Corrupted Ancient of War)
+// Used by "eaom" (Ancient of War)
+// Used by "eaow" (Ancient of Wind)
 // Used by "eden" (Ancient of Wonders)
-// Used by "nctl" (Corrupted Tree of Life)
 // Used by "etoa" (Tree of Ages)
+// Used by "etoe" (Tree of Eternity)
+// Used by "etol" (Tree of Life)
+// Used by "ncaw" (Corrupted Ancient of War)
 // Used by "ncta" (Corrupted Tree of Ages)
+// Used by "ncte" (Corrupted Tree of Eternity)
+// Used by "nctl" (Corrupted Tree of Life)
 [Aro1]
 Buttonpos=3,2
 Hotkey=V
@@ -3763,8 +3763,8 @@ Unbuttonpos=3,2
 Unhotkey=V
 
 // "Aro2" (Root)
-// Used by "ncap" (Corrupted Ancient Protector)
 // Used by "etrp" (Ancient Protector)
+// Used by "ncap" (Corrupted Ancient Protector)
 [Aro2]
 Buttonpos=3,2
 Hotkey=V
@@ -3779,8 +3779,8 @@ Hotkey=W
 
 // "Aroc" (Barrage)
 // Used by "hmtt" (Siege Engine)
-// Used by "nwar" (War Wagon)
 // Used by "hrtt" (Siege Engine)
+// Used by "nwar" (War Wagon)
 [Aroc]
 Buttonpos=0,2
 Hotkey=W
@@ -3868,22 +3868,22 @@ Buttonpos=0,0
 Hotkey=A
 
 // "Asal" (Pillage)
-// Used by "ogrk" (Gar'thok)
-// Used by "ncpn" (Fel Peon)
-// Used by "orai" (Raider)
-// Used by "onzg" (Nazgrel)
-// Used by "opeo" (Peon)
-// Used by "owad" (Slave Master)
-// Used by "ogru" (Grunt)
 // Used by "nchg" (Fel Orc Grunt)
 // Used by "nchr" (Fel Orc Raider)
+// Used by "ncpn" (Fel Peon)
+// Used by "ogrk" (Gar'thok)
+// Used by "ogru" (Grunt)
+// Used by "onzg" (Nazgrel)
+// Used by "opeo" (Peon)
+// Used by "orai" (Raider)
+// Used by "owad" (Slave Master)
 [Asal]
 Buttonpos=1,2
 Hotkey=X
 
 // "Asb1" (Submerge)
-// Used by "nmys" (Submerged Naga Myrmidon)
 // Used by "nmyr" (Naga Myrmidon)
+// Used by "nmys" (Submerged Naga Myrmidon)
 [Asb1]
 Buttonpos=3,2
 Hotkey=V
@@ -3891,8 +3891,8 @@ Unbuttonpos=3,2
 Unhotkey=V
 
 // "Asb2" (Submerge)
-// Used by "nnrs" (Submerged Naga Royal Guard)
 // Used by "nnrg" (Naga Royal Guard)
+// Used by "nnrs" (Submerged Naga Royal Guard)
 [Asb2]
 Buttonpos=3,2
 Hotkey=V
@@ -3934,8 +3934,8 @@ Unbuttonpos=0,2
 Unhotkey=W
 
 // "Asds" (Kaboom!)
-// Used by "ngsp" (Sapper)
 // Used by "negz" (Engineer Gazlowe)
+// Used by "ngsp" (Sapper)
 [Asds]
 Buttonpos=0,2
 Hotkey=W
@@ -3943,22 +3943,22 @@ Unbuttonpos=0,2
 Unhotkey=W
 
 // "Ashm" (Shadow Meld)
-// Used by "nban" (Bandit)
 // Used by "Emoo" (Priestess of the Moon)
-// Used by "nbrg" (Brigand)
-// Used by "esen" (Huntress)
-// Used by "ensh" (Naisha)
+// Used by "Etyr" (Priestess of the Moon)
+// Used by "Ewar" (Warden)
 // Used by "Ewrd" (Warden)
+// Used by "earc" (Archer)
+// Used by "ensh" (Naisha)
+// Used by "esen" (Huntress)
+// Used by "eshd" (Shandris)
+// Used by "nass" (Assassin)
+// Used by "nban" (Bandit)
+// Used by "nbld" (Bandit Lord)
+// Used by "nbrg" (Brigand)
+// Used by "nenf" (Enforcer)
+// Used by "nmrm" (Murloc Nightcrawler)
 // Used by "nrog" (Rogue)
 // Used by "nsts" (Satyr Shadowdancer)
-// Used by "nenf" (Enforcer)
-// Used by "eshd" (Shandris)
-// Used by "earc" (Archer)
-// Used by "nbld" (Bandit Lord)
-// Used by "Etyr" (Priestess of the Moon)
-// Used by "nmrm" (Murloc Nightcrawler)
-// Used by "Ewar" (Warden)
-// Used by "nass" (Assassin)
 [Ashm]
 Buttonpos=2,1
 Hotkey=D
@@ -3980,9 +3980,9 @@ Researchbuttonpos=2,0
 Researchhotkey=E
 
 // "Aspl" (Spirit Link)
+// Used by "obai" (Baine)
 // Used by "ospm" (Spirit Walker)
 // Used by "ospw" (Spirit Walker)
-// Used by "obai" (Baine)
 [Aspl]
 Buttonpos=0,2
 Hotkey=W
@@ -3990,10 +3990,10 @@ Unbuttonpos=0,2
 Unhotkey=W
 
 // "Aspo" (Slow Poison)
-// Used by "nhyh" (Hydra Hatchling)
 // Used by "edry" (Dryad)
-// Used by "nhyd" (Hydra)
 // Used by "nahy" (Ancient Hydra)
+// Used by "nhyd" (Hydra)
+// Used by "nhyh" (Hydra Hatchling)
 // Used by "nsnp" (Snap Dragon)
 [Aspo]
 Buttonpos=1,2
@@ -4007,8 +4007,8 @@ Unbuttonpos=0,2
 Unhotkey=W
 
 // "Asps" (Spell Steal)
-// Used by "nbel" (Blood Elf Lieutenant)
 // Used by "hspt" (Spellbreaker)
+// Used by "nbel" (Blood Elf Lieutenant)
 [Asps]
 Buttonpos=0,2
 Hotkey=W
@@ -4022,8 +4022,8 @@ Buttonpos=2,2
 Hotkey=C
 
 // "Asta" (Stasis Trap)
-// Used by "ovlj" (Vol'jin)
 // Used by "odoc" (Witch Doctor)
+// Used by "ovlj" (Vol'jin)
 [Asta]
 Buttonpos=1,2
 Hotkey=X
@@ -4042,8 +4042,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Astn" (Stone Form)
-// Used by "ugrm" (Stone Form Gargoyle)
 // Used by "ugar" (Gargoyle)
+// Used by "ugrm" (Stone Form Gargoyle)
 [Astn]
 Buttonpos=0,2
 Hotkey=W
@@ -4177,15 +4177,15 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Awrs" (War Stomp)
-// Used by "nsgb" (Sea Giant Behemoth)
-// Used by "nowk" (Berserk Wildkin)
+// Used by "nba2" (Doom Guard)
+// Used by "nbal" (Doom Guard)
 // Used by "ncnk" (Centaur Khan)
+// Used by "nfpu" (Polar Furbolg Ursa Warrior)
 // Used by "nfra" (Furbolg Ursa Warrior)
 // Used by "ngos" (Snarlmane the Bloodgorger)
+// Used by "nowk" (Berserk Wildkin)
+// Used by "nsgb" (Sea Giant Behemoth)
 // Used by "nwna" (Ancient Wendigo)
-// Used by "nbal" (Doom Guard)
-// Used by "nfpu" (Polar Furbolg Ursa Warrior)
-// Used by "nba2" (Doom Guard)
 [Awrs]
 Buttonpos=1,2
 Hotkey=X
@@ -4286,10 +4286,10 @@ Buttonpos=1,0
 Hotkey=Z
 
 // "Ecen" (Demigod)
-// Uses "AEtq" (Tranquility)
+// Uses "AEah" (Thorns Aura)
 // Uses "AEer" (Entangling Roots)
 // Uses "AEfn" (Force of Nature)
-// Uses "AEah" (Thorns Aura)
+// Uses "AEtq" (Tranquility)
 // Uses "SCc1" (Cyclone)
 [Ecen]
 Buttonpos=0,2
@@ -4297,81 +4297,81 @@ Hotkey=W
 
 // "Edem" (Demon Hunter)
 // Used by "eate" (Altar of Elders)
-// Uses "AEme" (Metamorphosis)
 // Uses "AEev" (Evasion)
 // Uses "AEim" (Immolation)
 // Uses "AEmb" (Mana Burn)
+// Uses "AEme" (Metamorphosis)
 [Edem]
 Buttonpos=0,2
 Hotkey=W,W,W
 
 // "Edmf" (Demon Huntress)
 // Uses "AEev" (Evasion)
-// Uses "AEmb" (Mana Burn)
 // Uses "AEim" (Immolation)
+// Uses "AEmb" (Mana Burn)
 [Edmf]
 Buttonpos=0,2
 Hotkey=W
 
 // "Edmm" (Demon Hunter)
-// Uses "AEme" (Metamorphosis)
 // Uses "AEev" (Evasion)
 // Uses "AEim" (Immolation)
 // Uses "AEmb" (Mana Burn)
+// Uses "AEme" (Metamorphosis)
 [Edmm]
 Buttonpos=0,2
 Hotkey=W,W,W
 
 // "Eevi" (Demon Hunter)
-// Uses "ANcl" (Channel)
-// Uses "AEvi" (Metamorphosis)
 // Uses "AEev" (Evasion)
 // Uses "AEim" (Immolation)
 // Uses "AEmb" (Mana Burn)
+// Uses "AEvi" (Metamorphosis)
+// Uses "ANcl" (Channel)
 [Eevi]
 Buttonpos=0,2
 Hotkey=W
 
 // "Eevm" (Demon Hunter)
-// Uses "ANcl" (Channel)
-// Uses "AEvi" (Metamorphosis)
 // Uses "AEev" (Evasion)
 // Uses "AEim" (Immolation)
 // Uses "AEmb" (Mana Burn)
+// Uses "AEvi" (Metamorphosis)
+// Uses "ANcl" (Channel)
 [Eevm]
 Buttonpos=0,2
 Hotkey=W
 
 // "Efur" (Keeper of the Grove)
-// Uses "AEtq" (Tranquility)
+// Uses "AEah" (Thorns Aura)
 // Uses "AEer" (Entangling Roots)
 // Uses "AEfn" (Force of Nature)
-// Uses "AEah" (Thorns Aura)
+// Uses "AEtq" (Tranquility)
 [Efur]
 Buttonpos=0,2
 Hotkey=W
 
 // "Eidm" (Demon Hunter)
+// Uses "AEev" (Evasion)
 // Uses "AEim" (Immolation)
 // Uses "AEmb" (Mana Burn)
-// Uses "AEev" (Evasion)
 [Eidm]
 Buttonpos=0,2
 Hotkey=W
 
 // "Eill" (Demon Hunter)
+// Uses "AEIl" (Metamorphosis)
 // Uses "AEev" (Evasion)
 // Uses "AEim" (Immolation)
-// Uses "AEIl" (Metamorphosis)
 // Uses "AEmb" (Mana Burn)
 [Eill]
 Buttonpos=0,2
 Hotkey=W
 
 // "Eilm" (Demon Hunter)
+// Uses "AEIl" (Metamorphosis)
 // Uses "AEev" (Evasion)
 // Uses "AEim" (Immolation)
-// Uses "AEIl" (Metamorphosis)
 // Uses "AEmb" (Mana Burn)
 [Eilm]
 Buttonpos=0,2
@@ -4379,87 +4379,87 @@ Hotkey=W
 
 // "Ekee" (Keeper of the Grove)
 // Used by "eate" (Altar of Elders)
-// Uses "AEtq" (Tranquility)
+// Uses "AEah" (Thorns Aura)
 // Uses "AEer" (Entangling Roots)
 // Uses "AEfn" (Force of Nature)
-// Uses "AEah" (Thorns Aura)
+// Uses "AEtq" (Tranquility)
 [Ekee]
 Buttonpos=1,2
 Hotkey=X,X,X
 
 // "Ekgg" (Keeper of the Grove)
-// Uses "AEtq" (Tranquility)
+// Uses "AEah" (Thorns Aura)
 // Uses "AEer" (Entangling Roots)
 // Uses "AEfn" (Force of Nature)
-// Uses "AEah" (Thorns Aura)
+// Uses "AEtq" (Tranquility)
 [Ekgg]
 Buttonpos=0,2
 Hotkey=W
 
 // "Emfr" (Keeper of the Grove)
-// Uses "AEtq" (Tranquility)
+// Uses "AEah" (Thorns Aura)
 // Uses "AEer" (Entangling Roots)
 // Uses "AEfn" (Force of Nature)
-// Uses "AEah" (Thorns Aura)
+// Uses "AEtq" (Tranquility)
 [Emfr]
 Buttonpos=0,2
 Hotkey=W
 
 // "Emns" (Keeper of the Grove)
-// Uses "AEtq" (Tranquility)
+// Uses "AEah" (Thorns Aura)
 // Uses "AEer" (Entangling Roots)
 // Uses "AEfn" (Force of Nature)
-// Uses "AEah" (Thorns Aura)
+// Uses "AEtq" (Tranquility)
 [Emns]
 Buttonpos=0,2
 Hotkey=W
 
 // "Emoo" (Priestess of the Moon)
 // Used by "eate" (Altar of Elders)
-// Uses "AEsf" (Starfall)
 // Uses "AEar" (Trueshot Aura)
-// Uses "Ashm" (Shadow Meld)
-// Uses "AHfa" (Searing Arrows)
+// Uses "AEsf" (Starfall)
 // Uses "AEst" (Scout)
+// Uses "AHfa" (Searing Arrows)
+// Uses "Ashm" (Shadow Meld)
 [Emoo]
 Buttonpos=2,2
 Hotkey=C,C,C
 
 // "Etyr" (Priestess of the Moon)
-// Uses "AEsf" (Starfall)
 // Uses "AEar" (Trueshot Aura)
-// Uses "Ashm" (Shadow Meld)
-// Uses "AHfa" (Searing Arrows)
+// Uses "AEsf" (Starfall)
 // Uses "AEst" (Scout)
+// Uses "AHfa" (Searing Arrows)
+// Uses "Ashm" (Shadow Meld)
 [Etyr]
 Buttonpos=0,2
 Hotkey=W
 
 // "Ewar" (Warden)
 // Used by "eate" (Altar of Elders)
-// Uses "AEsv" (Vengeance)
-// Uses "AEsh" (Shadow Strike)
 // Uses "AEbl" (Blink)
 // Uses "AEfk" (Fan of Knives)
+// Uses "AEsh" (Shadow Strike)
+// Uses "AEsv" (Vengeance)
 // Uses "Ashm" (Shadow Meld)
 [Ewar]
 Buttonpos=0,1
 Hotkey=Q,Q,Q
 
 // "Ewrd" (Warden)
-// Uses "AEsv" (Vengeance)
-// Uses "AEsh" (Shadow Strike)
 // Uses "AEbl" (Blink)
 // Uses "AEfk" (Fan of Knives)
+// Uses "AEsh" (Shadow Strike)
+// Uses "AEsv" (Vengeance)
 // Uses "Ashm" (Shadow Meld)
 [Ewrd]
 Buttonpos=0,1
 Hotkey=Q
 
 // "Haah" (High Elf Archmage)
+// Uses "AHab" (Brilliance Aura)
 // Uses "AHbz" (Blizzard)
 // Uses "AHmt" (Mass Teleport)
-// Uses "AHab" (Brilliance Aura)
 // Uses "AHwe" (Summon Water Elemental)
 [Haah]
 Buttonpos=0,2
@@ -4467,18 +4467,18 @@ Hotkey=W,W,W
 
 // "Hamg" (Archmage)
 // Used by "halt" (Altar of Kings)
+// Uses "AHab" (Brilliance Aura)
 // Uses "AHbz" (Blizzard)
 // Uses "AHmt" (Mass Teleport)
-// Uses "AHab" (Brilliance Aura)
 // Uses "AHwe" (Summon Water Elemental)
 [Hamg]
 Buttonpos=0,2
 Hotkey=W,W,W
 
 // "Hant" (Archmage)
+// Uses "AHab" (Brilliance Aura)
 // Uses "AHbz" (Blizzard)
 // Uses "AHmt" (Mass Teleport)
-// Uses "AHab" (Brilliance Aura)
 // Uses "AHwe" (Summon Water Elemental)
 [Hant]
 Buttonpos=0,1
@@ -4490,18 +4490,18 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Harf" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Harf]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hart" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Hart]
 Buttonpos=0,2
@@ -4509,10 +4509,10 @@ Hotkey=W
 
 // "Hblm" (Blood Mage)
 // Used by "halt" (Altar of Kings)
-// Uses "AHdr" (Siphon Mana)
-// Uses "AHpx" (Phoenix)
-// Uses "AHfs" (Flame Strike)
 // Uses "AHbn" (Banish)
+// Uses "AHdr" (Siphon Mana)
+// Uses "AHfs" (Flame Strike)
+// Uses "AHpx" (Phoenix)
 [Hblm]
 Buttonpos=0,1
 Hotkey=Q,Q,Q
@@ -4525,81 +4525,81 @@ Buttonpos=0,2
 Hotkey=W,W,W
 
 // "Hdgo" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Hdgo]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hgam" (Ghostly Archmage)
+// Uses "AHab" (Brilliance Aura)
 // Uses "AHbz" (Blizzard)
 // Uses "AHmt" (Mass Teleport)
-// Uses "AHab" (Brilliance Aura)
 // Uses "AHwe" (Summon Water Elemental)
 [Hgam]
 Buttonpos=0,1
 Hotkey=Q
 
 // "Hhkl" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Hhkl]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hjai" (Archmage)
+// Uses "AHab" (Brilliance Aura)
 // Uses "AHbz" (Blizzard)
 // Uses "AHmt" (Mass Teleport)
-// Uses "AHab" (Brilliance Aura)
 // Uses "AHwe" (Summon Water Elemental)
 [Hjai]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hjnd" (Ranger)
-// Uses "AHca" (Cold Arrows)
-// Uses "AEsf" (Starfall)
 // Uses "AEar" (Trueshot Aura)
+// Uses "AEsf" (Starfall)
 // Uses "AEst" (Scout)
+// Uses "AHca" (Cold Arrows)
 [Hjnd]
 Buttonpos=0,0
 Hotkey=A
 
 // "Hkal" (Blood Mage)
-// Uses "AHdr" (Siphon Mana)
-// Uses "AHpx" (Phoenix)
-// Uses "AHfs" (Flame Strike)
 // Uses "AHbn" (Banish)
+// Uses "AHdr" (Siphon Mana)
+// Uses "AHfs" (Flame Strike)
+// Uses "AHpx" (Phoenix)
 [Hkal]
 Buttonpos=0,1
 Hotkey=Q
 
 // "Hlgr" (Dark Knight)
-// Uses "AHhb" (Holy Light)
-// Uses "ANsh" (Shockwave)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHhb" (Holy Light)
 // Uses "ANav" (Avatar)
+// Uses "ANsh" (Shockwave)
 [Hlgr]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hmbr" (Mountain King)
-// Uses "AHbh" (Bash)
-// Uses "AHtc" (Thunder Clap)
-// Uses "AHtb" (Storm Bolt)
 // Uses "AHav" (Avatar)
+// Uses "AHbh" (Bash)
+// Uses "AHtb" (Storm Bolt)
+// Uses "AHtc" (Thunder Clap)
 [Hmbr]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hmgd" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Hmgd]
 Buttonpos=0,2
@@ -4607,138 +4607,138 @@ Hotkey=W
 
 // "Hmkg" (Mountain King)
 // Used by "halt" (Altar of Kings)
-// Uses "AHbh" (Bash)
-// Uses "AHtc" (Thunder Clap)
-// Uses "AHtb" (Storm Bolt)
 // Uses "AHav" (Avatar)
+// Uses "AHbh" (Bash)
+// Uses "AHtb" (Storm Bolt)
+// Uses "AHtc" (Thunder Clap)
 [Hmkg]
 Buttonpos=1,2
 Hotkey=X,X,X
 
 // "Hpal" (Paladin)
 // Used by "halt" (Altar of Kings)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Hpal]
 Buttonpos=2,2
 Hotkey=C,C,C
 
 // "Hpb1" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Hpb1]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hpb2" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Hpb2]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hssa" (High King)
+// Uses "AHab" (Brilliance Aura)
 // Uses "ANbf" (Breath of Fire)
 // Uses "ANrf" (Rain of Fire)
-// Uses "AHab" (Brilliance Aura)
 [Hssa]
 Buttonpos=2,2
 Hotkey=C,C,C
 
 // "Huth" (Paladin)
-// Uses "AHhb" (Holy Light)
-// Uses "AHds" (Divine Shield)
 // Uses "AHad" (Devotion Aura)
+// Uses "AHds" (Divine Shield)
+// Uses "AHhb" (Holy Light)
 // Uses "AHre" (Resurrection)
 [Huth]
 Buttonpos=0,2
 Hotkey=W
 
 // "Hvsh" (Sea Witch)
-// Uses "ANms" (Mana Shield)
-// Uses "ANfl" (Forked Lightning)
-// Uses "ANto" (Tornado)
 // Uses "ANfa" (Frost Arrows)
+// Uses "ANfl" (Forked Lightning)
+// Uses "ANms" (Mana Shield)
+// Uses "ANto" (Tornado)
 [Hvsh]
 Buttonpos=0,0
 Hotkey=A
 
 // "Hvwd" (Ranger)
-// Uses "AHca" (Cold Arrows)
-// Uses "AEsf" (Starfall)
 // Uses "AEar" (Trueshot Aura)
+// Uses "AEsf" (Starfall)
 // Uses "AEst" (Scout)
+// Uses "AHca" (Cold Arrows)
 [Hvwd]
 Buttonpos=0,2
 Hotkey=W
 
 // "Naka" (Elder Sage)
-// Uses "Ahid" (Shadow Meld)
-// Uses "AOcl" (Chain Lightning)
-// Uses "AEsh" (Shadow Strike)
 // Uses "ACs7" (Feral Spirit)
+// Uses "AEsh" (Shadow Strike)
 // Uses "ANr2" (Reincarnation)
+// Uses "AOcl" (Chain Lightning)
+// Uses "Ahid" (Shadow Meld)
 [Naka]
 Buttonpos=0,0
 Hotkey=A
 
 // "Nal2" (Alchemist)
-// Uses "ANtm" (Transmute)
-// Uses "ANcr" (Chemical Rage)
 // Uses "ANab" (Acid Bomb)
+// Uses "ANcr" (Chemical Rage)
 // Uses "ANhs" (Healing Spray)
+// Uses "ANtm" (Transmute)
 [Nal2]
 Buttonpos=3,2
 Hotkey=V,V,V
 
 // "Nal3" (Alchemist)
-// Uses "ANtm" (Transmute)
-// Uses "ANcr" (Chemical Rage)
 // Uses "ANab" (Acid Bomb)
+// Uses "ANcr" (Chemical Rage)
 // Uses "ANhs" (Healing Spray)
+// Uses "ANtm" (Transmute)
 [Nal3]
 Buttonpos=3,2
 Hotkey=V,V,V
 
 // "Nalc" (Alchemist)
 // Used by "ntav" (Tavern)
-// Uses "ANtm" (Transmute)
-// Uses "ANcr" (Chemical Rage)
 // Uses "ANab" (Acid Bomb)
+// Uses "ANcr" (Chemical Rage)
 // Uses "ANhs" (Healing Spray)
+// Uses "ANtm" (Transmute)
 [Nalc]
 Buttonpos=3,2
 Hotkey=V,V,V
 
 // "Nalm" (Alchemist)
-// Uses "ANtm" (Transmute)
-// Uses "ANcr" (Chemical Rage)
 // Uses "ANab" (Acid Bomb)
+// Uses "ANcr" (Chemical Rage)
 // Uses "ANhs" (Healing Spray)
+// Uses "ANtm" (Transmute)
 [Nalm]
 Buttonpos=3,2
 Hotkey=V,V,V
 
 // "Nbbc" (Blademaster)
-// Uses "AOwk" (Wind Walk)
 // Uses "AOcr" (Critical Strike)
-// Uses "AOww" (Bladestorm)
 // Uses "AOmi" (Mirror Image)
+// Uses "AOwk" (Wind Walk)
+// Uses "AOww" (Bladestorm)
 [Nbbc]
 Buttonpos=0,2
 Hotkey=W
 
 // "Nbrn" (Dark Ranger)
 // Used by "ntav" (Tavern)
+// Uses "ANba" (Black Arrow)
 // Uses "ANch" (Charm)
 // Uses "ANdr" (Life Drain)
-// Uses "ANba" (Black Arrow)
 // Uses "ANsi" (Silence)
 [Nbrn]
 Buttonpos=1,1
@@ -4746,10 +4746,10 @@ Hotkey=S,S,S
 
 // "Nbst" (Beastmaster)
 // Used by "ntav" (Tavern)
-// Uses "ANsw" (Summon Hawk)
 // Uses "ANsg" (Summon Bear)
-// Uses "ANst" (Stampede)
 // Uses "ANsq" (Summon Quilbeast)
+// Uses "ANst" (Stampede)
+// Uses "ANsw" (Summon Hawk)
 [Nbst]
 Buttonpos=1,2
 Hotkey=X,X,X
@@ -4757,9 +4757,9 @@ Hotkey=X,X,X
 // "Nfir" (Firelord)
 // Used by "ntav" (Tavern)
 // Uses "ANia" (Incinerate)
-// Uses "ANvc" (Volcano)
-// Uses "ANso" (Soul Burn)
 // Uses "ANlm" (Summon Lava Spawn)
+// Uses "ANso" (Soul Burn)
+// Uses "ANvc" (Volcano)
 [Nfir]
 Buttonpos=3,1
 Hotkey=F,F,F
@@ -4776,17 +4776,17 @@ Hotkey=W
 
 // "Nmag" (Pit Lord)
 // Uses "ANca" (Cleaving Attack)
+// Uses "ANdo" (Doom)
 // Uses "ANht" (Howl of Terror)
 // Uses "ANrf" (Rain of Fire)
-// Uses "ANdo" (Doom)
 [Nmag]
 Buttonpos=0,0
 Hotkey=A
 
 // "Nman" (Pit Lord)
-// Uses "AOeq" (Earthquake)
-// Uses "ANrn" (Reincarnation)
 // Uses "AHtc" (Thunder Clap)
+// Uses "ANrn" (Reincarnation)
+// Uses "AOeq" (Earthquake)
 // Uses "AOsh" (Shockwave)
 [Nman]
 Buttonpos=0,0
@@ -4800,10 +4800,10 @@ Hotkey=W
 
 // "Nngs" (Sea Witch)
 // Used by "ntav" (Tavern)
-// Uses "ANms" (Mana Shield)
-// Uses "ANfl" (Forked Lightning)
-// Uses "ANto" (Tornado)
 // Uses "ANfa" (Frost Arrows)
+// Uses "ANfl" (Forked Lightning)
+// Uses "ANms" (Mana Shield)
+// Uses "ANto" (Tornado)
 [Nngs]
 Buttonpos=0,1
 Hotkey=Q,Q,Q
@@ -4812,16 +4812,16 @@ Hotkey=Q,Q,Q
 // Used by "ntav" (Tavern)
 // Uses "ANbf" (Breath of Fire)
 // Uses "ANdb" (Drunken Brawler)
-// Uses "ANef" ("Storm, Earth, And Fire")
 // Uses "ANdh" (Drunken Haze)
+// Uses "ANef" ("Storm, Earth, And Fire")
 [Npbm]
 Buttonpos=2,1
 Hotkey=D,D,D
 
 // "Npld" (Pit Lord)
-// Uses "AOeq" (Earthquake)
-// Uses "ANrn" (Reincarnation)
 // Uses "AHtc" (Thunder Clap)
+// Uses "ANrn" (Reincarnation)
+// Uses "AOeq" (Earthquake)
 // Uses "AOsh" (Shockwave)
 [Npld]
 Buttonpos=0,0
@@ -4830,17 +4830,17 @@ Hotkey=A
 // "Nplh" (Pit Lord)
 // Used by "ntav" (Tavern)
 // Uses "ANca" (Cleaving Attack)
+// Uses "ANdo" (Doom)
 // Uses "ANht" (Howl of Terror)
 // Uses "ANrf" (Rain of Fire)
-// Uses "ANdo" (Doom)
 [Nplh]
 Buttonpos=0,2
 Hotkey=W,W,W
 
 // "Nrob" (Tinker)
-// Uses "ANeg" (Engineering Upgrade)
-// Uses "ANde" (Demolish)
 // Uses "ANcs" (Cluster Rockets)
+// Uses "ANde" (Demolish)
+// Uses "ANeg" (Engineering Upgrade)
 // Uses "ANrg" (Robo-Goblin)
 // Uses "ANsy" (Pocket Factory)
 [Nrob]
@@ -4848,29 +4848,29 @@ Buttonpos=2,2
 Hotkey=C,C,C
 
 // "Nsjs" (Brewmaster)
-// Uses "Acdb" (Drunken Brawler)
-// Uses "Acef" ("Storm, Earth, And Fire")
 // Uses "ANcf" (Breath of Fire)
 // Uses "Aamk" (Attribute Bonus)
+// Uses "Acdb" (Drunken Brawler)
 // Uses "Acdh" (Drunken Haze)
+// Uses "Acef" ("Storm, Earth, And Fire")
 [Nsjs]
 Buttonpos=1,1
 Hotkey=S
 
 // "Nswt" (Sea Witch)
-// Uses "ANms" (Mana Shield)
-// Uses "ANfl" (Forked Lightning)
-// Uses "ANto" (Tornado)
 // Uses "ANfa" (Frost Arrows)
+// Uses "ANfl" (Forked Lightning)
+// Uses "ANms" (Mana Shield)
+// Uses "ANto" (Tornado)
 [Nswt]
 Buttonpos=0,2
 Hotkey=W
 
 // "Ntin" (Tinker)
 // Used by "ntav" (Tavern)
-// Uses "ANrg" (Robo-Goblin)
-// Uses "ANeg" (Engineering Upgrade)
 // Uses "ANcs" (Cluster Rockets)
+// Uses "ANeg" (Engineering Upgrade)
+// Uses "ANrg" (Robo-Goblin)
 // Uses "ANsy" (Pocket Factory)
 [Ntin]
 Buttonpos=2,2
@@ -4878,48 +4878,48 @@ Hotkey=C,C,C
 
 // "Obla" (Blademaster)
 // Used by "oalt" (Altar of Storms)
-// Uses "AOwk" (Wind Walk)
 // Uses "AOcr" (Critical Strike)
-// Uses "AOww" (Bladestorm)
 // Uses "AOmi" (Mirror Image)
+// Uses "AOwk" (Wind Walk)
+// Uses "AOww" (Bladestorm)
 [Obla]
 Buttonpos=0,2
 Hotkey=W,W,W
 
 // "Ocb2" (Tauren Chieftain)
-// Uses "AOr3" (Reincarnation)
-// Uses "AOw2" (War Stomp)
-// Uses "AOs2" (Shockwave)
-// Uses "Aamk" (Attribute Bonus)
 // Uses "AOr2" (Endurance Aura)
+// Uses "AOr3" (Reincarnation)
+// Uses "AOs2" (Shockwave)
+// Uses "AOw2" (War Stomp)
+// Uses "Aamk" (Attribute Bonus)
 [Ocb2]
 Buttonpos=0,2
 Hotkey=W
 
 // "Ocbh" (Tauren Chieftain)
-// Uses "AOws" (War Stomp)
-// Uses "AOsh" (Shockwave)
-// Uses "AOre" (Reincarnation)
 // Uses "AOae" (Endurance Aura)
+// Uses "AOre" (Reincarnation)
+// Uses "AOsh" (Shockwave)
+// Uses "AOws" (War Stomp)
 [Ocbh]
 Buttonpos=0,2
 Hotkey=W
 
 // "Odrt" (Far Seer)
-// Uses "AOfs" (Far Sight)
 // Uses "AOcl" (Chain Lightning)
-// Uses "AOsf" (Feral Spirit)
 // Uses "AOeq" (Earthquake)
+// Uses "AOfs" (Far Sight)
+// Uses "AOsf" (Feral Spirit)
 [Odrt]
 Buttonpos=1,2
 Hotkey=X
 
 // "Ofar" (Far Seer)
 // Used by "oalt" (Altar of Storms)
-// Uses "AOfs" (Far Sight)
 // Uses "AOcl" (Chain Lightning)
-// Uses "AOsf" (Feral Spirit)
 // Uses "AOeq" (Earthquake)
+// Uses "AOfs" (Far Sight)
+// Uses "AOsf" (Feral Spirit)
 [Ofar]
 Buttonpos=1,2
 Hotkey=X,X,X
@@ -4930,48 +4930,48 @@ Buttonpos=0,1
 Hotkey=Q
 
 // "Ogrh" (Blademaster)
-// Uses "AOwk" (Wind Walk)
 // Uses "AOcr" (Critical Strike)
-// Uses "AOww" (Bladestorm)
 // Uses "AOmi" (Mirror Image)
+// Uses "AOwk" (Wind Walk)
+// Uses "AOww" (Bladestorm)
 [Ogrh]
 Buttonpos=0,2
 Hotkey=W
 
 // "Opgh" (Blademaster)
-// Uses "AOwk" (Wind Walk)
 // Uses "AOcr" (Critical Strike)
-// Uses "AOww" (Bladestorm)
 // Uses "AOmi" (Mirror Image)
+// Uses "AOwk" (Wind Walk)
+// Uses "AOww" (Bladestorm)
 [Opgh]
 Buttonpos=0,2
 Hotkey=W
 
 // "Orex" (Beastmaster)
+// Uses "ANsb" (Storm Bolt)
+// Uses "Aamk" (Attribute Bonus)
 // Uses "Arsg" (Summon Misha)
 // Uses "Arsp" (Stampede)
-// Uses "Aamk" (Attribute Bonus)
-// Uses "ANsb" (Storm Bolt)
 // Uses "Arsq" (Summon Quilbeast)
 [Orex]
 Buttonpos=0,0
 Hotkey=A
 
 // "Orkn" (Shadow Hunter)
-// Uses "Arsw" (Serpent Ward)
-// Uses "Aamk" (Attribute Bonus)
-// Uses "AOls" (Voodoo Spirits)
 // Uses "ANhw" (Healing Wave)
 // Uses "ANhx" (Hex)
+// Uses "AOls" (Voodoo Spirits)
+// Uses "Aamk" (Attribute Bonus)
+// Uses "Arsw" (Serpent Ward)
 [Orkn]
 Buttonpos=0,1
 Hotkey=Q
 
 // "Osam" (Blademaster)
-// Uses "AOwk" (Wind Walk)
 // Uses "AOcr" (Critical Strike)
-// Uses "AOww" (Bladestorm)
 // Uses "AOmi" (Mirror Image)
+// Uses "AOwk" (Wind Walk)
+// Uses "AOww" (Bladestorm)
 [Osam]
 Buttonpos=0,2
 Hotkey=W
@@ -4979,46 +4979,46 @@ Hotkey=W
 // "Oshd" (Shadow Hunter)
 // Used by "oalt" (Altar of Storms)
 // Uses "AOhw" (Healing Wave)
-// Uses "AOsw" (Serpent Ward)
 // Uses "AOhx" (Hex)
+// Uses "AOsw" (Serpent Ward)
 // Uses "AOvd" (Big Bad Voodoo)
 [Oshd]
 Buttonpos=0,1
 Hotkey=Q,Q,Q
 
 // "Otcc" (Tauren Chieftain)
-// Uses "AOws" (War Stomp)
-// Uses "AOsh" (Shockwave)
-// Uses "AOre" (Reincarnation)
 // Uses "AOae" (Endurance Aura)
+// Uses "AOre" (Reincarnation)
+// Uses "AOsh" (Shockwave)
+// Uses "AOws" (War Stomp)
 [Otcc]
 Buttonpos=0,2
 Hotkey=W
 
 // "Otch" (Tauren Chieftain)
 // Used by "oalt" (Altar of Storms)
-// Uses "AOws" (War Stomp)
-// Uses "AOsh" (Shockwave)
-// Uses "AOre" (Reincarnation)
 // Uses "AOae" (Endurance Aura)
+// Uses "AOre" (Reincarnation)
+// Uses "AOsh" (Shockwave)
+// Uses "AOws" (War Stomp)
 [Otch]
 Buttonpos=2,2
 Hotkey=C,C,C
 
 // "Othr" (Far Seer)
-// Uses "AOfs" (Far Sight)
 // Uses "AOcl" (Chain Lightning)
-// Uses "AOsf" (Feral Spirit)
 // Uses "AOeq" (Earthquake)
+// Uses "AOfs" (Far Sight)
+// Uses "AOsf" (Feral Spirit)
 [Othr]
 Buttonpos=0,2
 Hotkey=W
 
 // "Oths" (Far Seer)
-// Uses "AOfs" (Far Sight)
 // Uses "AOcl" (Chain Lightning)
-// Uses "AOsf" (Feral Spirit)
 // Uses "AOeq" (Earthquake)
+// Uses "AOfs" (Far Sight)
+// Uses "AOsf" (Feral Spirit)
 [Oths]
 Buttonpos=0,2
 Hotkey=W
@@ -5089,9 +5089,9 @@ Buttonpos=0,1
 Hotkey=Q
 
 // "Renb" (Nature's Blessing)
-// Used by "etol" (Tree of Life)
 // Used by "etoa" (Tree of Ages)
 // Used by "etoe" (Tree of Eternity)
+// Used by "etol" (Tree of Life)
 [Renb]
 Buttonpos=2,0
 Hotkey=E
@@ -5103,9 +5103,9 @@ Buttonpos=2,2
 Hotkey=C
 
 // "Repm" (Backpack)
-// Used by "etol" (Tree of Life)
 // Used by "etoa" (Tree of Ages)
 // Used by "etoe" (Tree of Eternity)
+// Used by "etol" (Tree of Life)
 [Repm]
 Buttonpos=3,0
 Hotkey=R
@@ -5238,9 +5238,9 @@ Buttonpos=0,0
 Hotkey=A,A,A
 
 // "Rhpm" (Backpack)
-// Used by "htow" (Town Hall)
 // Used by "hcas" (Castle)
 // Used by "hkee" (Keep)
+// Used by "htow" (Town Hall)
 [Rhpm]
 Buttonpos=3,0
 Hotkey=R
@@ -5372,17 +5372,17 @@ Buttonpos=0,0
 Hotkey=A,A,A
 
 // "Ropg" (Pillage)
-// Used by "ostr" (Stronghold)
-// Used by "ogre" (Great Hall)
 // Used by "ofrt" (Fortress)
+// Used by "ogre" (Great Hall)
+// Used by "ostr" (Stronghold)
 [Ropg]
 Buttonpos=2,0
 Hotkey=E
 
 // "Ropm" (Backpack)
-// Used by "ostr" (Stronghold)
-// Used by "ogre" (Great Hall)
 // Used by "ofrt" (Fortress)
+// Used by "ogre" (Great Hall)
+// Used by "ostr" (Stronghold)
 [Ropm]
 Buttonpos=3,0
 Hotkey=R
@@ -5557,8 +5557,8 @@ Buttonpos=2,2
 Hotkey=C
 
 // "SCae" (Endurance Aura)
-// Used by "noga" (Stonemaul Warchief)
 // Used by "ncnk" (Centaur Khan)
+// Used by "noga" (Stonemaul Warchief)
 [SCae]
 Buttonpos=2,2
 Hotkey=C
@@ -5610,11 +5610,11 @@ Buttonpos=2,2
 Hotkey=C
 
 // "Sdro" (Unload)
-// Used by "ubot" (Undead Transport Ship)
 // Used by "etrs" (Night Elf Transport Ship)
-// Used by "nbot" (Transport Ship)
 // Used by "hbot" (Human Transport Ship)
+// Used by "nbot" (Transport Ship)
 // Used by "obot" (Orc Transport Ship)
+// Used by "ubot" (Undead Transport Ship)
 [Sdro]
 Buttonpos=1,2
 Hotkey=X
@@ -5626,11 +5626,11 @@ Buttonpos=0,2
 Hotkey=W
 
 // "Slo3" (Load)
-// Used by "ubot" (Undead Transport Ship)
 // Used by "etrs" (Night Elf Transport Ship)
-// Used by "nbot" (Transport Ship)
 // Used by "hbot" (Human Transport Ship)
+// Used by "nbot" (Transport Ship)
 // Used by "obot" (Orc Transport Ship)
+// Used by "ubot" (Undead Transport Ship)
 [Slo3]
 Buttonpos=0,2
 Hotkey=W
@@ -5652,38 +5652,38 @@ Buttonpos=1,2
 Hotkey=X
 
 // "Uanb" (Crypt Lord)
-// Uses "AUls" (Locust Swarm)
-// Uses "AUim" (Impale)
 // Uses "AUcb" (Carrion Beetles)
+// Uses "AUim" (Impale)
+// Uses "AUls" (Locust Swarm)
 // Uses "AUts" (Spiked Carapace)
 [Uanb]
 Buttonpos=0,1
 Hotkey=Q
 
 // "Ubal" (Dreadlord)
-// Uses "AUav" (Vampiric Aura)
-// Uses "AUsl" (Sleep)
+// Uses "ACf3" (Finger of Pain)
 // Uses "ANr3" (Rain of Chaos)
 // Uses "AOeq" (Earthquake)
-// Uses "ACf3" (Finger of Pain)
+// Uses "AUav" (Vampiric Aura)
+// Uses "AUsl" (Sleep)
 [Ubal]
 Buttonpos=0,2
 Hotkey=W
 
 // "Uclc" (Lich)
-// Uses "AUfn" (Frost Nova)
-// Uses "AUfu" (Frost Armor)
 // Uses "AUdd" (Death And Decay)
 // Uses "AUdr" (Dark Ritual)
+// Uses "AUfn" (Frost Nova)
+// Uses "AUfu" (Frost Armor)
 [Uclc]
 Buttonpos=0,2
 Hotkey=W
 
 // "Ucrl" (Crypt Lord)
 // Used by "uaod" (Altar of Darkness)
-// Uses "AUls" (Locust Swarm)
-// Uses "AUim" (Impale)
 // Uses "AUcb" (Carrion Beetles)
+// Uses "AUim" (Impale)
+// Uses "AUls" (Locust Swarm)
 // Uses "AUts" (Spiked Carapace)
 [Ucrl]
 Buttonpos=0,1
@@ -5691,9 +5691,9 @@ Hotkey=Q,Q,Q
 
 // "Udea" (Death Knight)
 // Used by "uaod" (Altar of Darkness)
-// Uses "AUdc" (Death Coil)
-// Uses "AUau" (Unholy Aura)
 // Uses "AUan" (Animate Dead)
+// Uses "AUau" (Unholy Aura)
+// Uses "AUdc" (Death Coil)
 // Uses "AUdp" (Death Pact)
 [Udea]
 Buttonpos=0,2
@@ -5702,46 +5702,46 @@ Hotkey=W,W,W
 // "Udre" (Dreadlord)
 // Used by "uaod" (Altar of Darkness)
 // Uses "AUav" (Vampiric Aura)
+// Uses "AUcs" (Carrion Swarm)
 // Uses "AUin" (Inferno)
 // Uses "AUsl" (Sleep)
-// Uses "AUcs" (Carrion Swarm)
 [Udre]
 Buttonpos=1,2
 Hotkey=X,X,X
 
 // "Udth" (Dreadlord)
-// Uses "AUsl" (Sleep)
 // Uses "AEsh" (Shadow Strike)
-// Uses "AUdd" (Death And Decay)
 // Uses "AUcs" (Carrion Swarm)
+// Uses "AUdd" (Death And Decay)
+// Uses "AUsl" (Sleep)
 [Udth]
 Buttonpos=0,2
 Hotkey=W
 
 // "Uear" (Death Knight)
-// Uses "AUdc" (Death Coil)
-// Uses "AUau" (Unholy Aura)
 // Uses "AUan" (Animate Dead)
+// Uses "AUau" (Unholy Aura)
+// Uses "AUdc" (Death Coil)
 // Uses "AUdp" (Death Pact)
 [Uear]
 Buttonpos=0,2
 Hotkey=W
 
 // "Uktl" (Lich)
-// Uses "AUfn" (Frost Nova)
-// Uses "AUfu" (Frost Armor)
 // Uses "AUdd" (Death And Decay)
 // Uses "AUdr" (Dark Ritual)
+// Uses "AUfn" (Frost Nova)
+// Uses "AUfu" (Frost Armor)
 [Uktl]
 Buttonpos=0,2
 Hotkey=W
 
 // "Ulic" (Lich)
 // Used by "uaod" (Altar of Darkness)
-// Uses "AUfn" (Frost Nova)
-// Uses "AUfu" (Frost Armor)
 // Uses "AUdd" (Death And Decay)
 // Uses "AUdr" (Dark Ritual)
+// Uses "AUfn" (Frost Nova)
+// Uses "AUfu" (Frost Armor)
 [Ulic]
 Buttonpos=2,2
 Hotkey=C,C,C
@@ -5749,16 +5749,16 @@ Hotkey=C,C,C
 // "Umal" (Dreadlord)
 // Uses "ANdc" (Dark Conversion)
 // Uses "ANsl" (Soul Preservation)
-// Uses "AUsl" (Sleep)
 // Uses "AUcs" (Carrion Swarm)
+// Uses "AUsl" (Sleep)
 [Umal]
 Buttonpos=0,2
 Hotkey=W
 
 // "Usyl" (Dark Ranger)
+// Uses "ANba" (Black Arrow)
 // Uses "ANch" (Charm)
 // Uses "ANdr" (Life Drain)
-// Uses "ANba" (Black Arrow)
 // Uses "ANsi" (Silence)
 [Usyl]
 Buttonpos=0,0
@@ -5766,36 +5766,36 @@ Hotkey=A
 
 // "Utic" (Dreadlord)
 // Uses "ANfd" (Finger of Death)
-// Uses "AUsl" (Sleep)
-// Uses "AUcs" (Carrion Swarm)
 // Uses "ANrc" (Rain of Chaos)
+// Uses "AUcs" (Carrion Swarm)
+// Uses "AUsl" (Sleep)
 [Utic]
 Buttonpos=0,2
 Hotkey=W
 
 // "Uvar" (Dreadlord)
 // Uses "ANdo" (Doom)
+// Uses "ANrf" (Rain of Fire)
 // Uses "AUav" (Vampiric Aura)
 // Uses "AUsl" (Sleep)
-// Uses "ANrf" (Rain of Fire)
 [Uvar]
 Buttonpos=0,2
 Hotkey=W
 
 // "Uvng" (Dreadlord)
 // Uses "AUav" (Vampiric Aura)
+// Uses "AUcs" (Carrion Swarm)
 // Uses "AUin" (Inferno)
 // Uses "AUsl" (Sleep)
-// Uses "AUcs" (Carrion Swarm)
 [Uvng]
 Buttonpos=0,2
 Hotkey=W
 
 // "Uwar" (Warlock)
-// Uses "ANfd" (Finger of Death)
-// Uses "ANdp" (Dark Portal)
-// Uses "AHbh" (Bash)
 // Uses "ACm2" (Spell Immunity, Spell Immunity)
+// Uses "AHbh" (Bash)
+// Uses "ANdp" (Dark Portal)
+// Uses "ANfd" (Finger of Death)
 // Uses "ANrc" (Rain of Chaos)
 [Uwar]
 Buttonpos=0,2
@@ -5934,69 +5934,69 @@ Buttonpos=0,0
 Hotkey=A
 
 // "dust" (Dust of Appearance)
+// Used by "eden" (Ancient of Wonders)
 // Used by "ngme" (Goblin Merchant)
 // Used by "utom" (Tomb of Relics)
-// Used by "eden" (Ancient of Wonders)
 [dust]
 Buttonpos=3,0
 Hotkey=R
 
 // "eaoe" (Ancient of Lore)
-// Uses "Resi" (Abolish Magic)
-// Uses "Redc" (Druid of the Claw Adept Training,Druid of the Claw Master Training)
+// Uses "Aeat" (Eat Tree)
 // Uses "Aro1" (Root)
+// Uses "Redc" (Druid of the Claw Adept Training,Druid of the Claw Master Training)
 // Uses "Reeb" (Mark of the Claw)
 // Uses "Rehs" (Hardened Skin)
-// Uses "edry" (Dryad)
-// Uses "Aeat" (Eat Tree)
 // Uses "Rers" (Resistant Skin)
+// Uses "Resi" (Abolish Magic)
 // Uses "edoc" (Druid of the Claw)
+// Uses "edry" (Dryad)
 // Uses "emtg" (Mountain Giant)
 [eaoe]
 Buttonpos=2,1
 Hotkey=D
 
 // "eaom" (Ancient of War)
+// Uses "Aeat" (Eat Tree)
+// Uses "Aro1" (Root)
 // Uses "Reib" (Improved Bows)
+// Uses "Remg" (Upgrade Moon Glaive)
+// Uses "Remk" (Marksmanship)
+// Uses "Repb" (Vorpal Blades)
+// Uses "Resc" (Sentinel)
 // Uses "earc" (Archer)
 // Uses "ebal" (Glaive Thrower)
-// Uses "Aro1" (Root)
-// Uses "Repb" (Vorpal Blades)
-// Uses "Remg" (Upgrade Moon Glaive)
-// Uses "Aeat" (Eat Tree)
 // Uses "esen" (Huntress)
-// Uses "Resc" (Sentinel)
-// Uses "Remk" (Marksmanship)
 [eaom]
 Buttonpos=1,0
 Hotkey=Z
 
 // "eaow" (Ancient of Wind)
-// Uses "ehip" (Hippogryph)
-// Uses "efdr" (Faerie Dragon)
-// Uses "Aro1" (Root)
-// Uses "Reec" (Mark of the Talon)
 // Uses "Aeat" (Eat Tree)
-// Uses "edot" (Druid of the Talon)
+// Uses "Aro1" (Root)
 // Uses "Redt" (Druid of the Talon Adept Training,Druid of the Talon Master Training)
+// Uses "Reec" (Mark of the Talon)
+// Uses "edot" (Druid of the Talon)
+// Uses "efdr" (Faerie Dragon)
+// Uses "ehip" (Hippogryph)
 [eaow]
 Buttonpos=0,2
 Hotkey=W
 
 // "earc" (Archer)
 // Used by "eaom" (Ancient of War)
-// Uses "Ashm" (Shadow Meld)
-// Uses "Aemk" (Marksmanship)
+// Uses "Aco2" (Mount Hippogryph)
 // Uses "Aegr" (Elune's Grace)
 // Uses "Aeib" (Improved Bows)
-// Uses "Aco2" (Mount Hippogryph)
+// Uses "Aemk" (Marksmanship)
+// Uses "Ashm" (Shadow Meld)
 [earc]
 Buttonpos=0,0
 Hotkey=A
 
 // "eate" (Altar of Elders)
-// Uses "Ekee" (Keeper of the Grove)
 // Uses "Edem" (Demon Hunter)
+// Uses "Ekee" (Keeper of the Grove)
 // Uses "Emoo" (Priestess of the Moon)
 // Uses "Ewar" (Warden)
 [eate]
@@ -6023,23 +6023,23 @@ Buttonpos=0,0
 Hotkey=A
 
 // "edcm" (Druid of the Claw)
-// Uses "Ara2" (Roar)
 // Uses "Abrf" (Bear Form)
+// Uses "Ara2" (Roar)
 [edcm]
 Buttonpos=1,0
 Hotkey=Z
 
 // "eden" (Ancient of Wonders)
-// Uses "pman" (Potion of Mana)
-// Uses "dust" (Dust of Appearance)
-// Uses "oven" (Orb of Venom)
-// Uses "stwp" (Scroll of Town Portal)
 // Uses "Aro1" (Root)
+// Uses "dust" (Dust of Appearance)
 // Uses "moon" (Moonstone)
-// Uses "spre" (Staff of Preservation)
+// Uses "oven" (Orb of Venom)
 // Uses "pams" (Anti-magic Potion)
-// Uses "plcl" (Lesser Clarity Potion)
 // Uses "phea" (Potion of Healing)
+// Uses "plcl" (Lesser Clarity Potion)
+// Uses "pman" (Potion of Mana)
+// Uses "spre" (Staff of Preservation)
+// Uses "stwp" (Scroll of Town Portal)
 [eden]
 Buttonpos=2,2
 Hotkey=C
@@ -6050,21 +6050,21 @@ Buttonpos=1,0
 Hotkey=Z
 
 // "edob" (Hunter's Hall)
-// Uses "Resw" (Strength of the Wild,Improved Strength of the Wild,Advanced Strength of the Wild)
-// Uses "Rews" (Well Spring)
 // Uses "Rema" (Moon Armor,Improved Moon Armor,Advanced Moon Armor)
 // Uses "Rerh" (Reinforced Hides,Improved Reinforced Hides,Advanced Reinforced Hides)
 // Uses "Resm" (Strength of the Moon,Improved Strength of the Moon,Advanced Strength of the Moon)
+// Uses "Resw" (Strength of the Wild,Improved Strength of the Wild,Advanced Strength of the Wild)
 // Uses "Reuv" (Ultravision)
+// Uses "Rews" (Well Spring)
 [edob]
 Buttonpos=2,0
 Hotkey=E
 
 // "edoc" (Druid of the Claw)
 // Used by "eaoe" (Ancient of Lore)
-// Uses "Aroa" (Roar)
-// Uses "Arej" (Rejuvenation)
 // Uses "Abrf" (Bear Form)
+// Uses "Arej" (Rejuvenation)
+// Uses "Aroa" (Roar)
 [edoc]
 Buttonpos=1,0
 Hotkey=Z
@@ -6078,33 +6078,33 @@ Hotkey=X
 
 // "edot" (Druid of the Talon)
 // Used by "eaow" (Ancient of Wind)
-// Uses "Arav" (Storm Crow Form)
 // Uses "Acyc" (Cyclone)
 // Uses "Afae" (Faerie Fire)
+// Uses "Arav" (Storm Crow Form)
 [edot]
 Buttonpos=1,0
 Hotkey=Z
 
 // "edry" (Dryad)
 // Used by "eaoe" (Ancient of Lore)
+// Uses "Aadm" (Abolish Magic)
 // Uses "Amim" (Spell Immunity)
 // Uses "Aspo" (Slow Poison)
-// Uses "Aadm" (Abolish Magic)
 [edry]
 Buttonpos=0,0
 Hotkey=A
 
 // "edtm" (Druid of the Talon)
-// Uses "Arav" (Storm Crow Form)
 // Uses "Afa2" (Faerie Fire)
+// Uses "Arav" (Storm Crow Form)
 [edtm]
 Buttonpos=1,0
 Hotkey=Z
 
 // "efdr" (Faerie Dragon)
 // Used by "eaow" (Ancient of Wind)
-// Uses "Amim" (Spell Immunity)
 // Uses "Amfl" (Mana Flare)
+// Uses "Amim" (Spell Immunity)
 // Uses "Apsh" (Phase Shift)
 [efdr]
 Buttonpos=2,0
@@ -6124,32 +6124,32 @@ Hotkey=A
 
 // "ehpr" (Hippogryph Rider)
 // Uses "Adec" (Dismount)
-// Uses "Aemk" (Marksmanship)
 // Uses "Aeib" (Improved Bows)
+// Uses "Aemk" (Marksmanship)
 [ehpr]
 Buttonpos=0,0
 Hotkey=A
 
 // "emow" (Moon Well)
-// Uses "Ambt" (Replenish Mana and Life)
 // Uses "Aews" (Well Spring)
+// Uses "Ambt" (Replenish Mana and Life)
 [emow]
 Buttonpos=0,1
 Hotkey=Q
 
 // "emtg" (Mountain Giant)
 // Used by "eaoe" (Ancient of Lore)
-// Uses "Atau" (Taunt)
 // Uses "Agra" (War Club)
-// Uses "Assk" (Hardened Skin)
 // Uses "Arsk" (Resistant Skin)
+// Uses "Assk" (Hardened Skin)
+// Uses "Atau" (Taunt)
 [emtg]
 Buttonpos=2,0
 Hotkey=E
 
 // "ensh" (Naisha)
-// Uses "Amgr" (Moon Glaive)
 // Uses "Aesr" (Sentinel)
+// Uses "Amgr" (Moon Glaive)
 // Uses "Ashm" (Shadow Meld)
 [ensh]
 Buttonpos=1,0
@@ -6175,49 +6175,49 @@ Buttonpos=1,0
 Hotkey=Z
 
 // "espv" (Avatar of Vengeance)
-// Uses "Avng" (Spirit of Vengeance)
-// Uses "ACrk" (Resistant Skin)
 // Uses "ACmi" (Spell Immunity)
+// Uses "ACrk" (Resistant Skin)
+// Uses "Avng" (Spirit of Vengeance)
 [espv]
 Buttonpos=0,0
 Hotkey=A
 
 // "etoa" (Tree of Ages)
-// Uses "Repm" (Backpack)
+// Uses "Aeat" (Eat Tree)
 // Uses "Aent" (Entangle Gold Mine)
 // Uses "Aro1" (Root)
 // Uses "Renb" (Nature's Blessing)
-// Uses "Aeat" (Eat Tree)
+// Uses "Repm" (Backpack)
 // Uses "ewsp" (Wisp)
 [etoa]
 Buttonpos=0,2
 Hotkey=W
 
 // "etoe" (Tree of Eternity)
-// Uses "Repm" (Backpack)
+// Uses "Aeat" (Eat Tree)
 // Uses "Aent" (Entangle Gold Mine)
 // Uses "Aro1" (Root)
 // Uses "Renb" (Nature's Blessing)
-// Uses "Aeat" (Eat Tree)
+// Uses "Repm" (Backpack)
 // Uses "ewsp" (Wisp)
 [etoe]
 Buttonpos=0,2
 Hotkey=W
 
 // "etol" (Tree of Life)
-// Uses "Repm" (Backpack)
+// Uses "Aeat" (Eat Tree)
 // Uses "Aent" (Entangle Gold Mine)
 // Uses "Aro1" (Root)
 // Uses "Renb" (Nature's Blessing)
-// Uses "Aeat" (Eat Tree)
+// Uses "Repm" (Backpack)
 // Uses "ewsp" (Wisp)
 [etol]
 Buttonpos=0,0
 Hotkey=A
 
 // "etrp" (Ancient Protector)
-// Uses "Aro2" (Root)
 // Uses "Aeat" (Eat Tree)
+// Uses "Aro2" (Root)
 [etrp]
 Buttonpos=3,0
 Hotkey=R
@@ -6236,12 +6236,12 @@ Buttonpos=0,0
 Hotkey=A
 
 // "ewsp" (Wisp)
-// Used by "etol" (Tree of Life)
 // Used by "etoa" (Tree of Ages)
 // Used by "etoe" (Tree of Eternity)
+// Used by "etol" (Tree of Life)
 // Uses "Adtn" (Detonate)
-// Uses "Awha" (Gather)
 // Uses "Aren" (Renew)
+// Uses "Awha" (Gather)
 [ewsp]
 Buttonpos=0,0
 Hotkey=A
@@ -6322,24 +6322,24 @@ Buttonpos=0,0
 Hotkey=A
 
 // "halt" (Altar of Kings)
-// Uses "Hpal" (Paladin)
 // Uses "Hamg" (Archmage)
 // Uses "Hblm" (Blood Mage)
 // Uses "Hmkg" (Mountain King)
+// Uses "Hpal" (Paladin)
 [halt]
 Buttonpos=1,1
 Hotkey=S
 
 // "harm" (Workshop)
-// Uses "hmtt" (Siege Engine)
+// Uses "Rhfc" (Flak Cannons)
+// Uses "Rhfl" (Flare)
 // Uses "Rhfs" (Fragmentation Shards)
 // Uses "Rhgb" (Flying Machine Bombs)
-// Uses "hmtm" (Mortar Team)
-// Uses "hrtt" (Siege Engine)
-// Uses "hgyr" (Flying Machine)
-// Uses "Rhfc" (Flak Cannons)
 // Uses "Rhrt" (Barrage)
-// Uses "Rhfl" (Flare)
+// Uses "hgyr" (Flying Machine)
+// Uses "hmtm" (Mortar Team)
+// Uses "hmtt" (Siege Engine)
+// Uses "hrtt" (Siege Engine)
 [harm]
 Buttonpos=3,1
 Hotkey=F
@@ -6350,33 +6350,33 @@ Buttonpos=1,2
 Hotkey=X
 
 // "hars" (Arcane Sanctum)
-// Uses "hmpr" (Priest)
-// Uses "hspt" (Spellbreaker)
-// Uses "Rhss" (Control Magic)
-// Uses "hsor" (Sorceress)
-// Uses "Rhse" (Magic Sentry)
 // Uses "Rhpt" (Priest Adept Training,Priest Master Training)
+// Uses "Rhse" (Magic Sentry)
+// Uses "Rhss" (Control Magic)
 // Uses "Rhst" (Sorceress Adept Training,Sorceress Master Training)
+// Uses "hmpr" (Priest)
+// Uses "hsor" (Sorceress)
+// Uses "hspt" (Spellbreaker)
 [hars]
 Buttonpos=2,1
 Hotkey=D
 
 // "hatw" (Arcane Tower)
-// Uses "Adts" (Magic Sentry)
 // Uses "AHta" (Reveal)
+// Uses "Adts" (Magic Sentry)
 // Uses "Afbt" (Feedback)
 [hatw]
 Buttonpos=2,2
 Hotkey=C
 
 // "hbar" (Barracks)
-// Uses "hfoo" (Footman)
-// Uses "hrif" (Rifleman)
-// Uses "Rhsb" (Sundering Blades)
-// Uses "Rhde" (Defend)
-// Uses "hkni" (Knight)
 // Uses "Rhan" (Animal War Training)
+// Uses "Rhde" (Defend)
 // Uses "Rhri" (Long Rifles)
+// Uses "Rhsb" (Sundering Blades)
+// Uses "hfoo" (Footman)
+// Uses "hkni" (Knight)
+// Uses "hrif" (Rifleman)
 [hbar]
 Buttonpos=1,0
 Hotkey=Z
@@ -6409,9 +6409,9 @@ Buttonpos=0,0
 Hotkey=A
 
 // "hcas" (Castle)
-// Uses "hpea" (Peasant)
-// Uses "Rhpm" (Backpack)
 // Uses "Amic" (Call To Arms)
+// Uses "Rhpm" (Backpack)
+// Uses "hpea" (Peasant)
 [hcas]
 Buttonpos=0,2
 Hotkey=W
@@ -6430,8 +6430,8 @@ Hotkey=Z
 
 // "hdhw" (Dragonhawk Rider)
 // Used by "hgra" (Gryphon Aviary)
-// Uses "Ahan" (Animal War Training)
 // Uses "Aclf" (Cloud)
+// Uses "Ahan" (Animal War Training)
 // Uses "Amls" (Aerial Shackles)
 [hdhw]
 Buttonpos=0,0
@@ -6446,9 +6446,9 @@ Hotkey=A
 
 // "hgra" (Gryphon Aviary)
 // Uses "Rhcd" (Cloud)
-// Uses "hgry" (Gryphon Rider)
-// Uses "hdhw" (Dragonhawk Rider)
 // Uses "Rhhb" (Storm Hammers)
+// Uses "hdhw" (Dragonhawk Rider)
+// Uses "hgry" (Gryphon Rider)
 [hgra]
 Buttonpos=1,2
 Hotkey=X
@@ -6469,9 +6469,9 @@ Hotkey=W
 
 // "hgyr" (Flying Machine)
 // Used by "harm" (Workshop)
-// Uses "Agyv" (True Sight)
-// Uses "Agyb" (Flying Machine Bombs)
 // Uses "Aflk" (Flak Cannons)
+// Uses "Agyb" (Flying Machine Bombs)
+// Uses "Agyv" (True Sight)
 [hgyr]
 Buttonpos=0,0
 Hotkey=A
@@ -6489,9 +6489,9 @@ Buttonpos=0,1
 Hotkey=Q
 
 // "hkee" (Keep)
-// Uses "hpea" (Peasant)
-// Uses "Rhpm" (Backpack)
 // Uses "Amic" (Call To Arms)
+// Uses "Rhpm" (Backpack)
+// Uses "hpea" (Peasant)
 [hkee]
 Buttonpos=0,2
 Hotkey=W
@@ -6513,8 +6513,8 @@ Hotkey=E
 
 // "hmpr" (Priest)
 // Used by "hars" (Arcane Sanctum)
-// Uses "Ahea" (Heal)
 // Uses "Adis" (Dispel Magic)
+// Uses "Ahea" (Heal)
 // Uses "Ainf" (Inner Fire)
 [hmpr]
 Buttonpos=1,0
@@ -6522,8 +6522,8 @@ Hotkey=Z
 
 // "hmtm" (Mortar Team)
 // Used by "harm" (Workshop)
-// Uses "Afsh" (Fragmentation Shards)
 // Uses "Afla" (Flare)
+// Uses "Afsh" (Fragmentation Shards)
 [hmtm]
 Buttonpos=1,0
 Hotkey=Z
@@ -6541,21 +6541,21 @@ Buttonpos=0,0
 Hotkey=A
 
 // "hpea" (Peasant)
-// Used by "htow" (Town Hall)
 // Used by "hcas" (Castle)
 // Used by "hkee" (Keep)
+// Used by "htow" (Town Hall)
 // Uses "Ahar" (Harvest)
 // Uses "Ahlh" (Improved Lumber Harvesting,Improved Lumber Harvesting,Advanced Lumber Harvesting)
-// Uses "Amil" (Call to Arms)
 // Uses "Ahrp" (Repair)
+// Uses "Amil" (Call to Arms)
 [hpea]
 Buttonpos=0,0
 Hotkey=A
 
 // "hphx" (Phoenix)
+// Uses "ACmi" (Spell Immunity)
 // Uses "ACrk" (Resistant Skin)
 // Uses "Ahpe" (Phoenix)
-// Uses "ACmi" (Spell Immunity)
 // Uses "Apxf" (Phoenix Fire)
 [hphx]
 Buttonpos=0,0
@@ -6571,8 +6571,8 @@ Hotkey=Z
 // "hrrh" (Runner)
 // Uses "Ahar" (Harvest)
 // Uses "Ahlh" (Improved Lumber Harvesting,Improved Lumber Harvesting,Advanced Lumber Harvesting)
-// Uses "Amil" (Call to Arms)
 // Uses "Ahrp" (Repair)
+// Uses "Amil" (Call to Arms)
 [hrrh]
 Buttonpos=0,0
 Hotkey=A
@@ -6592,41 +6592,41 @@ Hotkey=A
 
 // "hsor" (Sorceress)
 // Used by "hars" (Arcane Sanctum)
+// Uses "Aivs" (Invisibility)
 // Uses "Aply" (Polymorph)
 // Uses "Aslo" (Slow)
-// Uses "Aivs" (Invisibility)
 [hsor]
 Buttonpos=0,0
 Hotkey=A
 
 // "hspt" (Spellbreaker)
 // Used by "hars" (Arcane Sanctum)
-// Uses "Amim" (Spell Immunity)
 // Uses "Acmg" (Control Magic)
-// Uses "Asps" (Spell Steal)
 // Uses "Afbk" (Feedback)
+// Uses "Amim" (Spell Immunity)
+// Uses "Asps" (Spell Steal)
 [hspt]
 Buttonpos=2,0
 Hotkey=E
 
 // "htow" (Town Hall)
-// Uses "hpea" (Peasant)
 // Uses "Rhpm" (Backpack)
+// Uses "hpea" (Peasant)
 [htow]
 Buttonpos=0,0
 Hotkey=A
 
 // "hvlt" (Arcane Vault)
-// Uses "mcri" (Mechanical Critter)
-// Uses "pman" (Potion of Mana)
-// Uses "tsct" (Ivory Tower)
-// Uses "stwp" (Scroll of Town Portal)
-// Uses "ofr2" (Orb of Fire)
-// Uses "sreg" (Scroll of Regeneration)
 // Uses "Aall" ("Shop Sharing, Allied Bldg.")
-// Uses "plcl" (Lesser Clarity Potion)
-// Uses "ssan" (Staff of Sanctuary)
+// Uses "mcri" (Mechanical Critter)
+// Uses "ofr2" (Orb of Fire)
 // Uses "phea" (Potion of Healing)
+// Uses "plcl" (Lesser Clarity Potion)
+// Uses "pman" (Potion of Mana)
+// Uses "sreg" (Scroll of Regeneration)
+// Uses "ssan" (Staff of Sanctuary)
+// Uses "stwp" (Scroll of Town Portal)
+// Uses "tsct" (Ivory Tower)
 [hvlt]
 Buttonpos=2,2
 Hotkey=C
@@ -6697,8 +6697,8 @@ Hotkey=W
 
 // "nadr" (Blue Dragon)
 // Used by "ndru" (Blue Dragon Roost)
-// Uses "ACmi" (Spell Immunity)
 // Uses "ACdv" (Devour)
+// Uses "ACmi" (Spell Immunity)
 [nadr]
 Buttonpos=0,2
 Hotkey=W
@@ -6710,9 +6710,9 @@ Buttonpos=0,2
 Hotkey=W
 
 // "nahy" (Ancient Hydra)
-// Uses "Awrh" (War Stomp)
-// Uses "Aspo" (Slow Poison)
 // Uses "ACdv" (Devour)
+// Uses "Aspo" (Slow Poison)
+// Uses "Awrh" (War Stomp)
 [nahy]
 Buttonpos=0,0
 Hotkey=A
@@ -6758,9 +6758,9 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nass" (Assassin)
-// Used by "nmr9" (Mercenary Camp)
-// Used by "nmr8" (Mercenary Camp)
 // Used by "nmr0" (Mercenary Camp)
+// Used by "nmr8" (Mercenary Camp)
+// Used by "nmr9" (Mercenary Camp)
 // Uses "ACvs" (Envenomed Weapons)
 // Uses "Ashm" (Shadow Meld)
 [nass]
@@ -6794,9 +6794,9 @@ Buttonpos=1,0
 Hotkey=Z
 
 // "nbdo" (Blue Dragonspawn Overseer)
+// Uses "ACav" (Devotion Aura)
 // Uses "ACbf" (Breath of Frost)
 // Uses "ACev" (Evasion)
-// Uses "ACav" (Devotion Aura)
 [nbdo]
 Buttonpos=0,0
 Hotkey=A
@@ -6808,8 +6808,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "nbds" (Blue Dragonspawn Sorcerer)
-// Uses "ACfn" (Frost Nova)
 // Uses "ACev" (Evasion)
+// Uses "ACfn" (Frost Nova)
 [nbds]
 Buttonpos=0,0
 Hotkey=A
@@ -6860,16 +6860,16 @@ Hotkey=W
 
 // "nbwm" (Black Dragon)
 // Used by "ndrk" (Black Dragon Roost)
-// Uses "ACmi" (Spell Immunity)
 // Uses "ACdv" (Devour)
+// Uses "ACmi" (Spell Immunity)
 [nbwm]
 Buttonpos=0,2
 Hotkey=W
 
 // "nbzd" (Bronze Dragon)
 // Used by "ndrz" (Bronze Dragon Roost)
-// Uses "ACmi" (Spell Immunity)
 // Uses "ACdv" (Devour)
+// Uses "ACmi" (Spell Immunity)
 [nbzd]
 Buttonpos=0,2
 Hotkey=W
@@ -6887,8 +6887,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ncap" (Corrupted Ancient Protector)
-// Uses "Aro2" (Root)
 // Uses "Aeat" (Eat Tree)
+// Uses "Aro2" (Root)
 [ncap]
 Buttonpos=3,0
 Hotkey=R
@@ -6992,8 +6992,8 @@ Buttonpos=1,0
 Hotkey=Z
 
 // "nchr" (Fel Orc Raider)
-// Uses "Asal" (Pillage)
 // Uses "Aens" (Ensnare)
+// Uses "Asal" (Pillage)
 [nchr]
 Buttonpos=0,2
 Hotkey=W
@@ -7026,9 +7026,9 @@ Buttonpos=0,1
 Hotkey=Q
 
 // "ncpn" (Fel Peon)
-// Uses "Asal" (Pillage)
 // Uses "Ahar" (Harvest)
 // Uses "Arep" (Repair)
+// Uses "Asal" (Pillage)
 [ncpn]
 Buttonpos=0,0
 Hotkey=A
@@ -7040,24 +7040,24 @@ Hotkey=A
 
 // "ncta" (Corrupted Tree of Ages)
 // Uses "Aeat" (Eat Tree)
-// Uses "Aro1" (Root)
 // Uses "Aent" (Entangle Gold Mine)
+// Uses "Aro1" (Root)
 [ncta]
 Buttonpos=0,2
 Hotkey=W
 
 // "ncte" (Corrupted Tree of Eternity)
 // Uses "Aeat" (Eat Tree)
-// Uses "Aro1" (Root)
 // Uses "Aent" (Entangle Gold Mine)
+// Uses "Aro1" (Root)
 [ncte]
 Buttonpos=0,2
 Hotkey=W
 
 // "nctl" (Corrupted Tree of Life)
 // Uses "Aeat" (Eat Tree)
-// Uses "Aro1" (Root)
 // Uses "Aent" (Entangle Gold Mine)
+// Uses "Aro1" (Root)
 [nctl]
 Buttonpos=0,0
 Hotkey=A
@@ -7082,8 +7082,8 @@ Hotkey=A
 
 // "ndrh" (Draenei Harbinger)
 // Used by "ndh4" (Seer's Den)
-// Uses "Ache" (Ray of Disruption)
 // Uses "ACbb" (Bloodlust)
+// Uses "Ache" (Ray of Disruption)
 [ndrh]
 Buttonpos=0,0
 Hotkey=A
@@ -7124,8 +7124,8 @@ Hotkey=A
 // "ndrs" (Draenei Seer)
 // Used by "ndh4" (Seer's Den)
 // Uses "ACba" (Brilliance Aura)
-// Uses "ACsw" (Slow)
 // Uses "AChv" (Healing Wave)
+// Uses "ACsw" (Slow)
 [ndrs]
 Buttonpos=0,0
 Hotkey=A
@@ -7261,16 +7261,16 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nfgl" (Flesh Golem)
-// Uses "ACsh" (Shockwave)
 // Uses "ACcr" (Cripple)
+// Uses "ACsh" (Shockwave)
 [nfgl]
 Buttonpos=0,0
 Hotkey=A
 
 // "nfgo" (Forgotten One)
+// Uses "ACch" (Charm)
 // Uses "ACfb" (Firebolt)
 // Uses "ACtn" (Spawn Tentacle)
-// Uses "ACch" (Charm)
 [nfgo]
 Buttonpos=0,0
 Hotkey=A
@@ -7315,8 +7315,8 @@ Hotkey=A
 
 // "nfps" (Polar Furbolg Shaman)
 // Used by "nmrd" (Mercenary Camp)
-// Uses "ACf2" (Frost Armor)
 // Uses "ACdm" (Abolish Magic)
+// Uses "ACf2" (Frost Armor)
 [nfps]
 Buttonpos=2,0
 Hotkey=E
@@ -7348,8 +7348,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nfre" (Furbolg Elder Shaman)
-// Uses "ACr2" (Rejuvenation)
 // Uses "ACls" (Lightning Shield)
+// Uses "ACr2" (Rejuvenation)
 [nfre]
 Buttonpos=0,0
 Hotkey=A
@@ -7377,8 +7377,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nfsh" (Forest Troll High Priest)
-// Used by "nmr9" (Mercenary Camp)
 // Used by "nmr8" (Mercenary Camp)
+// Used by "nmr9" (Mercenary Camp)
 // Uses "ACd2" (Abolish Magic)
 // Uses "ACif" (Inner Fire)
 // Uses "Anh2" (Heal)
@@ -7388,8 +7388,8 @@ Hotkey=W
 
 // "nfsp" (Forest Troll Shadow Priest)
 // Used by "nmer" (Mercenary Camp)
-// Uses "Anh1" (Heal)
 // Uses "ACdm" (Abolish Magic)
+// Uses "Anh1" (Heal)
 [nfsp]
 Buttonpos=0,0
 Hotkey=A
@@ -7505,17 +7505,17 @@ Buttonpos=0,0
 Hotkey=A
 
 // "ngos" (Snarlmane the Bloodgorger)
+// Uses "ACac" (Command Aura)
+// Uses "ACbl" (Bloodlust)
 // Uses "Ansk" (Hardened Skin)
 // Uses "Awrs" (War Stomp)
-// Uses "ACbl" (Bloodlust)
-// Uses "ACac" (Command Aura)
 [ngos]
 Buttonpos=3,0
 Hotkey=R
 
 // "ngow" (Gnoll Warlord)
-// Uses "ACro" (Roar)
 // Uses "ACbl" (Bloodlust)
+// Uses "ACro" (Roar)
 // Uses "ANbh" (Bash)
 [ngow]
 Buttonpos=3,0
@@ -7523,18 +7523,18 @@ Hotkey=R
 
 // "ngrd" (Green Dragon)
 // Used by "ndrg" (Green Dragon Roost)
-// Uses "ACmi" (Spell Immunity)
 // Uses "ACdv" (Devour)
+// Uses "ACmi" (Spell Immunity)
 [ngrd]
 Buttonpos=0,2
 Hotkey=W
 
 // "ngrk" (Mud Golem)
-// Used by "nmr3" (Mercenary Camp)
-// Used by "nmr2" (Mercenary Camp)
 // Used by "nmer" (Mercenary Camp)
-// Uses "ACsw" (Slow)
+// Used by "nmr2" (Mercenary Camp)
+// Used by "nmr3" (Mercenary Camp)
 // Uses "ACmi" (Spell Immunity)
+// Uses "ACsw" (Slow)
 [ngrk]
 Buttonpos=2,0
 Hotkey=E
@@ -7564,10 +7564,10 @@ Buttonpos=0,2
 Hotkey=W
 
 // "nheb" (High Elven Barracks)
-// Uses "nhea" (Archer)
-// Uses "nws1" (Dragon Hawk)
 // Uses "Rhde" (Defend)
 // Uses "hhes" (Swordsman)
+// Uses "nhea" (Archer)
+// Uses "nws1" (Dragon Hawk)
 [nheb]
 Buttonpos=0,0
 Hotkey=A
@@ -7604,9 +7604,9 @@ Hotkey=E
 
 // "nhyc" (Dragon Turtle)
 // Used by "nnsg" (Spawning Grounds)
+// Uses "ACdv" (Devour)
 // Uses "ANth" (Spiked Shell)
 // Uses "Ansk" (Hardened Skin)
-// Uses "ACdv" (Devour)
 [nhyc]
 Buttonpos=0,0
 Hotkey=A
@@ -7624,9 +7624,9 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nhym" (Hydromancer)
-// Uses "ACsw" (Slow)
 // Uses "ACc3" (Crushing Wave)
 // Uses "ACpy" (Polymorph)
+// Uses "ACsw" (Slow)
 [nhym]
 Buttonpos=0,2
 Hotkey=W
@@ -7662,28 +7662,28 @@ Buttonpos=0,2
 Hotkey=W
 
 // "nkog" (Kobold Geomancer)
-// Used by "nmrb" (Mercenary Camp)
-// Used by "nmr9" (Mercenary Camp)
-// Used by "nmr8" (Mercenary Camp)
-// Used by "nmra" (Mercenary Camp)
 // Used by "nmr0" (Mercenary Camp)
-// Uses "ACsw" (Slow)
+// Used by "nmr8" (Mercenary Camp)
+// Used by "nmr9" (Mercenary Camp)
+// Used by "nmra" (Mercenary Camp)
+// Used by "nmrb" (Mercenary Camp)
 // Uses "ACdm" (Abolish Magic)
+// Uses "ACsw" (Slow)
 [nkog]
 Buttonpos=2,0
 Hotkey=E
 
 // "nlds" (Makrura Deepseer)
 // Used by "nmrc" (Mercenary Camp)
-// Uses "Aslp" (Summon Prawns)
 // Uses "Aenw" (Entangling Roots)
+// Uses "Aslp" (Summon Prawns)
 [nlds]
 Buttonpos=3,0
 Hotkey=R
 
 // "nlkl" (Makrura Tidal Lord)
-// Uses "ACce" (Cleaving Attack)
 // Uses "ACav" (Devotion Aura)
+// Uses "ACce" (Cleaving Attack)
 [nlkl]
 Buttonpos=0,0
 Hotkey=A
@@ -7704,8 +7704,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nlrv" (Deeplord Revenant)
-// Uses "ACf2" (Frost Armor)
 // Uses "ACcv" (Crushing Wave)
+// Uses "ACf2" (Frost Armor)
 [nlrv]
 Buttonpos=0,0
 Hotkey=A
@@ -7818,8 +7818,8 @@ Hotkey=A
 
 // "nmsn" (Mur'gul Snarecaster)
 // Used by "nmrc" (Mercenary Camp)
-// Uses "ACsw" (Slow)
 // Uses "ACdm" (Abolish Magic)
+// Uses "ACsw" (Slow)
 [nmsn]
 Buttonpos=2,0
 Hotkey=E
@@ -7856,8 +7856,8 @@ Hotkey=W
 
 // "nndr" (Nether Dragon)
 // Used by "ndro" (Nether Dragon Roost)
-// Uses "ACmi" (Spell Immunity)
 // Uses "ACcr" (Cripple)
+// Uses "ACmi" (Spell Immunity)
 [nndr]
 Buttonpos=0,2
 Hotkey=W
@@ -7880,11 +7880,11 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nnrg" (Naga Royal Guard)
-// Uses "Asb2" (Submerge)
-// Uses "ACwe" (Summon Sea Elemental)
 // Uses "ACcb" (Frost Bolt)
 // Uses "ACcv" (Crushing Wave)
 // Uses "ACsk" (Resistant Skin)
+// Uses "ACwe" (Summon Sea Elemental)
+// Uses "Asb2" (Submerge)
 [nnrg]
 Buttonpos=0,0
 Hotkey=A
@@ -7896,26 +7896,26 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nnsa" (Shrine of Azshara)
-// Uses "nwgs" (Couatl)
-// Uses "Rnsw" (Naga Siren Adept Training,Naga Siren Master Training)
 // Uses "Rnsi" (Abolish Magic)
+// Uses "Rnsw" (Naga Siren Adept Training,Naga Siren Master Training)
 // Uses "nnsw" (Naga Siren)
+// Uses "nwgs" (Couatl)
 [nnsa]
 Buttonpos=0,1
 Hotkey=Q
 
 // "nnsg" (Spawning Grounds)
 // Uses "Rnen" (Ensnare)
-// Uses "nmyr" (Naga Myrmidon)
 // Uses "nhyc" (Dragon Turtle)
+// Uses "nmyr" (Naga Myrmidon)
 // Uses "nsnp" (Snap Dragon)
 [nnsg]
 Buttonpos=1,0
 Hotkey=Z
 
 // "nnsu" (Summoner)
-// Uses "ANpa" (Parasite)
 // Uses "ACfu" (Frost Armor)
+// Uses "ANpa" (Parasite)
 // Uses "Acny" (Cyclone)
 // Uses "Ahnl" (Summoning Ritual)
 [nnsu]
@@ -7924,8 +7924,8 @@ Hotkey=A
 
 // "nnsw" (Naga Siren)
 // Used by "nnsa" (Shrine of Azshara)
-// Uses "ANpa" (Parasite)
 // Uses "ACfu" (Frost Armor)
+// Uses "ANpa" (Parasite)
 // Uses "Acny" (Cyclone)
 [nnsw]
 Buttonpos=0,0
@@ -7937,11 +7937,11 @@ Buttonpos=3,0
 Hotkey=R
 
 // "nntt" (Temple of Tides)
-// Uses "nnmg" (Mur'gul Reaver)
 // Uses "Rnam" (Coral Scales,Chitinous Scales,Razorspine Scales)
-// Uses "Rnsb" (Submerge)
 // Uses "Rnat" (Coral Blades,Chitinous Blades,Razorspine Blades)
+// Uses "Rnsb" (Submerge)
 // Uses "nmpe" (Mur'gul Slave)
+// Uses "nnmg" (Mur'gul Reaver)
 [nntt]
 Buttonpos=0,0
 Hotkey=A
@@ -7954,15 +7954,15 @@ Hotkey=A
 
 // "nnwl" (Nerubian Webspinner)
 // Used by "nmr7" (Mercenary Camp)
-// Uses "ACwb" (Web)
 // Uses "ACrd" (Raise Dead)
+// Uses "ACwb" (Web)
 [nnwl]
 Buttonpos=2,0
 Hotkey=E
 
 // "nogl" (Ogre Lord)
-// Uses "ACsh" (Shockwave)
 // Uses "ACav" (Devotion Aura)
+// Uses "ACsh" (Shockwave)
 [nogl]
 Buttonpos=0,0
 Hotkey=A
@@ -7986,8 +7986,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "nowb" (Wildkin)
-// Used by "nmrb" (Mercenary Camp)
 // Used by "nmra" (Mercenary Camp)
+// Used by "nmrb" (Mercenary Camp)
 [nowb]
 Buttonpos=1,0
 Hotkey=Z
@@ -8024,16 +8024,16 @@ Hotkey=W
 // "npn2" (Storm)
 // Uses "ACcy" (Cyclone)
 // Uses "ACrk" (Resistant Skin)
-// Uses "Adsm" (Dispel Magic)
 // Uses "ANwk" (Wind Walk)
+// Uses "Adsm" (Dispel Magic)
 [npn2]
 Buttonpos=0,2
 Hotkey=W
 
 // "npn3" (Earth)
-// Uses "ACrk" (Resistant Skin)
-// Uses "ACpv" (Pulverize)
 // Uses "ACmi" (Spell Immunity)
+// Uses "ACpv" (Pulverize)
+// Uses "ACrk" (Resistant Skin)
 // Uses "ANta" (Taunt)
 [npn3]
 Buttonpos=0,2
@@ -8049,16 +8049,16 @@ Hotkey=W
 // "npn5" (Storm)
 // Uses "ACcy" (Cyclone)
 // Uses "ACrk" (Resistant Skin)
-// Uses "Adsm" (Dispel Magic)
 // Uses "ANwk" (Wind Walk)
+// Uses "Adsm" (Dispel Magic)
 [npn5]
 Buttonpos=0,2
 Hotkey=W
 
 // "npn6" (Earth)
-// Uses "ACrk" (Resistant Skin)
-// Uses "ACpv" (Pulverize)
 // Uses "ACmi" (Spell Immunity)
+// Uses "ACpv" (Pulverize)
+// Uses "ACrk" (Resistant Skin)
 // Uses "ANta" (Taunt)
 [npn6]
 Buttonpos=0,2
@@ -8082,8 +8082,8 @@ Buttonpos=0,2
 Hotkey=W
 
 // "nrog" (Rogue)
-// Used by "nmr9" (Mercenary Camp)
 // Used by "nmr8" (Mercenary Camp)
+// Used by "nmr9" (Mercenary Camp)
 // Uses "Ashm" (Shadow Meld)
 [nrog]
 Buttonpos=0,2
@@ -8099,16 +8099,16 @@ Hotkey=R
 // "nrwm" (Red Dragon)
 // Used by "ndrb" (Dragon Roost)
 // Used by "ndrr" (Red Dragon Roost)
-// Uses "ACmi" (Spell Immunity)
 // Uses "ACdv" (Devour)
+// Uses "ACmi" (Spell Immunity)
 [nrwm]
 Buttonpos=0,2
 Hotkey=W
 
 // "nrzm" (Razormane Medicine Man)
 // Used by "nmr4" (Mercenary Camp)
-// Uses "ACs9" (Feral Spirit)
 // Uses "AChw" (Healing Ward)
+// Uses "ACs9" (Feral Spirit)
 [nrzm]
 Buttonpos=3,0
 Hotkey=R
@@ -8136,8 +8136,8 @@ Hotkey=A
 
 // "nsgb" (Sea Giant Behemoth)
 // Uses "ACpv" (Pulverize)
-// Uses "Awrs" (War Stomp)
 // Uses "ACtb" (Hurl Boulder)
+// Uses "Awrs" (War Stomp)
 [nsgb]
 Buttonpos=0,0
 Hotkey=A
@@ -8156,8 +8156,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nskf" (Burning Archer)
-// Used by "nmrb" (Mercenary Camp)
 // Used by "nmra" (Mercenary Camp)
+// Used by "nmrb" (Mercenary Camp)
 // Uses "ACsa" (Searing Arrows)
 [nskf]
 Buttonpos=0,0
@@ -8200,8 +8200,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nsns" (Watery Minion)
-// Uses "ACsw" (Slow)
 // Uses "ACdm" (Abolish Magic)
+// Uses "ACsw" (Slow)
 [nsns]
 Buttonpos=0,0
 Hotkey=A
@@ -8254,8 +8254,8 @@ Hotkey=W
 
 // "nstl" (Satyr Soulstealer)
 // Used by "nmr6" (Mercenary Camp)
-// Uses "Ambd" (Mana Burn)
 // Uses "ACrd" (Raise Dead)
+// Uses "Ambd" (Mana Burn)
 [nstl]
 Buttonpos=2,0
 Hotkey=E
@@ -8292,8 +8292,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "ntkh" (Tuskarr Healer)
-// Uses "Anh1" (Heal)
 // Uses "ACdm" (Abolish Magic)
+// Uses "Anh1" (Heal)
 [ntkh]
 Buttonpos=0,0
 Hotkey=A
@@ -8321,9 +8321,9 @@ Buttonpos=0,0
 Hotkey=A
 
 // "ntrd" (Dragon Turtle)
-// Uses "ANt2" (Spiked Shell)
-// Uses "ACdv" (Devour)
 // Uses "ACc2" (Crushing Wave)
+// Uses "ACdv" (Devour)
+// Uses "ANt2" (Spiked Shell)
 [ntrd]
 Buttonpos=0,0
 Hotkey=A
@@ -8390,8 +8390,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "nvdg" (Greater Voidwalker)
-// Uses "ACf2" (Frost Armor)
 // Uses "ACcl" (Chain Lightning)
+// Uses "ACf2" (Frost Armor)
 [nvdg]
 Buttonpos=3,0
 Hotkey=R
@@ -8405,9 +8405,9 @@ Buttonpos=2,0
 Hotkey=E
 
 // "nw2w" (Orc Warlock)
-// Uses "ACuf" (Unholy Frenzy)
-// Uses "ACfb" (Firebolt)
 // Uses "ACcr" (Cripple)
+// Uses "ACfb" (Firebolt)
+// Uses "ACuf" (Unholy Frenzy)
 [nw2w]
 Buttonpos=0,2
 Hotkey=W
@@ -8445,53 +8445,53 @@ Hotkey=A
 
 // "nzep" (Zeppelin)
 // Used by "ngad" (Goblin Laboratory)
-// Uses "Aloa" (Load)
 // Uses "Adro" (Unload)
+// Uses "Aloa" (Load)
 [nzep]
 Buttonpos=0,0
 Hotkey=A
 
 // "oalt" (Altar of Storms)
-// Uses "Otch" (Tauren Chieftain)
-// Uses "Oshd" (Shadow Hunter)
-// Uses "Ofar" (Far Seer)
 // Uses "Obla" (Blademaster)
+// Uses "Ofar" (Far Seer)
+// Uses "Oshd" (Shadow Hunter)
+// Uses "Otch" (Tauren Chieftain)
 [oalt]
 Buttonpos=1,1
 Hotkey=S
 
 // "obai" (Baine)
-// Uses "Adcn" (Disenchant)
 // Uses "ACsk" (Resistant Skin)
-// Uses "Aspl" (Spirit Link)
-// Uses "Acpf" (Corporeal Form)
 // Uses "Aast" (Ancestral Spirit)
+// Uses "Acpf" (Corporeal Form)
+// Uses "Adcn" (Disenchant)
+// Uses "Aspl" (Spirit Link)
 [obai]
 Buttonpos=2,0
 Hotkey=E
 
 // "obar" (Barracks)
-// Uses "Rotr" (Troll Regeneration,Improved Troll Regeneration,Advanced Troll Regeneration)
-// Uses "ogru" (Grunt)
-// Uses "Robs" (Brute Strength)
-// Uses "ohun" (Headhunter)
-// Uses "ocat" (Demolisher)
-// Uses "otbk" (Berserker)
 // Uses "Robf" (Burning Oil)
 // Uses "Robk" (Berserker Upgrade)
+// Uses "Robs" (Brute Strength)
+// Uses "Rotr" (Troll Regeneration,Improved Troll Regeneration,Advanced Troll Regeneration)
+// Uses "ocat" (Demolisher)
+// Uses "ogru" (Grunt)
+// Uses "ohun" (Headhunter)
+// Uses "otbk" (Berserker)
 [obar]
 Buttonpos=1,0
 Hotkey=Z
 
 // "obea" (Beastiary)
-// Uses "otbr" (Batrider)
-// Uses "orai" (Raider)
-// Uses "Rwdm" (War Drums Damage Increase)
-// Uses "owyv" (Wind Rider)
-// Uses "Rovs" (Envenomed Spears)
-// Uses "okod" (Kodo Beast)
 // Uses "Roen" (Ensnare)
 // Uses "Rolf" (Liquid Fire)
+// Uses "Rovs" (Envenomed Spears)
+// Uses "Rwdm" (War Drums Damage Increase)
+// Uses "okod" (Kodo Beast)
+// Uses "orai" (Raider)
+// Uses "otbr" (Batrider)
+// Uses "owyv" (Wind Rider)
 [obea]
 Buttonpos=3,1
 Hotkey=F
@@ -8512,9 +8512,9 @@ Buttonpos=0,0
 Hotkey=A
 
 // "ocbw" (Fel Burrow)
-// Uses "Sbtl" (Battle Stations)
-// Uses "Astd" (Stand Down)
 // Uses "Aorb" (Reinforced Defenses)
+// Uses "Astd" (Stand Down)
+// Uses "Sbtl" (Battle Stations)
 [ocbw]
 Buttonpos=0,1
 Hotkey=Q
@@ -8544,10 +8544,10 @@ Hotkey=A
 
 // "odoc" (Witch Doctor)
 // Used by "osld" (Spirit Lodge)
-// Uses "Asta" (Stasis Trap)
-// Uses "Aotr" (Troll Regeneration)
-// Uses "Ahwd" (Healing Ward)
 // Uses "Aeye" (Sentry Ward)
+// Uses "Ahwd" (Healing Ward)
+// Uses "Aotr" (Troll Regeneration)
+// Uses "Asta" (Stasis Trap)
 [odoc]
 Buttonpos=1,0
 Hotkey=Z
@@ -8559,9 +8559,9 @@ Hotkey=W
 
 // "ofor" (War Mill)
 // Uses "Roar" (Steel Armor,Thorium Armor,Arcanite Armor)
-// Uses "Rorb" (Reinforced Defenses)
 // Uses "Rome" (Steel Melee Weapons,Thorium Melee Weapons,Arcanite Melee Weapons)
 // Uses "Rora" (Steel Ranged Weapons,Thorium Ranged Weapons,Arcanite Ranged Weapons)
+// Uses "Rorb" (Reinforced Defenses)
 // Uses "Rosp" (Spiked Barricades,Improved Spiked Barricades,Advanced Spiked Barricades)
 [ofor]
 Buttonpos=2,0
@@ -8580,8 +8580,8 @@ Hotkey=A
 
 // "ofrt" (Fortress)
 // Uses "Aosp" (Spiked Barricades,Spiked Barricades,Improved Spiked Barricades)
-// Uses "Ropm" (Backpack)
 // Uses "Ropg" (Pillage)
+// Uses "Ropm" (Backpack)
 // Uses "opeo" (Peon)
 [ofrt]
 Buttonpos=0,2
@@ -8589,8 +8589,8 @@ Hotkey=W
 
 // "ogre" (Great Hall)
 // Uses "Aosp" (Spiked Barricades,Spiked Barricades,Improved Spiked Barricades)
-// Uses "Ropm" (Backpack)
 // Uses "Ropg" (Pillage)
+// Uses "Ropm" (Backpack)
 // Uses "opeo" (Peon)
 [ogre]
 Buttonpos=0,0
@@ -8604,17 +8604,17 @@ Hotkey=A
 
 // "ogru" (Grunt)
 // Used by "obar" (Barracks)
-// Uses "Asal" (Pillage)
 // Uses "Aobs" (Brute Strength)
+// Uses "Asal" (Pillage)
 [ogru]
 Buttonpos=0,0
 Hotkey=A
 
 // "ohun" (Headhunter)
 // Used by "obar" (Barracks)
-// Uses "Aotr" (Troll Regeneration)
-// Uses "Aobk" (Berserker Upgrade)
 // Uses "Absk" (Berserk)
+// Uses "Aobk" (Berserker Upgrade)
+// Uses "Aotr" (Troll Regeneration)
 [ohun]
 Buttonpos=1,0
 Hotkey=Z
@@ -8644,27 +8644,27 @@ Buttonpos=2,2
 Hotkey=C
 
 // "onzg" (Nazgrel)
-// Uses "Asal" (Pillage)
 // Uses "Aens" (Ensnare)
+// Uses "Asal" (Pillage)
 [onzg]
 Buttonpos=0,0
 Hotkey=A
 
 // "opeo" (Peon)
-// Used by "ostr" (Stronghold)
-// Used by "ogre" (Great Hall)
 // Used by "ofrt" (Fortress)
-// Uses "Asal" (Pillage)
+// Used by "ogre" (Great Hall)
+// Used by "ostr" (Stronghold)
 // Uses "Ahar" (Harvest)
 // Uses "Arep" (Repair)
+// Uses "Asal" (Pillage)
 [opeo]
 Buttonpos=0,0
 Hotkey=A
 
 // "orai" (Raider)
 // Used by "obea" (Beastiary)
-// Uses "Asal" (Pillage)
 // Uses "Aens" (Ensnare)
+// Uses "Asal" (Pillage)
 [orai]
 Buttonpos=0,0
 Hotkey=A
@@ -8676,18 +8676,18 @@ Hotkey=Q
 
 // "oshm" (Shaman)
 // Used by "osld" (Spirit Lodge)
+// Uses "Ablo" (Bloodlust)
 // Uses "Alsh" (Lightning Shield)
 // Uses "Apg2" (Purge)
-// Uses "Ablo" (Bloodlust)
 [oshm]
 Buttonpos=0,0
 Hotkey=A
 
 // "osld" (Spirit Lodge)
 // Uses "Rost" (Shaman Adept Training,Shaman Master Training)
+// Uses "Rowd" (Witch Doctor Adept Training,Witch Doctor Master Training)
 // Uses "odoc" (Witch Doctor)
 // Uses "oshm" (Shaman)
-// Uses "Rowd" (Witch Doctor Adept Training,Witch Doctor Master Training)
 [osld]
 Buttonpos=2,1
 Hotkey=D
@@ -8699,29 +8699,29 @@ Hotkey=A
 
 // "ospm" (Spirit Walker)
 // Used by "otto" (Tauren Totem)
-// Uses "Adcn" (Disenchant)
 // Uses "ACsk" (Resistant Skin)
-// Uses "Aspl" (Spirit Link)
-// Uses "Acpf" (Corporeal Form)
 // Uses "Aast" (Ancestral Spirit)
+// Uses "Acpf" (Corporeal Form)
+// Uses "Adcn" (Disenchant)
+// Uses "Aspl" (Spirit Link)
 [ospm]
 Buttonpos=0,0
 Hotkey=A
 
 // "ospw" (Spirit Walker)
-// Uses "Adcn" (Disenchant)
 // Uses "ACsk" (Resistant Skin)
-// Uses "Aspl" (Spirit Link)
-// Uses "Acpf" (Corporeal Form)
 // Uses "Aast" (Ancestral Spirit)
+// Uses "Acpf" (Corporeal Form)
+// Uses "Adcn" (Disenchant)
+// Uses "Aspl" (Spirit Link)
 [ospw]
 Buttonpos=0,0
 Hotkey=A
 
 // "ostr" (Stronghold)
 // Uses "Aosp" (Spiked Barricades,Spiked Barricades,Improved Spiked Barricades)
-// Uses "Ropm" (Backpack)
 // Uses "Ropg" (Pillage)
+// Uses "Ropm" (Backpack)
 // Uses "opeo" (Peon)
 [ostr]
 Buttonpos=0,2
@@ -8736,35 +8736,35 @@ Hotkey=Z
 
 // "otbk" (Berserker)
 // Used by "obar" (Barracks)
-// Uses "Aotr" (Troll Regeneration)
-// Uses "Aobk" (Berserker Upgrade)
 // Uses "Absk" (Berserk)
+// Uses "Aobk" (Berserker Upgrade)
+// Uses "Aotr" (Troll Regeneration)
 [otbk]
 Buttonpos=1,0
 Hotkey=Z
 
 // "otbr" (Batrider)
 // Used by "obea" (Beastiary)
+// Uses "Aliq" (Liquid Fire)
 // Uses "Aotr" (Troll Regeneration)
 // Uses "Auco" (Unstable Concoction)
-// Uses "Aliq" (Liquid Fire)
 [otbr]
 Buttonpos=3,0
 Hotkey=R
 
 // "otrb" (Burrow)
-// Uses "Astd" (Stand Down)
 // Uses "Abtl" (Battle Stations)
 // Uses "Aorb" (Reinforced Defenses)
+// Uses "Astd" (Stand Down)
 [otrb]
 Buttonpos=0,1
 Hotkey=Q
 
 // "otto" (Tauren Totem)
-// Uses "otau" (Tauren)
-// Uses "Rowt" (Spirit Walker Adept Training,Spirit Walker Master Training)
 // Uses "Rows" (Pulverize Damage Increase)
+// Uses "Rowt" (Spirit Walker Adept Training,Spirit Walker Master Training)
 // Uses "ospm" (Spirit Walker)
+// Uses "otau" (Tauren)
 [otto]
 Buttonpos=0,2
 Hotkey=W
@@ -8776,30 +8776,30 @@ Buttonpos=0,2
 Hotkey=W
 
 // "ovlj" (Vol'jin)
-// Uses "Asta" (Stasis Trap)
-// Uses "Ahwd" (Healing Ward)
 // Uses "Aeye" (Sentry Ward)
+// Uses "Ahwd" (Healing Ward)
+// Uses "Asta" (Stasis Trap)
 [ovlj]
 Buttonpos=1,0
 Hotkey=Z
 
 // "ovln" (Voodoo Lounge)
-// Uses "shas" (Scroll of Speed)
-// Uses "pman" (Potion of Mana)
-// Uses "tgrh" (Tiny Great Hall)
-// Uses "stwp" (Scroll of Town Portal)
-// Uses "oli2" (Orb of Lightning)
 // Uses "Aall" ("Shop Sharing, Allied Bldg.")
-// Uses "plcl" (Lesser Clarity Potion)
 // Uses "hslv" (Healing Salve)
+// Uses "oli2" (Orb of Lightning)
 // Uses "phea" (Potion of Healing)
+// Uses "plcl" (Lesser Clarity Potion)
+// Uses "pman" (Potion of Mana)
+// Uses "shas" (Scroll of Speed)
+// Uses "stwp" (Scroll of Town Portal)
+// Uses "tgrh" (Tiny Great Hall)
 [ovln]
 Buttonpos=1,2
 Hotkey=X
 
 // "owad" (Slave Master)
-// Uses "Asal" (Pillage)
 // Uses "Aens" (Ensnare)
+// Uses "Asal" (Pillage)
 [owad]
 Buttonpos=0,0
 Hotkey=A
@@ -8854,10 +8854,10 @@ Buttonpos=0,0
 Hotkey=A
 
 // "phea" (Potion of Healing)
-// Used by "ovln" (Voodoo Lounge)
-// Used by "utom" (Tomb of Relics)
 // Used by "eden" (Ancient of Wonders)
 // Used by "hvlt" (Arcane Vault)
+// Used by "ovln" (Voodoo Lounge)
+// Used by "utom" (Tomb of Relics)
 [phea]
 Buttonpos=0,1
 Hotkey=Q
@@ -8869,18 +8869,18 @@ Buttonpos=0,0
 Hotkey=A
 
 // "plcl" (Lesser Clarity Potion)
-// Used by "ovln" (Voodoo Lounge)
 // Used by "eden" (Ancient of Wonders)
 // Used by "hvlt" (Arcane Vault)
+// Used by "ovln" (Voodoo Lounge)
 [plcl]
 Buttonpos=1,0
 Hotkey=Z
 
 // "pman" (Potion of Mana)
-// Used by "ovln" (Voodoo Lounge)
-// Used by "utom" (Tomb of Relics)
 // Used by "eden" (Ancient of Wonders)
 // Used by "hvlt" (Arcane Vault)
+// Used by "ovln" (Voodoo Lounge)
+// Used by "utom" (Tomb of Relics)
 [pman]
 Buttonpos=1,1
 Hotkey=S
@@ -9151,8 +9151,8 @@ Buttonpos=0,0
 Hotkey=A
 
 // "shea" (Scroll of Healing)
-// Used by "utom" (Tomb of Relics)
 // Used by "ngme" (Goblin Merchant)
+// Used by "utom" (Tomb of Relics)
 [shea]
 Buttonpos=1,2
 Hotkey=X
@@ -9329,11 +9329,11 @@ Buttonpos=0,0
 Hotkey=A
 
 // "stwp" (Scroll of Town Portal)
-// Used by "ovln" (Voodoo Lounge)
-// Used by "ngme" (Goblin Merchant)
-// Used by "utom" (Tomb of Relics)
 // Used by "eden" (Ancient of Wonders)
 // Used by "hvlt" (Arcane Vault)
+// Used by "ngme" (Goblin Merchant)
+// Used by "ovln" (Voodoo Lounge)
+// Used by "utom" (Tomb of Relics)
 [stwp]
 Buttonpos=2,1
 Hotkey=D
@@ -9434,8 +9434,8 @@ Hotkey=Z
 
 // "uabo" (Abomination)
 // Used by "uslh" (Slaughterhouse)
-// Uses "Acn2" (Cannibalize)
 // Uses "Aap1" (Disease Cloud)
+// Uses "Acn2" (Cannibalize)
 [uabo]
 Buttonpos=1,0
 Hotkey=Z
@@ -9444,35 +9444,35 @@ Hotkey=Z
 // Used by "unp1" (Halls of the Dead)
 // Used by "unp2" (Black Citadel)
 // Used by "unpl" (Necropolis)
-// Uses "Alam" (Sacrifice)
-// Uses "Auns" (Unsummon Building)
-// Uses "Arst" (Restore)
 // Uses "Aaha" (Gather)
+// Uses "Alam" (Sacrifice)
+// Uses "Arst" (Restore)
+// Uses "Auns" (Unsummon Building)
 [uaco]
 Buttonpos=0,0
 Hotkey=A
 
 // "uaod" (Altar of Darkness)
-// Uses "Ulic" (Lich)
-// Uses "Udre" (Dreadlord)
-// Uses "Udea" (Death Knight)
 // Uses "Ucrl" (Crypt Lord)
+// Uses "Udea" (Death Knight)
+// Uses "Udre" (Dreadlord)
+// Uses "Ulic" (Lich)
 [uaod]
 Buttonpos=1,1
 Hotkey=S
 
 // "uarb" (Sky Barge)
-// Uses "Aloa" (Load)
 // Uses "Adro" (Unload)
+// Uses "Aloa" (Load)
 [uarb]
 Buttonpos=0,0
 Hotkey=A
 
 // "uban" (Banshee)
 // Used by "utod" (Temple of the Damned)
-// Uses "Aps2" (Possession)
 // Uses "Aam2" (Anti-magic Shell)
 // Uses "Acrs" (Curse)
+// Uses "Aps2" (Possession)
 [uban]
 Buttonpos=1,0
 Hotkey=Z
@@ -9499,25 +9499,25 @@ Hotkey=A
 
 // "ubsp" (Destroyer)
 // Uses "ACmi" (Spell Immunity)
-// Uses "Afak" (Orb of Annihilation)
+// Uses "Aabs" (Absorb Mana)
 // Uses "Aave" (Destroyer Form)
 // Uses "Advm" (Devour Magic)
-// Uses "Aabs" (Absorb Mana)
+// Uses "Afak" (Orb of Annihilation)
 [ubsp]
 Buttonpos=0,0
 Hotkey=A
 
 // "ucrm" (Burrowed Crypt Fiend)
-// Uses "Aweb" (Web)
 // Uses "Abur" (Burrow)
+// Uses "Aweb" (Web)
 [ucrm]
 Buttonpos=1,0
 Hotkey=Z
 
 // "ucry" (Crypt Fiend)
 // Used by "usep" (Crypt)
-// Uses "Aweb" (Web)
 // Uses "Abur" (Burrow)
+// Uses "Aweb" (Web)
 [ucry]
 Buttonpos=1,0
 Hotkey=Z
@@ -9545,8 +9545,8 @@ Hotkey=E
 
 // "ugho" (Ghoul)
 // Used by "usep" (Crypt)
-// Uses "Ahrl" (Harvest)
 // Uses "Acan" (Cannibalize)
+// Uses "Ahrl" (Harvest)
 // Uses "Augf" (Ghoul Frenzy)
 [ugho]
 Buttonpos=0,0
@@ -9565,10 +9565,10 @@ Buttonpos=2,0
 Hotkey=E
 
 // "ugrv" (Graveyard)
-// Uses "Rume" (Unholy Strength,Improved Unholy Strength,Advanced Unholy Strength)
-// Uses "Rura" (Creature Attack,Improved Creature Attack,Advanced Creature Attack)
 // Uses "Ruar" (Unholy Armor,Improved Unholy Armor,Advanced Unholy Armor)
 // Uses "Rucr" (Creature Carapace,Improved Creature Carapace,Advanced Creature Carapace)
+// Uses "Rume" (Unholy Strength,Improved Unholy Strength,Advanced Unholy Strength)
+// Uses "Rura" (Creature Attack,Improved Creature Attack,Advanced Creature Attack)
 [ugrv]
 Buttonpos=3,0
 Hotkey=R
@@ -9576,9 +9576,9 @@ Hotkey=R
 // "umtw" (Meat Wagon)
 // Used by "uslh" (Slaughterhouse)
 // Uses "Aexh" (Exhume Corpses)
-// Uses "Apts" (Disease Cloud)
 // Uses "Amed" (Drop Corpse)
 // Uses "Amel" (Get Corpse)
+// Uses "Apts" (Disease Cloud)
 [umtw]
 Buttonpos=0,0
 Hotkey=A
@@ -9586,41 +9586,41 @@ Hotkey=A
 // "unec" (Necromancer)
 // Used by "utod" (Temple of the Damned)
 // Uses "Acri" (Cripple)
-// Uses "Auuf" (Incite Unholy Frenzy)
 // Uses "Arai" (Raise Dead)
 // Uses "Ausm" (Skeletal Mastery)
+// Uses "Auuf" (Incite Unholy Frenzy)
 [unec]
 Buttonpos=0,0
 Hotkey=A
 
 // "unp1" (Halls of the Dead)
-// Uses "uaco" (Acolyte)
 // Uses "Afr2" (Frost Attack)
 // Uses "Rupm" (Backpack)
+// Uses "uaco" (Acolyte)
 [unp1]
 Buttonpos=0,2
 Hotkey=W
 
 // "unp2" (Black Citadel)
-// Uses "uaco" (Acolyte)
 // Uses "Afr2" (Frost Attack)
 // Uses "Rupm" (Backpack)
+// Uses "uaco" (Acolyte)
 [unp2]
 Buttonpos=0,2
 Hotkey=W
 
 // "unpl" (Necropolis)
-// Uses "uaco" (Acolyte)
 // Uses "Rupm" (Backpack)
+// Uses "uaco" (Acolyte)
 [unpl]
 Buttonpos=0,0
 Hotkey=A
 
 // "uobs" (Obsidian Statue)
 // Used by "uslh" (Slaughterhouse)
+// Uses "Aave" (Destroyer Form)
 // Uses "Arpl" (Essence of Blight)
 // Uses "Arpm" (Spirit Touch)
-// Uses "Aave" (Destroyer Form)
 [uobs]
 Buttonpos=2,0
 Hotkey=E
@@ -9632,33 +9632,33 @@ Buttonpos=0,2
 Hotkey=W
 
 // "usep" (Crypt)
-// Uses "ugar" (Gargoyle)
 // Uses "Ruac" (Cannibalize)
-// Uses "Ruwb" (Web)
-// Uses "ucry" (Crypt Fiend)
-// Uses "Rusf" (Stone Form)
 // Uses "Rubu" (Burrow)
 // Uses "Rugf" (Ghoul Frenzy)
+// Uses "Rusf" (Stone Form)
+// Uses "Ruwb" (Web)
+// Uses "ucry" (Crypt Fiend)
+// Uses "ugar" (Gargoyle)
 // Uses "ugho" (Ghoul)
 [usep]
 Buttonpos=1,0
 Hotkey=Z
 
 // "ushp" (Undead Shipyard)
-// Uses "udes" (Undead Frigate)
-// Uses "ubot" (Undead Transport Ship)
 // Uses "Ane2" (Select Unit)
+// Uses "ubot" (Undead Transport Ship)
+// Uses "udes" (Undead Frigate)
 [ushp]
 Buttonpos=0,0
 Hotkey=A
 
 // "uslh" (Slaughterhouse)
-// Uses "uobs" (Obsidian Statue)
-// Uses "umtw" (Meat Wagon)
 // Uses "Ruex" (Exhume Corpses)
-// Uses "Rusp" (Destroyer Form)
 // Uses "Rupc" (Disease Cloud)
+// Uses "Rusp" (Destroyer Form)
 // Uses "uabo" (Abomination)
+// Uses "umtw" (Meat Wagon)
+// Uses "uobs" (Obsidian Statue)
 [uslh]
 Buttonpos=3,1
 Hotkey=F
@@ -9672,25 +9672,25 @@ Hotkey=Z
 
 // "utod" (Temple of the Damned)
 // Uses "Ruba" (Banshee Adept Training,Banshee Master Training)
+// Uses "Rune" (Necromancer Adept Training,Necromancer Master Training)
 // Uses "Rusm" (Skeletal Mastery)
 // Uses "uban" (Banshee)
-// Uses "Rune" (Necromancer Adept Training,Necromancer Master Training)
 // Uses "unec" (Necromancer)
 [utod]
 Buttonpos=2,1
 Hotkey=D
 
 // "utom" (Tomb of Relics)
-// Uses "ritd" (Ritual Dagger)
-// Uses "pman" (Potion of Mana)
-// Uses "dust" (Dust of Appearance)
-// Uses "shea" (Scroll of Healing)
-// Uses "stwp" (Scroll of Town Portal)
-// Uses "phea" (Potion of Healing)
 // Uses "Aall" ("Shop Sharing, Allied Bldg.")
+// Uses "dust" (Dust of Appearance)
 // Uses "ocor" (Orb of Corruption)
+// Uses "phea" (Potion of Healing)
+// Uses "pman" (Potion of Mana)
+// Uses "ritd" (Ritual Dagger)
 // Uses "rnec" (Rod of Necromancy)
+// Uses "shea" (Scroll of Healing)
 // Uses "skul" (Sacrificial Skull)
+// Uses "stwp" (Scroll of Town Portal)
 [utom]
 Buttonpos=2,2
 Hotkey=C
