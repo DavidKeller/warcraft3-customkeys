@@ -3757,19 +3757,19 @@ Unhotkey=S
 // Used by "ncte" (Corrupted Tree of Eternity)
 // Used by "nctl" (Corrupted Tree of Life)
 [Aro1]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
+Buttonpos=3,0
+Hotkey=R
+Unbuttonpos=3,0
+Unhotkey=R
 
 // "Aro2" (Root)
 // Used by "etrp" (Ancient Protector)
 // Used by "ncap" (Corrupted Ancient Protector)
 [Aro2]
-Buttonpos=3,2
-Hotkey=V
-Unbuttonpos=3,2
-Unhotkey=V
+Buttonpos=3,0
+Hotkey=R
+Unbuttonpos=3,0
+Unhotkey=R
 
 // "Aroa" (Roar)
 // Used by "edoc" (Druid of the Claw)
@@ -5107,8 +5107,8 @@ Hotkey=C
 // Used by "etoe" (Tree of Eternity)
 // Used by "etol" (Tree of Life)
 [Repm]
-Buttonpos=3,0
-Hotkey=R
+Buttonpos=1,0
+Hotkey=Z
 
 // "Rerh" (Reinforced Hides,Improved Reinforced Hides,Advanced Reinforced Hides)
 // Used by "edob" (Hunter's Hall)
@@ -5242,8 +5242,8 @@ Hotkey=A,A,A
 // Used by "hkee" (Keep)
 // Used by "htow" (Town Hall)
 [Rhpm]
-Buttonpos=3,0
-Hotkey=R
+Buttonpos=1,0
+Hotkey=Z
 
 // "Rhpt" (Priest Adept Training,Priest Master Training)
 // Used by "hars" (Arcane Sanctum)
@@ -5384,8 +5384,8 @@ Hotkey=E
 // Used by "ogre" (Great Hall)
 // Used by "ostr" (Stronghold)
 [Ropm]
-Buttonpos=3,0
-Hotkey=R
+Buttonpos=1,0
+Hotkey=Z
 
 // "Rora" (Steel Ranged Weapons,Thorium Ranged Weapons,Arcanite Ranged Weapons)
 // Used by "ofor" (War Mill)
@@ -5512,8 +5512,8 @@ Hotkey=X
 // Used by "unp2" (Black Citadel)
 // Used by "unpl" (Necropolis)
 [Rupm]
-Buttonpos=3,0
-Hotkey=R
+Buttonpos=1,0
+Hotkey=Z
 
 // "Rura" (Creature Attack,Improved Creature Attack,Advanced Creature Attack)
 // Used by "ugrv" (Graveyard)
@@ -5938,8 +5938,8 @@ Hotkey=A
 // Used by "ngme" (Goblin Merchant)
 // Used by "utom" (Tomb of Relics)
 [dust]
-Buttonpos=3,0
-Hotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "eaoe" (Ancient of Lore)
 // Uses "Aeat" (Eat Tree)
@@ -9190,8 +9190,8 @@ Hotkey=A
 // "skul" (Sacrificial Skull)
 // Used by "utom" (Tomb of Relics)
 [skul]
-Buttonpos=2,0
-Hotkey=E
+Buttonpos=3,0
+Hotkey=R
 
 // "sman" (Scroll of Mana)
 [sman]
