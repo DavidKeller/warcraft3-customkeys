@@ -1,0 +1,217 @@
+#!/usr/bin/env python3
+
+import sys
+import argparse
+import locale
+import json
+import logging
+import re
+from enum import Enum
+from collections import defaultdict
+
+from common import parse_ini_files, parse_slk_files
+
+LOGGER = logging.getLogger(__name__)
+
+class Type(Enum):
+    OTHER = 0
+    BUILDING = 1
+    UNIT = 2
+    HERO = 3
+    ITEM = 4
+
+UNIT_COMMANDS = [
+    'CmdMove',
+    'CmdAttack',
+    'CmdHoldPos',
+    'CmdPatrol',
+    'CmdStop'
+]
+
+class Cell:
+    def __init__(self):
+        self.id = None
+        self.name = None
+        self.type = Type.OTHER
+        self.race = None
+        self.position = None
+        self.un_position = None
+        self.research_position = None
+        self.research_count = None
+        self.is_visible = True
+        self.pages = defaultdict(set)
+
+
+class Generator:
+    def __init__(self, args):
+        LOGGER.info('Parsing')
+        self._datadirs = args.datadirs
+        
+        self._cells = defaultdict(Cell)
+        self._hierarchy_file = args.hierarchy_file
+
+    def run(self):
+        LOGGER.info('Discovering..')
+        ini_store = parse_ini_files(self._datadirs)
+        slk_store = parse_slk_files(self._datadirs, 'unit*.slk')
+        for ini_id, ini_attr in ini_store.items():
+            self._discover_skin(slk_store, ini_id, ini_attr)
+
+        LOGGER.info('Dumping hiereachy..')
+        self._dump_hierachy()
+
+    def _discover_skin(self, slk_store, ini_id, ini_attr):
+        ini_name = ini_attr.get('name', '')
+        if ini_name:
+            ini_desc = '"{}" ({})'.format(ini_id, ini_name)
+        else:
+            ini_desc = '"{}"'.format(ini_id)
+        LOGGER.debug('Considering %s', ini_desc)
+
+        slk_attr = slk_store.get(ini_id, dict())
+
+        cell = self._cells[ini_id]
+        cell.id = ini_id
+        cell.desc = ini_desc
+        cell.un_position = ini_attr.get('unbuttonpos')
+        cell.research_position = ini_attr.get('researchbuttonpos')
+        cell.hotkey_count = ini_name.count(',') + 1
+        cell.race = slk_attr.get('race')
+        
+        hotkey = ini_attr.get('hotkey')
+        position = ini_attr.get('buttonpos')
+
+        # Retrieve the owned cells (can be any type of skin)
+        abilities = ini_attr.get('abilskinlist', '')
+
+        hero_abilities = ini_attr.get('heroabilskinlist', '')
+
+        train_units = ini_attr.get('trains', '')
+
+        sell_units = ini_attr.get('sellunits', '')
+            
+        sell_items = ini_attr.get('sellitems', '') or ini_attr.get('makeitems', '')
+
+        researches = ini_attr.get('researches', '')
+
+        builds = ini_attr.get('builds', '')
+
+        ini_type = ini_attr.get('skintype')
+        slk_type = slk_attr.get('targType')
+        if slk_type == 'structure':
+            LOGGER.debug('%s considered as a building', ini_desc)
+            cell.type = Type.BUILDING
+            if sell_units:
+                 cell.pages[0].update(sell_units.split(','))
+
+            if researches:
+                cell.pages[0].update(researches.split(','))
+                cell.pages[1].add('CmdCancel')
+            if sell_items:
+                cell.pages[0].update(sell_items.split(','),
+                                     ['CmdPurchase'])
+            if abilities:
+                cell.pages[0].update(abilities.split(','))
+
+            # Handle training building
+            if train_units:
+                cell.pages[0].update(train_units.split(','))
+                cell.pages[2].add('CmdCancelTrain')
+
+            # Handle summoning building
+            if ini_attr.get('Revive'):
+                cell.pages[0].add('CmdCancelRevive')
+
+            # Handle Night elf Ancients
+            if cell.pages[0].intersection(['Aro1', 'Aro2']):
+                cell.pages[3].update(UNIT_COMMANDS)
+
+        elif ini_type == 'item':
+            LOGGER.debug('%s considered as an item', ini_desc)
+            cell.type = Type.ITEM
+
+        elif hero_abilities:
+            LOGGER.debug('%s considered as a hero', ini_desc)
+            cell.type = Type.HERO
+
+            if abilities:
+                cell.pages[0].update(abilities.split(','))
+
+            cell.pages[0].update(hero_abilities.split(','),
+                                 UNIT_COMMANDS,
+                                 ['CmdSelectSkill'])
+            cell.pages[1].add('CmdCancel')
+
+        elif ini_type == 'unit':
+            LOGGER.debug('%s considered as a unit', ini_desc)
+            cell.type = Type.UNIT
+            if abilities:
+                 cell.pages[0].update(abilities.split(','),
+                                      UNIT_COMMANDS)
+
+            if builds:
+                cell.pages[0].add({
+                    'orc': 'CmdBuildOrc',
+                    'undead': 'CmdBuildUndead',
+                    'human': 'CmdBuildHuman',
+                    'nightelf': 'CmdBuildNightElf',
+                    'naga': 'CmdBuildNaga',
+                    'creeps': 'CmdBuild'
+                }[cell.race])
+                cell.pages[1].update(builds.split(','), ['CmdCancel'])
+                cell.pages[2].add('CmdCancelBuild')
+    
+        weapon_type = slk_attr.get('weapTp1')
+        if weapon_type == 'artillery':
+            cell.pages[0].add('CmdAttackGround') 
+               
+        LOGGER.debug('Hotkey %s and position %s', hotkey, position)
+        if position is None and hotkey is None:
+            cell.is_visible = False
+        elif position is not None:
+            cell.position = position
+        elif ini_type != 'item':
+            LOGGER.warn('Missing position on cell %s', ini_desc)
+
+    class CellJSONEncoder(json.JSONEncoder):
+        def default(self, o):
+            if not isinstance(o, Cell):
+                return json.JSONEncoder.default(self, o)
+
+            return {
+                'id': o.id,
+                'desc': o.desc, 
+                'type': o.type.name,
+                'race': o.race,
+                'position': o.position,
+                'un_position': o.un_position,
+                'research_position': o.research_position,
+                'hotkey_count': o.hotkey_count,
+                'pages': {k:list(v) for k, v in o.pages.items()},
+                'is_visible': o.is_visible
+            }
+
+
+    def _dump_hierachy(self):
+        json.dump(self._cells, self._hierarchy_file, indent=4, cls=self.CellJSONEncoder)
+            
+
+def main():
+    parser = argparse.ArgumentParser(description='Check Warcraft Reforged key positions')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose loggng')
+    parser.add_argument('--hierarchy-file', type=argparse.FileType('w'), required=True, help=r'The hierachy file to generate')
+    parser.add_argument('datadirs', type=str, nargs='+', help=r'The Warcraft Reforged war3.w3mod\units directory')
+
+    args = parser.parse_args()
+
+    if args.verbose:
+        log_level = logging.DEBUG
+    else:
+        log_level = logging.INFO
+    logging.basicConfig(level=log_level)
+
+    Generator(args).run()
+
+if __name__ == '__main__':
+    locale.setlocale(locale.LC_ALL, '')
+    main()
