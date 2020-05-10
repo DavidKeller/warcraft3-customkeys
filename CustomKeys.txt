@@ -25,6 +25,8 @@ Hotkey=A
 
 // "AHbu" (Build (Human))
 [AHbu]
+Buttonpos=0,0
+Hotkey=A
 
 // "CmdBuildOrc"
 [CmdBuildOrc]
@@ -33,6 +35,8 @@ Hotkey=A
 
 // "AObu" (Build (Orc))
 [AObu]
+Buttonpos=0,0
+Hotkey=A
 
 // "CmdBuildNightElf"
 [CmdBuildNightElf]
@@ -41,6 +45,8 @@ Hotkey=A
 
 // "AEbu" (Build (Night Elf))
 [AEbu]
+Buttonpos=0,0
+Hotkey=A
 
 // "CmdBuildUndead"
 [CmdBuildUndead]
@@ -49,26 +55,28 @@ Hotkey=A
 
 // "AUbu" (Build (Undead))
 [AUbu]
+Buttonpos=0,0
+Hotkey=A
 
 // "CmdCancel"
 [CmdCancel]
 Buttonpos=3,2
-Hotkey=V
+Hotkey=512
 
 // "CmdCancelBuild"
 [CmdCancelBuild]
 Buttonpos=3,2
-Hotkey=V
+Hotkey=512
 
 // "CmdCancelTrain"
 [CmdCancelTrain]
 Buttonpos=3,2
-Hotkey=V
+Hotkey=512
 
 // "CmdCancelRevive"
 [CmdCancelRevive]
 Buttonpos=3,2
-Hotkey=V
+Hotkey=512
 
 // "CmdHoldPos"
 [CmdHoldPos]
@@ -735,31 +743,31 @@ Hotkey=Q
 
 // "AHdr" (Siphon Mana)
 [AHdr]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "AHfs" (Flame Strike)
 [AHfs]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AHbn" (Banish)
 [AHbn]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AHpx" (Phoenix)
 [AHpx]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Hamg" (Archmage)
 // uses AHab
@@ -780,29 +788,30 @@ Hotkey=A
 
 // "AHbz" (Blizzard)
 [AHbz]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AHwe" (Summon Water Elemental)
 [AHwe]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AHab" (Brilliance Aura)
 [AHab]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AHmt" (Mass Teleport)
 [AHmt]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "Hmkg" (Mountain King)
 // uses AHav
@@ -823,31 +832,32 @@ Hotkey=Z
 
 // "AHtb" (Storm Bolt)
 [AHtb]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AHtc" (Thunder Clap)
 [AHtc]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AHbh" (Bash)
 [AHbh]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AHav" (Avatar)
 [AHav]
+Researchbuttonpos=3,0
+Researchhotkey=R
 Buttonpos=2,0
 Hotkey=E
 Unbuttonpos=2,0
 Unhotkey=E
-Researchbuttonpos=3,0
-Researchhotkey=R
 
 // "Hpal" (Paladin)
 // uses AHad
@@ -868,31 +878,32 @@ Hotkey=E
 
 // "AHhb" (Holy Light)
 [AHhb]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AHds" (Divine Shield)
 [AHds]
+Researchbuttonpos=1,0
+Researchhotkey=Z
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
-Researchbuttonpos=1,0
-Researchhotkey=Z
 
 // "AHad" (Devotion Aura)
 [AHad]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AHre" (Resurrection)
 [AHre]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "ocat" (Demolisher)
 // uses Abof
@@ -1468,29 +1479,30 @@ Hotkey=A
 
 // "AOwk" (Wind Walk)
 [AOwk]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AOcr" (Critical Strike)
 [AOcr]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AOmi" (Mirror Image)
 [AOmi]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AOww" (Bladestorm)
 [AOww]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "Ofar" (Far Seer)
 // uses AInv
@@ -1511,31 +1523,31 @@ Hotkey=Z
 
 // "AOcl" (Chain Lightning)
 [AOcl]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AOfs" (Far Sight)
 [AOfs]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AOsf" (Feral Spirit)
 [AOsf]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "AOeq" (Earthquake)
 [AOeq]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Oshd" (Shadow Hunter)
 // uses AInv
@@ -1556,31 +1568,31 @@ Hotkey=Q
 
 // "AOhw" (Healing Wave)
 [AOhw]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AOsw" (Serpent Ward)
 [AOsw]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "AOhx" (Hex)
 [AOhx]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AOvd" (Big Bad Voodoo)
 [AOvd]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Otch" (Tauren Chieftain)
 // uses AInv
@@ -1601,27 +1613,29 @@ Hotkey=E
 
 // "AOsh" (Shockwave)
 [AOsh]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AOae" (Endurance Aura)
 [AOae]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AOws" (War Stomp)
 [AOws]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AOre" (Reincarnation)
 [AOre]
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
 
 // "Ashm" (Shadow Meld)
 [Ashm]
@@ -1773,8 +1787,8 @@ Hotkey=R
 
 // "Adtn" (Detonate)
 [Adtn]
-Buttonpos=0,1
-Hotkey=Q
+Buttonpos=2,0
+Hotkey=E
 
 // "esen" (Huntress)
 // uses Aesn
@@ -2311,31 +2325,32 @@ Hotkey=A
 
 // "AEmb" (Mana Burn)
 [AEmb]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AEim" (Immolation)
 [AEim]
+Researchbuttonpos=1,0
+Researchhotkey=Z
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
-Researchbuttonpos=1,0
-Researchhotkey=Z
 
 // "AEev" (Evasion)
 [AEev]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AEme" (Metamorphosis)
 [AEme]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "Ekee" (Keeper of the Grove)
 // uses AEah
@@ -2357,29 +2372,30 @@ Hotkey=Z
 
 // "AEer" (Entangling Roots)
 [AEer]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AEfn" (Force of Nature)
 [AEfn]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AEah" (Thorns Aura)
 [AEah]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AEtq" (Tranquility)
 [AEtq]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "Emoo" (Priestess of the Moon)
 // uses AEar
@@ -2402,31 +2418,32 @@ Hotkey=E
 
 // "AEst" (Scout)
 [AEst]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AHfa" (Searing Arrows)
 [AHfa]
+Researchbuttonpos=1,0
+Researchhotkey=Z
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
-Researchbuttonpos=1,0
-Researchhotkey=Z
 
 // "AEar" (Trueshot Aura)
 [AEar]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AEsf" (Starfall)
 [AEsf]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "Ewar" (Warden)
 // uses AEbl
@@ -2449,31 +2466,31 @@ Hotkey=Q
 
 // "AEbl" (Blink)
 [AEbl]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AEfk" (Fan of Knives)
 [AEfk]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AEsh" (Shadow Strike)
 [AEsh]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "AEsv" (Vengeance)
 [AEsv]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Avng" (Spirit of Vengeance)
 [Avng]
@@ -3067,22 +3084,23 @@ Hotkey=Q
 
 // "AUim" (Impale)
 [AUim]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AUts" (Spiked Carapace)
 [AUts]
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
 
 // "AUcb" (Carrion Beetles)
 [AUcb]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=1,0
+Hotkey=Z
 
 // "Abu2" (Burrow)
 [Abu2]
@@ -3100,10 +3118,10 @@ Unhotkey=Z
 
 // "AUls" (Locust Swarm)
 [AUls]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "Udea" (Death Knight)
 // uses AInv
@@ -3124,29 +3142,30 @@ Hotkey=A
 
 // "AUdc" (Death Coil)
 [AUdc]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AUau" (Unholy Aura)
 [AUau]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AUdp" (Death Pact)
 [AUdp]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AUan" (Animate Dead)
 [AUan]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "Udre" (Dreadlord)
 // uses AInv
@@ -3167,29 +3186,30 @@ Hotkey=Z
 
 // "AUcs" (Carrion Swarm)
 [AUcs]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AUsl" (Sleep)
 [AUsl]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AUav" (Vampiric Aura)
 [AUav]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AUin" (Inferno)
 [AUin]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=2,0
+Hotkey=E
 
 // "Ulic" (Lich)
 // uses AInv
@@ -3210,31 +3230,31 @@ Hotkey=E
 
 // "AUfn" (Frost Nova)
 [AUfn]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AUfu" (Frost Armor)
 [AUfu]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AUdr" (Dark Ritual)
 [AUdr]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "AUdd" (Death And Decay)
 [AUdd]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Nbrn" (Dark Ranger)
 // uses AInv
@@ -3255,33 +3275,33 @@ Hotkey=Z
 
 // "ANsi" (Silence)
 [ANsi]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANba" (Black Arrow)
 [ANba]
+Researchbuttonpos=1,0
+Researchhotkey=Z
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
-Researchbuttonpos=1,0
-Researchhotkey=Z
 
 // "ANdr" (Life Drain)
 [ANdr]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "ANch" (Charm)
 [ANch]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "hslv" (Healing Salve)
 [hslv]
@@ -4141,107 +4161,110 @@ Hotkey=A
 [Aamk]
 Researchbuttonpos=3,1
 Researchhotkey=F
+Buttonpos=3,1
 
 // "Arsg" (Summon Misha)
 [Arsg]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "Arsq" (Summon Quilbeast)
 [Arsq]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANsb" (Storm Bolt)
 [ANsb]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "Arsp" (Stampede)
 [Arsp]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "ANcf" (Breath of Fire)
 [ANcf]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "Acdb" (Drunken Brawler)
 [Acdb]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "Acdh" (Drunken Haze)
 [Acdh]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "Acef" ("Storm, Earth, And Fire")
 [Acef]
-Buttonpos=2,0
-Hotkey=E,E,E
 Researchbuttonpos=3,0
 Researchhotkey=R,R,R
+Buttonpos=2,0
+Hotkey=E,E,E
 
 // "ANhw" (Healing Wave)
 [ANhw]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "Arsw" (Serpent Ward)
 [Arsw]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "ANhx" (Hex)
 [ANhx]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "AOls" (Voodoo Spirits)
 [AOls]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "AOs2" (Shockwave)
 [AOs2]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "AOr2" (Endurance Aura)
 [AOr2]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "AOw2" (War Stomp)
 [AOw2]
-Buttonpos=0,1
-Hotkey=Q
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=0,1
+Hotkey=Q
 
 // "Nbst" (Beastmaster)
 // uses AInv
@@ -4262,31 +4285,31 @@ Hotkey=A
 
 // "ANsg" (Summon Bear)
 [ANsg]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANsq" (Summon Quilbeast)
 [ANsq]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANsw" (Summon Hawk)
 [ANsw]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "ANst" (Stampede)
 [ANst]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "ANbl" (Blink)
 [ANbl]
@@ -4319,29 +4342,30 @@ Hotkey=E
 
 // "ANbf" (Breath of Fire)
 [ANbf]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANdh" (Drunken Haze)
 [ANdh]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANdb" (Drunken Brawler)
 [ANdb]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "ANef" ("Storm, Earth, And Fire")
 [ANef]
-Buttonpos=3,0
-Hotkey=R,R,R
 Researchbuttonpos=3,0
 Researchhotkey=R,R,R
+Buttonpos=3,0
+Hotkey=R,R,R
 
 // "ACcy" (Cyclone)
 [ACcy]
@@ -4382,29 +4406,30 @@ Hotkey=R
 
 // "ANrf" (Rain of Fire)
 [ANrf]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANht" (Howl of Terror)
 [ANht]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANca" (Cleaving Attack)
 [ANca]
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
 
 // "ANdo" (Doom)
 [ANdo]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Nngs" (Sea Witch)
 // uses AInv
@@ -4425,35 +4450,35 @@ Hotkey=Q
 
 // "ANfl" (Forked Lightning)
 [ANfl]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANfa" (Frost Arrows)
 [ANfa]
+Researchbuttonpos=1,0
+Researchhotkey=Z
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
-Researchbuttonpos=1,0
-Researchhotkey=Z
 
 // "ANms" (Mana Shield)
 [ANms]
+Researchbuttonpos=2,0
+Researchhotkey=E
 Buttonpos=2,0
 Hotkey=E
 Unbuttonpos=2,0
 Unhotkey=E
-Researchbuttonpos=2,0
-Researchhotkey=E
 
 // "ANto" (Tornado)
 [ANto]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Nalc" (Alchemist)
 // uses AInv
@@ -4525,43 +4550,44 @@ Hotkey=V
 
 // "ANhs" (Healing Spray)
 [ANhs]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANcr" (Chemical Rage)
 [ANcr]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANab" (Acid Bomb)
 [ANab]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "ANtm" (Transmute)
 [ANtm]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "AOr3" (Reincarnation)
 [AOr3]
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
 
 // "ANbr" (Battle Roar)
 [ANbr]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Nfir" (Firelord)
 // uses AInv
@@ -4582,40 +4608,40 @@ Hotkey=D
 
 // "ANso" (Soul Burn)
 [ANso]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANlm" (Summon Lava Spawn)
 [ANlm]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANic" (Incinerate)
 [ANic]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "ANia" (Incinerate)
 [ANia]
+Researchbuttonpos=2,0
+Researchhotkey=E
 Buttonpos=2,0
 Hotkey=E
 Unbuttonpos=2,0
 Unhotkey=E
-Researchbuttonpos=2,0
-Researchhotkey=E
 
 // "ANvc" (Volcano)
 [ANvc]
-Buttonpos=3,0
-Hotkey=R
 Researchbuttonpos=3,0
 Researchhotkey=R
+Buttonpos=3,0
+Hotkey=R
 
 // "Ntin" (Tinker)
 // uses AInv
@@ -4654,102 +4680,102 @@ Hotkey=F
 
 // "ANsy" (Pocket Factory)
 [ANsy]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANs1" (Pocket Factory)
 [ANs1]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANs2" (Pocket Factory)
 [ANs2]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANs3" (Pocket Factory)
 [ANs3]
-Buttonpos=0,0
-Hotkey=A
 Researchbuttonpos=0,0
 Researchhotkey=A
+Buttonpos=0,0
+Hotkey=A
 
 // "ANcs" (Cluster Rockets)
 [ANcs]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANc1" (Cluster Rockets)
 [ANc1]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANc2" (Cluster Rockets)
 [ANc2]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANc3" (Cluster Rockets)
 [ANc3]
-Buttonpos=1,0
-Hotkey=Z
 Researchbuttonpos=1,0
 Researchhotkey=Z
+Buttonpos=1,0
+Hotkey=Z
 
 // "ANeg" (Engineering Upgrade)
 [ANeg]
-Buttonpos=2,0
-Hotkey=E
 Researchbuttonpos=2,0
 Researchhotkey=E
+Buttonpos=2,0
+Hotkey=E
 
 // "ANrg" (Robo-Goblin)
 [ANrg]
+Researchbuttonpos=3,0
+Researchhotkey=R
 Buttonpos=3,0
 Hotkey=R
 Unbuttonpos=0,0
 Unhotkey=A
-Researchbuttonpos=3,0
-Researchhotkey=R
 
 // "ANg1" (Robo-Goblin)
 [ANg1]
+Researchbuttonpos=3,0
+Researchhotkey=R
 Buttonpos=3,0
 Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
-Researchbuttonpos=3,0
-Researchhotkey=R
 
 // "ANg2" (Robo-Goblin)
 [ANg2]
+Researchbuttonpos=3,0
+Researchhotkey=R
 Buttonpos=3,0
 Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
-Researchbuttonpos=3,0
-Researchhotkey=R
 
 // "ANg3" (Robo-Goblin)
 [ANg3]
+Researchbuttonpos=3,0
+Researchhotkey=R
 Buttonpos=3,0
 Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
-Researchbuttonpos=3,0
-Researchhotkey=R
 
 // "ANde" (Demolish)
 [ANde]
