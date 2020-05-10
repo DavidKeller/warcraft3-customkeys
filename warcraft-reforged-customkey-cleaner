@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+
+import sys
+import argparse
+import locale
+import json
+import logging
+from collections import defaultdict
+
+from common import parse_ini_file
+
+LOGGER = logging.getLogger(__name__)
+
+KEYS = (
+    ( 'A', 'Z', 'E', 'R' ),
+    ( 'Q', 'S', 'D', 'F' ),
+    ( 'W', 'X', 'C', 'V' ),
+)
+
+def _find_position(hotkey):
+    hotkey = hotkey.split(',')[0]
+    for y, line in enumerate(KEYS):
+        for x, cell in enumerate(line):
+            if cell == hotkey:
+                return '{},{}'.format(x, y)
+
+    if hotkey == '512':
+        return '3,2'
+    
+    raise Exception('Unknown hotkey "{}"'.format(hotkey))
+
+def _add_entry(prefix, position, count):
+    LOGGER.debug('Writing prefix "%s" position %s count %s', prefix, position, count)
+    lines = list()
+
+    x, y = [int(p) for p in position.split(',')]
+
+    entry = (prefix + 'buttonpos').title()
+    lines.append('{}={},{}\n'.format(entry, x, y))
+
+    entry = (prefix + 'hotkey').title()
+    lines.append('{}={}\n'.format(entry, ','.join(KEYS[y][x] * count)))
+
+    return lines
+
+class Cleaner:
+    def __init__(self, args):
+        LOGGER.info('Parsing..')
+        self._hierachy = json.load(args.hierarchy_file)
+
+        self._customkey_file_in = parse_ini_file(args.customkey_file_in)
+        self._customkey_file_out = args.customkey_file_out
+
+    def run(self):
+        LOGGER.info('Cleaning..')
+        for cell_id, cell_attr in self._customkey_file_in.items():
+            if cell_id != 'DEFAULT':
+                self._clean(cell_id, cell_attr)
+
+    def _clean(self, cell_id, cell_ckey_attr):
+        LOGGER.warn('Considering Cell %s', cell_id)
+
+        lines = list()
+
+        cell_default_attr = self._hierachy.get(cell_id)
+        if cell_default_attr is None:
+            hotkey_count = 1
+        else:
+            lines.append('// {}\n'.format(cell_default_attr['desc']))
+
+            owned_cell_ids = set()
+            for page_cells in cell_default_attr['pages'].values():
+                owned_cell_ids.update(page_cells)
+
+            for owned_cell_id in sorted(owned_cell_ids):
+                lines.append('// uses {}\n'.format(owned_cell_id))
+            
+            hotkey_count = int(cell_default_attr['hotkey_count'])
+
+        lines.append('[{}]\n'.format(cell_id))
+
+        hotkey = cell_ckey_attr.get('hotkey')
+        position = cell_ckey_attr.get('buttonpos')
+        if hotkey:
+            if not position:
+                position = _find_position(hotkey)
+                LOGGER.debug('Setting cell %s position to %s', cell_id, position)
+            lines.extend(_add_entry('', position, hotkey_count))
+
+        un_hotkey = cell_ckey_attr.get('unhotkey')
+        un_position = cell_ckey_attr.get('unbuttonpos')
+        if un_hotkey:
+            if not un_position:
+                un_position = _find_position(un_hotkey)
+                LOGGER.debug('Setting cell %s un_position to %s', cell_id, un_position)
+            lines.extend(_add_entry('un', un_position, hotkey_count))
+
+        research_hotkey = cell_ckey_attr.get('researchhotkey')
+        research_position = cell_ckey_attr.get('researchbuttonpos')
+        if research_hotkey: 
+            if not research_position: 
+                research_position = _find_position(research_hotkey)
+                LOGGER.debug('Setting cell %s research_position to %s', cell_id, research_position)
+            lines.extend(_add_entry('research', research_position, hotkey_count))
+
+        if lines:
+            lines.append('\n')
+            self._customkey_file_out.writelines(lines)
+
+def main():
+    parser = argparse.ArgumentParser(description='Check Warcraft Reforged key positions')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose loggng')
+    parser.add_argument('--hierarchy-file', type=argparse.FileType('r'), required=True, help=r'The hierachy file')
+    parser.add_argument('--customkey-file-in', type=argparse.FileType('r'), required=True, help=r'The CustomKeys.txt file to clean')
+    parser.add_argument('--customkey-file-out', type=argparse.FileType('w'), required=True, help=r'The cleaned CustomKeys.txt file')
+
+    args = parser.parse_args()
+
+    if args.verbose:
+        log_level = logging.DEBUG
+    else:
+        log_level = logging.INFO
+    logging.basicConfig(level=log_level)
+
+    Cleaner(args).run()
+
+if __name__ == '__main__':
+    locale.setlocale(locale.LC_ALL, '')
+    main()

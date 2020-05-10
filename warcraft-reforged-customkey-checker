@@ -11,7 +11,7 @@ from common import parse_ini_file
 
 LOGGER = logging.getLogger(__name__)
 
-class Generator:
+class Checker:
     def __init__(self, args):
         LOGGER.info('Parsing')
         self._hierachy = json.load(args.hierarchy_file)
@@ -35,10 +35,10 @@ class Generator:
             owneds_cells = defaultdict(list)
             for owned_cell_id in page_cells:
                 owned_cell = self._hierachy.get(owned_cell_id)
-                if owned_cell is None or not owned_cell['is_visible']:
+                if owned_cell is None or owned_cell['is_visible'] is False:
                     continue
 
-                position = self._customkey_file.get(owned_cell_id, 'position',
+                position = self._customkey_file.get(owned_cell_id, 'buttonpos',
                                                     fallback=owned_cell['position'])
                                                     
                 LOGGER.debug('Looking owned cell %s at position "%s"',
@@ -70,7 +70,7 @@ def main():
         log_level = logging.INFO
     logging.basicConfig(level=log_level)
 
-    Generator(args).run()
+    Checker(args).run()
 
 if __name__ == '__main__':
     locale.setlocale(locale.LC_ALL, '')

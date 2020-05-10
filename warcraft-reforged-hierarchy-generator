@@ -124,6 +124,8 @@ class Generator:
 
             # Handle Night elf Ancients
             if cell.pages[0].intersection(['Aro1', 'Aro2']):
+                cell.pages[0].remove('Aeat')
+                cell.pages[3].add('Aeat')
                 cell.pages[3].update(UNIT_COMMANDS)
 
         elif ini_type == 'item':
