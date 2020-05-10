@@ -1,3145 +1,4798 @@
+// "CmdMove"
 [CmdMove]
 Buttonpos=1,1
 Hotkey=S
 
-
+// "CmdAttack"
 [CmdAttack]
 Buttonpos=0,1
 Hotkey=Q
 
-
+// "CmdAttackGround"
 [CmdAttackGround]
 Buttonpos=1,2
 Hotkey=X
 
-
+// "CmdBuild"
 [CmdBuild]
-Hotkey=A
 Buttonpos=0,0
-Researchbuttonpos=0,0
+Hotkey=A
 
-
+// "CmdBuildHuman"
 [CmdBuildHuman]
+Buttonpos=0,0
 Hotkey=A
+
+// "AHbu" (Build (Human))
 [AHbu]
-Buttonpos=0,0
 
-
+// "CmdBuildOrc"
 [CmdBuildOrc]
+Buttonpos=0,0
 Hotkey=A
+
+// "AObu" (Build (Orc))
 [AObu]
-Buttonpos=0,0
 
-
+// "CmdBuildNightElf"
 [CmdBuildNightElf]
+Buttonpos=0,0
 Hotkey=A
+
+// "AEbu" (Build (Night Elf))
 [AEbu]
-Buttonpos=0,0
 
-
+// "CmdBuildUndead"
 [CmdBuildUndead]
-Hotkey=A
-[AUbu]
 Buttonpos=0,0
+Hotkey=A
 
+// "AUbu" (Build (Undead))
+[AUbu]
 
+// "CmdCancel"
 [CmdCancel]
-Hotkey=512
+Buttonpos=3,2
+Hotkey=V
 
-
+// "CmdCancelBuild"
 [CmdCancelBuild]
-Hotkey=512
+Buttonpos=3,2
+Hotkey=V
 
-
+// "CmdCancelTrain"
 [CmdCancelTrain]
-Hotkey=512
+Buttonpos=3,2
+Hotkey=V
 
-
+// "CmdCancelRevive"
 [CmdCancelRevive]
-Hotkey=512
+Buttonpos=3,2
+Hotkey=V
 
-
+// "CmdHoldPos"
 [CmdHoldPos]
 Buttonpos=2,1
 Hotkey=D
 
-
+// "CmdPatrol"
 [CmdPatrol]
 Buttonpos=3,1
 Hotkey=F
 
-
+// "CmdRally"
 [CmdRally]
 Buttonpos=3,1
 Hotkey=F
 
-
+// "CmdSelectSkill"
 [CmdSelectSkill]
 Buttonpos=0,2
 Hotkey=W
 
-
+// "CmdStop"
 [CmdStop]
 Buttonpos=2,2
 Hotkey=C
 
-
+// "Ahar" (Harvest)
 [Ahar]
 Buttonpos=3,0
 Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "Ahrl" (Harvest)
 [Ahrl]
 Buttonpos=3,0
 Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "Arep" (Repair)
 [Arep]
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "Ahrp" (Repair)
 [Ahrp]
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
-UnHotkey=Z
+Unhotkey=Z
 
-
+// "Anei" (Select User)
 [Anei]
+Buttonpos=3,2
 Hotkey=V
 
-
+// "Aloa" (Load)
 [Aloa]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Adro" (Unload)
 [Adro]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Slo3" (Load)
 [Slo3]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Sdro" (Unload)
 [Sdro]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "AInv" (Inventory)
 [AInv]
-Name=Inventaire
-EditorSuffix= (H�ros)
+
+// "hdhw" (Dragonhawk Rider)
+// uses Aclf
+// uses Ahan
+// uses Amls
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hdhw]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Amls" (Aerial Shackles)
 [Amls]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Aclf" (Cloud)
 [Aclf]
 Buttonpos=1,0
 Hotkey=Z
 
-
-[hfoo]	
+// "hfoo" (Footman)
+// uses Adef
+// uses Aihn
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+[hfoo]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Adef" (Defend)
 [Adef]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
+Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "hgyr" (Flying Machine)
+// uses Aflk
+// uses Agyb
+// uses Agyv
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hgyr]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "hkni" (Knight)
+// uses Ahan
+// uses Ahsb
+// uses Aihn
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hkni]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "hmpr" (Priest)
+// uses Adis
+// uses Ahea
+// uses Aihn
+// uses Ainf
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hmpr]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Ainf" (Inner Fire)
 [Ainf]
 Buttonpos=2,0
-Unbuttonpos=2,0
 Hotkey=E
+Unbuttonpos=2,0
 Unhotkey=E
 
-
+// "Ahea" (Heal)
 [Ahea]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Adis" (Dispel Magic)
 [Adis]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "hmtm" (Mortar Team)
+// uses Afla
+// uses Afsh
+// uses CmdAttack
+// uses CmdAttackGround
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hmtm]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Afla" (Flare)
 [Afla]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "hpea" (Peasant)
+// uses Ahar
+// uses Ahlh
+// uses Ahrp
+// uses Amil
+// uses CmdAttack
+// uses CmdBuildHuman
+// uses CmdCancel
+// uses CmdCancelBuild
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses halt
+// uses harm
+// uses hars
+// uses hbar
+// uses hbla
+// uses hgra
+// uses hhou
+// uses hlum
+// uses htow
+// uses hvlt
+// uses hwtw
 [hpea]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Amil" (Call to Arms)
 [Amil]
 Buttonpos=2,0
-Unbuttonpos=2,0
 Hotkey=E
+Unbuttonpos=2,0
 Unhotkey=E
 
-
+// "Amic" (Call To Arms)
 [Amic]
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=2,0
-Hotkey=Z
 Unhotkey=E
-Unhotkey=C
 
-
+// "hrif" (Rifleman)
+// uses Ahri
+// uses Aihn
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hrif]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "hsor" (Sorceress)
+// uses Aihn
+// uses Aivs
+// uses Aply
+// uses Aslo
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hsor]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aslo" (Slow)
 [Aslo]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
+Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Aply" (Polymorph)
 [Aply]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "Aivs" (Invisibility)
 [Aivs]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "hspt" (Spellbreaker)
+// uses Acmg
+// uses Afbk
+// uses Aihn
+// uses Amim
+// uses Asps
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hspt]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "Asps" (Spell Steal)
 [Asps]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
+Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Acmg" (Control Magic)
 [Acmg]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "hmtt" (Siege Engine)
+// uses Aroc
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Srtt
 [hmtt]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "hrtt" (Siege Engine)
+// uses Aroc
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hrtt]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "hgry" (Gryphon Rider)
+// uses Ahan
+// uses Asth
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [hgry]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Rhss" (Control Magic)
 [Rhss]
 Buttonpos=2,1
 Hotkey=D
 
-
+// "Rhme" (Iron Forged Swords,Steel Forged Swords,Mithril Forged Swords)
 [Rhme]
+Buttonpos=0,0
 Hotkey=A,A,A
 
-
+// "Rhra" (Black Gunpowder,Refined Gunpowder,Imbued Gunpowder)
 [Rhra]
+Buttonpos=1,0
 Hotkey=Z,Z,Z
 
-
+// "Rhar" (Iron Plating,Steel Plating,Mithril Plating)
 [Rhar]
+Buttonpos=0,1
 Hotkey=Q,Q,Q
 
-
+// "Rhla" (Studded Leather Armor,Reinforced Leather Armor,Dragonhide Armor)
 [Rhla]
+Buttonpos=1,1
 Hotkey=S,S,S
 
-
+// "Rhac" (Improved Masonry,Advanced Masonry,Imbued Masonry)
 [Rhac]
+Buttonpos=1,0
 Hotkey=Z,Z,Z
 
-
+// "Rhgb" (Flying Machine Bombs)
 [Rhgb]
-Hotkey=W
 Buttonpos=0,2
+Hotkey=W
 
-
+// "Rhlh" (Improved Lumber Harvesting,Advanced Lumber Harvesting)
 [Rhlh]
+Buttonpos=0,0
 Hotkey=A,A
 
-
+// "Rhde" (Defend)
 [Rhde]
+Buttonpos=0,1
 Hotkey=Q
-Buttonpos=0,1
 
-
+// "Rhan" (Animal War Training)
 [Rhan]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "Rhpt" (Priest Adept Training,Priest Master Training)
 [Rhpt]
+Buttonpos=1,1
 Hotkey=S,S
-Buttonpos=1,1
 
-
+// "Rhst" (Sorceress Adept Training,Sorceress Master Training)
 [Rhst]
-Hotkey=Q,Q
 Buttonpos=0,1
+Hotkey=Q,Q
 
-
+// "Rhri" (Long Rifles)
 [Rhri]
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S
 
-
+// "Rhsb" (Sundering Blades)
 [Rhsb]
-Hotkey=C
 Buttonpos=2,2
+Hotkey=C
 
-
+// "Rhse" (Magic Sentry)
 [Rhse]
 Buttonpos=3,0
 Hotkey=R
 
-
+// "Rhfl" (Flare)
 [Rhfl]
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S
 
-
+// "Rhhb" (Storm Hammers)
 [Rhhb]
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S
 
-
+// "Rhrt" (Barrage)
 [Rhrt]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "Rhpm" (Backpack)
 [Rhpm]
-Hotkey=S
 Buttonpos=1,1
-
-
-[Rhfc]
-Hotkey=Q
-Buttonpos=0,1
-
-
-[Rhfs]
-Hotkey=X
-Buttonpos=1,2
-
-
-[Rhcd]
-Hotkey=Q
-Buttonpos=0,1
-
-
-[halt]
 Hotkey=S
 
+// "Rhfc" (Flak Cannons)
+[Rhfc]
+Buttonpos=0,1
+Hotkey=Q
 
-[harm]	
+// "Rhfs" (Fragmentation Shards)
+[Rhfs]
+Buttonpos=1,2
+Hotkey=X
+
+// "Rhcd" (Cloud)
+[Rhcd]
+Buttonpos=0,1
+Hotkey=Q
+
+// "halt" (Altar of Kings)
+// uses Abds
+// uses CmdCancelRevive
+// uses CmdCancelTrain
+// uses Hamg
+// uses Hblm
+// uses Hmkg
+// uses Hpal
+[halt]
+Buttonpos=1,1
+Hotkey=S
+
+// "harm" (Workshop)
+// uses Abds
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rhfc
+// uses Rhfl
+// uses Rhfs
+// uses Rhgb
+// uses Rhrt
+// uses hgyr
+// uses hmtm
+// uses hmtt
+// uses hrtt
+[harm]
+Buttonpos=3,1
 Hotkey=F
 
-
+// "hars" (Arcane Sanctum)
+// uses Abds
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rhpt
+// uses Rhse
+// uses Rhss
+// uses Rhst
+// uses hmpr
+// uses hsor
+// uses hspt
 [hars]
+Buttonpos=2,1
 Hotkey=D
 
-
+// "hbar" (Barracks)
+// uses Abds
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rhan
+// uses Rhde
+// uses Rhri
+// uses Rhsb
+// uses hfoo
+// uses hkni
+// uses hrif
 [hbar]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "hbla" (Blacksmith)
+// uses Abds
+// uses CmdCancel
+// uses Rhar
+// uses Rhla
+// uses Rhme
+// uses Rhra
 [hbla]
+Buttonpos=3,0
 Hotkey=R
 
-
+// "hhou" (Farm)
+// uses Abds
 [hhou]
+Buttonpos=0,1
 Hotkey=Q
 
-
+// "hgra" (Gryphon Aviary)
+// uses Abds
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rhcd
+// uses Rhhb
+// uses hdhw
+// uses hgry
 [hgra]
+Buttonpos=1,2
 Hotkey=X
 
-
+// "hctw" (Cannon Tower)
+// uses Abds
+// uses Adts
+// uses Afsh
+// uses CmdAttackGround
 [hctw]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "hgtw" (Guard Tower)
+// uses Abds
+// uses Adts
 [hgtw]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "hwtw" (Scout Tower)
+// uses Abds
+// uses Adts
 [hwtw]
+Buttonpos=0,2
 Hotkey=W
 
-
+// "hatw" (Arcane Tower)
+// uses AHta
+// uses Abds
+// uses Adts
+// uses Afbt
 [hatw]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "AHta" (Reveal)
 [AHta]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "hvlt" (Arcane Vault)
+// uses Aall
+// uses Abds
+// uses Apit
+// uses CmdPurchase
+// uses mcri
+// uses ofr2
+// uses phea
+// uses plcl
+// uses pman
+// uses sreg
+// uses ssan
+// uses stwp
+// uses tsct
 [hvlt]
+Buttonpos=2,2
 Hotkey=C
 
-
+// "hlum" (Lumber Mill)
+// uses Abds
+// uses Arlm
+// uses CmdCancel
+// uses Rhac
+// uses Rhlh
 [hlum]
+Buttonpos=2,0
 Hotkey=E
 
-
-[hkee]	
-Hotkey=Q
+// "hkee" (Keep)
+// uses Abdl
+// uses Amic
+// uses Argl
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rhpm
+// uses hpea
+[hkee]
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "hcas" (Castle)
+// uses Abdl
+// uses Amic
+// uses Argl
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rhpm
+// uses hpea
 [hcas]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "htow" (Town Hall)
+// uses Abdl
+// uses Argl
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rhpm
+// uses hpea
 [htow]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Hblm" (Blood Mage)
+// uses AHbn
+// uses AHdr
+// uses AHfs
+// uses AHpx
+// uses AInv
+// uses Asph
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Hblm]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "AHdr" (Siphon Mana)
 [AHdr]
 Buttonpos=2,0
 Hotkey=E
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AHfs" (Flame Strike)
 [AHfs]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AHbn" (Banish)
 [AHbn]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AHpx" (Phoenix)
 [AHpx]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Hamg" (Archmage)
+// uses AHab
+// uses AHbz
+// uses AHmt
+// uses AHwe
+// uses AInv
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Hamg]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "AHbz" (Blizzard)
 [AHbz]
 Buttonpos=0,0
 Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AHwe" (Summon Water Elemental)
 [AHwe]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AHab" (Brilliance Aura)
 [AHab]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AHmt" (Mass Teleport)
 [AHmt]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Hmkg" (Mountain King)
+// uses AHav
+// uses AHbh
+// uses AHtb
+// uses AHtc
+// uses AInv
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Hmkg]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "AHtb" (Storm Bolt)
 [AHtb]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AHtc" (Thunder Clap)
 [AHtc]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AHbh" (Bash)
 [AHbh]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AHav" (Avatar)
 [AHav]
-Hotkey=E
-Unhotkey=E
-Unbuttonpos=2,0
 Buttonpos=2,0
+Hotkey=E
+Unbuttonpos=2,0
+Unhotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Hpal" (Paladin)
+// uses AHad
+// uses AHds
+// uses AHhb
+// uses AHre
+// uses AInv
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Hpal]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "AHhb" (Holy Light)
 [AHhb]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AHds" (Divine Shield)
 [AHds]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AHad" (Devotion Aura)
 [AHad]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AHre" (Resurrection)
 [AHre]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "ocat" (Demolisher)
+// uses Abof
+// uses CmdAttack
+// uses CmdAttackGround
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ocat]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "odoc" (Witch Doctor)
+// uses Aeye
+// uses Ahwd
+// uses Aion
+// uses Aotr
+// uses Asta
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [odoc]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Aeye" (Sentry Ward)
 [Aeye]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Asta" (Stasis Trap)
 [Asta]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Ahwd" (Healing Ward)
 [Ahwd]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "ogru" (Grunt)
+// uses Aion
+// uses Aobs
+// uses Asal
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ogru]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "ohun" (Headhunter)
+// uses Absk
+// uses Aion
+// uses Aobk
+// uses Aotr
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Sbsk
 [ohun]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "otbk" (Berserker)
+// uses Absk
+// uses Aion
+// uses Aobk
+// uses Aotr
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [otbk]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Absk" (Berserk)
 [Absk]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "okod" (Kodo Beast)
+// uses Aakb
+// uses Adev
+// uses Advc
+// uses Apak
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [okod]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "Adev" (Devour)
 [Adev]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "opeo" (Peon)
+// uses Ahar
+// uses Arep
+// uses Asal
+// uses CmdAttack
+// uses CmdBuildOrc
+// uses CmdCancel
+// uses CmdCancelBuild
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses oalt
+// uses obar
+// uses obea
+// uses ofor
+// uses ogre
+// uses orbr
+// uses osld
+// uses otrb
+// uses otto
+// uses ovln
+// uses owtw
 [opeo]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "orai" (Raider)
+// uses Aens
+// uses Aion
+// uses Asal
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [orai]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aens" (Ensnare)
 [Aens]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "oshm" (Shaman)
+// uses Ablo
+// uses Aion
+// uses Alsh
+// uses Apg2
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [oshm]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aprg" (Purge)
 [Aprg]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Apg2" (Purge)
 [Apg2]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Alsh" (Lightning Shield)
 [Alsh]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Ablo" (Bloodlust)
 [Ablo]
 Buttonpos=2,0
-Unbuttonpos=2,0
 Hotkey=E
+Unbuttonpos=2,0
 Unhotkey=E
 
-
+// "otau" (Tauren)
+// uses Aion
+// uses Awar
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [otau]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "otbr" (Batrider)
+// uses Aliq
+// uses Aotr
+// uses Auco
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [otbr]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 
-
+// "Auco" (Unstable Concoction)
 [Auco]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "owyv" (Wind Rider)
+// uses Aven
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [owyv]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ospm" (Spirit Walker)
+// uses ACsk
+// uses Aast
+// uses Acpf
+// uses Adcn
+// uses Aion
+// uses Aspl
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ospm]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "Aast" (Ancestral Spirit)
 [Aast]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "Adcn" (Disenchant)
 [Adcn]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Acpf" (Corporeal Form)
 [Acpf]
 Buttonpos=3,0
-Unbuttonpos=3,0
 Hotkey=R
+Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "Aetf" (Ethereal Form)
 [Aetf]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "Aspl" (Spirit Link)
 [Aspl]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Rome" (Steel Melee Weapons,Thorium Melee Weapons,Arcanite Melee Weapons)
 [Rome]
+Buttonpos=0,0
 Hotkey=A,A,A
 
-
+// "Rora" (Steel Ranged Weapons,Thorium Ranged Weapons,Arcanite Ranged Weapons)
 [Rora]
+Buttonpos=1,0
 Hotkey=Z,Z,Z
 
-
+// "Roar" (Steel Armor,Thorium Armor,Arcanite Armor)
 [Roar]
+Buttonpos=0,1
 Hotkey=Q,Q,Q
 
-
+// "Rwdm" (War Drums Damage Increase)
 [Rwdm]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "Ropg" (Pillage)
 [Ropg]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "Robs" (Brute Strength)
 [Robs]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "Rows" (Pulverize Damage Increase)
 [Rows]
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S
 
-
+// "Roen" (Ensnare)
 [Roen]
+Buttonpos=0,1
 Hotkey=Q
-Buttonpos=0,1
 
-
+// "Rovs" (Envenomed Spears)
 [Rovs]
+Buttonpos=1,1
 Hotkey=S
-Buttonpos=1,1
 
-
+// "Rowd" (Witch Doctor Adept Training,Witch Doctor Master Training)
 [Rowd]
-Hotkey=S,S
 Buttonpos=1,1
+Hotkey=S,S
 
-
+// "Rost" (Shaman Adept Training,Shaman Master Training)
 [Rost]
-Hotkey=Q,Q
 Buttonpos=0,1
+Hotkey=Q,Q
 
-
+// "Rosp" (Spiked Barricades,Improved Spiked Barricades,Advanced Spiked Barricades)
 [Rosp]
+Buttonpos=2,0
 Hotkey=E,E,E
 
-
+// "Rotr" (Troll Regeneration,Improved Troll Regeneration,Advanced Troll Regeneration)
 [Rotr]
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S,S,S
 
-
+// "Rolf" (Liquid Fire)
 [Rolf]
-Hotkey=C
 Buttonpos=2,2
+Hotkey=C
 
-
+// "Ropm" (Backpack)
 [Ropm]
+Buttonpos=3,0
 Hotkey=R
 
-
+// "Rowt" (Spirit Walker Adept Training,Spirit Walker Master Training)
 [Rowt]
-Hotkey=Q,Q
 Buttonpos=0,1
+Hotkey=Q,Q
 
-
+// "Robk" (Berserker Upgrade)
 [Robk]
-Hotkey=X
 Buttonpos=1,2
+Hotkey=X
 
-
+// "Rorb" (Reinforced Defenses)
 [Rorb]
-Hotkey=D
-
-
-[Robf]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
+// "Robf" (Burning Oil)
+[Robf]
+Buttonpos=2,1
+Hotkey=D
 
+// "oalt" (Altar of Storms)
+// uses Abds
+// uses Aspi
+// uses CmdCancelRevive
+// uses CmdCancelTrain
+// uses Obla
+// uses Ofar
+// uses Oshd
+// uses Otch
 [oalt]
+Buttonpos=1,1
 Hotkey=S
 
-
+// "obar" (Barracks)
+// uses Abds
+// uses Aspi
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Robf
+// uses Robk
+// uses Robs
+// uses Rotr
+// uses ocat
+// uses ogru
+// uses ohun
+// uses otbk
 [obar]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "obea" (Beastiary)
+// uses Abds
+// uses Aspi
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Roen
+// uses Rolf
+// uses Rovs
+// uses Rwdm
+// uses okod
+// uses orai
+// uses otbr
+// uses owyv
 [obea]
+Buttonpos=3,1
 Hotkey=F
 
-
+// "ofor" (War Mill)
+// uses Abds
+// uses Arlm
+// uses Aspi
+// uses CmdCancel
+// uses Roar
+// uses Rome
+// uses Rora
+// uses Rorb
+// uses Rosp
 [ofor]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "ofrt" (Fortress)
+// uses Abdl
+// uses Aosp
+// uses Argl
+// uses Aspi
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Ropg
+// uses Ropm
+// uses opeo
 [ofrt]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "ogre" (Great Hall)
+// uses Abdl
+// uses Aosp
+// uses Argl
+// uses Aspi
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Ropg
+// uses Ropm
+// uses opeo
 [ogre]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "osld" (Spirit Lodge)
+// uses Abds
+// uses Aspi
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rost
+// uses Rowd
+// uses odoc
+// uses oshm
 [osld]
+Buttonpos=2,1
 Hotkey=D
 
-
+// "ostr" (Stronghold)
+// uses Abdl
+// uses Aosp
+// uses Argl
+// uses Aspi
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Ropg
+// uses Ropm
+// uses opeo
 [ostr]
-Hotkey=Q
 Buttonpos=0,1
-
-
-[otrb]
 Hotkey=Q
 
+// "otrb" (Burrow)
+// uses Abds
+// uses Abtl
+// uses Abun
+// uses Aorb
+// uses Arbr
+// uses Aspi
+// uses Astd
+[otrb]
+Buttonpos=0,1
+Hotkey=Q
 
+// "Abtl" (Battle Stations)
 [Abtl]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Astd" (Stand Down)
 [Astd]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "orbr" (Reinforced Burrow)
 [orbr]
+Buttonpos=0,1
 Hotkey=Q
 
-
+// "otto" (Tauren Totem)
+// uses Abds
+// uses Aspi
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rows
+// uses Rowt
+// uses ospm
+// uses otau
 [otto]
+Buttonpos=0,2
 Hotkey=W
 
-
+// "ovln" (Voodoo Lounge)
+// uses Aall
+// uses Abds
+// uses Apit
+// uses Aspi
+// uses CmdPurchase
+// uses hslv
+// uses oli2
+// uses phea
+// uses plcl
+// uses pman
+// uses shas
+// uses stwp
+// uses tgrh
 [ovln]
+Buttonpos=1,2
 Hotkey=X
 
-
+// "owtw" (Watch Tower)
+// uses Abds
+// uses Aorb
+// uses Arbr
+// uses Aspi
 [owtw]
-Hotkey=R
-
-
-[Obla]
-Hotkey=A
-Buttonpos=0,0
-
-
-[AOwk]
-Hotkey=A
-Buttonpos=0,0
-Researchhotkey=A
-
-
-[AOcr]
-Researchhotkey=E
-
-
-[AOmi]
-Hotkey=Z
-Buttonpos=1,0
-Researchhotkey=Z
-
-
-[AOww]
-Hotkey=E
-Buttonpos=2,0
-Researchhotkey=R
-
-
-[Ofar]
-Hotkey=Z
-Buttonpos=1,0
-
-
-[AOcl]
-Hotkey=A
-Buttonpos=0,0
-Researchhotkey=A
-
-
-[AOfs]
-Hotkey=Z
-Buttonpos=1,0
-Researchhotkey=Z
-
-
-[AOsf]
-Hotkey=E
-Buttonpos=2,0
-Researchhotkey=E
-
-
-[AOeq]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
+
+// "Obla" (Blademaster)
+// uses AInv
+// uses AOcr
+// uses AOmi
+// uses AOwk
+// uses AOww
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Obla]
+Buttonpos=0,0
+Hotkey=A
+
+// "AOwk" (Wind Walk)
+[AOwk]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "AOcr" (Critical Strike)
+[AOcr]
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "AOmi" (Mirror Image)
+[AOmi]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "AOww" (Bladestorm)
+[AOww]
+Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
+// "Ofar" (Far Seer)
+// uses AInv
+// uses AOcl
+// uses AOeq
+// uses AOfs
+// uses AOsf
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Ofar]
+Buttonpos=1,0
+Hotkey=Z
 
+// "AOcl" (Chain Lightning)
+[AOcl]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "AOfs" (Far Sight)
+[AOfs]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "AOsf" (Feral Spirit)
+[AOsf]
+Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "AOeq" (Earthquake)
+[AOeq]
+Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Oshd" (Shadow Hunter)
+// uses AInv
+// uses AOhw
+// uses AOhx
+// uses AOsw
+// uses AOvd
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Oshd]
+Buttonpos=0,1
 Hotkey=Q
 
-
+// "AOhw" (Healing Wave)
 [AOhw]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AOsw" (Serpent Ward)
 [AOsw]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AOhx" (Hex)
 [AOhx]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AOvd" (Big Bad Voodoo)
 [AOvd]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Otch" (Tauren Chieftain)
+// uses AInv
+// uses AOae
+// uses AOre
+// uses AOsh
+// uses AOws
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Otch]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "AOsh" (Shockwave)
 [AOsh]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AOae" (Endurance Aura)
 [AOae]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AOws" (War Stomp)
 [AOws]
 Buttonpos=1,0
 Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AOre" (Reincarnation)
 [AOre]
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Ashm" (Shadow Meld)
 [Ashm]
 Buttonpos=1,2
 Hotkey=X
 
-
+// "ebal" (Glaive Thrower)
+// uses Aimp
+// uses Ault
+// uses CmdAttack
+// uses CmdAttackGround
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ebal]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "echm" (Chimaera)
+// uses Acor
+// uses Alit
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [echm]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "edoc" (Druid of the Claw)
+// uses Abrf
+// uses Aien
+// uses Arej
+// uses Aroa
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [edoc]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Aroa" (Roar)
 [Aroa]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Arej" (Rejuvenation)
 [Arej]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Abrf" (Bear Form)
 [Abrf]
 Buttonpos=2,0
-Unhotkey=Z
 Hotkey=E
 Unbuttonpos=1,0
+Unhotkey=Z
 
-
+// "Ara2" (Roar)
 [Ara2]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "edot" (Druid of the Talon)
+// uses Acyc
+// uses Afae
+// uses Aien
+// uses Arav
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [edot]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Afae" (Faerie Fire)
 [Afae]
-Hotkey=A
-Unhotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
+// "Acyc" (Cyclone)
 [Acyc]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Arav" (Storm Crow Form)
 [Arav]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 Unbuttonpos=2,0
 Unhotkey=E
 
-
+// "Afa2" (Faerie Fire)
 [Afa2]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
+Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "ewsp" (Wisp)
+// uses Adtn
+// uses Aren
+// uses Ault
+// uses Awha
+// uses CmdAttack
+// uses CmdBuildNightElf
+// uses CmdCancel
+// uses CmdCancelBuild
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses eaoe
+// uses eaom
+// uses eaow
+// uses eate
+// uses eden
+// uses edob
+// uses edos
+// uses emow
+// uses etol
+// uses etrp
 [ewsp]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aren" (Renew)
 [Aren]
 Buttonpos=1,0
 Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "Awha" (Gather)
 [Awha]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 
-
+// "Adtn" (Detonate)
 [Adtn]
 Buttonpos=0,1
 Hotkey=Q
 
-
+// "esen" (Huntress)
+// uses Aesn
+// uses Aien
+// uses Amgl
+// uses Ashm
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [esen]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Aesn" (Sentinel)
 [Aesn]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "earc" (Archer)
+// uses Aco2
+// uses Aegr
+// uses Aeib
+// uses Aemk
+// uses Aien
+// uses Ashm
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [earc]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aco2" (Mount Hippogryph)
 [Aco2]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Adec" (Dismount)
 [Adec]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "edry" (Dryad)
+// uses Aadm
+// uses Aien
+// uses Amim
+// uses Aspo
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [edry]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aadm" (Abolish Magic)
 [Aadm]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
+Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "ehip" (Hippogryph)
+// uses Aco3
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ehip]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aco3" (Pick up Archer)
 [Aco3]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "emtg" (Mountain Giant)
+// uses Agra
+// uses Aien
+// uses Arsk
+// uses Assk
+// uses Atau
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [emtg]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "Agra" (War Club)
 [Agra]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Atau" (Taunt)
 [Atau]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "efdr" (Faerie Dragon)
+// uses Amfl
+// uses Amim
+// uses Apsh
+// uses Ault
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [efdr]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "Amfl" (Mana Flare)
 [Amfl]
 Buttonpos=0,0
 Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Apsh" (Phase Shift)
 [Apsh]
-Hotkey=Z
-Unhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
+Unhotkey=Z
 
-
+// "Resm" (Strength of the Moon,Improved Strength of the Moon,Advanced Strength of the Moon)
 [Resm]
+Buttonpos=0,0
 Hotkey=A,A,A
 
-
+// "Resw" (Strength of the Wild,Improved Strength of the Wild,Advanced Strength of the Wild)
 [Resw]
+Buttonpos=1,0
 Hotkey=Z,Z,Z
 
-
+// "Rema" (Moon Armor,Improved Moon Armor,Advanced Moon Armor)
 [Rema]
+Buttonpos=0,1
 Hotkey=Q,Q,Q
 
-
+// "Rerh" (Reinforced Hides,Improved Reinforced Hides,Advanced Reinforced Hides)
 [Rerh]
+Buttonpos=1,1
 Hotkey=S,S,S
 
-
+// "Reuv" (Ultravision)
 [Reuv]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "Renb" (Nature's Blessing)
 [Renb]
 Buttonpos=2,1
 Hotkey=D
 
-
+// "Reib" (Improved Bows)
 [Reib]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "Remk" (Marksmanship)
 [Remk]
-Hotkey=W
 Buttonpos=0,2
+Hotkey=W
 
-
+// "Resc" (Sentinel)
 [Resc]
+Buttonpos=1,1
 Hotkey=S
-Buttonpos=1,1
 
-
+// "Remg" (Upgrade Moon Glaive)
 [Remg]
-Hotkey=X
 Buttonpos=1,2
+Hotkey=X
 
-
+// "Redt" (Druid of the Talon Adept Training,Druid of the Talon Master Training)
 [Redt]
-Hotkey=S,S
 Buttonpos=1,1
+Hotkey=S,S
 
-
+// "Redc" (Druid of the Claw Adept Training,Druid of the Claw Master Training)
 [Redc]
-Hotkey=S,S
 Buttonpos=1,1
+Hotkey=S,S
 
-
+// "Resi" (Abolish Magic)
 [Resi]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "Reht" (Hippogryph Taming)
 [Reht]
 Buttonpos=0,1
 Hotkey=Q
 
-
+// "Recb" (Corrosive Breath)
 [Recb]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "Repb" (Vorpal Blades)
 [Repb]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "Rers" (Resistant Skin)
 [Rers]
+Buttonpos=2,2
 Hotkey=C
 
-
+// "Rehs" (Hardened Skin)
 [Rehs]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "Reeb" (Mark of the Claw)
 [Reeb]
-Hotkey=X
 Buttonpos=1,2
+Hotkey=X
 
-
+// "Reec" (Mark of the Talon)
 [Reec]
-Hotkey=X
 Buttonpos=1,2
+Hotkey=X
 
-
+// "Rews" (Well Spring)
 [Rews]
+Buttonpos=3,0
 Hotkey=R
 
-
+// "Repm" (Backpack)
 [Repm]
 Buttonpos=1,1
 Hotkey=S
 
-
+// "Aeat" (Eat Tree)
 [Aeat]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Aroo" (Root)
 [Aroo]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "Aro1" (Root)
 [Aro1]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "Aro2" (Root)
 [Aro2]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "etrp" (Ancient Protector)
+// uses Abds
+// uses Aeat
+// uses Aro2
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [etrp]
+Buttonpos=3,0
 Hotkey=R
 
-
+// "etol" (Tree of Life)
+// uses Abdl
+// uses Aeat
+// uses Aent
+// uses Arlm
+// uses Aro1
+// uses Atol
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Renb
+// uses Repm
+// uses ewsp
 [etol]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Aent" (Entangle Gold Mine)
 [Aent]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Aenc" (Load)
 [Aenc]
 Buttonpos=0,0
 Hotkey=A
 Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "Slo2" (Load Wisp)
 [Slo2]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Adri" (Unload Instant)
 [Adri]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "etoa" (Tree of Ages)
+// uses Abdl
+// uses Aeat
+// uses Aent
+// uses Arlm
+// uses Aro1
+// uses Atol
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Renb
+// uses Repm
+// uses ewsp
 [etoa]
 Buttonpos=0,1
 Hotkey=Q
 
-
+// "etoe" (Tree of Eternity)
+// uses Abdl
+// uses Aeat
+// uses Aent
+// uses Arlm
+// uses Aro1
+// uses Atol
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Renb
+// uses Repm
+// uses ewsp
 [etoe]
 Buttonpos=0,1
 Hotkey=Q
 
-
+// "edob" (Hunter's Hall)
+// uses Abds
+// uses CmdCancel
+// uses Rema
+// uses Rerh
+// uses Resm
+// uses Resw
+// uses Reuv
+// uses Rews
 [edob]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "eate" (Altar of Elders)
+// uses Abds
+// uses CmdCancelRevive
+// uses CmdCancelTrain
+// uses Edem
+// uses Ekee
+// uses Emoo
+// uses Ewar
 [eate]
+Buttonpos=1,1
 Hotkey=S
 
-
+// "eaoe" (Ancient of Lore)
+// uses Abds
+// uses Aeat
+// uses Aro1
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Redc
+// uses Reeb
+// uses Rehs
+// uses Rers
+// uses Resi
+// uses edoc
+// uses edry
+// uses emtg
 [eaoe]
+Buttonpos=2,1
 Hotkey=D
 
-
+// "eaom" (Ancient of War)
+// uses Abds
+// uses Aeat
+// uses Aro1
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Reib
+// uses Remg
+// uses Remk
+// uses Repb
+// uses Resc
+// uses earc
+// uses ebal
+// uses esen
 [eaom]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "eaow" (Ancient of Wind)
+// uses Abds
+// uses Aeat
+// uses Aro1
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Redt
+// uses Reec
+// uses edot
+// uses efdr
+// uses ehip
 [eaow]
+Buttonpos=0,2
 Hotkey=W
 
-
+// "eden" (Ancient of Wonders)
+// uses Aall
+// uses Abds
+// uses Aeat
+// uses Apit
+// uses Aro1
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdPurchase
+// uses CmdStop
+// uses dust
+// uses moon
+// uses oven
+// uses pams
+// uses phea
+// uses plcl
+// uses pman
+// uses spre
+// uses stwp
 [eden]
+Buttonpos=2,2
 Hotkey=C
 
-
+// "edos" (Chimaera Roost)
+// uses Abds
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Recb
+// uses echm
 [edos]
+Buttonpos=1,2
 Hotkey=X
 
-
+// "emow" (Moon Well)
+// uses Abds
+// uses Aews
+// uses Ambt
 [emow]
+Buttonpos=0,1
 Hotkey=Q
 
-
+// "Ambt" (Replenish Mana and Life)
 [Ambt]
+Buttonpos=0,0
 Hotkey=A
+Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Edem" (Demon Hunter)
+// uses AEev
+// uses AEim
+// uses AEmb
+// uses AEme
+// uses AInv
+// uses Ault
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Edem]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "AEmb" (Mana Burn)
 [AEmb]
 Buttonpos=0,0
 Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AEim" (Immolation)
 [AEim]
 Buttonpos=1,0
-Unbuttonpos=1,0
 Hotkey=Z
+Unbuttonpos=1,0
 Unhotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AEev" (Evasion)
 [AEev]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AEme" (Metamorphosis)
 [AEme]
 Buttonpos=2,0
 Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Ekee" (Keeper of the Grove)
+// uses AEah
+// uses AEer
+// uses AEfn
+// uses AEtq
+// uses AInv
+// uses Ault
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Ekee]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "AEer" (Entangling Roots)
 [AEer]
 Buttonpos=0,0
 Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AEfn" (Force of Nature)
 [AEfn]
 Buttonpos=1,0
 Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AEah" (Thorns Aura)
 [AEah]
+Researchbuttonpos=2,0
 Researchhotkey=E
-Buttonpos=3,0
 
-
+// "AEtq" (Tranquility)
 [AEtq]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Emoo" (Priestess of the Moon)
+// uses AEar
+// uses AEsf
+// uses AEst
+// uses AHfa
+// uses AInv
+// uses Ashm
+// uses Ault
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Emoo]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "AEst" (Scout)
 [AEst]
 Buttonpos=0,0
 Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AHfa" (Searing Arrows)
 [AHfa]
 Buttonpos=1,0
 Hotkey=Z
-Unhotkey=Z
 Unbuttonpos=1,0
+Unhotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AEar" (Trueshot Aura)
 [AEar]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AEsf" (Starfall)
 [AEsf]
 Buttonpos=2,0
 Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Ewar" (Warden)
+// uses AEbl
+// uses AEfk
+// uses AEsh
+// uses AEsv
+// uses AInv
+// uses Ashm
+// uses Ault
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Ewar]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "AEbl" (Blink)
 [AEbl]
 Buttonpos=1,0
 Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AEfk" (Fan of Knives)
 [AEfk]
 Buttonpos=0,0
 Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AEsh" (Shadow Strike)
 [AEsh]
 Buttonpos=2,0
 Hotkey=E
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AEsv" (Vengeance)
 [AEsv]
 Buttonpos=3,0
 Hotkey=R
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Avng" (Spirit of Vengeance)
 [Avng]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
 
-
+// "uaco" (Acolyte)
+// uses Aaha
+// uses Alam
+// uses Arst
+// uses Auns
+// uses CmdAttack
+// uses CmdBuildUndead
+// uses CmdCancel
+// uses CmdCancelBuild
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses uaod
+// uses ubon
+// uses ugol
+// uses ugrv
+// uses unpl
+// uses usap
+// uses usep
+// uses uslh
+// uses utod
+// uses utom
+// uses uzig
 [uaco]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Auns" (Unsummon Building)
 [Auns]
 Buttonpos=3,0
 Hotkey=R
 
-
+// "Aaha" (Gather)
 [Aaha]
+Buttonpos=3,1
 Hotkey=F
+Unbuttonpos=3,1
 Unhotkey=F
 
-
+// "Arst" (Restore)
 [Arst]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "uabo" (Abomination)
+// uses Aap1
+// uses Acn2
+// uses Aiun
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [uabo]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Acn2" (Cannibalize)
 [Acn2]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "uban" (Banshee)
+// uses Aam2
+// uses Acrs
+// uses Aiun
+// uses Aps2
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [uban]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Acrs" (Curse)
 [Acrs]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Aam2" (Anti-magic Shell)
 [Aam2]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Aps2" (Possession)
 [Aps2]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "ucry" (Crypt Fiend)
+// uses Abur
+// uses Aiun
+// uses Aspa
+// uses Aweb
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ucry]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "Aweb" (Web)
 [Aweb]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Abur" (Burrow)
 [Abur]
 Buttonpos=1,0
-Unbuttonpos=1,0
 Hotkey=Z
+Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "ufro" (Frost Wyrm)
+// uses Afrc
+// uses Afrz
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ufro]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "ugar" (Gargoyle)
+// uses Astn
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ugar]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "Astn" (Stone Form)
 [Astn]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "ugho" (Ghoul)
+// uses Acan
+// uses Ahrl
+// uses Aiun
+// uses Augf
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ugho]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Acan" (Cannibalize)
 [Acan]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "unec" (Necromancer)
+// uses Acri
+// uses Aiun
+// uses Arai
+// uses Ausm
+// uses Auuf
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [unec]
-Hotkey=A
-
-
-[Arai]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+
+// "Arai" (Raise Dead)
+[Arai]
+Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Auhf" (Unholy Frenzy)
 [Auhf]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Acri" (Cripple)
 [Acri]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "umtw" (Meat Wagon)
+// uses Aexh
+// uses Amed
+// uses Amel
+// uses Apts
+// uses CmdAttack
+// uses CmdAttackGround
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Sch2
 [umtw]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "Amel" (Get Corpse)
 [Amel]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
+Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Amed" (Drop Corpse)
 [Amed]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "uobs" (Obsidian Statue)
+// uses Aave
+// uses Arpl
+// uses Arpm
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [uobs]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "Arpm" (Spirit Touch)
 [Arpm]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "Arpl" (Essence of Blight)
 [Arpl]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "Arpb" (Replenish)
 [Arpb]
-Hotkey=Z
 Buttonpos=1,0
-Unhotkey=Z
+Hotkey=Z
 Unbuttonpos=1,0
+Unhotkey=Z
 
-
+// "Aave" (Destroyer Form)
 [Aave]
 Buttonpos=2,0
 Hotkey=E
 
+// "ubsp" (Destroyer)
+// uses ACmi
+// uses Aabs
+// uses Aave
+// uses Advm
+// uses Afak
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ubsp]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "Afak" (Orb of Annihilation)
 [Afak]
 Buttonpos=3,0
-Unbuttonpos=3,0
 Hotkey=R
+Unbuttonpos=3,0
 Unhotkey=R
 
-
+// "Advm" (Devour Magic)
 [Advm]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "Aabs" (Absorb Mana)
 [Aabs]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Rusp" (Destroyer Form)
 [Rusp]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "Rume" (Unholy Strength,Improved Unholy Strength,Advanced Unholy Strength)
 [Rume]
+Buttonpos=0,0
 Hotkey=A,A,A
 
-
+// "Rura" (Creature Attack,Improved Creature Attack,Advanced Creature Attack)
 [Rura]
+Buttonpos=1,0
 Hotkey=Z,Z,Z
 
-
+// "Ruar" (Unholy Armor,Improved Unholy Armor,Advanced Unholy Armor)
 [Ruar]
+Buttonpos=0,1
 Hotkey=Q,Q,Q
 
-
+// "Rucr" (Creature Carapace,Improved Creature Carapace,Advanced Creature Carapace)
 [Rucr]
+Buttonpos=1,1
 Hotkey=S,S,S
 
-
+// "Ruac" (Cannibalize)
 [Ruac]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "Rugf" (Ghoul Frenzy)
 [Rugf]
-Hotkey=W
 Buttonpos=0,2
+Hotkey=W
 
-
+// "Ruwb" (Web)
 [Ruwb]
+Buttonpos=1,2
 Hotkey=X
 
-
+// "Rusf" (Stone Form)
 [Rusf]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "Rune" (Necromancer Adept Training,Necromancer Master Training)
 [Rune]
+Buttonpos=0,1
 Hotkey=Q,Q
-Buttonpos=0,1
 
-
+// "Ruba" (Banshee Adept Training,Banshee Master Training)
 [Ruba]
+Buttonpos=1,1
 Hotkey=S,S
-Buttonpos=1,1
 
-
+// "Rufb" (Freezing Breath)
 [Rufb]
-Hotkey=Q
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "Rusl" (Skeletal Longevity)
 [Rusl]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "Rupc" (Disease Cloud)
 [Rupc]
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S
 
-
+// "Rusm" (Skeletal Mastery)
 [Rusm]
-Hotkey=W
 Buttonpos=0,2
+Hotkey=W
 
-
+// "Rubu" (Burrow)
 [Rubu]
-Hotkey=S
-
-
-[Ruex]
-Hotkey=Q
-Buttonpos=0,1
-
-
-[Rupm]
-EditorSuffix= (Undead)
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S
 
+// "Ruex" (Exhume Corpses)
+[Ruex]
+Buttonpos=0,1
+Hotkey=Q
 
+// "Rupm" (Backpack)
+[Rupm]
+Buttonpos=1,1
+Hotkey=S
+
+// "ubon" (Boneyard)
+// uses Abgs
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rufb
+// uses ufro
 [ubon]
+Buttonpos=1,2
 Hotkey=X
 
-
+// "usap" (Sacrificial Pit)
+// uses Abgs
+// uses Asac
 [usap]
+Buttonpos=0,2
 Hotkey=W
 
-
+// "Alam" (Sacrifice)
 [Alam]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "Asac" (Sacrifice)
 [Asac]
-Buttopos=0,0
+Buttonpos=0,0
 Hotkey=A
 
-
+// "uslh" (Slaughterhouse)
+// uses Abgs
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Ruex
+// uses Rupc
+// uses Rusp
+// uses uabo
+// uses umtw
+// uses uobs
 [uslh]
+Buttonpos=3,1
 Hotkey=F
 
-
+// "ugrv" (Graveyard)
+// uses Abgs
+// uses Agyd
+// uses Arlm
+// uses CmdCancel
+// uses Ruar
+// uses Rucr
+// uses Rume
+// uses Rura
 [ugrv]
+Buttonpos=3,0
 Hotkey=R
 
-
+// "uaod" (Altar of Darkness)
+// uses Abgs
+// uses CmdCancelRevive
+// uses CmdCancelTrain
+// uses Ucrl
+// uses Udea
+// uses Udre
+// uses Ulic
 [uaod]
+Buttonpos=1,1
 Hotkey=S
 
-
+// "unpl" (Necropolis)
+// uses Abgl
+// uses Arlm
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rupm
+// uses uaco
 [unpl]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "unp1" (Halls of the Dead)
+// uses Abgl
+// uses Afr2
+// uses Arlm
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rupm
+// uses uaco
 [unp1]
 Buttonpos=0,1
 Hotkey=Q
 
-
+// "unp2" (Black Citadel)
+// uses Abgl
+// uses Afr2
+// uses Arlm
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Rupm
+// uses uaco
 [unp2]
 Buttonpos=0,1
 Hotkey=Q
 
-
+// "usep" (Crypt)
+// uses Abgs
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Ruac
+// uses Rubu
+// uses Rugf
+// uses Rusf
+// uses Ruwb
+// uses ucry
+// uses ugar
+// uses ugho
 [usep]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "utod" (Temple of the Damned)
+// uses Abgs
+// uses CmdCancel
+// uses CmdCancelTrain
+// uses Ruba
+// uses Rune
+// uses Rusm
+// uses uban
+// uses unec
 [utod]
+Buttonpos=2,1
 Hotkey=D
 
-
+// "utom" (Tomb of Relics)
+// uses Aall
+// uses Abgs
+// uses Apit
+// uses CmdPurchase
+// uses dust
+// uses ocor
+// uses phea
+// uses pman
+// uses ritd
+// uses rnec
+// uses shea
+// uses skul
+// uses stwp
 [utom]
+Buttonpos=2,2
 Hotkey=C
 
-
+// "ugol" (Haunted Gold Mine)
+// uses Abgm
+// uses Abgs
 [ugol]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "uzig" (Ziggurat)
+// uses Abgs
 [uzig]
+Buttonpos=0,1
 Hotkey=Q
 
-
+// "uzg1" (Spirit Tower)
+// uses Abgs
 [uzg1]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "uzg2" (Nerubian Tower)
+// uses Abgs
+// uses Afra
 [uzg2]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "Ucrl" (Crypt Lord)
+// uses AInv
+// uses AUcb
+// uses AUim
+// uses AUls
+// uses AUts
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Ucrl]
+Buttonpos=0,1
 Hotkey=Q
 
-
+// "AUim" (Impale)
 [AUim]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AUts" (Spiked Carapace)
 [AUts]
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AUcb" (Carrion Beetles)
 [AUcb]
-Hotkey=Z
 Buttonpos=1,0
-Unbuttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "Abu2" (Burrow)
 [Abu2]
 Buttonpos=1,0
-Unbuttonpos=1,0
 Hotkey=Z
+Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "Abu3" (Burrow)
 [Abu3]
 Buttonpos=1,0
-Unbuttonpos=1,0
 Hotkey=Z
+Unbuttonpos=1,0
 Unhotkey=Z
 
-
+// "AUls" (Locust Swarm)
 [AUls]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "Udea" (Death Knight)
+// uses AInv
+// uses AUan
+// uses AUau
+// uses AUdc
+// uses AUdp
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Udea]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "AUdc" (Death Coil)
 [AUdc]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AUau" (Unholy Aura)
 [AUau]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AUdp" (Death Pact)
 [AUdp]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AUan" (Animate Dead)
 [AUan]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Udre" (Dreadlord)
+// uses AInv
+// uses AUav
+// uses AUcs
+// uses AUin
+// uses AUsl
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Udre]
 Buttonpos=1,0
 Hotkey=Z
 
-
+// "AUcs" (Carrion Swarm)
 [AUcs]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AUsl" (Sleep)
 [AUsl]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AUav" (Vampiric Aura)
 [AUav]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AUin" (Inferno)
 [AUin]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Ulic" (Lich)
+// uses AInv
+// uses AUdd
+// uses AUdr
+// uses AUfn
+// uses AUfu
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Ulic]
 Buttonpos=2,0
 Hotkey=E
 
-
+// "AUfn" (Frost Nova)
 [AUfn]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
 Researchhotkey=A
 
-
+// "AUfu" (Frost Armor)
 [AUfu]
-Hotkey=Z
 Buttonpos=1,0
-Unbuttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
 Researchhotkey=Z
 
-
+// "AUdr" (Dark Ritual)
 [AUdr]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AUdd" (Death And Decay)
 [AUdd]
 Buttonpos=3,0
 Hotkey=R
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "Nbrn" (Dark Ranger)
+// uses AInv
+// uses ANba
+// uses ANch
+// uses ANdr
+// uses ANsi
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Nbrn]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ANsi" (Silence)
 [ANsi]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "ANba" (Black Arrow)
 [ANba]
-Hotkey=Z
-Unhotkey=Z
-Researchhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
+Unhotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
 
-
+// "ANdr" (Life Drain)
 [ANdr]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "ANch" (Charm)
 [ANch]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "hslv" (Healing Salve)
 [hslv]
+Buttonpos=0,0
 Hotkey=A
 
+// "plcl" (Lesser Clarity Potion)
 [plcl]
+Buttonpos=1,0
 Hotkey=Z
 
+// "shas" (Scroll of Speed)
 [shas]
+Buttonpos=2,0
 Hotkey=E
 
+// "phea" (Potion of Healing)
 [phea]
+Buttonpos=0,1
 Hotkey=Q
 
+// "pman" (Potion of Mana)
 [pman]
+Buttonpos=1,1
 Hotkey=S
 
+// "stwp" (Scroll of Town Portal)
 [stwp]
+Buttonpos=2,1
 Hotkey=D
 
+// "oli2" (Orb of Lightning)
 [oli2]
+Buttonpos=0,2
 Hotkey=W
 
+// "tgrh" (Tiny Great Hall)
 [tgrh]
+Buttonpos=1,2
 Hotkey=X
 
-
+// "sreg" (Scroll of Regeneration)
 [sreg]
+Buttonpos=0,0
 Hotkey=A
 
+// "mcri" (Mechanical Critter)
 [mcri]
-Hotkey=E
-
-[tsct]
-Hotkey=F
-
-[ofir]
-Hotkey=W
-
-[ofr2]
-Hotkey=W
-
-[ssan]
-Hotkey=X
-
-
-[rnec]
-Hotkey=A
-
-[skul]
-Hotkey=Z
-Buttonpos=1,0
-
-[ritd]
-Hotkey=R
-Buttonpos=3,0
-
-[dust]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-[ocor]
-Hotkey=W
-
-[shea]
-Hotkey=X
-
-
-[moon]
-Hotkey=A
-
-[spre]
+// "tsct" (Ivory Tower)
+[tsct]
+Buttonpos=3,1
 Hotkey=F
 
-[oven]
+// "ofir" (Orb of Fire)
+[ofir]
+Buttonpos=0,2
 Hotkey=W
 
-[pams]
+// "ofr2" (Orb of Fire)
+[ofr2]
+Buttonpos=0,2
+Hotkey=W
+
+// "ssan" (Staff of Sanctuary)
+[ssan]
+Buttonpos=1,2
 Hotkey=X
 
-
-[bspd]
+// "rnec" (Rod of Necromancy)
+[rnec]
+Buttonpos=0,0
 Hotkey=A
 
-[prvt]
+// "skul" (Sacrificial Skull)
+[skul]
+Buttonpos=1,0
 Hotkey=Z
 
-[cnob]
+// "ritd" (Ritual Dagger)
+[ritd]
+Buttonpos=3,0
 Hotkey=R
 
+// "dust" (Dust of Appearance)
+[dust]
+Buttonpos=2,0
+Hotkey=E
+
+// "ocor" (Orb of Corruption)
+[ocor]
+Buttonpos=0,2
+Hotkey=W
+
+// "shea" (Scroll of Healing)
+[shea]
+Buttonpos=1,2
+Hotkey=X
+
+// "moon" (Moonstone)
+[moon]
+Buttonpos=0,0
+Hotkey=A
+
+// "spre" (Staff of Preservation)
+[spre]
+Buttonpos=3,1
+Hotkey=F
+
+// "oven" (Orb of Venom)
+[oven]
+Buttonpos=0,2
+Hotkey=W
+
+// "pams" (Anti-magic Potion)
+[pams]
+Buttonpos=1,2
+Hotkey=X
+
+// "bspd" (Boots of Speed)
+[bspd]
+Buttonpos=0,0
+Hotkey=A
+
+// "prvt" (Periapt of Vitality)
+[prvt]
+Buttonpos=1,0
+Hotkey=Z
+
+// "cnob" (Circlet of Nobility)
+[cnob]
+Buttonpos=3,0
+Hotkey=R
+
+// "spro" (Scroll of Protection)
 [spro]
+Buttonpos=0,1
 Hotkey=Q
 
+// "pinv" (Potion of Invisibility)
 [pinv]
+Buttonpos=1,1
 Hotkey=S
 
+// "stel" (Staff of Teleportation)
 [stel]
+Buttonpos=3,1
 Hotkey=F
 
+// "tret" (Tome of Retraining)
 [tret]
+Buttonpos=0,2
 Hotkey=W
 
+// "pnvl" (Potion of Lesser Invulnerability)
 [pnvl]
+Buttonpos=2,2
 Hotkey=C
 
-
+// "ngsp" (Sapper)
+// uses Asds
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ngsp]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
+// "nzep" (Zeppelin)
+// uses Achd
+// uses Adro
+// uses Aloa
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Sch3
 [nzep]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
+// "ngir" (Shredder)
+// uses Ahr3
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ngir]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
+// "Andt" (Reveal)
 [Andt]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 
-
+// "Ahr3" (Harvest)
 [Ahr3]
-Hotkey=R
-UnHotkey=R
 Buttonpos=3,0
+Hotkey=R
 Unbuttonpos=3,0
+Unhotkey=R
 
-
+// "nbot" (Transport Ship)
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
+// uses Sch5
+// uses Sdro
+// uses Slo3
 [nbot]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "nrdk" (Red Dragon Whelp)
 [nrdk]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "nrdr" (Red Drake)
 [nrdr]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "nrwm" (Red Dragon)
+// uses ACdv
+// uses ACmi
+// uses Advc
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nrwm]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "nadw" (Blue Dragon Whelp)
+// uses Afrb
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nadw]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "nadk" (Blue Drake)
+// uses Afrb
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nadk]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "nadr" (Blue Dragon)
+// uses ACdv
+// uses ACmi
+// uses Advc
+// uses Afrb
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nadr]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "ngrw" (Green Dragon Whelp)
 [ngrw]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "ngdk" (Green Drake)
 [ngdk]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "ngrd" (Green Dragon)
+// uses ACdv
+// uses ACmi
+// uses Advc
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [ngrd]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "nbdr" (Black Dragon Whelp)
 [nbdr]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "nbdk" (Black Drake)
 [nbdk]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "nbwm" (Black Dragon)
+// uses ACdv
+// uses ACmi
+// uses Advc
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nbwm]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "nbzw" (Bronze Dragon Whelp)
+// uses Alit
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nbzw]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "nbzk" (Bronze Drake)
+// uses Alit
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nbzk]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "nbzd" (Bronze Dragon)
+// uses ACdv
+// uses ACmi
+// uses Advc
+// uses Alit
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nbzd]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "nnht" (Nether Dragon Hatchling)
 [nnht]
+Buttonpos=0,0
 Hotkey=A
 
-
+// "nndk" (Nether Drake)
 [nndk]
+Buttonpos=1,0
 Hotkey=Z
 
-
+// "nndr" (Nether Dragon)
+// uses ACcr
+// uses ACmi
+// uses CmdAttack
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdStop
 [nndr]
+Buttonpos=2,0
 Hotkey=E
 
-
+// "ACbb" (Bloodlust)
 [ACbb]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
-UnHotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
 
+// "ACbl" (Bloodlust)
 [ACbl]
 Buttonpos=0,0
 Hotkey=A
 Unbuttonpos=0,0
-UnHotkey=A
+Unhotkey=A
 
-
+// "ACpu" (Purge)
 [ACpu]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "ACsw" (Slow)
 [ACsw]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
-nHotkey=A
-
+Unhotkey=A
 
 [anhe]
 Buttonpos=1,0
-Unbuttonpos=1,0
 Hotkey=Z
-UnHotkey=Z
+Unbuttonpos=1,0
+Unhotkey=Z
 
-
+// "Anh1" (Heal)
 [Anh1]
-Hotkey=Z
-UnHotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
+Unhotkey=Z
 
+// "Anh2" (Heal)
 [Anh2]
-Hotkey=Z
-UnHotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
-
+Unhotkey=Z
 
 [actb]
 Buttonpos=0,0
 Hotkey=A
 
-
 [acdv]
 Buttonpos=0,0
 Hotkey=A
-
 
 [ambd]
 Buttonpos=0,0
 Hotkey=A
 
-
 [acbz]
 Buttonpos=0,0
 Hotkey=A
 
-
 [accw]
 Buttonpos=0,0
-Unbuttonpos=0,0
 Hotkey=A
-UnHotkey=A
-
+Unbuttonpos=0,0
+Unhotkey=A
 
 [acs9]
-Hotkey=Z
 Buttonpos=1,0
-
-
-[ACsl]
-Hotkey=E
-ButtonPos=2,0
-
-
-[Ache]
 Hotkey=Z
-ButtonPos=1,0
 
+// "ACsl" (Sleep)
+[ACsl]
+Buttonpos=2,0
+Hotkey=E
 
+// "Ache" (Ray of Disruption)
+[Ache]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACff" (Faerie Fire)
 [ACff]
-Hotkey=A
-UnHotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
-
+Unhotkey=A
 
 [acrf]
 Buttonpos=0,0
 Hotkey=A
 
-
 [awrs]
 Buttonpos=0,0
 Hotkey=A
-
 
 [acen]
 Buttonpos=0,0
 Hotkey=A
 
-
+// "Asds" (Kaboom!)
 [Asds]
-Hotkey=A
-UnHotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
-
-
-[ACsw]
-Hotkey=A
-UnHotkey=A
-Buttonpos=0,0
-Unbuttonpos=0,0
-
-
-[ACtc]
-Hotkey=Z
-Buttonpos=1,0
-
-
-[ACt2]
-Hotkey=A
-Buttonpos=0,0
-
-
-[ACbr]
-Hotkey=A
-Buttonpos=0,0
-
-
-[ACen]
-Hotkey=A
 Unhotkey=A
+
+// "ACtc" (Slam)
+[ACtc]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACt2" (Slam)
+[ACt2]
 Buttonpos=0,0
+Hotkey=A
+
+// "ACbr" (Berserker Rage)
+[ACbr]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACen" (Ensnare)
+[ACen]
+Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "ACdv" (Devour)
 [ACdv]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACsp" (Sleep)
 [ACsp]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACrg" (Rain of Fire)
 [ACrg]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACbn" (Banish)
 [ACbn]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "AChv" (Healing Wave)
 [AChv]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACsi" (Silence)
 [ACsi]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACmf" (Mana Shield)
 [ACmf]
-Hotkey=Z
-UnHotkey=Z
 Buttonpos=1,0
-Unuttonpos=1,0
+Hotkey=Z
+Unbuttonpos=1,0
+Unhotkey=Z
 
-
+// "ACss"
 [ACss]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "ACcb" (Frost Bolt)
 [ACcb]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACfl" (Forked Lightning)
 [ACfl]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACbf" (Breath of Frost)
 [ACbf]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACmo" (Monsoon)
 [ACmo]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACpy" (Polymorph)
 [ACpy]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 
-
+// "ACbc" (Breath of Fire)
 [ACbc]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ANin" (Inferno)
 [ANin]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 
-
+// "ACfs" (Flame Strike)
 [ACfs]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACdc" (Death Coil)
 [ACdc]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ANfs" (Flame Strike)
 [ANfs]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACmp" (Impale)
 [ACmp]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ANmr" (Mind Rot)
 [ANmr]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACbk" (Black Arrow)
 [ACbk]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACch" (Charm)
 [ACch]
-Hotkey=R
 Buttonpos=3,0
+Hotkey=R
 
-
+// "AChw" (Healing Ward)
 [AChw]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "Aenw" (Entangling Roots)
 [Aenw]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "Aslp" (Summon Prawns)
 [Aslp]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACde" (Devour Magic)
 [ACde]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACpa" (Parasite)
 [ACpa]
-Hotkey=A
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ANfb" (Firebolt)
 [ANfb]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACr2" (Rejuvenation)
 [ACr2]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACuf" (Unholy Frenzy)
 [ACuf]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACcr" (Cripple)
 [ACcr]
-Hotkey=E
 Buttonpos=2,0
-
+Hotkey=E
 
 [ambb]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACcl" (Chain Lightning)
 [ACcl]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACdm" (Abolish Magic)
 [ACdm]
-Hotkey=A
-UnHotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "ACd2" (Abolish Magic)
 [ACd2]
-Hotkey=A
-UnHotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "ACif" (Inner Fire)
 [ACif]
-Hotkey=E
-UnHotkey=E
 Buttonpos=2,0
+Hotkey=E
 Unbuttonpos=2,0
+Unhotkey=E
 
-
+// "ACls" (Lightning Shield)
 [ACls]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACro" (Roar)
 [ACro]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACr1" (Roar)
 [ACr1]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACwb" (Web)
 [ACwb]
-Hotkey=A
-UnHotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "ACrd" (Raise Dead)
 [ACrd]
-Hotkey=Z
-UnHotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
-
-
-[ACsa]
-Hotkey=A
-UnHotkey=A
-Buttonpos=0,0
-Unbuttonpos=0,0
-
-
-[Acrs]
-Hotkey=A
-UnHotkey=A
-Buttonpos=0,0
-Unbuttonpos=0,0
-
-[ACcs]
-Hotkey=A
-UnHotkey=A
-Hotkey=A
-UnHotkey=A
-Buttonpos=0,0
-Unbuttonpos=0,0
-
-
-[ACsf]
-Hotkey=Z
-Buttonpos=1,0
-
-
-[ACs9]
-Hotkey=Z
-Buttonpos=1,0
-
-
-[ACca]
-Hotkey=A
-Buttonpos=0,0
-
-
-[ACfb]
-Hotkey=A
-Buttonpos=0,0
-
-
-[ACfr]
-Hotkey=Z
-Buttonpos=1,0
-
-
-[ACfa]
-Hotkey=Z
-Buttonpos=1,0
 Unhotkey=Z
+
+// "ACsa" (Searing Arrows)
+[ACsa]
+Buttonpos=0,0
+Hotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
+
+// "ACcs" (Curse)
+[ACcs]
+Buttonpos=0,0
+Hotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
+
+// "ACsf" (Feral Spirit)
+[ACsf]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACs9" (Feral Spirit)
+[ACs9]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACca" (Carrion Swarm)
+[ACca]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACfb" (Firebolt)
+[ACfb]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACfr" (Force of Nature)
+[ACfr]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ACfa" (Frost Armor)
+[ACfa]
+Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
+Unhotkey=Z
 
-
+// "ACf2" (Frost Armor)
 [ACf2]
-Hotkey=A
 Buttonpos=0,0
-Unhotkey=A
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "ACfd" (Finger of Pain)
 [ACfd]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACps" (Possession)
 [ACps]
-Hotkey=E
 Buttonpos=2,0
+Hotkey=E
 
-
+// "AChx" (Hex)
 [AChx]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "Acht" (Howl of Terror)
 [Acht]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "Awrh" (War Stomp)
 [Awrh]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACds" (Divine Shield)
 [ACds]
-Hotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 
-
+// "ACdr" (Life Drain)
 [ACdr]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACsh" (Shockwave)
 [ACsh]
-Hotkey=A
 Buttonpos=0,0
+Hotkey=A
 
-
+// "ACfu" (Frost Armor)
 [ACfu]
-Hotkey=A
 Buttonpos=0,0
-Unhotkey=A
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "ACfn" (Frost Nova)
 [ACfn]
-Buttonpos=0,0
-Unhotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-
+// "ACim" (Immolation)
 [ACim]
-Hotkey=A
-Unhotkey=A
 Buttonpos=0,0
-UnButtonpos=0,0
-
-
-[Abu5]
 Hotkey=A
-UnHotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
+
+// "Abu5" (Burrow)
+[Abu5]
 Buttonpos=0,0
-
-
-[Aenr]
 Hotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
+
+// "Aenr" (Entangling Roots)
+[Aenr]
 Buttonpos=0,0
+Hotkey=A
 
-
+// "Aamk" (Attribute Bonus)
 [Aamk]
+Researchbuttonpos=3,1
 Researchhotkey=F
 
-
+// "Arsg" (Summon Misha)
 [Arsg]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "Arsq" (Summon Quilbeast)
 [Arsq]
-Hotkey=Z
-Researchhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
 
-
+// "ANsb" (Storm Bolt)
 [ANsb]
-Hotkey=E
-Researchhotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
 
-
+// "Arsp" (Stampede)
 [Arsp]
-Hotkey=R
-Researchhotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-
+// "ANcf" (Breath of Fire)
 [ANcf]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "Acdb" (Drunken Brawler)
 [Acdb]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "Acdh" (Drunken Haze)
 [Acdh]
-Hotkey=Z
-Researchhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
 
-
+// "Acef" ("Storm, Earth, And Fire")
 [Acef]
-Hotkey=E
-Researchhotkey=R
 Buttonpos=2,0
+Hotkey=E,E,E
+Researchbuttonpos=3,0
+Researchhotkey=R,R,R
 
-
+// "ANhw" (Healing Wave)
 [ANhw]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "Arsw" (Serpent Ward)
 [Arsw]
-Hotkey=E
-Researchhotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
 
-
+// "ANhx" (Hex)
 [ANhx]
-Hotkey=Z
-Researchhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
 
-
+// "AOls" (Voodoo Spirits)
 [AOls]
-Hotkey=R
-Researchhotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-
+// "AOs2" (Shockwave)
 [AOs2]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "AOr2" (Endurance Aura)
 [AOr2]
+Researchbuttonpos=2,0
 Researchhotkey=E
 
-
+// "AOw2" (War Stomp)
 [AOw2]
-Hotkey=Z
-Researchhotkey=Z
 Buttonpos=0,1
-
-
-[Nbst]
-Hotkey=A
-Buttonpos=0,0
-
-
-[ANsg]
-Hotkey=A
-Researchhotkey=A
-Buttonpos=0,0
-
-
-[ANsq]
-Hotkey=Z
-Researchhotkey=Z
-Buttonpos=1,0
-
-
-[ANsw]
-Hotkey=E
-Researchhotkey=E
-Buttonpos=2,0
-
-
-[ANst]
-Hotkey=R
-Researchhotkey=R
-Buttonpos=3,0
-
-
-[ANbl]
-Hotkey=A
-Buttonpos=0,0
-
-
-[Afzy]
-Hotkey=A
-Buttonpos=0,0
-Unbuttonpos=0,0
-UnHotkey=A
-
-
-[Npbm]
-Hotkey=E
-Buttonpos=2,0
-
-
-[ANbf]
-Hotkey=A
-Researchhotkey=A
-Buttonpos=0,0
-
-
-[ANdh]
-Hotkey=Z
-Researchhotkey=Z
-Buttonpos=1,0
-
-
-[ANdb]
-Researchhotkey=E
-Buttonpos=2,0
-
-
-[ANef]
-Hotkey=R
-Researchhotkey=R
-Buttonpos=3,0
-
-
-[ACcy]
-Hotkey=A
-Buttonpos=0,0
-
-
-[Adsm]
-Hotkey=Z
-Buttonpos=1,0
-
-
-[ANwk]
-Hotkey=E
-Buttonpos=2,0
-
-
-[ANta]
-Hotkey=A
-Buttonpos=0,0
-
-
-[Nplh]
-Hotkey=R
-Buttonpos=3,0
-
-
-[ANrf]
-Hotkey=A
-Researchhotkey=A
-Buttonpos=0,0
-
-
-[ANht]
-Hotkey=Z
-Researchhotkey=Z
-Buttonpos=1,0
-
-
-[ANca]
-Researchhotkey=E
-Buttonpos=2,0
-
-
-[ANdo]
-Hotkey=R
-Researchhotkey=R
-Buttonpos=3,0
-
-
-[Nngs]
 Hotkey=Q
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "Nbst" (Beastmaster)
+// uses AInv
+// uses ANsg
+// uses ANsq
+// uses ANst
+// uses ANsw
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Nbst]
+Buttonpos=0,0
+Hotkey=A
+
+// "ANsg" (Summon Bear)
+[ANsg]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANsq" (Summon Quilbeast)
+[ANsq]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANsw" (Summon Hawk)
+[ANsw]
+Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ANst" (Stampede)
+[ANst]
+Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "ANbl" (Blink)
+[ANbl]
+Buttonpos=0,0
+Hotkey=A
+
+// "Afzy" (Frenzy)
+[Afzy]
+Buttonpos=0,0
+Hotkey=A
+Unbuttonpos=0,0
+Unhotkey=A
+
+// "Npbm" (Brewmaster)
+// uses AInv
+// uses ANbf
+// uses ANdb
+// uses ANdh
+// uses ANef
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Npbm]
+Buttonpos=2,0
+Hotkey=E
+
+// "ANbf" (Breath of Fire)
+[ANbf]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANdh" (Drunken Haze)
+[ANdh]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANdb" (Drunken Brawler)
+[ANdb]
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ANef" ("Storm, Earth, And Fire")
+[ANef]
+Buttonpos=3,0
+Hotkey=R,R,R
+Researchbuttonpos=3,0
+Researchhotkey=R,R,R
+
+// "ACcy" (Cyclone)
+[ACcy]
+Buttonpos=0,0
+Hotkey=A
+
+// "Adsm" (Dispel Magic)
+[Adsm]
+Buttonpos=1,0
+Hotkey=Z
+
+// "ANwk" (Wind Walk)
+[ANwk]
+Buttonpos=2,0
+Hotkey=E
+
+// "ANta" (Taunt)
+[ANta]
+Buttonpos=0,0
+Hotkey=A
+
+// "Nplh" (Pit Lord)
+// uses AInv
+// uses ANca
+// uses ANdo
+// uses ANht
+// uses ANrf
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Nplh]
+Buttonpos=3,0
+Hotkey=R
+
+// "ANrf" (Rain of Fire)
+[ANrf]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANht" (Howl of Terror)
+[ANht]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANca" (Cleaving Attack)
+[ANca]
+Researchbuttonpos=2,0
+Researchhotkey=E
+
+// "ANdo" (Doom)
+[ANdo]
+Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Nngs" (Sea Witch)
+// uses AInv
+// uses ANfa
+// uses ANfl
+// uses ANms
+// uses ANto
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Nngs]
 Buttonpos=0,1
+Hotkey=Q
 
-
+// "ANfl" (Forked Lightning)
 [ANfl]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "ANfa" (Frost Arrows)
 [ANfa]
-Hotkey=Z
-Unhotkey=Z
-Researchhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
 Unbuttonpos=1,0
+Unhotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
 
-
+// "ANms" (Mana Shield)
 [ANms]
-Hotkey=E
-Unhotkey=E
-Researchhotkey=E
 Buttonpos=2,0
+Hotkey=E
 Unbuttonpos=2,0
+Unhotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
 
-
+// "ANto" (Tornado)
 [ANto]
-Hotkey=R
-Researchhotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-
+// "Nalc" (Alchemist)
+// uses AInv
+// uses ANab
+// uses ANcr
+// uses ANhs
+// uses ANtm
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Nalc]
-Hotkey=S
 Buttonpos=1,1
+Hotkey=S
 
-
+// "Nalm" (Alchemist)
+// uses AInv
+// uses ANab
+// uses ANcr
+// uses ANhs
+// uses ANtm
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Nalm]
-Hotkey=V
 Buttonpos=3,2
+Hotkey=V
 
-
+// "Nal2" (Alchemist)
+// uses AInv
+// uses ANab
+// uses ANcr
+// uses ANhs
+// uses ANtm
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Nal2]
-Hotkey=V
 Buttonpos=3,2
+Hotkey=V
 
-
+// "Nal3" (Alchemist)
+// uses AInv
+// uses ANab
+// uses ANcr
+// uses ANhs
+// uses ANtm
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Nal3]
-Hotkey=V
 Buttonpos=3,2
+Hotkey=V
 
-
+// "ANhs" (Healing Spray)
 [ANhs]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "ANcr" (Chemical Rage)
 [ANcr]
-Hotkey=Z
-Researchhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
 
-
+// "ANab" (Acid Bomb)
 [ANab]
-Hotkey=E
-Researchhotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
 
-
+// "ANtm" (Transmute)
 [ANtm]
-Hotkey=R
-Researchhotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-
+// "AOr3" (Reincarnation)
 [AOr3]
+Researchbuttonpos=3,0
 Researchhotkey=R
 
-
+// "ANbr" (Battle Roar)
 [ANbr]
-Hotkey=R
-Researchhotkey=R
 Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-
+// "Nfir" (Firelord)
+// uses AInv
+// uses ANia
+// uses ANlm
+// uses ANso
+// uses ANvc
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
 [Nfir]
-Hotkey=D
 Buttonpos=2,1
+Hotkey=D
 
-
+// "ANso" (Soul Burn)
 [ANso]
-Hotkey=A
-Researchhotkey=A
 Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
 
-
+// "ANlm" (Summon Lava Spawn)
 [ANlm]
-Hotkey=Z
-Researchhotkey=Z
 Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
 
-
+// "ANic" (Incinerate)
 [ANic]
-Hotkey=E
-Researchhotkey=E
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
 
-
+// "ANia" (Incinerate)
 [ANia]
-Researchhotkey=E
-Hotkey=E
-Unhotkey=E
 Buttonpos=2,0
+Hotkey=E
 Unbuttonpos=2,0
-
-
-[ANvc]
-Hotkey=R
-Researchhotkey=R
-Buttonpos=3,0
-
-
-[Ntin]
-Hotkey=F
-Buttonpos=3,1
-
-
-[Nrob]
-Hotkey=F
-Buttonpos=3,1
-
-
-[ANsy]
-Hotkey=A
-Researchhotkey=A
-Buttonpos=0,0
-
-
-[ANs1]
-Hotkey=A
-Researchhotkey=A
-Buttonpos=0,0
-
-
-[ANs2]
-Hotkey=A
-Researchhotkey=A
-Buttonpos=0,0
-
-
-[ANs3]
-Hotkey=A
-Researchhotkey=A
-Buttonpos=0,0
-
-
-[ANcs]
-Hotkey=Z
-Researchhotkey=Z
-Buttonpos=1,0
-
-
-[ANc1]
-Hotkey=Z
-Researchhotkey=Z
-Buttonpos=1,0
-
-
-[ANc2]
-Hotkey=Z
-Researchhotkey=Z
-Buttonpos=1,0
-
-
-[ANc3]
-Hotkey=Z
-Researchhotkey=Z
-Buttonpos=1,0
-
-
-[ANeg]
-Hotkey=E
+Unhotkey=E
+Researchbuttonpos=2,0
 Researchhotkey=E
+
+// "ANvc" (Volcano)
+[ANvc]
+Buttonpos=3,0
+Hotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
+
+// "Ntin" (Tinker)
+// uses AInv
+// uses ANcs
+// uses ANeg
+// uses ANrg
+// uses ANsy
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Ntin]
+Buttonpos=3,1
+Hotkey=F
+
+// "Nrob" (Tinker)
+// uses AInv
+// uses ANcs
+// uses ANde
+// uses ANeg
+// uses ANrg
+// uses ANsy
+// uses CmdAttack
+// uses CmdCancel
+// uses CmdHoldPos
+// uses CmdMove
+// uses CmdPatrol
+// uses CmdSelectSkill
+// uses CmdStop
+[Nrob]
+Buttonpos=3,1
+Hotkey=F
+
+// "ANsy" (Pocket Factory)
+[ANsy]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANs1" (Pocket Factory)
+[ANs1]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANs2" (Pocket Factory)
+[ANs2]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANs3" (Pocket Factory)
+[ANs3]
+Buttonpos=0,0
+Hotkey=A
+Researchbuttonpos=0,0
+Researchhotkey=A
+
+// "ANcs" (Cluster Rockets)
+[ANcs]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANc1" (Cluster Rockets)
+[ANc1]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANc2" (Cluster Rockets)
+[ANc2]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANc3" (Cluster Rockets)
+[ANc3]
+Buttonpos=1,0
+Hotkey=Z
+Researchbuttonpos=1,0
+Researchhotkey=Z
+
+// "ANeg" (Engineering Upgrade)
+[ANeg]
 Buttonpos=2,0
+Hotkey=E
+Researchbuttonpos=2,0
+Researchhotkey=E
 
-
+// "ANrg" (Robo-Goblin)
 [ANrg]
-Hotkey=R
-Unhotkey=R
-Researchhotkey=R
 Buttonpos=3,0
+Hotkey=R
 Unbuttonpos=0,0
+Unhotkey=A
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-
+// "ANg1" (Robo-Goblin)
 [ANg1]
-Hotkey=R
-Unhotkey=R
-Researchhotkey=R
 Buttonpos=3,0
+Hotkey=R
 Unbuttonpos=3,0
+Unhotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
-
+// "ANg2" (Robo-Goblin)
 [ANg2]
-Hotkey =R
-Unhotkey=R
-Researchhotkey=R
 Buttonpos=3,0
-Unbuttonpos=3,0
-
-
-[ANg3]
 Hotkey=R
-Unhotkey=R
-Researchhotkey=R
-Buttonpos=3,0
 Unbuttonpos=3,0
+Unhotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
+// "ANg3" (Robo-Goblin)
+[ANg3]
+Buttonpos=3,0
+Hotkey=R
+Unbuttonpos=3,0
+Unhotkey=R
+Researchbuttonpos=3,0
+Researchhotkey=R
 
+// "ANde" (Demolish)
 [ANde]
-Hotkey=
 
-
+// "ANd1" (Demolish)
 [ANd1]
-Hotkey=
 
-
+// "ANd2" (Demolish)
 [ANd2]
-Hotkey=
 
-
+// "ANd3" (Demolish)
 [ANd3]
-Hotkey=
 
-
+// "ANfy" (Factory)
 [ANfy]
-Hotkey=
 
-
+// "ANf1" (Factory)
 [ANf1]
-Hotkey=
 
-
+// "ANf2" (Factory)
 [ANf2]
-Hotkey=
 
-
+// "ANf3" (Factory)
 [ANf3]
-Hotkey=
 
-
+// "Asdg" (Kaboom!)
 [Asdg]
-Hotkey=A
-Unhotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "Asd2" (Kaboom!)
 [Asd2]
-Hotkey=A
-Unhotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
-
+// "Asd3" (Kaboom!)
 [Asd3]
-Hotkey=A
-Unhotkey=A
 Buttonpos=0,0
+Hotkey=A
 Unbuttonpos=0,0
+Unhotkey=A
 
