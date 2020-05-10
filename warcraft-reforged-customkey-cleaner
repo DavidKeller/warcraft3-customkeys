@@ -88,7 +88,12 @@ class Cleaner:
             lines.extend(_add_entry('research', research_position, hotkey_count))
 
         hotkey = cell_ckey_attr.get('hotkey')
-        position = cell_ckey_attr.get('buttonpos')
+        if research_position:
+            position = research_position
+            hotkey = research_hotkey
+        else:
+            position = cell_ckey_attr.get('buttonpos')
+        
         if hotkey:
             if not position:
                 position = _find_position(hotkey)
@@ -96,6 +101,8 @@ class Cleaner:
             lines.extend(_add_entry('', position, hotkey_count))
         elif research_position:
             lines.append('Buttonpos={}\n'.format(research_position))
+        elif position:
+            lines.append('Buttonpos={}\n'.format(position))
 
         un_hotkey = cell_ckey_attr.get('unhotkey')
         un_position = cell_ckey_attr.get('unbuttonpos')
