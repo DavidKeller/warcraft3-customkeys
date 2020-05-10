@@ -79,22 +79,6 @@ class Cleaner:
 
         lines.append('[{}]\n'.format(cell_id))
 
-        hotkey = cell_ckey_attr.get('hotkey')
-        position = cell_ckey_attr.get('buttonpos')
-        if hotkey:
-            if not position:
-                position = _find_position(hotkey)
-                LOGGER.debug('Setting cell %s position to %s', cell_id, position)
-            lines.extend(_add_entry('', position, hotkey_count))
-
-        un_hotkey = cell_ckey_attr.get('unhotkey')
-        un_position = cell_ckey_attr.get('unbuttonpos')
-        if un_hotkey:
-            if not un_position:
-                un_position = _find_position(un_hotkey)
-                LOGGER.debug('Setting cell %s un_position to %s', cell_id, un_position)
-            lines.extend(_add_entry('un', un_position, hotkey_count))
-
         research_hotkey = cell_ckey_attr.get('researchhotkey')
         research_position = cell_ckey_attr.get('researchbuttonpos')
         if research_hotkey: 
@@ -102,6 +86,23 @@ class Cleaner:
                 research_position = _find_position(research_hotkey)
                 LOGGER.debug('Setting cell %s research_position to %s', cell_id, research_position)
             lines.extend(_add_entry('research', research_position, hotkey_count))
+
+        hotkey = cell_ckey_attr.get('hotkey')
+        position = cell_ckey_attr.get('buttonpos')
+        if hotkey:
+            if not position:
+                position = _find_position(hotkey)
+                LOGGER.debug('Setting cell %s position to %s', cell_id, position)
+            lines.extend(_add_entry('', position, hotkey_count))
+        elif research_position:
+            lines.append('Buttonpos={}\n'.format(research_position))
+
+        un_hotkey = cell_ckey_attr.get('unhotkey')
+        un_position = cell_ckey_attr.get('unbuttonpos')
+        if un_hotkey:
+            un_position = _find_position(un_hotkey)
+            LOGGER.debug('Setting cell %s un_position to %s', cell_id, un_position)
+            lines.extend(_add_entry('un', un_position, hotkey_count))
 
         if lines:
             lines.append('\n')
