@@ -10,36 +10,40 @@ from collections import defaultdict
 from common import parse_ini_file
 
 LOGGER = logging.getLogger(__name__)
-
-KEYS = (
-    ( 'A', 'Z', 'E', 'R' ),
-    ( 'Q', 'S', 'D', 'F' ),
-    ( 'W', 'X', 'C', 'V' ),
-)
+KEYS = {
+    'A' : '0,0',
+    'Z' : '1,0',
+    'E' : '2,0',
+    'R' : '3,0',
+    'Q' : '0,1',
+    'S' : '1,1',
+    'D' : '2,1',
+    'F' : '3,1',
+    'W' : '0,2',
+    'X' : '1,2',
+    'C' : '2,2',
+    'V' : '3,2',
+    '512' : '3,2'
+}
 
 def _find_position(hotkey):
     hotkey = hotkey.split(',')[0]
-    for y, line in enumerate(KEYS):
-        for x, cell in enumerate(line):
-            if cell == hotkey:
-                return '{},{}'.format(x, y)
+    pos = KEYS.get(hotkey)
 
-    if hotkey == '512':
-        return '3,2'
-    
-    raise Exception('Unknown hotkey "{}"'.format(hotkey))
+    if pos is None:
+        raise Exception('Unknown hotkey "{}"'.format(hotkey))
 
-def _add_entry(prefix, position, count):
+    return pos
+
+def _add_entry(prefix, position, hotkey, count):
     LOGGER.debug('Writing prefix "%s" position %s count %s', prefix, position, count)
     lines = list()
 
-    x, y = [int(p) for p in position.split(',')]
-
     entry = (prefix + 'buttonpos').title()
-    lines.append('{}={},{}\n'.format(entry, x, y))
+    lines.append('{}={}\n'.format(entry, position))
 
     entry = (prefix + 'hotkey').title()
-    lines.append('{}={}\n'.format(entry, ','.join(KEYS[y][x] * count)))
+    lines.append('{}={}\n'.format(entry, hotkey))
 
     return lines
 
@@ -58,7 +62,7 @@ class Cleaner:
                 self._clean(cell_id, cell_attr)
 
     def _clean(self, cell_id, cell_ckey_attr):
-        LOGGER.warn('Considering Cell %s', cell_id)
+        LOGGER.debug('Considering Cell %s', cell_id)
 
         lines = list()
 
@@ -81,11 +85,15 @@ class Cleaner:
 
         research_hotkey = cell_ckey_attr.get('researchhotkey')
         research_position = cell_ckey_attr.get('researchbuttonpos')
-        if research_hotkey: 
+        if research_hotkey:
+            position_from_hotkey = _find_position(research_hotkey)
             if not research_position: 
-                research_position = _find_position(research_hotkey)
+                research_position = position_from_hotkey
                 LOGGER.debug('Setting cell %s research_position to %s', cell_id, research_position)
-            lines.extend(_add_entry('research', research_position, hotkey_count))
+            elif position_from_hotkey != research_position:
+                raise Exception('Expected position {} got {}'.format(position_from_hotkey, research_position))
+
+            lines.extend(_add_entry('research', research_position, research_hotkey, hotkey_count))
 
         hotkey = cell_ckey_attr.get('hotkey')
         if research_position:
@@ -95,21 +103,27 @@ class Cleaner:
             position = cell_ckey_attr.get('buttonpos')
         
         if hotkey:
+            position_from_hotkey = _find_position(hotkey)
             if not position:
-                position = _find_position(hotkey)
+                position = position_from_hotkey
                 LOGGER.debug('Setting cell %s position to %s', cell_id, position)
-            lines.extend(_add_entry('', position, hotkey_count))
-        elif research_position:
-            lines.append('Buttonpos={}\n'.format(research_position))
+            elif position_from_hotkey != position:
+                raise Exception('Expected position {} got {}'.format(position_from_hotkey, position))
+
+            lines.extend(_add_entry('', position, hotkey, hotkey_count))
         elif position:
             lines.append('Buttonpos={}\n'.format(position))
 
         un_hotkey = cell_ckey_attr.get('unhotkey')
         un_position = cell_ckey_attr.get('unbuttonpos')
         if un_hotkey:
-            un_position = _find_position(un_hotkey)
-            LOGGER.debug('Setting cell %s un_position to %s', cell_id, un_position)
-            lines.extend(_add_entry('un', un_position, hotkey_count))
+            position_from_hotkey = _find_position(un_hotkey)
+            if not un_position:
+                un_position = position_from_hotkey
+                LOGGER.debug('Setting cell %s un_position to %s', cell_id, un_position)
+            elif position_from_hotkey != un_position:
+                raise Exception('Expected position {} got {}'.format(position_from_hotkey, un_position))
+            lines.extend(_add_entry('un', un_position, un_hotkey, hotkey_count))
 
         if lines:
             lines.append('\n')
