@@ -2695,7 +2695,7 @@ Buttonpos=3,0
 [ANcf]
 Hotkey=A
 Researchhotkey=A
-Buttonpos=0.0
+Buttonpos=0,0
 
 
 [Acdb]
@@ -2955,7 +2955,7 @@ Researchhotkey=R
 [ANbr]
 Hotkey=R
 Researchhotkey=R
-Buttonpos=0,3
+Buttonpos=3,0
 
 
 [Nfir]
