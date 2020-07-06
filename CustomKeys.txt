@@ -3304,7 +3304,9 @@ Hotkey=Z
 Researchbuttonpos=2,0
 Researchhotkey=E
 Buttonpos=2,0
+Unbuttonpos=2,0
 Hotkey=E
+Unhotkey=E
 
 // "Abu2" (Burrow)
 [Abu2]
