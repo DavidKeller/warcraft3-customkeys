@@ -3984,18 +3984,6 @@ Hotkey=A
 Unbuttonpos=0,0
 Unhotkey=A
 
-[acrf]
-Buttonpos=0,0
-Hotkey=A
-
-[awrs]
-Buttonpos=0,0
-Hotkey=A
-
-[acen]
-Buttonpos=0,0
-Hotkey=A
-
 // "Asds" (Kaboom!)
 [Asds]
 Buttonpos=0,0
@@ -4037,8 +4025,8 @@ Hotkey=A
 
 // "ACrg" (Rain of Fire)
 [ACrg]
-Buttonpos=0,0
-Hotkey=A
+Buttonpos=3,0
+Hotkey=R
 
 // "ACbn" (Banish)
 [ACbn]
@@ -4182,6 +4170,17 @@ Hotkey=Z
 Buttonpos=2,0
 Hotkey=E
 
+// "Awrs" (War Stomp)
+[Awrs]
+Buttonpos=0,0
+Hotkey=A
+
+// "ACrf" (Rain of Fire)
+[ACrf]
+Buttonpos=3,0
+Hotkey=R
+
+// "ambb" (Mana Burn)
 [ambb]
 Buttonpos=0,0
 Hotkey=A
